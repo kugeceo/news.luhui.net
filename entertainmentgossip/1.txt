@@ -1,0 +1,1300 @@
+职场负面八卦的前因与后果：基于八卦目标的视角 
+*
+心理科学进展 
+2015, Vol. 23, No. 4, 702–710 
+Advances in Psychological Science DOI: 10.3724/SP.J.1042.2015.00702 
+
+
+岳文忠 
+1吴隆增 
+2杨自伟 
+3翟海燕 
+3,4 
+
+(1安徽科技学院财经学院, 蚌埠 233100) (2厦门大学管理学院, 厦门 361005) 
+(3上海财经大学国际工商管理学院, 上海 200433) (4上海金融学院工商管理学院, 上海 201209) 
+
+摘要职场负面八卦由三个参与主体构成：八卦者、八卦倾听者、八卦目标。目前职场负面八卦的相关研
+究主要是从八卦者或倾听者的角度展开的 
+, 并且这些研究大多是利用实验及小样本数据来对八卦产生的前因
+及其后果进行验证 
+, 而基于八卦目标的角度并使用大样本数据来对职场负面八卦进行的研究非常缺乏。作者
+在梳理相关文献的基础上 
+, 分析了职场负面八卦可能形成的前因与后果 
+, 以期为基于八卦目标的视角进行的
+
+职场负面八卦的大样本研究提供部分框架指引。
+关键词八卦; 谣言; 职场负面八卦; 职场暴力
+分类号 B849:C93 
+
+1引言.
+
+八卦(gossip),俗称闲谈或闲聊 
+, 在现实生活
+中广泛存在 
+(Noon & Delbridge, 1993), 对个体一
+系列日常谈话内容的分析显示 
+, 八卦占用了 
+65%
+的个人日常谈话时间 
+(Dunbar, 2004), 现实调查也
+表明有 
+85%的人最喜欢讨论朋友或熟人的信息 
+, 
+且 
+55%的人会将听到的信息传播出去(Carey, 2005)。
+职场八卦 
+(workplace gossip)属于社会八卦范畴 
+, 
+它普遍存在于各类组织中 
+(如企业、政府及非营利
+机构等 
+)。职场八卦很可能是除了组织内正式信息
+的传播渠道之外 
+, 影响更为广泛的一条非正式信
+息交流渠道 
+(Kanter, 1977; Moore, 1962)。客观的讲 
+, 
+职场八卦不能完全被消除 
+, 除非企业的生产运营
+不让人类个体参与 
+, 实行完全机械化或自动化 
+(Noon & Delbridge, 1993)。并且职场八卦中包含
+了丰富的信息资源 
+, 它能够反映出很多企业管理
+方面的问题(Waddington & Michelson, 2007)。
+
+收稿日期: 2014-06-14 
+
+* 
+国家自然科学基金项目(71202001, 71272007, 71472116)、
+教育部新世纪优秀人才支持计划(NCET-13-0892)、上
+海市浦江人才计划 
+(13PJC053)、上海市教育委员会和
+上海市教育发展基金会“晨光计划” 
+(12CG44)、上海
+财经大学研究生创新基金项目 
+(CXJJ-2011-379, 
+CXJJ-2012-355)经费资助。
+通讯作者:杨自伟, E-mail: yzwyangziwei@163.com
+
+基于职场八卦的影响结果 
+, 可以将其分为正
+面八卦和负面八卦 
+, 正面八卦如赞许某人职业能
+力或个人魅力等 
+, 负面八卦如讨论某人偷窃、贪
+污等(de Gouveia, Van Vuuren, & Crafford, 2005),
+其中负面八卦更为普遍 
+, 且影响更大 
+(Chandra & 
+Robinson, 2009)。国外企业的一项调查表明 
+, 在企
+业工间休息 
+(coffee breaker)期间, 有 
+14%的谈话内
+容涉及职场负面八卦 
+(Slade, 1997), 而在国内 
+, 智
+联招聘网 
+2009年对近万名职场员工进行了关于
+职场冷暴力的调查 
+, 结果显示有 
+33.4%的人受到
+过其他人背后的负面议论。在学术界 
+, 继一系列
+职场偏离行为 
+(职场排斥、辱虐管理、社会贬损等 
+)
+的研究之后 
+, 职场负面八卦成为了国外组织行为
+学领域关注的热点 
+(Feinberg, Willer, & Schultz, 
+2014; Foster, 2004; Waddington & Michelson, 
+2007)。与国外逐渐兴起的职场负面八卦研究相比 
+, 
+国内对该议题还关注较少 
+, 因此本文拟在梳理国
+外相关文献的基础上 
+, 对未来职场负面八卦的研
+究进行展望, 以期为后续研究提供部分指引。 
+
+
+2职场负面八卦行为的界定及测量 
+
+
+2.1职场负面八卦的定义
+八卦的英文 
+“gossip”是从古英文 
+“godsibb” 
+(“sibb”意思是 
+“related”, 在这种情况下 
+, godsibb意
+指教父、教母)转变而来 
+, 源于 
+11世纪犹太教的一
+
+702 
+
+
+第 
+4期 
+岳文忠等: 职场负面八卦的前因与后果：基于八卦目标的视角
+
+种宗教仪式 
+, 指的是参加小孩受洗仪式的亲密朋
+友, 14世纪才扩展为孕妇生产时 
+, 在旁帮忙的亲
+密朋友之间的闲谈。现代 
+“gossip”的范围涵盖了闲
+话、八卦、丑闻、流言蜚语、窃窃私语 
+, 主题内
+容是针对个人或者他人私事的非正式谈话。与 
+“gossip”翻译较为类同的有英文 
+“rumor”,国内有
+些研究者有时会将这两个词汇混用 
+, 而在国外研
+究领域, 对“gossip”和“rumor”的定义已有明确区
+分, “gossip”对象重点在人 
+, 主要关注个人的私事 
+, 
+而“rumor”着重在事 
+, 主要关注重要的事件 
+(DiFonzo 
+& Bordia, 2007; Foster, 2004; Michelson & Mouly, 
+2000; Smith, 1996; 周裕琼, 2012)。因此 
+, 在对相
+关文献资料分析整理的基础上 
+, 基于研究的需要和
+尊重权威机构和研究者的意见, 本文将 “gossip”和 
+“rumor” 分别对应翻译为八卦和谣言 
+(Foster, 2004)。
+
+对于八卦的定义, 正如 
+Foster (2004)指出的 
+“尽管我们知道什么是八卦 
+, 但在实际应用中对
+其加以定义、构念化和测量却是一件很困难的事
+情”。Foster (2004)在综述了已有研究的基础上 
+, 给
+出了关于八卦较为全面的定义：八卦就是在适意
+的情景 
+(a context of congeniality)中, 人与人之间
+带有个人评价性 
+(正面或负面 
+)的传递不在场的第
+三方的私人信息 
+(正面或负面 
+)。该定义指出了关于
+八卦的三个重要特质： 
+(1)八卦信息传递时八卦目
+标不在当场 
+, 或者不能立即参与或感知到八卦者
+的这种八卦行为 
+, 由于现代科技的发展 
+, 八卦者
+和八卦的倾听者可以通过手机、网络、信件等信
+
+息沟通手段来对八卦目标进行谈论和评价 
+, 但是
+在沟通过程中 
+, 八卦目标不能立即感知或参与其
+中, 这是一个重要的判别八卦行为的标准 
+(许燕, 
+张迪帆 
+, 孙嘉卿, 曹红蓓 
+, 贾慧悦 
+, 2011); (2)八卦
+内容带有一定的评价性 
+(正面或负面 
+), 因为带有
+评价性的信息才容易使他人做出判断和比较 
+(Kurland & Pelled, 2000); (3)八卦传播时, 八卦
+者、倾听者及八卦目标之间应当是熟悉的并且八
+卦信息传递的环境是适意的 
+, 如在街头巷尾、小
+酒店、下班回家的路上、企业的咖啡机或饮水机
+旁边(迪方佐, 2010; 齐藤勇, 2004)。众多的学者对
+职场八卦展开了部分研究 
+, 本文将他们对于职场
+八卦的定义进行了总结和梳理 
+(见表 
+1), 可以看出 
+, 
+职场八卦的定义包含以下三个主要方面： 
+(1)八卦
+目标不在场 
+; (2)八卦内容带有评价性 
+; (3)八卦存
+在于组织性情景。
+
+已有研究文献表明职场八卦主要可以实现传
+递信息 
+(transferring information)、社会约束 
+(social 
+bonding)、娱乐放松 
+(entertainment)、影响他人 
+(influencing others)四项功能 
+(Foster, 2004; Kniffin 
+& Wilson, 2010; Rosnow, 2001), 这些功能都是基
+于八卦者或八卦倾听者的视角来说明和证实的。
+而职场八卦对八卦目标的影响在这些功能实现过
+程中是否有所体现 
+, 现有的文献并没有太多的涉
+及, 并且研究者在说明八卦的上述功能时 
+, 也是
+基于不同的理论视角展开的。其中职场八卦对八
+卦目标的影响在其社会约束、影响他人的功能上
+
+表 
+1职场八卦的定义
+
+概念出处 
+职场八卦(Workplace gossip)的概念 
+
+
+Eder和 
+Enke (1991: 494) 对不在场的个体的评论性谈话。 
+Noon和 
+Delbridge (1993:25) 对社会个体进行非正式的带有评价性的言语交流。 
+Wittek和 
+Wielers (1998:189) 由主体向客体传递不在场第三方信息的过程。 
+Michelson和 
+Mouly (2000:341) 向个体或群体传递的信息, 不论该信息是否有事实依据。 
+Kurland和 
+Pelled (2000: 429) 在组织中 
+, 对不在场的第三方非正式的并带有评价性的谈话 
+, 一般是在少数
+
+人中间进行。 
+
+
+Wert和 
+Salovey (2004:123) 
+在某些场合, 对不在场的个体进行的非正式的评价性谈话。 
+
+
+de Gouveia等(2005:57) 
+在两个或两个以上个体之间传递的、关于某件事或某个人的信息 
+, 信息的内
+
+容是不方便公开的 
+, 并且公开之后会导致不良的后果 
+, 如：相互责备、败坏
+形象、破坏信任等。 
+
+
+Mills (2010:216) 
+关于不在场第三方的个人品格的谈话。 
+
+
+Grosser, Lopez–Kidwell和 
+Labianca (2010:179) 
+关于不在场第三方的正向或负向信息的交换。 
+
+
+Kniffin和 
+Wilson (2010:153) 
+在组织中 
+, 一般是在几个人中间进行的关于不在场他人的非正式的带有评
+价性的谈话。
+
+资料来源：作者根据已有的部分文献整理
+
+
+704 心理科学进展第 
+23卷
+
+表现较为明显 
+, 但是依据职场八卦的相关属性 
+, 
+不论在职场八卦哪一种功能的实现过程中 
+, 都不
+能忽视八卦目标的感受而给职场八卦加上正面性
+或反面性的标签。同时 
+, 由于职场攻击性行为的
+负面性判断大部分是基于受攻击目标的感受而作
+出的(Aquino & Thau, 2009), 因此对于职场八卦
+来讲, 学术界更需要对其负面性加以关注。 
+
+
+Chandra和 
+Robinson (2009)首次给出了职场
+负面八卦的定义 
+, 它是指员工在职场中感受到的
+他人在背后谈论或恶意散播其个人的负面消息。
+对于该职场负面八卦的定义 
+, 有几点需要进行说
+明：(1)职场负面八卦是一种主观感知。事实上 
+, 他
+人的一些较为轻微的负面评论 
+, 可能会被员工理
+解为是恶意的八卦攻击 
+(Wert & Salovey, 2004)。
+相对的 
+, 他人恶意捏造的负面言论也可能不被员
+工感知到; (2)职场负面八卦包含恶意评价, 带有
+侵犯性。受害员工感知到的八卦的负面程度 
+, 往
+往决定了其受伤害的程度 
+(Wert & Salovey, 2004); 
+
+(3)职场负面八卦具有溯源困难性。职场负面八卦
+通常是在八卦目标不在场的情况下发生并在相对
+熟悉的人之间传播(Foster & Rosnow, 2006; de 
+Gouveia et al., 2005), 即使八卦目标在负面八卦
+传播现场 
+, 八卦者也往往会采取隐秘的方式来传
+播负面八卦(Foster, 2004), 且不会主动承担由此
+造成的后果 
+(Ellwardt, Labianca, & Wittek, 2012); 
+(4)职场负面八卦的传播通常非常快 
+, 且具有放大
+效应。一般而言 
+, 负面八卦在经过人与人之间的
+传播后 
+, 其内容和性质可能会发生很大的变化 
+, 
+往往是越传越扭曲, 越传越恶劣(Bok, 1989)。 
+2.2职场负面八卦与其他职场攻击行为的区别
+组织行为学的大量研究将组织行为分为正向
+行为和偏离行为 
+(deviant workplace behaviors), 并
+对其进行了更为细致的分类 
+(Robinson & Bennett, 
+1995; Snyder et al., 2005)。其中在人身攻击行为和
+政策偏离行为中 
+, 目标对象为企业员工的行为被
+称为职场暴力 
+(workplace violence), 依据行为过
+程中是否有肢体接触及受攻击对象受到伤害的强
+度, 职场暴力又可以分为热暴力和冷暴力 
+, 依据
+该划分标准 
+, 职场负面八卦属于职场冷暴力。随
+着职场冷暴力研究的深入 
+, 研究者引入了众多的职
+场冷暴力的概念, 如：工作场所无礼行为 
+(workplace 
+incivility)、辱虐管理 
+(abusive supervision)、社会贬
+损(social undermining)、职场排斥 
+(workplace 
+ostracism)等。那么职场负面八卦与其他的职场冷
+暴力行为相比是否具有独特性 
+, 本文依据行为的
+手段(肢体或言语)、对目标实施的行为方式 
+(直接
+或间接 
+)、行为实施主体与客体之间在组织中的权
+力关系 
+(上级、平级、下级 
+)与其他职场冷暴力加以
+区别(见表 
+2)。由表 
+2我们可以看出 
+, 职场负面八
+卦与上述其他职场冷暴力行为之间在主体行为方
+
+表 
+2职场冷暴力行为比较
+
+行为实施主体与客体在
+
+行为的外在表现行为的实施方式
+
+相关冷暴力行为的定义组织中的权力关系
+言语肢体
+
+直接间接
+
+上级平级下级
+
+工作场所无礼行为是指违反工作场所中相互关心相互尊重这一
+规范, 伤害目的模糊, 程度较轻的一种人际偏差行为(Andersson . 
+. 
+...
+& Pearson, 1999; 刘嫦娥, 戴万稳, 2012) 。 
+
+
+辱虐管理是指下属感知的主管持续表现出的语言或非语言性敌
+意行为 
+, 但并不包含身体接触类的侵犯 
+(Tepper, 2000; 吴隆增 
+, ... 
+.
+刘军, 刘刚, 2009)。 
+
+
+社会贬损是指长期的、蓄意地妨碍个体积极人际关系的建立和维
+持, 影响个体在工作上的成功及良好名誉的行为 
+(Duffy, Ganster, & . 
+. 
+...
+Pagon, 2002; 朱迪, 段锦云, 田晓明, 2013)。 
+
+
+认同威胁是指某一群体挑衅、疏离、剥夺个体在能力、尊严、自我
+
+价值方面的群体认同感(Aquino & Douglas, 2003; 王沛, 刘峰, 2007)。 
+. 
+. 
+...
+职场排斥是指员工在职场中知觉到的来自他人的排挤或忽视对待 
+(Ferris, Brown, Berry, & Lian, 2008; 吴隆增, 刘军, 许浚, 2010)。 
+.. 
+....
+
+职场负面八卦是指员工在职场中感受到的他人在背后谈论或恶
+意散播其个人的负面消息(Chandra & Robinson, 2009)。 
+. 
+. 
+...
+
+资料来源：作者基于 
+Aquino和 
+Thau (2009)的文献及其他相关文献整理
+
+
+第 
+4期岳文忠等: 职场负面八卦的前因与后果：基于八卦目标的视角
+
+式、客体感知的方式及主体与客体之间的关系上
+是有差异的。 
+
+
+2.3职场负面八卦的测量
+从八卦受害者的角度出发 
+, Chandra和 
+Robinson (2009)在其研究中第一次使用了 
+3个题
+项的职场八卦的量表 
+, 利用该量表研究了职场负
+面八卦对八卦目标的影响 
+, 研究者通过网络有奖
+调查的方式进行了问卷数据的收集, 最终有 
+452
+名全职员工 
+(185男, 267女, 平均年龄为 
+42岁)填
+写了该量表 
+, 测得该量表的整体信度系数为 
+0.89 
+(Chandra & Robinson, 2009)。尽管该量表在国内
+外获得了一定的应用 
+, 但是基于中国的文化情景 
+, 
+负面八卦有可能需要包括更多的内容进来 
+, 如从
+受害者角度来看 
+, 在中国文化情景中 
+, 还应包括 
+“桃色绯闻 
+”、“贪腐信息 
+”等负面信息 
+, 但目前还未
+有相关的适合中国情景的量表被开发出来。 
+
+
+3职场负面八卦的前因研究
+
+基于八卦行为的特点, 不难发现, 尽管八卦
+目标在八卦者对其进行谈论时并不在现场 
+, 但是
+实际上在八卦信息传播过程中 
+, 八卦目标还是会
+感知到的 
+, 如 
+Glomb (2002) 指出在其研究样本中 
+, 
+33%报告说受到他人的背后议论 
+(Glomb, 2002),
+而在另一项研究中 
+, 45%的样本个体报告他们经
+历过被他人八卦中伤 
+(Snyder et al., 2005)。员工个
+体感知到职场负面八卦是一个重要的事实 
+, 那么
+是什么原因导致了职场中的某些员工更容易受到
+职场负面八卦的困扰？对于这个问题 
+, 部分学者
+在个体层面上基于演化理论、社会交换理论、社
+会比较理论和竞合理论和在组织层面上基于相关
+组织因素的分析给出了一定的解释。 
+
+
+3.1个体因素与职场负面八卦
+在个体层面上, 相关学者指出以下几个方面
+的个体因素容易引致职场负面八卦攻击： 
+(1)基于
+演化理论 
+, 职场中那些背离群体价值规范的个体
+容易受到职场负面八卦的攻击 
+, 因为这些个体的
+行为对群体的生存造成了威胁 
+, 为使这些个体遵
+守群体内的价值规范 
+, 保证群体在现实环境中更
+好的生存, 群体中的其他个体需要通过八卦形成一
+种舆论压力来约束八卦目标 
+, 使之在感知到负面八
+卦后, 能够顺从于组织中的价值规范 
+(Gluckman, 
+1963, 1968; Kelley, 1952), 如职场中那些违背职
+场道德规范的个体往往会更容易成为八卦的目标 
+
+
+(Shibutani, 1966); (2)基于社会交换和社会比较理
+论, 那些在组织中处于较为弱势的个体容易受到
+职场负面八卦的攻击 
+, 这是因为他们即使受到攻
+击也不会给八卦者带来较大麻烦 
+, 因为那些有八
+卦动机的个体在制造八卦之前要考虑到诸如：目
+标如何回应、倾听者如何回应、组织如何反应等
+以及比较由此而产生的成本和收益的问题 
+, 所以
+八卦者往往会选择那些即使受到攻击也不会给他
+们带来较大麻烦的个体作为负面八卦的目标(Noon 
+& Delbridge, 1993); (3)基于竞合理论, 那些容易
+与组织其他成员形成竞争关系的个体容易受到职
+场负面八卦的攻击 
+, 因为个体与其他成员一旦为
+了某些资源而进行竞争时 
+, 往往会触犯到其他成
+员的切身利益 
+, 如在现实中 
+, 组织无法实现个体
+职位角色的明确化 
+, 也没有更高层级的领导对此
+加以协调 
+, 很容易使竞争者之间采用风险很小的
+八卦攻击的方式来解决这种竞争冲突 
+(Wittek & 
+Wielers, 1998); (4)由于文化传统上的性别偏见 
+, 
+组织中的女性管理者更容易受到职场负面八卦的
+攻击, 对于具有一定决策权力的女性管理者而言 
+, 
+即使在同样情景下 
+, 与那些男性管理者相比 
+, 其
+个人及所在的群体要更容易成为负面八卦攻击的
+目标 
+(Michelson & Mouly, 2000)。 
+Ellwardt等 
+(2012)在其研究中使用社会网络的研究方法部分
+印证了上述假说中的前两种 
+, 他们提出基于分工
+和工作流程而形成合作团队的员工 
+, 由于大家需
+要在一起为共同目标的实现而有效合作 
+, 因此对
+组织成员合作关系或规范做出威胁或破坏行为的
+个体很有可能会成为组织中负面八卦攻击的对象, 
+同时, 组织中的低阶层的员工由于没有太多的社
+会支持, 所以也容易受到职场负面八卦的攻击 
+(Ellwardt et al., 2012)。
+
+尽管已经有研究解释了职场负面八卦的部分
+前因, 但是理论及现实中还有很多的前因问题有
+待我们在后续研究中加以关注和解决：首先 
+, 既
+然对合作规范起到破坏作用的员工以及处于权力
+边缘的员工会更容易感知到职场负面八卦的攻击, 
+那么那些推动新的人事变动、工作安排、实施新
+的规章制度的管理人员 
+, 那些更受领导关注、拥
+有更多升迁机会的员工 
+, 那些职场中言行举止怪
+异能够引起大家娱乐兴趣的人 
+, 以及因为职位安
+排而容易与其他人处于对立面、引发人际冲突的
+员工(如企业的领导阶层 
+)是否也会更容易感知到
+
+
+706 心理科学进展第 
+23卷
+
+职场负面八卦的攻击呢？因为这些人的行为在某
+种程度上也会对企业的文化、价值观及现有规范
+等产生破坏、改动或挑战等冲击性影响 
+(Wittek & 
+Wielers, 1998); 其次, 如果组织中权力地位较为
+弱小的个体容易受到职场负面八卦的攻击 
+, 而个
+体在职场中的权力地位是个体自身因素及组织因
+素共同作用的一种外在结果 
+(刘军, 宋继文 
+, 吴隆
+增, 2008), 那么对于个体而言 
+, 在职场中的个人
+因素(人格特质、性别、年龄、受教育程度、政治
+行为等 
+)以及组织情景性因素 
+(如组织政治氛围、工
+作设计等)是否会影响到个体在职场中感知到负
+面八卦的程度呢？上述个体因素中 
+, 除性别因素
+在现有研究数据结果中表现出与个体受到职场八
+卦的攻击有一定的相关性之外 
+(r = .0.1, p < 0.05), 
+其他个体层面上的人口统计学特征与职场负面八
+卦之间的相关性并未获得实证研究结果的支持 
+(Chandra & Robinson, 2009)。最后 
+, 尽管上述这些
+容易使个体成为八卦目标的因素(竞争、性别、年龄
+等)在现实中大部分都有事例证据的支持(Michelson 
+& Mouly, 2004; Noon & Delbridge, 1993; 迪方佐 
+, 
+2010),但是目前还没有相关研究通过大样本数据
+分析加以证实。 
+
+
+3.2组织因素与职场负面八卦
+在组织层面上, 有学者指出, 组织的情景性
+因素会影响八卦发生和传播的程度 
+(Crampton, 
+Hodge, & Mishra, 1998; Noon & Delbridge, 1993; 
+Wittek & Wielers, 1998)。而组织的情景性因素可
+以细化为组织的整合性 
+(integration)、组织网络结
+构、组织权力结构、组织中人员的人口统计学特
+征等。因此 
+, 后续研究还应关注使职场员工容易
+感知到负面八卦信息的组织情景性因素：首先 
+, 
+在组织的整合性方面 
+, 整合性越强 
+, 负面八卦在
+组织中传播得越迅速(Noon & Delbridge, 1993), 
+受到攻击的个体越容易感知到负面八卦的信息 
+; 
+其次, 在组织权力结构方面 
+, 那些能够处在八卦
+网络中的管理者要比那些不在网络中的管理者拥
+有更多的权力 
+, 那些网络之外的管理者将会逐渐
+被边缘化并失去管控八卦信息的权力 
+, 边缘化的
+员工由于不能够有效的了解和控制职场内的八卦, 
+所以很容易成为八卦攻击的对象 
+(Baumeister, 
+Zhang, & Vohs, 2004); 最后, 在组织员工的人口
+统计学特征方面 
+, 传统上人们认为性别会影响人
+们参与八卦和受到负面八卦攻击的程度 
+, 如女性
+
+更喜欢在一起 
+“八卦”, 人们常用的一些词语或俗
+语“长舌妇 
+”、“丑女是非多 
+”、“丑女人 
+, 言语多 
+”
+来形容喜欢闲聊的女人 
+, 这使得人们习惯将八卦
+者及被八卦者的性别偏误化 
+(Michelson & Mouly, 
+2000; Rysman, 1977; Wittek & Wielers, 1998; 吴
+毓淳, 2002)。
+
+尽管在文献中有众多学者对职场负面八卦的
+组织因素加以讨论 
+, 但这些因果关系基本上是通
+过事例或理论阐述的方式来说明的 
+, 在因果关系
+的验证上缺少实证数据的支持。并且 
+, 对于职场
+负面八卦而言, 其他组织层面上的特征 
+(如：政治
+氛围、工作设计、男女员工的数量 
+)是否也会影响
+八卦目标对负面八卦的感知程度 
+, 也有待我们在
+实证研究中加以验证。 
+
+
+4 职场负面八卦的后果研究
+
+在职场负面八卦的影响后果方面 
+, 研究者的
+结论并不一致。一部分学者认为 
+, 职场负面八卦
+有利于加强企业的组织规范 
+, 阻止个体职场偏离
+行为的出现 
+(Mishra, 1990; Noon & Delbridge, 
+1993)。而另一部分学者认为 
+, 职场负面八卦会降
+低员工的道德感 
+, 对企业的生产和价值观产生破
+坏性的影响(Akande & Odewale, 1994; Baker & 
+Jones, 1996; Danziger, 1988; DiFonzo, Bordia, & 
+Rosnow, 1994; Esposito & Rosnow, 1983)。 
+
+
+4.1职场负面八卦的积极影响
+对于职场负面八卦的积极影响 
+, 相关研究主
+要是基于社会交换理论、社会比较理论和社会学
+习理论来进行解释的(Baumeister et al., 2004; Dunbar, 
+2004; Noon & Delbridge, 1993)：(1)基于社会交换理
+论, 有学者认为职场负面八卦行为是一种信息交
+换, 它可以让大家充分掌握关于八卦目标的信息 
+, 
+在充分信息的基础上形成对八卦目标的一致观点
+或采取一致的行为。在此种情况下 
+, 八卦目标由
+于害怕其他人采取一致的行动来惩罚自己 
+, 从而
+不敢冒险继续去做一些破坏企业规范及文化价值
+观和道德观的行为 
+(Dunbar, 2004; Noon & 
+Delbridge, 1993)。(2)基于社会比较理论 
+, 有学者
+指出, 对八卦目标而言 
+, 带有评价性的职场负面
+八卦会使其将自己的行为与八卦的内容进行比较, 
+找到相关的差异 
+, 从而约束和规范自己的后续行
+为, 如通过对八卦信息 
+(劳动光荣 
+, 懒惰可耻 
+)的
+比较, 个体会为了避免负面八卦的攻击而去努力
+
+
+第 
+4期岳文忠等: 职场负面八卦的前因与后果：基于八卦目标的视角
+
+工作(Noon & Delbridge, 1993; Wert & Salovey, 
+2004), 从而在一定程度上减少破坏企业现有规范
+或损害他人利益的行为 
+(Baumeister et al., 2004; 
+Noon & Delbridge, 1993)。(3)基于社会学习理论 
+, 
+有学者提出 
+, 由于职场负面八卦信息是员工进行
+合作伙伴比较和选择的一个重要的价值判断依据, 
+基于对自己所处的人际环境状况的学习 
+, 八卦目
+标会对现实状况有一个清楚的了解 
+, 这在一定程
+度上会促使八卦目标收敛和调整自己的行为 
+, 同
+时对于那些潜在破坏组织价值规范的个体也是一
+种约束(Feinberg et al., 2014)。 
+
+
+4.2职场负面八卦的消极影响
+对于负面八卦消极影响的分析 
+, 主要是基于
+声誉理论、组织自尊理论、资源保存理论等理论
+视角展开的(Paine, 1970)。一方面基于声誉理论, 
+有学者提出 
+, 对于组织中的八卦目标 
+, 如果认为
+职场负面八卦传递出的信息是对自己声誉的一种
+攻击, 那么, 如同其他职场冷暴力一样 
+, 八卦目
+标的身心会受到伤害 
+, 并在其后续职场行为中表
+现出来 
+, 如无故旷工、装病请假、工作偷懒等 
+(Cox, 
+1970)。另一方面 
+, 基于组织自尊和资源保存理论 
+, 
+有研究指出对于个体而言 
+, 一旦成为负面八卦困
+扰的对象 
+, 个体就会由于涉及个人的隐私被泄露
+而感到难堪与窘迫 
+, 导致个体心理及生理压力增
+加及自尊的降低 
+, 同时也伴随着个体为了澄清负
+面八卦中的不实成分而去花费大量的时间 
+(Chandra 
+& Robinson, 2009), 而相关研究也表明 
+, 负面八
+卦会使员工工作满意度下降、失去工作的动力、
+情绪耗竭 
+, 并进而导致员工生产效率的降低、请
+假及辞职的增加及员工离职等行为 
+(Greengard, 
+2001; Michelson & Mouly, 2000)。
+
+综上所述, 尽管相关研究指出了职场负面八
+卦给八卦目标带来的坏处 
+, 但是也有大量的研究
+表明职场负面八卦影响的正向性 
+(Gluckman, 1963; 
+McAndrew, Bell, & Garcia, 2007; Van Iterson & 
+Clegg, 2008), 而这些观点基本上均是一种理论概
+念上的分析和阐述 
+, 相关的结果还有待更多的实
+证研究加以检验 
+(Chandra & Robinson, 2009; de 
+Gouveia et al., 2005)。 
+
+
+5总结与展望
+
+通过对职场负面八卦相关文献的梳理 
+, 我们
+发现从八卦参与者的角度 
+(八卦者、八卦倾听者 
+)
+
+出发, 不论是职场负面八卦的前因还是其后果 
+, 
+学者中存在着诸多的不一致看法。这在一定程度
+也凸显了本文之前提出的基于八卦目标的视角来
+对职场负面八卦行为的前因及影响后果进行研究
+的必要性 
+, 这是因为一方面职场负面八卦最终还
+是要在八卦目标身上体现其正向或负向的行为效
+果, 也只有如此才能在一定程度上体现其内在的
+行为属性 
+(Aquino & Thau, 2009)。另一方面 
+, 因为
+实施负面八卦行为的个体和参与者并不想让别人
+知道谁是职场负面八卦的源头和传播者 
+, 因此相
+关数据的获取比较困难 
+, 而基于八卦目标的角度
+来对职场负面八卦行为进行研究 
+, 则有利于职场
+负面八卦测量数据的获取及大样本化 
+(Foster, 
+2004)。以 
+Chandra和 
+Robinson (2009)为代表的西
+方学者对职场负面八卦的黑暗面进行了开拓性的
+研究, 初步证实了职场负面八卦会对八卦目标的
+工作态度和行为产生十分消极的影响 
+, 尽管该研
+究成果具有重要的启示意义 
+, 但仍有一些重要的
+议题亟待后续研究的关注 
+, 具体来讲 
+, 后续研究
+可以从以下几个方面展开： 
+
+
+(1)应将职场负面八卦的类别及测量与其他类
+型的职场八卦 
+(正面、中性 
+)加以区分。相关研究指
+出, 职场八卦包括正面八卦、中性八卦及负面八
+卦, 而它们对于八卦目标的影响可能存在着很大
+的差异 
+(Eder & Enke, 1991; Fine & Rosnow, 1978; 
+Foster, 2004; de Gouveia et al., 2005; Noon & 
+Delbridge, 1993), 对不同类别的职场八卦定义及
+测量的细化有利于相关理论研究的深入开展。 
+(2)应对职场负面八卦测量量表进行本土化的
+改造和开发。在职场负面八卦的测量量表开发方
+面, 由于中国现有制度环境的特殊性及中国社会
+文化的传统性 
+, 使得中西背景下的职场攻击行为
+有着显著的外在差异 
+(龙立荣 
+,周浩, 2007)。因此 
+, 
+开发出与中国职场情景更为契合的职场负面八卦
+测量量表 
+, 不仅有利于中国本土组织行为研究的
+深化, 也有利于相关研究成果很好的适用于本土
+的管理实践。 
+(3)应多角度、多层次的探索职场负面八卦的
+形成原因。职场负面八卦的产生有社会学方面的
+原因, 如使群体能够在进化过程中存活下来、增
+进个人的权力和提高组织的稳定性等 
+, 而在职场
+中, 应当还会有其它的原因 
+, 如职业目标、组织政
+治、职场角色等都有可能会引起职场负面八卦
+
+708 心理科学进展第 
+23卷 
+
+
+(Aquino & Thau, 2009; 龙立荣, 周浩, 2007)。因此, 
+后续职场负面八卦的研究应在前期相关研究的基
+础上, 进一步探究影响职场负面八卦出现的个
+体、群体、组织情景方面的原因。 
+
+
+(4)应广泛探讨职场负面八卦对八卦目标员工
+的工作行为和态度的影响。在现有职场负面八卦
+对八卦目标影响的研究中 
+, 理论视角还比较单一 
+(Chandra & Robinson, 2009; Kurland & Pelled, 
+2000)。后续研究可以基于更多理论视角 
+(进化心理
+学理论、社会学习理论、社会资源理论、社会比
+较理论等)来分析检验职场负面八卦对八卦目标
+的影响。 
+(5)应将职场负面八卦的研究拓展到群体层
+面。由于八卦目标有可能是组织中的某一群体 
+(如
+在职场中往往会存在对处于某些 
+“休闲”岗位的群
+体“不干活, 不担责 
+, 油水多”的负面八卦), 那么
+它会对该群体产生什么样的影响？后续研究可以
+从进化心理学理论、竞合理论、社会学习理论等
+视角来展开 
+, 使职场负面八卦的研究跨层次化 
+, 
+进而找出针对群体的职场负面八卦的形成、传播
+及影响机制 
+, 形成有利于规范企业群体行为的管
+理实践建议。
+总之, 作为一种社会及职场中的普遍现象 
+, 
+由于职场八卦行为构成主体的多元性 
+(八卦者、倾
+听者、八卦目标 
+), 这使得它不同于以往的只有行
+为主体与行为客体组成的职场攻击行为 
+, 这也增
+加了对其进行深入研究的难度。但是通过西方相
+关文献的资料整理分析 
+, 可以看出关于职场负面
+八卦的研究正在兴起 
+, 因此, 国内的学者有必要
+对该研究主题加以关注 
+, 以期对职场负面八卦在
+华人组织情景下的研究进一步的深化 
+, 不仅为职
+场偏离行为的研究提供更多的理论依据 
+, 也为现
+实管理提供更多的实践参考。
+
+参考文献
+
+迪方佐. (2010). 哪些话该听 
+, 哪些话不该听 
+(王雨吟译 
+). 上
+海: 华东师范大学出版社. 
+刘嫦娥, 戴万稳. (2012). 工作场所无礼行为研究综述 
+. 管
+理学报, 9(7), 1092–1097. 
+刘军, 宋继文, 吴隆增 
+. (2008).政治与关系视角的员工职
+业发展影响因素探讨. 心理学报, 40(2), 201–209. 
+龙立荣, 周浩. (2007). 职场攻击行为研究探讨. 外国经济
+与管理, 29(9), 42–49. 
+齐藤勇 
+. (2004). 人为什么会说别人坏话 
+(孙林译 
+). 上海: 
+
+上海社会科学院出版社. 
+
+王沛, 刘峰. (2007). 社会认同理论视野下的社会认同威胁 
+. 
+心理科学进展, 15(5), 822–827. 
+
+吴隆增, 刘军, 刘刚. (2009). 辱虐管理与员工表现 
+: 传统
+性与信任的作用. 心理学报, 41(6), 510–518. 
+
+吴隆增, 刘军, 许浚. (2010).职场排斥与员工组织公民行为 
+: 
+组织认同与集体主义倾向的作用 
+. 南开管理评论 
+, 13(3), 
+36–44. 
+
+吴毓淳 
+. (2002). 谁在八卦 
+: 一个社会网络的分析 
+(硕士学位
+论文). 台湾政治大学, 台北. 
+
+许燕, 张迪帆 
+, 孙嘉卿 
+, 曹红蓓 
+, 贾慧悦 
+. (2011).人际流
+言: 理论、方法与研究热点 
+. 山西大学学报 
+(哲学社会科
+学版), 34(3), 113–120. 
+
+周裕琼. (2012). 当代中国社会的网络谣言研究 
+. 北京: 商
+务印书馆出版社. 
+
+朱迪, 段锦云 
+, 田晓明 
+. (2013). 组织中的社会阻抑 
+: 概念界
+定、影响结果和形成机制 
+. 心理科学进展 
+, 21(1), 135–143. 
+
+Akande, A., & Odewale, F. (1994). One more time: How to stop 
+company rumours. Group & Organization Management, 
+15(4), 27–30. 
+
+Andersson, L. M., & Pearson, C. M. (1999). Tit for tat the 
+spiraling effect of incivility in the workplace. Academy of 
+Management Review, 24(3), 452–471. 
+
+Aquino, K., & Douglas, S. (2003). Identity threat and antisocial 
+behavior in organizations: The moderating effects of 
+individual differences, aggressive modeling, and hierarchical 
+status. Organizational Behavior and Human Decision 
+Processes, 90(1), 195–208. 
+
+Aquino, K., & Thau, S. (2009). Workplace victimization: 
+Aggression from the target's perspective. Annual Review 
+of Psychology, 60, 717–741. 
+
+Baker, J. S., & Jones, M. A. (1996). The poison grapevine: 
+How destructive are gossip and rumor in the workplace? 
+Human Resource Development Quarterly, 7(1), 75–86. 
+
+Baumeister, R. F., Zhang, L., & Vohs, K. D. (2004). Gossip 
+as cultural learning. Review of General Psychology, 8(2), 
+111–121. 
+
+Bok, S. (1989). Secrets: On the ethics of concealment and 
+revelation. Random House Digital, Inc. 
+
+Carey, B. (2005, August 16t). Have you heard? Gossip turns 
+out to serve a purpose. New York Times, pD–1. 
+
+Chandra, G., & Robinson, S. L. (2009, August). They're 
+talking about me again: The negative impact of being the 
+target of gossip. Paper presented at the 2009 Academy of 
+Management Annual Meeting, Chicago, Illinois, USA. 
+
+Cox, B. A. (1970). What is Hopi gossip about? Information 
+management and Hopi factions. Man, 5(1), 88–98. 
+
+Crampton, S. M., Hodge, J. W., & Mishra, J. M. (1998). The 
+informal communication network: Factors influencing 
+grapevine activity. Public Personnel Management, 27(4), 
+
+
+第 
+4期 
+岳文忠等: 职场负面八卦的前因与后果：基于八卦目标的视角
+
+569–584. 
+
+Danziger, E. (1988). Minimize office gossip. Personnel Journal, 
+67(11), 31–33. 
+
+de Gouveia, C. D., Van Vuuren, L. V., & Crafford, A. (2005). 
+Towards a typology of gossip in the workplace. Journal of 
+Human Resource Management, 3(2), 56–68. 
+
+DiFonzo, N., Bordia, P., & Rosnow, R. L. (1994). Reining in 
+rumors. Organizational Dynamics, 23(1), 47–62. 
+
+DiFonzo, N., & Bordia, P. (2007). Rumor, gossip and urban 
+legends. Diogenes, 54(1), 19–35. 
+
+Duffy, M. K., Ganster, D. C., & Pagon, M. (2002). Social 
+undermining in the workplace. Academy of Management 
+Journal, 45(2), 331–351. 
+
+Dunbar, R. I. M. (2004). Gossip in evolutionary perspective. 
+Review of General Psychology, 8(2), 100–110. 
+
+Eder, D., & Enke, J. L. (1991). The structure of gossip: 
+Opportunities and constraints on collective expression 
+among adolescents. American Sociological Review, 56(4), 
+494–508. 
+
+Ellwardt, L., Labianca, G., & Wittek, R. (2012). Who are the 
+objects of positive and negative gossip at work? A social 
+network perspective on workplace gossip. Social Networks, 
+34(2), 193–205. 
+
+Esposito, J. L., & Rosnow, R. L. (1983). Corporate rumors: 
+How they start and how to stop them. Management Review, 
+72(4), 44–49. 
+
+Feinberg, M., Willer, R., & Schultz, M. (2014). Gossip and 
+ostracism promote cooperation in groups. Psychological 
+Science, 25(3), 656–664. 
+
+Ferris, D. L., Brown, D. J., Berry, J. W., & Lian, H. (2008). 
+The development and validation of the workplace ostracism 
+scale. The Journal of Applied Psychology, 93(6), 1348–1366. 
+
+Fine, G. A., & Rosnow, R. L. (1978). Gossip, gossipers, 
+gossiping. Personality and Social Psychology Bulletin, 
+4(1), 161–168. 
+
+Foster, E. K. (2004). Research on gossip: Taxonomy, methods, 
+and future directions. Review of General Psychology, 8(2), 
+78–99. 
+
+Foster, E. K., & Rosnow, R. L. (2006). Gossip and network 
+relationships. In D. C. Kirkpatrick, S. Duck, & M. K. Foley 
+(Eds.), Relating difficulty: The processes of constructing and 
+managing difficult interaction (pp. 161–180). Routledge. 
+
+Glomb, T. M. (2002). Workplace anger and aggression: 
+Informing conceptual models with data from specific 
+encounters. Journal of Occupational Health Psychology, 
+7(1), 20–36. 
+
+Gluckman, M. (1963). Gossip and scandal. Current Anthropology, 
+4(3), 307–316. 
+
+Gluckman, M. (1968). Psychological, sociological and 
+anthropological explanations of witchcraft and gossip: A 
+
+clarification. Man, 3(1), 20–34. 
+
+Greengard, S. (2001). Gossip poisons business.HR can stop 
+it. Workforce, 80(7), 24–28. 
+
+Grosser, T. J., Lopez–Kidwell, V., & Labianca, G. (2010). A 
+social network analysis of positive and negative gossip in 
+organizational life. Group & Organization Management, 
+35(2), 177–212. 
+
+Kanter, R. M. (1977). Some effects of proportions on group 
+life: Skewed sex ratios and responses to token women. 
+American Journal of Sociology, 82(5), 965–990. 
+
+Kelley, H. H. (1952). Two functions of reference groups. In 
+
+G. E. Swanson, T. M. Newcomb, & E. L. Hartley (Eds.), 
+Readings in social psychology (pp. 410–414). New York: 
+Henry Holt. 
+Kniffin, K. M., & Wilson, D. S. (2010). Evolutionary 
+perspectives on workplace gossip: Why and how gossip can 
+serve groups. Group & Organization Management, 35(2), 
+150–176. 
+
+Kurland, N. B., & Pelled, L. H. (2000). Passing the word: 
+Toward a model of gossip and power in the workplace. 
+Academy of Management Review, 25(2), 428–438. 
+
+McAndrew, F. T., Bell, E. K., & Garcia, C. M. (2007). Who 
+do we tell and whom do we tell on? Gossip as a strategy 
+for status enhancement. Journal of Applied Social Psychology, 
+37(7), 1562–1577. 
+
+Michelson, G., & Mouly, S. (2000). Rumour and gossip in 
+organisations: A conceptual study. Management Decision, 
+38(5), 339–346. 
+
+Michelson, G., & Mouly, V. S. (2004). Do loose lips sink 
+ships? The meaning, antecedents and consequences of rumour 
+and gossip in organisations. Corporate Communications, 
+9(3), 189–201. 
+
+Mills, C. (2010). Experiencing gossip: The foundations for a 
+theory of embedded organizational gossip. Group & 
+Organization Management, 35(2), 213–240. 
+
+Mishra, J. (1990). Managing the grapevine. Public Personnel 
+Management, 19(2), 213–228. 
+
+Moore, J. W. (1962). Social deprivation and advantage as 
+sources of political values. The Western Political Quarterly, 
+15(2), 217–226. 
+
+Noon, M., & Delbridge, R. (1993). News from behind my 
+hand: Gossip in organizations. Organization Studies, 14(1), 
+23–36. 
+
+Paine, R. (1970). Informal communication and information-
+management. Canadian Review of Sociology, 7(3), 172–188. 
+
+Robinson, S. L., & Bennett, R. J. (1995). A typology of 
+deviant workplace behaviors: A multidimensional scaling 
+study. Academy of Management Journal, 38(2), 555–572. 
+
+Rosnow, R. L. 
+(2001). Rumor and gossip in interpersonal 
+interaction and beyond: A social exchange perspective. In 
+
+
+710 
+心理科学进展第 
+23卷 
+
+
+R. M. Kowalski (Ed.), Behaving badly: Aversive behaviors 
+in interpersonal relationships (pp. 203–232). Washington, 
+DC, US: American Psychological Association. 
+Rysman, A. (1977). 
+How the “gossip” became a woman. 
+Journal of Communication, 27(1), 176–180. 
+Shibutani, T. (1966). Improvised news: A sociological study 
+of rumor. Oxford, England: Bobbs-Merrill. 
+Slade, D. (1997). Stories and gossip in English: The 
+macro-structure of casual talk. Prospect, 12(2), 43–71. 
+Smith, B. (1996). Care and feeding of the office grapevine. 
+Management Review, 85, 6–6. 
+Snyder, L. A., Chen, P. Y., Grubb, P. L., Robers, R. K., Sauter, 
+
+S. L., & Swanson, N. G. (2005). Workplace aggression and 
+violence against individuals and organizations causes, 
+consequences, and interventions. In D. C. Ganster (Ed.), 
+Exploring interpersonal dynamics: Research in occupational 
+stress and well-being (Vol. 4, pp. 1–65). US: Elsevier 
+
+Science/JAI Press. 
+
+Tepper, B. J. (2000). Consequences of abusive supervision. 
+Academy of Management Journal, 43(2), 178–190. 
+
+Van Iterson, A., & Clegg, S. R. (2008). The politics of gossip 
+and denial in interorganizational relations. Human Relations, 
+61(8), 1117–1137. 
+
+Waddington, K., & Michelson, G. (2007, July). Analysing 
+gossip to reveal and understand power relationships, political 
+action and reaction to change inside organisations. Paper 
+presented at the 5th International Critical Management 
+Studies Conference, Manchester, UK. 
+
+Wert, S. R., & Salovey, P. (2004). A social comparison 
+account of gossip. Review of General Psychology, 8(2), 
+122–137. 
+
+Wittek, R., & Wielers, R. (1998). Gossip in organizations. 
+Computational & Mathematical Organization Theory, 4(2), 
+189–204. 
+
+The Antecedents and Consequences of Workplace Negative Gossip: 
+From the Target's Perspective 
+
+
+YUE Wenzhong1; WU Longzeng2; YANG Ziwei3; ZHAI Haiyan3,4 
+
+(1 School of Finance and Economics, Anhui Science and Technology University, Bengbu 233100, China) 
+
+(2 School of Management, Xiamen University, Xiamen 361005, China) (3 School of International Business 
+
+Administration, Shanghai University of Finance and Economics, Shanghai 200433, China) 
+
+(4 School of Business Administration, Shanghai Finance University, Shanghai 201209, China) 
+
+Abstract: Workplace gossip is widespread in various organizations and becomes an influential non-official 
+information channel. Workplace negative gossip consists of three parties: senders, receivers, and targets. 
+Previous research on workplace gossip has focused on senders or receivers by using laboratory and small 
+sample size data. Lack of attention has been paid to the gossip victims by using large sample data. The 
+present study reviewed the literature of the antecedents and outcomes of workplace negative gossip 
+according to the victim perspective and provided a framework for future studies. 
+Key words: gossip; rumor; workplace negative gossip; workplace violence 
+
+
