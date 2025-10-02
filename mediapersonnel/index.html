@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>传媒行业职业发展前景深度研究报告</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    <script>
+        // Tailwind配置
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#36CFC9',
+                        accent: '#722ED1',
+                        dark: '#1D2129',
+                        light: '#F2F3F5',
+                        neutral: '#86909C'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .card-hover {
+                transition: all 0.3s ease;
+            }
+            .card-hover:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            }
+            .nav-active {
+                border-left: 4px solid #165DFF;
+                color: #165DFF;
+                font-weight: 600;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+    <!-- 顶部导航栏 -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-[clamp(1.2rem,3vw,1.8rem)] font-bold text-primary">
+                <i class="fa fa-line-chart mr-2"></i>传媒行业研究报告
+            </h1>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#overview" class="text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-industry mr-1"></i>行业概述
+                </a>
+                <a href="#jobs" class="text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-briefcase mr-1"></i>岗位薪资
+                </a>
+                <a href="#skills" class="text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-cogs mr-1"></i>技能要求
+                </a>
+                <a href="#regions" class="text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-map-marker mr-1"></i>区域分析
+                </a>
+                <a href="#career" class="text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-road mr-1"></i>职业路径
+                </a>
+                <a href="#challenges" class="text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-exclamation-triangle mr-1"></i>行业挑战
+                </a>
+                <a href="#conclusion" class="text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-flag-checkered mr-1"></i>结论展望
+                </a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-dark text-xl">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+        <!-- 移动端菜单 -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+                <a href="#overview" class="py-2 text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-industry mr-2"></i>行业概述
+                </a>
+                <a href="#jobs" class="py-2 text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-briefcase mr-2"></i>岗位薪资
+                </a>
+                <a href="#skills" class="py-2 text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-cogs mr-2"></i>技能要求
+                </a>
+                <a href="#regions" class="py-2 text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-map-marker mr-2"></i>区域分析
+                </a>
+                <a href="#career" class="py-2 text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-road mr-2"></i>职业路径
+                </a>
+                <a href="#challenges" class="py-2 text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-exclamation-triangle mr-2"></i>行业挑战
+                </a>
+                <a href="#conclusion" class="py-2 text-neutral hover:text-primary transition-colors duration-300">
+                    <i class="fa fa-flag-checkered mr-2"></i>结论展望
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
+        <!-- 侧边导航（桌面端） -->
+        <aside class="hidden lg:block w-64 shrink-0">
+            <div class="bg-white rounded-xl shadow-sm p-5 sticky top-24">
+                <h2 class="text-lg font-semibold mb-4 text-dark border-b pb-3">目录导航</h2>
+                <nav class="flex flex-col space-y-1">
+                    <a href="#overview" class="nav-item py-2 px-3 rounded-lg text-neutral hover:bg-blue-50 hover:text-primary transition-colors duration-300">
+                        一、行业概述：变革与机遇并存
+                    </a>
+                    <a href="#jobs" class="nav-item py-2 px-3 rounded-lg text-neutral hover:bg-blue-50 hover:text-primary transition-colors duration-300">
+                        二、岗位需求与薪资分析
+                    </a>
+                    <a href="#skills" class="nav-item py-2 px-3 rounded-lg text-neutral hover:bg-blue-50 hover:text-primary transition-colors duration-300">
+                        三、技能要求与能力建设
+                    </a>
+                    <a href="#regions" class="nav-item py-2 px-3 rounded-lg text-neutral hover:bg-blue-50 hover:text-primary transition-colors duration-300">
+                        四、区域发展与就业市场分析
+                    </a>
+                    <a href="#career" class="nav-item py-2 px-3 rounded-lg text-neutral hover:bg-blue-50 hover:text-primary transition-colors duration-300">
+                        五、职业发展路径与晋升策略
+                    </a>
+                    <a href="#challenges" class="nav-item py-2 px-3 rounded-lg text-neutral hover:bg-blue-50 hover:text-primary transition-colors duration-300">
+                        六、行业挑战与应对策略
+                    </a>
+                    <a href="#conclusion" class="nav-item py-2 px-3 rounded-lg text-neutral hover:bg-blue-50 hover:text-primary transition-colors duration-300">
+                        七、结论与展望
+                    </a>
+                </nav>
+                
+                <!-- 报告信息卡片 -->
+                <div class="mt-8 bg-blue-50 rounded-xl p-4 border border-blue-100">
+                    <h3 class="font-medium text-primary mb-2">报告信息</h3>
+                    <ul class="text-sm text-neutral space-y-2">
+                        <li><i class="fa fa-calendar mr-2"></i>发布日期：2025年09月</li>
+                        <li><i class="fa fa-clock-o mr-2"></i>数据周期：2024-2025年</li>
+                        <li><i class="fa fa-globe mr-2"></i>覆盖范围：全球主要市场</li>
+                        <li><i class="fa fa-bar-chart mr-2"></i>数据来源：行业统计与分析</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 主要内容 -->
+        <div class="flex-1 max-w-4xl">
+            <!-- 报告封面 -->
+            <div class="bg-gradient-to-r from-primary/90 to-accent/90 rounded-2xl text-white p-8 mb-10 shadow-lg">
+                <h1 class="text-[clamp(1.5rem,4vw,2.5rem)] font-bold mb-4 text-shadow">传媒行业职业发展前景深度研究报告</h1>
+                <p class="text-white/90 text-lg mb-6 max-w-2xl">
+                    深入分析2025年传媒行业发展趋势、岗位需求、薪资水平、技能要求及职业发展路径，为从业者提供全面参考
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <span class="bg-white/20 rounded-full px-4 py-1 text-sm backdrop-blur-sm">数字融合</span>
+                    <span class="bg-white/20 rounded-full px-4 py-1 text-sm backdrop-blur-sm">内容升级</span>
+                    <span class="bg-white/20 rounded-full px-4 py-1 text-sm backdrop-blur-sm">技术驱动</span>
+                    <span class="bg-white/20 rounded-full px-4 py-1 text-sm backdrop-blur-sm">跨界整合</span>
+                </div>
+            </div>
+
+            <!-- 一、行业概述 -->
+            <section id="overview" class="mb-16 scroll-mt-24">
+                <div class="flex items-center mb-6">
+                    <div class="bg-primary/10 rounded-full w-10 h-10 flex items-center justify-center mr-4">
+                        <i class="fa fa-industry text-primary text-xl"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-dark">一、行业概述：变革与机遇并存</h2>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm p-6 mb-8">
+                    <p class="text-neutral mb-6">
+                        传媒行业正处于前所未有的变革期，随着数字化转型加速、技术创新不断涌现以及用户行为的深刻变化，行业格局与人才需求正在发生结构性调整。2025年的传媒行业呈现出"数字融合、内容升级、技术驱动、跨界整合"的显著特征，为从业者带来了新的机遇与挑战。
+                    </p>
+
+                    <!-- 1.1 行业规模与发展态势 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">1.1</span>
+                        行业规模与发展态势
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        全球传媒市场规模持续扩大，预计到2025年底，印度媒体市场收入将达到442.6亿美元。中国传媒行业虽然受到经济环境影响，但整体仍保持韧性发展。数据显示，2025年中国文化传媒行业招聘职位量占全国1.484%，相比2024年下降22%，这一变化反映了行业正在经历结构调整与转型升级。
+                    </p>
+
+                    <!-- 图表：2025年广告收入分布 -->
+                    <div class="mb-8">
+                        <h4 class="text-lg font-medium mb-3 text-dark">2025年全球广告收入分布</h4>
+                        <div class="h-64">
+                            <canvas id="adRevenueChart"></canvas>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-4">
+                        从细分领域来看，传统媒体与数字媒体的格局正在发生历史性转变。2025年，数字广告收入占比首次超过传统媒体，达到52%（890亿美元），而传统广告收入占48%（820亿美元）。全球电视广告（包括传统和流媒体形式）预计在2025年增长1.0%，达到1625亿美元，这表明传统媒体虽然增长放缓，但仍保持一定市场份额。
+                    </p>
+
+                    <!-- 1.2 人才流动特征与趋势 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">1.2</span>
+                        人才流动特征与趋势
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        传媒行业人才流动呈现出三个明显特征：跨行业流动增多、行业内部流动加速、国际化趋势明显。随着行业融合加深，传媒人才在互联网、金融、教育等领域之间的流动更加频繁，同时传统媒体、新媒体、网络视频等领域的专业人才相互流动，以适应行业发展趋势。
+                    </p>
+
+                    <div class="bg-blue-50 rounded-lg p-5 mb-6 border border-blue-100">
+                        <h4 class="font-medium text-primary mb-3">2025年传媒行业人才流动趋势</h4>
+                        <ul class="space-y-3 text-neutral">
+                            <li class="flex items-start">
+                                <i class="fa fa-arrow-circle-right text-secondary mt-1 mr-3"></i>
+                                <span><strong class="text-dark">新媒体人才崛起</strong>：熟悉新媒体平台特性、具备良好创意思维、掌握数据分析技能的人才需求旺盛。</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa fa-arrow-circle-right text-secondary mt-1 mr-3"></i>
+                                <span><strong class="text-dark">传统媒体人才转型</strong>：传统媒体编辑向新媒体运营转型，跨平台合作成为必然趋势。</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa fa-arrow-circle-right text-secondary mt-1 mr-3"></i>
+                                <span><strong class="text-dark">技术人才受重视</strong>：数据分析人才、技术工程师、人工智能人才在传媒行业中的地位日益提升。</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa fa-arrow-circle-right text-secondary mt-1 mr-3"></i>
+                                <span><strong class="text-dark">跨界人才需求增加</strong>：媒体与法律、经济、设计等领域的跨界人才受到青睐。</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 1.3 人才需求结构变化 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">1.3</span>
+                        人才需求结构变化
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        传媒行业人才需求结构正在发生深刻变化，主要表现在以下几个方面：
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-user-circle text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">新媒体运营人才</h4>
+                            </div>
+                            <p class="text-sm text-neutral">内容策划与编辑、社群运营、数据分析师成为新媒体运营的核心岗位</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-newspaper-o text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">传统媒体转型人才</h4>
+                            </div>
+                            <p class="text-sm text-neutral">传统媒体编辑、跨媒体运营人才、媒体管理人才在转型过程中仍有需求</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-code text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">技术与创意人才</h4>
+                            </div>
+                            <p class="text-sm text-neutral">技术工程师、创意设计师、人工智能与大数据人才成为行业创新的关键</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-random text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">跨界融合人才</h4>
+                            </div>
+                            <p class="text-sm text-neutral">媒体与法律、经济、设计等领域的跨界融合人才需求增加</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 二、岗位需求与薪资分析 -->
+            <section id="jobs" class="mb-16 scroll-mt-24">
+                <div class="flex items-center mb-6">
+                    <div class="bg-primary/10 rounded-full w-10 h-10 flex items-center justify-center mr-4">
+                        <i class="fa fa-briefcase text-primary text-xl"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-dark">二、岗位需求与薪资分析</h2>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm p-6 mb-8">
+                    <!-- 2.1 传统媒体岗位发展现状 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">2.1</span>
+                        传统媒体岗位发展现状
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        传统媒体岗位正经历转型与调整，部分岗位需求出现下降趋势。数据显示，新闻采编与制作专业2025年招聘职位量较2024年下降17%，传统新闻采编岗位2024年招聘职位量较2023年下降6%，媒体编辑岗位下降10%。
+                    </p>
+
+                    <!-- 图表：传统媒体岗位需求变化 -->
+                    <div class="mb-8">
+                        <h4 class="text-lg font-medium mb-3 text-dark">传统媒体岗位需求变化趋势</h4>
+                        <div class="h-64">
+                            <canvas id="traditionalMediaChart"></canvas>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-4">
+                        然而，传统媒体中仍有部分高端岗位保持竞争力。记者、编辑、主持人等岗位不仅需要扎实的采写编评能力，更看重对政策导向、行业深度的把握。例如时政记者需精通公文解读，财经编辑需具备数据分析能力，这类"内容+专业"复合型人才在头部媒体中薪资可达15-25k/月。
+                    </p>
+                    <p class="text-neutral mb-6">
+                        值得注意的是，传统媒体对高学历人才的需求依然存在。新闻采编与制作专业硕士需求占全国硕士1.332%，博士需求占全国博士0.463%，这表明传统媒体在高端研究与管理岗位上仍有一定需求。
+                    </p>
+
+                    <!-- 2.2 新媒体岗位发展前景 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">2.2</span>
+                        新媒体岗位发展前景
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        新媒体岗位是当前传媒行业中最具活力的部分，呈现出蓬勃发展态势。数据显示，2025年企业新媒体岗位招聘职位量较2024年增长4%，特别是在10k-20k、20-30k区间的单平台运营和专家级人才需求量大，而入门级岗位的招聘占比仅有12.3%。
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <h4 class="text-lg font-medium mb-3 text-dark">新媒体运营薪资分布（长沙）</h4>
+                            <div class="h-64">
+                                <canvas id="newMediaSalaryChart"></canvas>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium mb-3 text-dark">印度视频编辑薪资水平</h4>
+                            <div class="h-64">
+                                <canvas id="indiaVideoEditorChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-4">
+                        新媒体运营的薪资水平呈现较大差异，从入门级的月薪4000元到资深级的35000元不等。2025年长沙新媒体运营行业50.5%的岗位月薪在6-10K/月之间，年薪约7-12万，而高薪岗位主要集中在一线城市和特定行业，如跨境营销、金融科技、高端美妆个护等行业。
+                    </p>
+                    <p class="text-neutral mb-6">
+                        视频编辑岗位在全球范围内呈现高需求状态，年增长率达15%。美国劳工统计局预计，视频编辑工作市场到2028年将增长12%，约新增9,600个工作岗位。在印度，初级视频编辑的年薪约为25-45万卢比，中级编辑为45-80万卢比，高级编辑或具有动画或动态图形等专业技能的人才年薪可达80-150万卢比或更高。
+                    </p>
+
+                    <!-- 2.3 技术驱动型岗位发展趋势 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">2.3</span>
+                        技术驱动型岗位发展趋势
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        随着技术在传媒行业的深入应用，技术驱动型岗位正成为行业新的增长点。数据显示，2025年媒体/出版/影视/文化传播行业技术研发及运维类岗位招聘需求增长，包括AI数据工程师、软件开发工程师等技术岗位。
+                    </p>
+
+                    <div class="bg-blue-50 rounded-lg p-5 mb-6 border border-blue-100">
+                        <h4 class="font-medium text-primary mb-3">高需求技术岗位领域</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white rounded-full px-3 py-1 text-sm text-neutral border border-blue-100">数字营销</span>
+                            <span class="bg-white rounded-full px-3 py-1 text-sm text-neutral border border-blue-100">太空技术</span>
+                            <span class="bg-white rounded-full px-3 py-1 text-sm text-neutral border border-blue-100">量子计算</span>
+                            <span class="bg-white rounded-full px-3 py-1 text-sm text-neutral border border-blue-100">汽车技术</span>
+                            <span class="bg-white rounded-full px-3 py-1 text-sm text-neutral border border-blue-100">教育科技</span>
+                            <span class="bg-white rounded-full px-3 py-1 text-sm text-neutral border border-blue-100">机器人</span>
+                            <span class="bg-white rounded-full px-3 py-1 text-sm text-neutral border border-blue-100">区块链</span>
+                            <span class="bg-white rounded-full px-3 py-1 text-sm text-neutral border border-blue-100">AI数据工程</span>
+                            <span class="bg-white rounded-full px-3 py-1 text-sm text-neutral border border-blue-100">软件开发</span>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-6">
+                        短视频和直播将继续引领流量格局，成为核心内容形态。视频编辑岗位在2025年是一个高需求的创意职业，为媒体、娱乐、广告和数字营销领域提供了广阔的机会。美国劳工统计局预计，视频编辑工作市场将增长29%到2030年，这表明未来对于有抱负的视频编辑来说是一个充满希望的前景。
+                    </p>
+
+                    <!-- 2.4 国际传播与跨文化岗位 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">2.4</span>
+                        国际传播与跨文化岗位
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        随着全球化进程加速，国际传播与跨文化岗位在传媒行业中的重要性日益凸显。这类岗位需要具备跨文化沟通能力和国际视野，为我国媒体在国际舞台上发声。
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-globe text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">印度媒体行业招聘增长</h4>
+                            </div>
+                            <ul class="text-sm text-neutral space-y-2">
+                                <li>• 2025年1月招聘增长14%</li>
+                                <li>• 孟买是主要驱动力（+4%）</li>
+                                <li>• 应届生招聘增长16%</li>
+                                <li>• 4-7年经验专业人士增长15%</li>
+                                <li>• 8-12年经验专业人士增长17%</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-usd text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">美国媒体岗位预测</h4>
+                            </div>
+                            <ul class="text-sm text-neutral space-y-2">
+                                <li>• 媒体购买岗位2018-2028增长8%</li>
+                                <li>• 新增约22,300个工作岗位</li>
+                                <li>• 视频编辑工作满意度高</li>
+                                <li>• 2030年视频编辑岗位增长29%</li>
+                                <li>• 主要分布在影视、广告领域</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral">
+                        全球媒体市场收入预计在2025年达到398.9亿美元，用户渗透率将达到23.2%，预计到2029年将达到25.6%。
+                    </p>
+                </div>
+            </section>
+
+            <!-- 三、技能要求与能力建设 -->
+            <section id="skills" class="mb-16 scroll-mt-24">
+                <div class="flex items-center mb-6">
+                    <div class="bg-primary/10 rounded-full w-10 h-10 flex items-center justify-center mr-4">
+                        <i class="fa fa-cogs text-primary text-xl"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-dark">三、技能要求与能力建设</h2>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm p-6 mb-8">
+                    <!-- 3.1 传统媒体核心能力升级 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">3.1</span>
+                        传统媒体核心能力升级
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        传统媒体从业者需要不断升级核心能力，以适应行业变革。新闻采访写作能力仍然是传媒行业的基础，但在2025年，这一能力需要与数字化工具应用、数据分析等新技能相结合。
+                    </p>
+
+                    <div class="bg-gray-50 rounded-lg p-5 mb-6 border border-gray-200">
+                        <h4 class="font-medium text-dark mb-3">未来5年记者工作方式变化预测</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="flex items-start">
+                                <div class="bg-primary/10 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-robot text-primary text-xs"></i>
+                                </div>
+                                <p class="text-sm text-neutral">AI辅助普及，记者转向深度分析与核查</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-primary/10 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-film text-primary text-xs"></i>
+                                </div>
+                                <p class="text-sm text-neutral">全媒体技能成为标配，视频剪辑、直播互动、社交媒体运营成为基础能力</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-primary/10 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-comments text-primary text-xs"></i>
+                                </div>
+                                <p class="text-sm text-neutral">互动性增强，记者转向"内容策展人"</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-primary/10 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-bar-chart text-primary text-xs"></i>
+                                </div>
+                                <p class="text-sm text-neutral">数据新闻主导，大数据分析可视化成常规手段</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-primary/10 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-cloud text-primary text-xs"></i>
+                                </div>
+                                <p class="text-sm text-neutral">远程协作常态化，跨国团队云端协作、虚拟采访技术应用增多</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-primary/10 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-check-square-o text-primary text-xs"></i>
+                                </div>
+                                <p class="text-sm text-neutral">事实核查专业化，技术+人工双重验证成流程刚需</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="font-medium text-dark mb-3">传统记者职业转型建议</h4>
+                    <ul class="text-neutral space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right text-primary mt-1 mr-2"></i>
+                            <span>掌握AI工具与技术伦理，学习基础编程、数据可视化</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right text-primary mt-1 mr-2"></i>
+                            <span>从文字向视频、播客、可视化内容拓展，熟悉跨平台分发逻辑</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right text-primary mt-1 mr-2"></i>
+                            <span>转向垂直领域专家，强化深度调查、特稿写作等不可替代性能力</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right text-primary mt-1 mr-2"></i>
+                            <span>通过自媒体建立个人品牌，参与知识付费、行业咨询等多元变现</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right text-primary mt-1 mr-2"></i>
+                            <span>向公关、企业传播、内容产品经理等岗位延伸</span>
+                        </li>
+                    </ul>
+
+                    <!-- 3.2 新媒体运营核心能力 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">3.2</span>
+                        新媒体运营核心能力
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        新媒体运营岗位已从单纯的内容发布，扩展为集"品牌传播+产品种草+即时转化"三位一体的综合职能。月薪30k+的新媒体运营岗位需要具备以下四大核心能力：
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        <div class="bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg p-5 border border-primary/20">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                                    <i class="fa fa-line-chart text-white"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">商业策略制定</h4>
+                            </div>
+                            <p class="text-sm text-neutral">具备公私域全链路运营能力，能够制定完整的新媒体商业策略，实现品牌传播与商业转化的有机结合</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg p-5 border border-primary/20">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                                    <i class="fa fa-tasks text-white"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">项目目标拆解和落地</h4>
+                            </div>
+                            <p class="text-sm text-neutral">能整合内外部资源进行落地统筹，将整体目标拆解为可执行的具体任务，并确保项目按时高质量完成</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg p-5 border border-primary/20">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                                    <i class="fa fa-database text-white"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">数据驱动决策</h4>
+                            </div>
+                            <p class="text-sm text-neutral">用经营ROI驱动决策，通过数据分析优化运营策略，提升内容传播效果和商业转化效率</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg p-5 border border-primary/20">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                                    <i class="fa fa-magic text-white"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">AIGC工具应用</h4>
+                            </div>
+                            <p class="text-sm text-neutral">提升团队的内容创作效率和质量，熟练运用各类AIGC工具进行内容生成、编辑和优化</p>
+                        </div>
+                    </div>
+
+                    <h4 class="font-medium text-dark mb-3">新媒体运营核心竞争力</h4>
+                    <ul class="text-neutral space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fa fa-star text-yellow-500 mt-1 mr-2"></i>
+                            <span><strong class="text-dark">"秒懂热点"的传播嗅觉</strong>：建立"热点拆解-受众分析-传播预判"的全链条思维</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-star text-yellow-500 mt-1 mr-2"></i>
+                            <span><strong class="text-dark">"一鱼多吃"的内容生产力</strong>：同一选题适配不同平台，实现内容价值最大化</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-star text-yellow-500 mt-1 mr-2"></i>
+                            <span><strong class="text-dark">"跨界破圈"的行业认知</strong>：如"新闻+法律"可深耕法治报道，"新闻+人工智能"可转型AIGC提示词工程师</span>
+                        </li>
+                    </ul>
+
+                    <!-- 3.3 技术赋能与AI应用能力 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">3.3</span>
+                        技术赋能与AI应用能力
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        随着AIGC技术的突破性发展，传媒行业正经历深刻变革。2025年，AI工具将彻底模糊虚拟与现实的边界，67%的企业采用"智能体"完成从策略生成到效果评估的全流程。
+                    </p>
+
+                    <div class="mb-6">
+                        <h4 class="text-lg font-medium mb-3 text-dark">亚太地区营销人员2025年首要任务</h4>
+                        <div class="h-64">
+                            <canvas id="aiPriorityChart"></canvas>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-4">
+                        AI内容生成工具可以帮助创作者批量生成文案、短视频脚本、海报设计，人工则负责创意策划与审核调优。AI和自动化已成为亚太地区营销人员2025年的首要任务（51%），其次是数据驱动营销（24%），个性化和客户体验（CX）也很重要（15%）。
+                    </p>
+                    <p class="text-neutral mb-6">
+                        为适应这一趋势，传媒从业者需要掌握AI工具应用能力，如Midjourney、Runway等AIGC工具，以及数据分析工具（Python/Tableau）、基础编程（HTML/CSS）等。
+                    </p>
+
+                    <!-- 3.4 跨界融合与创新能力 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">3.4</span>
+                        跨界融合与创新能力
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        跨界融合能力成为传媒行业人才的核心竞争力。传媒行业正突破单一传播功能，向"内容+技术+场景"的生态化模式演进。一方面，网络媒体与电商、文旅、教育等行业的深度融合，催生了"媒体+"的跨界生态。
+                    </p>
+
+                    <div class="bg-blue-50 rounded-lg p-5 mb-6 border border-blue-100">
+                        <h4 class="font-medium text-primary mb-3">新闻专业核心竞争力</h4>
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 bg-white rounded-lg p-4 shadow-sm">
+                                <div class="flex items-center mb-2">
+                                    <i class="fa fa-bolt text-yellow-500 mr-2"></i>
+                                    <h5 class="font-medium text-dark">传播嗅觉</h5>
+                                </div>
+                                <p class="text-sm text-neutral">"秒懂热点"的传播嗅觉，快速把握行业动态和用户需求</p>
+                            </div>
+                            <div class="flex-1 bg-white rounded-lg p-4 shadow-sm">
+                                <div class="flex items-center mb-2">
+                                    <i class="fa fa-pencil text-green-500 mr-2"></i>
+                                    <h5 class="font-medium text-dark">内容生产力</h5>
+                                </div>
+                                <p class="text-sm text-neutral">"一鱼多吃"的内容生产力，同一选题适配不同平台需求</p>
+                            </div>
+                            <div class="flex-1 bg-white rounded-lg p-4 shadow-sm">
+                                <div class="flex items-center mb-2">
+                                    <i class="fa fa-lightbulb-o text-primary mr-2"></i>
+                                    <h5 class="font-medium text-dark">行业认知</h5>
+                                </div>
+                                <p class="text-sm text-neutral">"跨界破圈"的行业认知，具备跨学科知识和思维能力</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral">
+                        传媒行业对复合型人才的需求持续增长，要求从业者具备跨学科背景、创新能力和国际视野。未来的传媒行业将为人才提供更多创业与就业机会，职业发展路径也将更加多元化。
+                    </p>
+                </div>
+            </section>
+
+            <!-- 四、区域发展与就业市场分析 -->
+            <section id="regions" class="mb-16 scroll-mt-24">
+                <div class="flex items-center mb-6">
+                    <div class="bg-primary/10 rounded-full w-10 h-10 flex items-center justify-center mr-4">
+                        <i class="fa fa-map-marker text-primary text-xl"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-dark">四、区域发展与就业市场分析</h2>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm p-6 mb-8">
+                    <!-- 4.1 中国区域发展差异 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">4.1</span>
+                        中国区域发展差异
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        中国传媒行业的区域发展呈现明显差异，主要集中在北京、广东、江苏、山东、上海、浙江等省份。从城市分布来看，北京是传媒行业的核心区域，占比18.3%，其次是广东、江苏、山东、上海、浙江等。
+                    </p>
+
+                    <div class="mb-8">
+                        <h4 class="text-lg font-medium mb-3 text-dark">中国传媒行业城市分布占比</h4>
+                        <div class="h-64">
+                            <canvas id="chinaCityDistributionChart"></canvas>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-4">
+                        在城市层面，北京占比最高，达22.1%，其次是上海、深圳、成都、广州、武汉、杭州、南京、长沙、郑州等城市。这表明传媒行业就业机会主要集中在一线城市和新一线城市。
+                    </p>
+                    <p class="text-neutral mb-6">
+                        对于应届生而言，一线城市提供了更多的就业机会和更高的薪资水平，但竞争也更为激烈。2025年，浙江传媒学院、辽宁传媒学院、上海戏剧学院等院校的传媒专业毕业生就业前景较好，学校与众多媒体和企业建立了紧密的合作关系，为学生提供了海量的实习和就业机会。
+                    </p>
+
+                    <!-- 4.2 国际就业市场分析 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">4.2</span>
+                        国际就业市场分析
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        全球传媒行业就业市场呈现出不同的发展特点。2025年，全球媒体和娱乐行业雇佣了1230万人，比去年增长4.7%。在美国，视频编辑工作满意度高，预计到2030年将增长29%，大多数视频编辑在电影和电视行业工作，但广告和营销领域也存在机会。
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <h4 class="text-lg font-medium mb-3 text-dark">2025年全球广告领域增长率</h4>
+                            <div class="h-64">
+                                <canvas id="globalAdGrowthChart"></canvas>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium mb-3 text-dark">全球媒体市场预测</h4>
+                            <div class="bg-gray-50 rounded-lg p-5 border border-gray-200 h-full flex flex-col justify-center">
+                                <ul class="text-neutral space-y-3">
+                                    <li class="flex items-start">
+                                        <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span>2025年全球媒体市场收入预计达398.9亿美元</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span>用户渗透率2025年将达到23.2%，2029年预计达25.6%</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span>网络和数字内容2025-2030年复合年增长率12.8%</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span>印度媒体市场2025年底收入预计达442.6亿美元</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span>全球媒体娱乐行业2025年雇佣1230万人，增长4.7%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4.3 行业细分领域就业前景 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">4.3</span>
+                        行业细分领域就业前景
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        传媒行业不同细分领域的就业前景存在差异。2025年，短视频和直播将继续引领流量格局，成为核心内容形态。中视频红利（B站、西瓜视频对15-30分钟深度内容加大补贴）、本地化红利（抖音同城号、大众点评达人成为区域商业引流入口）、银发经济红利（适老化内容赛道仍处蓝海）成为内容创业者的三大红利。
+                    </p>
+
+                    <div class="bg-blue-50 rounded-lg p-5 mb-6 border border-blue-100">
+                        <h4 class="font-medium text-primary mb-3">2025年内容创业者三大红利</h4>
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 bg-white rounded-lg p-4 shadow-sm">
+                                <div class="flex items-center mb-2">
+                                    <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-2">
+                                        <i class="fa fa-play-circle text-primary"></i>
+                                    </div>
+                                    <h5 class="font-medium text-dark">中视频红利</h5>
+                                </div>
+                                <p class="text-sm text-neutral">B站、西瓜视频对15-30分钟深度内容加大补贴，优质中视频内容需求增长</p>
+                            </div>
+                            <div class="flex-1 bg-white rounded-lg p-4 shadow-sm">
+                                <div class="flex items-center mb-2">
+                                    <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-2">
+                                        <i class="fa fa-map-marker text-primary"></i>
+                                    </div>
+                                    <h5 class="font-medium text-dark">本地化红利</h5>
+                                </div>
+                                <p class="text-sm text-neutral">抖音同城号、大众点评达人成为区域商业引流入口，本地化内容需求激增</p>
+                            </div>
+                            <div class="flex-1 bg-white rounded-lg p-4 shadow-sm">
+                                <div class="flex items-center mb-2">
+                                    <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-2">
+                                        <i class="fa fa-users text-primary"></i>
+                                    </div>
+                                    <h5 class="font-medium text-dark">银发经济红利</h5>
+                                </div>
+                                <p class="text-sm text-neutral">适老化内容赛道仍处蓝海，针对老年用户的内容创作机会增多</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-4">
+                        视频编辑岗位在全球范围内呈现高需求状态，年增长率达15%。在印度，初级视频编辑的年薪约为25-45万卢比，中级编辑为45-80万卢比，高级编辑或具有动画或动态图形等专业技能的人才年薪可达80-150万卢比或更高。
+                    </p>
+                    <p class="text-neutral">
+                        数据显示，2025年媒体/出版/影视/文化传播行业技术研发及运维类岗位招聘需求增长，包括AI数据工程师、软件开发工程师等技术岗位。此外，随着AR/VR设备价格下探，自媒体内容将全面进入三维交互时代，虚拟偶像3.0拥有完整人设、可实时互动的AI博主将占领泛娱乐领域，其商业价值可能超越真人网红。
+                    </p>
+                </div>
+            </section>
+
+            <!-- 五、职业发展路径与晋升策略 -->
+            <section id="career" class="mb-16 scroll-mt-24">
+                <div class="flex items-center mb-6">
+                    <div class="bg-primary/10 rounded-full w-10 h-10 flex items-center justify-center mr-4">
+                        <i class="fa fa-road text-primary text-xl"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-dark">五、职业发展路径与晋升策略</h2>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm p-6 mb-8">
+                    <!-- 5.1 传统媒体职业发展路径 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">5.1</span>
+                        传统媒体职业发展路径
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        传统媒体从业者的职业发展路径正在多元化。对于记者岗位，职业发展前景分化，技术驱动与优质内容并重，复合型人才更具竞争力。传统编辑岗位的职业发展前景是：技术赋能内容整合，编辑角色向"全链路内容运营者"迭代，跨媒介叙事与用户洞察成核心壁垒。
+                    </p>
+
+                    <div class="mb-8">
+                        <h4 class="text-lg font-medium mb-3 text-dark">传统媒体人才转型方向</h4>
+                        <div class="relative">
+                            <!-- 时间线 -->
+                            <div class="absolute left-0 md:left-1/2 h-full w-0.5 bg-gray-200 transform md:-translate-x-1/2"></div>
+                            
+                            <!-- 时间点1 -->
+                            <div class="relative mb-8 flex flex-col md:flex-row items-start">
+                                <div class="md:w-1/2 md:pr-8 md:text-right order-2 md:order-1">
+                                    <h5 class="font-medium text-dark mb-1">内容编辑转型</h5>
+                                    <p class="text-sm text-neutral">将传统媒体内容进行优化，使其适应新媒体传播特点，提升内容的传播力和影响力</p>
+                                </div>
+                                <div class="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-primary transform -translate-x-1/2 mt-1 z-10"></div>
+                                <div class="md:w-1/2 md:pl-8 order-1 md:order-2 mb-4 md:mb-0">
+                                    <div class="w-full h-24 bg-gray-50 rounded-lg flex items-center justify-center border border-gray-200">
+                                        <i class="fa fa-file-text-o text-3xl text-gray-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 时间点2 -->
+                            <div class="relative mb-8 flex flex-col md:flex-row items-start">
+                                <div class="md:w-1/2 md:pr-8 order-2 md:order-1 mb-4 md:mb-0">
+                                    <div class="w-full h-24 bg-gray-50 rounded-lg flex items-center justify-center border border-gray-200">
+                                        <i class="fa fa-share-alt text-3xl text-gray-300"></i>
+                                    </div>
+                                </div>
+                                <div class="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-primary transform -translate-x-1/2 mt-1 z-10"></div>
+                                <div class="md:w-1/2 md:pl-8 order-1 md:order-2">
+                                    <h5 class="font-medium text-dark mb-1">新媒体运营转型</h5>
+                                    <p class="text-sm text-neutral">学习新媒体运营技能，参与新媒体平台的内容运营，实现从传统媒体到新媒体的转型</p>
+                                </div>
+                            </div>
+                            
+                            <!-- 时间点3 -->
+                            <div class="relative flex flex-col md:flex-row items-start">
+                                <div class="md:w-1/2 md:pr-8 md:text-right order-2 md:order-1">
+                                    <h5 class="font-medium text-dark mb-1">跨平台合作转型</h5>
+                                    <p class="text-sm text-neutral">与新媒体平台合作，实现内容互补和资源共享，拓展职业发展空间</p>
+                                </div>
+                                <div class="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-primary transform -translate-x-1/2 mt-1 z-10"></div>
+                                <div class="md:w-1/2 md:pl-8 order-1 md:order-2 mb-4 md:mb-0">
+                                    <div class="w-full h-24 bg-gray-50 rounded-lg flex items-center justify-center border border-gray-200">
+                                        <i class="fa fa-handshake-o text-3xl text-gray-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-6">
+                        传统媒体人才在职业发展过程中，将有更多元化的选择，如创业、转行、继续深造等。同时，传统媒体人才也可以通过内部转型、外部流动或创业等方式寻求新的发展机会。
+                    </p>
+
+                    <!-- 5.2 新媒体职业发展路径 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">5.2</span>
+                        新媒体职业发展路径
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        新媒体领域的职业发展路径呈现多元化趋势。根据新东方前途出国的分析，传媒专业的职业发展路径在2025年呈现出高度多元化与融合化特征，可梳理为以下核心方向及发展策略：
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-pencil text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">内容创作与叙事方向</h4>
+                            </div>
+                            <p class="text-sm text-neutral mb-2">初级岗位：编剧助理、内容编辑、短视频编导</p>
+                            <p class="text-sm text-neutral">晋升路径：资深编剧/导演 → 内容策划总监</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-line-chart text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">运营与营销方向</h4>
+                            </div>
+                            <p class="text-sm text-neutral mb-2">初级岗位：新媒体运营、社群经理</p>
+                            <p class="text-sm text-neutral">晋升路径：全链路运营负责人 → 品牌传播总监</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-microchip text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">技术与创新方向</h4>
+                            </div>
+                            <p class="text-sm text-neutral mb-2">初级岗位：VR/AR内容设计师、AIGC工具专员</p>
+                            <p class="text-sm text-neutral">晋升路径：技术艺术总监 → 数字产品经理</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-briefcase text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">策略与管理方向</h4>
+                            </div>
+                            <p class="text-sm text-neutral mb-2">初级岗位：媒体分析师、项目执行制片</p>
+                            <p class="text-sm text-neutral">晋升路径：传媒咨询顾问 → 平台内容总监</p>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-6">
+                        在新媒体运营领域，职业发展路径包括：内容创业者、技术驱动型人才、跨界融合型人才。3-5年内，新媒体运营可以从基础岗位晋升至运营经理甚至市场副总监或总监。
+                    </p>
+
+                    <!-- 5.3 跨界融合职业发展路径 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">5.3</span>
+                        跨界融合职业发展路径
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        跨界融合成为传媒行业职业发展的重要趋势。传媒行业正逐渐与其他行业融合，跨界复合型人才需求不断增加。具备跨学科背景、能够适应多领域发展的人才将具有更大的竞争优势。
+                    </p>
+
+                    <div class="bg-blue-50 rounded-lg p-5 mb-6 border border-blue-100">
+                        <h4 class="font-medium text-primary mb-3">跨界人才需求类型</h4>
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 bg-white rounded-lg p-4 shadow-sm">
+                                <div class="flex items-center mb-2">
+                                    <i class="fa fa-balance-scale text-blue-500 mr-2"></i>
+                                    <h5 class="font-medium text-dark">媒体+法律人才</h5>
+                                </div>
+                                <p class="text-sm text-neutral">专注于传媒行业法律事务，如知识产权保护、媒体法规合规等领域</p>
+                            </div>
+                            <div class="flex-1 bg-white rounded-lg p-4 shadow-sm">
+                                <div class="flex items-center mb-2">
+                                    <i class="fa fa-usd text-green-500 mr-2"></i>
+                                    <h5 class="font-medium text-dark">媒体+经济人才</h5>
+                                </div>
+                                <p class="text-sm text-neutral">专注于财经媒体、经济新闻报道，具备经济分析和媒体传播双重能力</p>
+                            </div>
+                            <div class="flex-1 bg-white rounded-lg p-4 shadow-sm">
+                                <div class="flex items-center mb-2">
+                                    <i class="fa fa-paint-brush text-purple-500 mr-2"></i>
+                                    <h5 class="font-medium text-dark">媒体+设计人才</h5>
+                                </div>
+                                <p class="text-sm text-neutral">专注于视觉传达、UI/UX设计在媒体领域的应用，提升内容呈现效果</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-neutral mb-6">
+                        职业发展的新方向包括：内容创业者、技术驱动型人才、跨界融合型人才。例如，"新闻+法律"可深耕法治报道，"新闻+人工智能"可转型AIGC提示词工程师。
+                    </p>
+
+                    <!-- 5.4 职业晋升策略与建议 -->
+                    <h3 class="text-xl font-semibold mb-4 text-dark flex items-center mt-8">
+                        <span class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">5.4</span>
+                        职业晋升策略与建议
+                    </h3>
+                    <p class="text-neutral mb-4">
+                        为了在传媒行业获得更好的职业发展，从业者可以采取以下策略：
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-graduation-cap text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">技能升级</h4>
+                            </div>
+                            <p class="text-sm text-neutral">不断学习新技能，尤其是AI工具应用、数据分析、视频制作等技能</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-folder-open text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">作品集驱动</h4>
+                            </div>
+                            <p class="text-sm text-neutral">建立个人作品集，展示专业能力和创新思维，对求职和晋升至关重要</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-certificate text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">认证与资源加持</h4>
+                            </div>
+                            <p class="text-sm text-neutral">进修高价值课程，获取行业认证和背书，拓展平台资源</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-users text-primary"></i>
+                                </div>
+                                <h4 class="font-medium text-dark">人脉与生态融入</h4>
+                            </div>
+                            <p class="text-sm text-neutral">加入垂直社群，参与行业节展，拓展人脉资源，了解行业动态</p>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <div class="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                                    <i class="fa fa-book text-primary"></i>
+                                </div>
