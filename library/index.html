@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图书馆借阅系统与数据库安全保障</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    <script>
+        // Tailwind配置
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#36CFC9',
+                        accent: '#722ED1',
+                        neutral: '#F5F7FA',
+                        dark: '#1D2129',
+                        light: '#FFFFFF',
+                        success: '#00B42A',
+                        warning: '#FF7D00',
+                        danger: '#F53F3F',
+                        'gray-light': '#E5E6EB',
+                        'gray-medium': '#C9CDD4',
+                        'gray-dark': '#86909C'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'card': '0 4px 16px rgba(0, 0, 0, 0.08)',
+                        'hover': '0 8px 24px rgba(0, 0, 0, 0.12)',
+                    }
+                },
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-balance {
+                text-wrap: balance;
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .glass {
+                background: rgba(255, 255, 255, 0.7);
+                backdrop-filter: blur(8px);
+                -webkit-backdrop-filter: blur(8px);
+            }
+        }
+    </style>
+</head>
+<body class="bg-neutral text-dark font-sans">
+    <!-- 顶部导航栏 -->
+    <header class="sticky top-0 z-50 glass border-b border-gray-light transition-all duration-300">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <i class="fa fa-shield text-primary text-2xl mr-3"></i>
+                    <h1 class="text-xl font-bold text-primary hidden sm:block">图书馆安全保障系统</h1>
+                </div>
+                
+                <!-- 桌面导航 -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#importance" class="text-gray-dark hover:text-primary transition-colors duration-200 font-medium">重要性与挑战</a>
+                    <a href="#technical" class="text-gray-dark hover:text-primary transition-colors duration-200 font-medium">技术保障</a>
+                    <a href="#management" class="text-gray-dark hover:text-primary transition-colors duration-200 font-medium">管理措施</a>
+                    <a href="#technology" class="text-gray-dark hover:text-primary transition-colors duration-200 font-medium">前沿技术</a>
+                    <a href="#cases" class="text-gray-dark hover:text-primary transition-colors duration-200 font-medium">成功案例</a>
+                    <a href="#strategy" class="text-gray-dark hover:text-primary transition-colors duration-200 font-medium">实施策略</a>
+                    <a href="#future" class="text-gray-dark hover:text-primary transition-colors duration-200 font-medium">未来展望</a>
+                </nav>
+                
+                <!-- 移动端菜单按钮 -->
+                <button id="menuBtn" class="md:hidden text-gray-dark hover:text-primary transition-colors">
+                    <i class="fa fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- 移动端导航菜单 -->
+        <div id="mobileMenu" class="md:hidden hidden bg-light border-t border-gray-light">
+            <div class="container mx-auto px-4 py-3 space-y-3">
+                <a href="#importance" class="block py-2 text-gray-dark hover:text-primary transition-colors duration-200">重要性与挑战</a>
+                <a href="#technical" class="block py-2 text-gray-dark hover:text-primary transition-colors duration-200">技术保障措施</a>
+                <a href="#management" class="block py-2 text-gray-dark hover:text-primary transition-colors duration-200">管理措施</a>
+                <a href="#technology" class="block py-2 text-gray-dark hover:text-primary transition-colors duration-200">前沿技术应用</a>
+                <a href="#cases" class="block py-2 text-gray-dark hover:text-primary transition-colors duration-200">成功案例分析</a>
+                <a href="#strategy" class="block py-2 text-gray-dark hover:text-primary transition-colors duration-200">实施策略与建议</a>
+                <a href="#future" class="block py-2 text-gray-dark hover:text-primary transition-colors duration-200">未来展望</a>
+                <a href="#conclusion" class="block py-2 text-gray-dark hover:text-primary transition-colors duration-200">结论</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section class="bg-gradient-to-r from-primary/90 to-accent/90 text-light py-16 md:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight text-balance">如何确保图书馆的借阅系统和数据库的安全性？</h1>
+                <p class="text-lg md:text-xl opacity-90 mb-8 text-balance">全面探讨图书馆信息系统安全的技术保障、管理措施与未来发展方向</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#technical" class="bg-light text-primary hover:bg-gray-light transition-colors duration-300 px-6 py-3 rounded-lg font-medium flex items-center">
+                        <i class="fa fa-cogs mr-2"></i> 技术保障措施
+                    </a>
+                    <a href="#cases" class="bg-transparent border-2 border-light hover:bg-light/10 transition-colors duration-300 px-6 py-3 rounded-lg font-medium flex items-center">
+                        <i class="fa fa-book mr-2"></i> 成功案例分析
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- 目录卡片 -->
+        <section class="mb-16 bg-light rounded-xl shadow-card p-6 md:p-8 transition-shadow duration-300 hover:shadow-hover">
+            <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
+                <i class="fa fa-list-ul mr-3"></i> 内容概览
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="border border-gray-light rounded-lg p-5 hover:border-primary/30 transition-colors duration-300">
+                    <h3 class="font-semibold text-lg mb-3 text-primary flex items-center">
+                        <i class="fa fa-exclamation-circle mr-2"></i> 基础认知
+                    </h3>
+                    <ul class="space-y-2 text-gray-dark">
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>安全威胁的多元化趋势</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>安全保障的必要性</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>核心安全目标与原则</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="border border-gray-light rounded-lg p-5 hover:border-primary/30 transition-colors duration-300">
+                    <h3 class="font-semibold text-lg mb-3 text-primary flex items-center">
+                        <i class="fa fa-shield mr-2"></i> 安全措施
+                    </h3>
+                    <ul class="space-y-2 text-gray-dark">
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>数据加密与保护技术</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>访问控制与身份认证</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>数据库与网络安全防护</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>管理制度与应急响应</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="border border-gray-light rounded-lg p-5 hover:border-primary/30 transition-colors duration-300">
+                    <h3 class="font-semibold text-lg mb-3 text-primary flex items-center">
+                        <i class="fa fa-rocket mr-2"></i> 发展应用
+                    </h3>
+                    <ul class="space-y-2 text-gray-dark">
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>前沿技术应用（区块链、AI等）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>成功案例分析</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>分阶段实施策略</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-angle-right mt-1 mr-2 text-primary"></i>
+                            <span>未来发展趋势与挑战</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 一、重要性与挑战 -->
+        <section id="importance" class="mb-16 scroll-mt-20">
+            <div class="flex items-center mb-8">
+                <div class="bg-primary/10 p-3 rounded-lg mr-4">
+                    <i class="fa fa-exclamation-triangle text-primary text-2xl"></i>
+                </div>
+                <h2 class="text-2xl md:text-3xl font-bold text-dark">一、图书馆借阅系统和数据库安全的重要性与挑战</h2>
+            </div>
+            
+            <!-- 1.1 安全威胁的多元化趋势 -->
+            <div class="bg-light rounded-xl shadow-card p-6 md:p-8 mb-10 transition-shadow duration-300 hover:shadow-hover">
+                <h3 class="text-xl font-semibold text-primary mb-5 flex items-center">
+                    <span class="bg-primary text-light w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">1.1</span>
+                    安全威胁的多元化趋势
+                </h3>
+                <p class="text-gray-dark mb-6">随着数字化转型的深入，图书馆信息系统面临着日益复杂的安全威胁。图书馆借阅系统和数据库存储了大量的读者个人信息、借阅记录、数字资源等敏感数据，成为网络攻击的潜在目标。</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div class="border border-gray-light rounded-lg p-5 hover:border-primary/20 transition-colors duration-300">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-danger/10 flex items-center justify-center mr-3">
+                                <i class="fa fa-database text-danger"></i>
+                            </div>
+                            <h4 class="font-medium">数据泄露风险</h4>
+                        </div>
+                        <p class="text-gray-dark text-sm">包括内部员工泄露、外部攻击、系统漏洞等多种途径，一旦发生将导致读者隐私和知识产权受到侵害。</p>
+                    </div>
+                    
+                    <div class="border border-gray-light rounded-lg p-5 hover:border-primary/20 transition-colors duration-300">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-warning/10 flex items-center justify-center mr-3">
+                                <i class="fa fa-user-secret text-warning"></i>
+                            </div>
+                            <h4 class="font-medium">未授权访问</h4>
+                        </div>
+                        <p class="text-gray-dark text-sm">攻击者可能通过伪装成合法用户进行数据窃取或系统破坏，增加了安全防护的难度。</p>
+                    </div>
+                    
+                    <div class="border border-gray-light rounded-lg p-5 hover:border-primary/20 transition-colors duration-300">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center mr-3">
+                                <i class="fa fa-bug text-accent"></i>
+                            </div>
+                            <h4 class="font-medium">恶意软件攻击</h4>
+                        </div>
+                        <p class="text-gray-dark text-sm">病毒、木马等恶意软件可能通过网络或移动设备入侵图书馆系统，导致数据丢失或系统瘫痪。</p>
+                    </div>
+                    
+                    <div class="border border-gray-light rounded-lg p-5 hover:border-primary/20 transition-colors duration-300">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center mr-3">
+                                <i class="fa fa-ban text-secondary"></i>
+                            </div>
+                            <h4 class="font-medium">服务拒绝攻击</h4>
+                        </div>
+                        <p class="text-gray-dark text-sm">通过大量请求占用系统资源，使合法用户无法正常访问图书馆服务（DoS/DDoS攻击）。</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-light rounded-lg p-5 hover:border-primary/20 transition-colors duration-300">
+                    <div class="flex items-center mb-3">
+                        <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-3">
+                            <i class="fa fa-code-fork text-primary"></i>
+                        </div>
+                        <h4 class="font-medium">系统漏洞利用</h4>
+                    </div>
+                    <p class="text-gray-dark text-sm">软件漏洞、配置错误或设计缺陷可能被恶意利用，成为安全隐患。图书馆系统需要定期进行漏洞扫描和安全加固。</p>
+                </div>
+            </div>
+            
+            <!-- 1.2 安全保障的必要性 -->
+            <div class="bg-light rounded-xl shadow-card p-6 md:p-8 transition-shadow duration-300 hover:shadow-hover">
+                <h3 class="text-xl font-semibold text-primary mb-5 flex items-center">
+                    <span class="bg-primary text-light w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">1.2</span>
+                    安全保障的必要性
+                </h3>
+                <p class="text-gray-dark mb-6">确保图书馆借阅系统和数据库的安全性不仅关乎技术层面，更是维护读者权益、保障图书馆服务连续性的关键。</p>
+                
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-light">
+                        <thead>
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-dark uppercase tracking-wider">安全保障目标</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-dark uppercase tracking-wider">核心价值</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-light divide-y divide-gray-light">
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <i class="fa fa-user-circle text-primary mr-3"></i>
+                                        <span class="font-medium">保护用户隐私</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 text-sm text-gray-dark">防止读者个人信息、借阅历史等敏感数据被泄露或滥用</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <i class="fa fa-server text-primary mr-3"></i>
+                                        <span class="font-medium">维护系统稳定</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 text-sm text-gray-dark">保障图书馆服务的连续性，避免因安全事件导致服务中断</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <i class="fa fa-handshake-o text-primary mr-3"></i>
+                                        <span class="font-medium">增强用户信任</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 text-sm text-gray-dark">通过安全可靠的服务环境，提升用户对图书馆的信任度和满意度</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <i class="fa fa-copyright text-primary mr-3"></i>
+                                        <span class="font-medium">知识产权保护</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 text-sm text-gray-dark">维护数字资源的版权，防止未经授权的复制和传播</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <i class="fa fa-gavel text-primary mr-3"></i>
+                                        <span class="font-medium">法律合规要求</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 text-sm text-gray-dark">遵循国家相关法律法规，如《网络安全法》、《数据安全法》等</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- 安全事件影响统计图表 -->
+                <div class="mt-8">
+                    <h4 class="font-medium mb-4">图书馆安全事件影响程度统计</h4>
+                    <div class="bg-neutral p-4 rounded-lg">
+                        <canvas id="securityImpactChart" height="250"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 二、技术层面的安全保障措施 -->
+        <section id="technical" class="mb-16 scroll-mt-20">
+            <div class="flex items-center mb-8">
+                <div class="bg-primary/10 p-3 rounded-lg mr-4">
+                    <i class="fa fa-cogs text-primary text-2xl"></i>
+                </div>
+                <h2 class="text-2xl md:text-3xl font-bold text-dark">二、技术层面的安全保障措施</h2>
+            </div>
+            
+            <!-- 2.1 数据加密与保护技术 -->
+            <div class="bg-light rounded-xl shadow-card p-6 md:p-8 mb-10 transition-shadow duration-300 hover:shadow-hover">
+                <h3 class="text-xl font-semibold text-primary mb-5 flex items-center">
+                    <span class="bg-primary text-light w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">2.1</span>
+                    数据加密与保护技术
+                </h3>
+                <p class="text-gray-dark mb-6">数据加密是保障图书馆信息安全的核心技术手段，通过将原始数据转换成难以理解的密文形式，确保数据在存储和传输过程中的安全性。</p>
+                
+                <!-- 2.1.1 数据加密算法应用 -->
+                <div class="mb-8">
+                    <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                        <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.1.1</span>
+                        数据加密算法应用
+                    </h4>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="border border-gray-light rounded-lg p-5 hover:shadow-md transition-shadow duration-300">
+                            <div class="flex items-center mb-3">
+                                <i class="fa fa-lock text-primary text-xl mr-3"></i>
+                                <h5 class="font-medium">对称加密算法</h5>
+                            </div>
+                            <p class="text-gray-dark text-sm mb-3">如AES（高级加密标准），具有加密速度快、效率高的特点，适用于大量数据的加密处理。</p>
+                            <div class="text-xs text-gray-dark bg-neutral p-2 rounded">
+                                分组长度：128位<br>
+                                应用场景：数据存储加密、传输加密
+                            </div>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 hover:shadow-md transition-shadow duration-300">
+                            <div class="flex items-center mb-3">
+                                <i class="fa fa-key text-primary text-xl mr-3"></i>
+                                <h5 class="font-medium">非对称加密算法</h5>
+                            </div>
+                            <p class="text-gray-dark text-sm mb-3">如SM2算法，适用于数字签名和密钥交换，可确保数据的完整性和不可否认性。</p>
+                            <div class="text-xs text-gray-dark bg-neutral p-2 rounded">
+                                特点：公钥加密、私钥解密<br>
+                                应用场景：身份认证、数字签名
+                            </div>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 hover:shadow-md transition-shadow duration-300">
+                            <div class="flex items-center mb-3">
+                                <i class="fa fa-exchange text-primary text-xl mr-3"></i>
+                                <h5 class="font-medium">混合加密技术</h5>
+                            </div>
+                            <p class="text-gray-dark text-sm mb-3">结合对称加密和非对称加密的优势，使用非对称加密传输对称加密的密钥。</p>
+                            <div class="text-xs text-gray-dark bg-neutral p-2 rounded">
+                                优势：兼顾安全性和效率<br>
+                                应用场景：敏感数据传输
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2.1.2 密钥管理系统 -->
+                <div>
+                    <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                        <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.1.2</span>
+                        密钥管理系统
+                    </h4>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+                        <div class="border border-gray-light rounded-lg p-4 hover:border-primary/20 transition-colors duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-random text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">安全密钥生成</h5>
+                            <p class="text-gray-dark text-xs text-center">使用符合安全标准的随机数生成器生成加密密钥</p>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-4 hover:border-primary/20 transition-colors duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-sitemap text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">密钥分级管理</h5>
+                            <p class="text-gray-dark text-xs text-center">根据数据敏感程度采用分级密钥管理策略</p>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-4 hover:border-primary/20 transition-colors duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-vault text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">密钥安全存储</h5>
+                            <p class="text-gray-dark text-xs text-center">采用HSM或智能卡等安全存储设备</p>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-4 hover:border-primary/20 transition-colors duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-refresh text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">定期密钥更新</h5>
+                            <p class="text-gray-dark text-xs text-center">建立定期密钥更新机制降低泄露风险</p>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-4 hover:border-primary/20 transition-colors duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-database text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">密钥备份恢复</h5>
+                            <p class="text-gray-dark text-xs text-center">建立安全的密钥备份和恢复机制</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2.2 访问控制与身份认证技术 -->
+            <div class="bg-light rounded-xl shadow-card p-6 md:p-8 mb-10 transition-shadow duration-300 hover:shadow-hover">
+                <h3 class="text-xl font-semibold text-primary mb-5 flex items-center">
+                    <span class="bg-primary text-light w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">2.2</span>
+                    访问控制与身份认证技术
+                </h3>
+                <p class="text-gray-dark mb-6">访问控制和身份认证是防止未授权访问的第一道防线，通过限制用户对系统资源的访问权限，确保只有授权用户才能访问特定资源。</p>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <!-- 2.2.1 基于角色的访问控制 -->
+                    <div class="lg:col-span-1">
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.2.1</span>
+                            基于角色的访问控制（RBAC）
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 mb-4">
+                            <h5 class="font-medium mb-3">角色定义</h5>
+                            <p class="text-gray-dark text-sm mb-4">根据图书馆的组织结构和业务需求，定义不同的角色，如普通读者、图书馆员、系统管理员等。</p>
+                            
+                            <h5 class="font-medium mb-3">权限分配</h5>
+                            <p class="text-gray-dark text-sm mb-4">为每个角色分配与其职责相匹配的权限，确保权限与职责相符。</p>
+                            
+                            <div class="bg-neutral p-3 rounded-lg">
+                                <h6 class="text-xs font-medium mb-2">最小权限原则</h6>
+                                <p class="text-gray-dark text-xs">确保每个用户获得的权限是完成其工作所需的最小权限，降低内部威胁风险。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 2.2.2 多因素身份认证 -->
+                    <div class="lg:col-span-1">
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.2.2</span>
+                            多因素身份认证（MFA）
+                        </h4>
+                        
+                        <div class="space-y-4">
+                            <div class="border border-gray-light rounded-lg p-4 hover:border-primary/20 transition-colors duration-300">
+                                <div class="flex items-center mb-2">
+                                    <i class="fa fa-qrcode text-primary mr-2"></i>
+                                    <h5 class="font-medium text-sm">动态二维码认证</h5>
+                                </div>
+                                <p class="text-gray-dark text-xs">生成动态变化的二维码，每次扫描生成新的信息，提高安全性。</p>
+                            </div>
+                            
+                            <div class="border border-gray-light rounded-lg p-4 hover:border-primary/20 transition-colors duration-300">
+                                <div class="flex items-center mb-2">
+                                    <i class="fa fa-mobile text-primary mr-2"></i>
+                                    <h5 class="font-medium text-sm">双因素认证</h5>
+                                </div>
+                                <p class="text-gray-dark text-xs">结合密码和其他验证因素，如短信验证码、硬件令牌等。</p>
+                            </div>
+                            
+                            <div class="border border-gray-light rounded-lg p-4 hover:border-primary/20 transition-colors duration-300">
+                                <div class="flex items-center mb-2">
+                                    <i class="fa fa-fingerprint text-primary mr-2"></i>
+                                    <h5 class="font-medium text-sm">生物识别认证</h5>
+                                </div>
+                                <p class="text-gray-dark text-xs">指纹识别、面部识别等生物识别技术，提供更高安全性。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 2.2.3 智能门禁与物理访问控制 -->
+                    <div class="lg:col-span-1">
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.2.3</span>
+                            智能门禁与物理访问控制
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 mb-4">
+                            <div class="space-y-4">
+                                <div>
+                                    <h5 class="font-medium mb-2 flex items-center">
+                                        <i class="fa fa-door-open text-primary mr-2"></i>
+                                        智能门禁系统
+                                    </h5>
+                                    <p class="text-gray-dark text-sm">使用RFID卡或生物识别技术控制图书馆关键区域的访问，如机房、特藏室等。</p>
+                                </div>
+                                
+                                <div>
+                                    <h5 class="font-medium mb-2 flex items-center">
+                                        <i class="fa fa-history text-primary mr-2"></i>
+                                        访问日志记录
+                                    </h5>
+                                    <p class="text-gray-dark text-sm">记录所有访问行为，包括访问时间、访问者身份和访问内容，便于安全审计。</p>
+                                </div>
+                                
+                                <div>
+                                    <h5 class="font-medium mb-2 flex items-center">
+                                        <i class="fa fa-video-camera text-primary mr-2"></i>
+                                        视频监控系统
+                                    </h5>
+                                    <p class="text-gray-dark text-sm">在关键区域安装监控摄像头，实时监控物理访问情况，为安全事件调查提供证据。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2.3 数据库安全技术 -->
+            <div class="bg-light rounded-xl shadow-card p-6 md:p-8 mb-10 transition-shadow duration-300 hover:shadow-hover">
+                <h3 class="text-xl font-semibold text-primary mb-5 flex items-center">
+                    <span class="bg-primary text-light w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">2.3</span>
+                    数据库安全技术
+                </h3>
+                <p class="text-gray-dark mb-6">数据库是图书馆信息系统的核心，其安全性直接关系到整个系统的数据安全。</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- 2.3.1 数据库安全配置 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.3.1</span>
+                            数据库安全配置
+                        </h4>
+                        
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <div class="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-check text-xs"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-sm">最小化安装原则</h5>
+                                    <p class="text-gray-dark text-xs">只安装必要的数据库组件，减少攻击面</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-check text-xs"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-sm">安全的默认设置</h5>
+                                    <p class="text-gray-dark text-xs">修改数据库默认的管理员账号和密码，禁用不必要的服务和功能</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-check text-xs"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-sm">安全的用户管理</h5>
+                                    <p class="text-gray-dark text-xs">建立严格的用户账户管理制度，定期审查用户账户和权限</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-check text-xs"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-sm">数据库审计</h5>
+                                    <p class="text-gray-dark text-xs">启用数据库审计功能，记录所有数据库操作，便于安全事件调查</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-check text-xs"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-sm">数据加密存储</h5>
+                                    <p class="text-gray-dark text-xs">对数据库中的敏感数据进行加密存储，防止数据泄露</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- 2.3.2 数据库漏洞管理 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.3.2</span>
+                            数据库漏洞管理
+                        </h4>
+                        
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <div class="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-search text-xs"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-sm">定期漏洞扫描</h5>
+                                    <p class="text-gray-dark text-xs">使用专业的漏洞扫描工具，定期对数据库进行安全扫描，发现并修复潜在漏洞</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-download text-xs"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-sm">及时补丁更新</h5>
+                                    <p class="text-gray-dark text-xs">建立数据库补丁管理机制，及时安装数据库供应商提供的安全补丁</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-filter text-xs"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-sm">漏洞评估与优先级排序</h5>
+                                    <p class="text-gray-dark text-xs">对发现的漏洞进行评估，根据风险等级制定修复优先级</p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                    <i class="fa fa-shield text-xs"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-sm">安全加固</h5>
+                                    <p class="text-gray-dark text-xs">根据安全最佳实践对数据库进行安全加固，如禁用不必要的存储过程、限制数据库访问等</p>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <!-- 漏洞修复时间统计 -->
+                        <div class="mt-6">
+                            <h5 class="font-medium text-sm mb-3">数据库漏洞修复时间统计</h5>
+                            <div class="bg-neutral p-3 rounded-lg">
+                                <canvas id="vulnerabilityChart" height="180"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2.3.3 数据库备份与恢复 -->
+                <div class="mt-8">
+                    <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                        <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.3.3</span>
+                        数据库备份与恢复
+                    </h4>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+                        <div class="border border-gray-light rounded-lg p-4 hover:shadow-md transition-shadow duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-calendar-check-o text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">定期备份策略</h5>
+                            <p class="text-gray-dark text-xs text-center">建立定期的数据库备份计划，包括全量备份和增量备份</p>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-4 hover:shadow-md transition-shadow duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-cloud text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">异地备份</h5>
+                            <p class="text-gray-dark text-xs text-center">将备份数据存储在安全的异地位置，防止本地灾难导致数据丢失</p>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-4 hover:shadow-md transition-shadow duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-check-circle text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">备份验证</h5>
+                            <p class="text-gray-dark text-xs text-center">定期验证备份数据的可用性和完整性，确保在需要时能够成功恢复</p>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-4 hover:shadow-md transition-shadow duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-file-text-o text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">灾难恢复计划</h5>
+                            <p class="text-gray-dark text-xs text-center">制定详细的灾难恢复计划，明确恢复流程和责任分工</p>
+                        </div>
+                        
+                        <div class="border border-gray-light rounded-lg p-4 hover:shadow-md transition-shadow duration-300">
+                            <div class="text-center mb-2">
+                                <i class="fa fa-lock text-primary text-xl"></i>
+                            </div>
+                            <h5 class="font-medium text-center text-sm mb-2">备份加密</h5>
+                            <p class="text-gray-dark text-xs text-center">对备份数据进行加密处理，防止备份数据泄露</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2.4 网络安全防护技术 -->
+            <div class="bg-light rounded-xl shadow-card p-6 md:p-8 transition-shadow duration-300 hover:shadow-hover">
+                <h3 class="text-xl font-semibold text-primary mb-5 flex items-center">
+                    <span class="bg-primary text-light w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">2.4</span>
+                    网络安全防护技术
+                </h3>
+                <p class="text-gray-dark mb-6">网络安全是保障图书馆信息系统安全的基础，需要采取多层次的网络安全防护措施。</p>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <!-- 2.4.1 防火墙技术 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.4.1</span>
+                            防火墙技术
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 h-full">
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fa fa-layer-group text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">分层防火墙部署</h5>
+                                        <p class="text-gray-dark text-xs">在图书馆网络的不同区域部署多层防火墙，形成纵深防御体系</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-sliders text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">规则优化</h5>
+                                        <p class="text-gray-dark text-xs">定期审查和优化防火墙规则，确保规则的有效性和安全性</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-exchange text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">状态检测技术</h5>
+                                        <p class="text-gray-dark text-xs">使用状态检测防火墙，跟踪网络连接状态，提高检测和阻止攻击的能力</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-filter text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">应用层过滤</h5>
+                                        <p class="text-gray-dark text-xs">部署支持应用层过滤的防火墙，对特定应用协议进行深度检测和过滤</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 2.4.2 入侵检测与防御系统 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.4.2</span>
+                            入侵检测与防御系统（IDS/IPS）
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 h-full">
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fa fa-search text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">基于特征的检测</h5>
+                                        <p class="text-gray-dark text-xs">使用已知攻击特征库进行检测，能够有效识别已知攻击</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-exclamation-circle text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">异常检测</h5>
+                                        <p class="text-gray-dark text-xs">通过建立正常网络行为模型，检测偏离正常模式的异常行为</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-file-text text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">深度包检测</h5>
+                                        <p class="text-gray-dark text-xs">对网络数据包进行深度分析，识别潜在的攻击行为</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-bell text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">实时报警与响应</h5>
+                                        <p class="text-gray-dark text-xs">发现攻击行为时，及时发出警报并采取相应的防御措施</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 2.4.3 安全审计与日志管理 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">2.4.3</span>
+                            安全审计与日志管理
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 h-full">
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fa fa-list-alt text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">全面日志记录</h5>
+                                        <p class="text-gray-dark text-xs">记录系统、网络设备和应用程序的日志信息，包括登录尝试、文件访问等</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-database text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">日志集中管理</h5>
+                                        <p class="text-gray-dark text-xs">使用日志管理系统对分散的日志进行集中收集和管理，便于统一分析</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-bar-chart text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">日志分析</h5>
+                                        <p class="text-gray-dark text-xs">通过日志分析工具，发现潜在的安全事件和异常行为模式</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-clock-o text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">日志保留策略</h5>
+                                        <p class="text-gray-dark text-xs">建立合理的日志保留策略，确保重要日志信息在需要时可用</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                            <!-- 日志类型分布图表 -->
+                            <div class="mt-4">
+                                <div class="bg-neutral p-3 rounded-lg">
+                                    <canvas id="logTypeChart" height="150"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 三、系统与数据安全的管理措施 -->
+        <section id="management" class="mb-16 scroll-mt-20">
+            <div class="flex items-center mb-8">
+                <div class="bg-primary/10 p-3 rounded-lg mr-4">
+                    <i class="fa fa-tasks text-primary text-2xl"></i>
+                </div>
+                <h2 class="text-2xl md:text-3xl font-bold text-dark">三、系统与数据安全的管理措施</h2>
+            </div>
+            
+            <!-- 3.1 安全管理制度建设 -->
+            <div class="bg-light rounded-xl shadow-card p-6 md:p-8 mb-10 transition-shadow duration-300 hover:shadow-hover">
+                <h3 class="text-xl font-semibold text-primary mb-5 flex items-center">
+                    <span class="bg-primary text-light w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">3.1</span>
+                    安全管理制度建设
+                </h3>
+                <p class="text-gray-dark mb-6">完善的安全管理制度是保障图书馆信息系统安全的基础，需要建立健全的安全管理体系。</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- 3.1.1 安全策略与制度 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">3.1.1</span>
+                            安全策略与制度
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 h-full">
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-file-text text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">安全策略文档</h5>
+                                        <p class="text-gray-dark text-xs">编写全面的安全策略文档，明确安全目标、原则和总体要求</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-list-alt text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">安全管理制度</h5>
+                                        <p class="text-gray-dark text-xs">建立详细的安全管理制度，包括访问控制、数据保护等方面的具体规定</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-book text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">操作规范</h5>
+                                        <p class="text-gray-dark text-xs">制定具体的操作规范，指导员工正确使用系统和处理敏感数据</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-refresh text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">制度审核与更新</h5>
+                                        <p class="text-gray-dark text-xs">定期审核和更新安全管理制度，确保其与最新的安全要求相适应</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 3.1.2 安全组织与人员管理 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">3.1.2</span>
+                            安全组织与人员管理
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 h-full">
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-users text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">安全管理委员会</h5>
+                                        <p class="text-gray-dark text-xs">成立由高层领导、技术专家和业务部门代表组成的安全管理委员会</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-user-circle text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">安全专职人员</h5>
+                                        <p class="text-gray-dark text-xs">配备专职的安全管理人员，负责日常的安全管理和技术工作</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-graduation-cap text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">安全培训</h5>
+                                        <p class="text-gray-dark text-xs">定期组织安全培训，提高员工的安全意识和技能</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-comments text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">外部专家咨询</h5>
+                                        <p class="text-gray-dark text-xs">聘请外部安全专家提供专业的安全咨询和评估服务</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 3.1.3 安全评估与审计 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">3.1.3</span>
+                            安全评估与审计
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 h-full">
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-search text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">风险评估</h5>
+                                        <p class="text-gray-dark text-xs">定期开展信息安全风险评估，识别潜在的安全威胁和脆弱性</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-balance-scale text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">安全审计</h5>
+                                        <p class="text-gray-dark text-xs">委托第三方安全机构进行安全审计，评估安全措施的有效性</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-check-square text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">合规性检查</h5>
+                                        <p class="text-gray-dark text-xs">定期检查安全措施是否符合国家法律法规和行业标准的要求</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="bg-primary/10 w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                                        <i class="fa fa-line-chart text-primary text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-medium text-sm">评估结果应用</h5>
+                                        <p class="text-gray-dark text-xs">根据评估结果，及时调整安全策略和措施，持续改进信息安全管理</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                            <!-- 安全评估频率图表 -->
+                            <div class="mt-4">
+                                <div class="bg-neutral p-3 rounded-lg">
+                                    <canvas id="assessmentChart" height="150"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 3.2 数据安全管理 -->
+            <div class="bg-light rounded-xl shadow-card p-6 md:p-8 mb-10 transition-shadow duration-300 hover:shadow-hover">
+                <h3 class="text-xl font-semibold text-primary mb-5 flex items-center">
+                    <span class="bg-primary text-light w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">3.2</span>
+                    数据安全管理
+                </h3>
+                <p class="text-gray-dark mb-6">数据安全是图书馆信息系统安全的核心，需要采取全面的数据安全管理措施。</p>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <!-- 3.2.1 数据分类与分级 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">3.2.1</span>
+                            数据分类与分级
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 h-full">
+                            <p class="text-gray-dark text-sm mb-4">数据分类与分级是数据安全管理的基础，根据数据的敏感程度、重要性和使用要求进行分类管理。</p>
+                            
+                            <div class="space-y-3">
+                                <div class="bg-neutral p-3 rounded-lg">
+                                    <h5 class="font-medium text-xs mb-1">公开数据</h5>
+                                    <p class="text-gray-dark text-xs">如图书馆公告、开放资源目录等，可公开访问的数据</p>
+                                </div>
+                                
+                                <div class="bg-neutral p-3 rounded-lg">
+                                    <h5 class="font-medium text-xs mb-1">内部数据</h5>
+                                    <p class="text-gray-dark text-xs">如内部工作文档、非敏感业务数据，仅限内部人员访问</p>
+                                </div>
+                                
+                                <div class="bg-neutral p-3 rounded-lg">
+                                    <h5 class="font-medium text-xs mb-1">机密数据</h5>
+                                    <p class="text-gray-dark text-xs">如读者个人信息、借阅记录，需严格控制访问权限</p>
+                                </div>
+                                
+                                <div class="bg-neutral p-3 rounded-lg">
+                                    <h5 class="font-medium text-xs mb-1">绝密数据</h5>
+                                    <p class="text-gray-dark text-xs">如系统核心配置、敏感财务数据，需最高级别保护</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 3.2.2 数据隐私保护 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">3.2.2</span>
+                            数据隐私保护
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 h-full">
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fa fa-user-secret text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">个人信息保护</h5>
+                                        <p class="text-gray-dark text-xs">严格遵守《中华人民共和国个人信息保护法》，保护读者的个人信息安全</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-minus-circle text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">数据最小化原则</h5>
+                                        <p class="text-gray-dark text-xs">只收集和存储必要的个人信息，避免过度收集</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-random text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">数据匿名化处理</h5>
+                                        <p class="text-gray-dark text-xs">对不需要识别个人身份的数据进行匿名化处理，降低隐私泄露风险</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-exclamation-triangle text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">隐私影响评估</h5>
+                                        <p class="text-gray-dark text-xs">在引入新的系统或业务流程时，进行隐私影响评估，识别和控制隐私风险</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-check-square-o text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">用户授权与同意</h5>
+                                        <p class="text-gray-dark text-xs">在收集和使用个人信息前，获得用户的明确授权和同意</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 3.2.3 数据完整性保护 -->
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-dark flex items-center">
+                            <span class="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center mr-2 text-xs">3.2.3</span>
+                            数据完整性保护
+                        </h4>
+                        
+                        <div class="border border-gray-light rounded-lg p-5 h-full">
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fa fa-check-circle text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">数据校验技术</h5>
+                                        <p class="text-gray-dark text-xs">使用数据校验技术，如哈希函数，验证数据的完整性</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-lock text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">访问控制措施</h5>
+                                        <p class="text-gray-dark text-xs">通过严格的访问控制，防止未经授权的数据修改</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fa fa-refresh text-primary mr-2 mt-0.5"></i>
+                                    <div>
+                                        <h5 class="font-medium text-sm">变更管理</h5>
