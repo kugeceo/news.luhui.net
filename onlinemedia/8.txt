@@ -1,858 +1,6327 @@
-22  <>���E�B�����ۡE�E�˴H�Х��ߪk����
+数字内容产业成长机理及发展策略研究
+
+
+Research on Growth Mechanism and 
+Development Strategies of Digital 
+Content Industry 
+
+
+韩洁平 著
+
+吉林大学出版社 
+
+
+
+ 　图书在版编目（ＣＩＰ）数据 
+
+　数字内容产业成长机理及发展策略研究 / 韩洁平著
+.-- 长春 ： 吉林大学出版社，2011.5
+　ISBN 978-7-5601-7255-2
+
+　Ⅰ.①数… Ⅱ.①韩… Ⅲ.①信息产业—经济发展—
+研究—中国Ⅳ.①F49
+
+　中国版本图书馆CIP数据核字（2011）第076909号
+
+书　名：数字内容产业成长机理及发展策略研究
+作　者：韩洁平　著
+
+责任编辑、责任校对：王瑞金　安　斌　　　　　　　　　　　　　封面设计：创意广告
+吉林大学出版社出版、发行　　　　　　　　　　　　 长春市利源彩印有限公司　印刷
+开本：787×1092 毫米　 1/16　　　　　　　　　　　　　　　　　2011年5月　第1版
+印张：10.25　 　 字数：180千字　　　　　　　　　　　 2011年5月　第1次印刷
+ISBN 978-7-5601-7522-2　　　　　　　　　　　　　　　　　　　　 定价：22.00元
+
+版权所有　翻印必究
+社址：长春市明德路421号　邮编：130021
+发行部电话：0431-88499826
+网址：http：//www.jlup.com.cnE-mail：jlup@mail.jlu.edu.cn
+
+
+前　言
+
+
+数字化技术的快速发展，使数字内容产业逐渐成为信息产业的重要分
+支，获得了相对独立的发展。当前全球数字内容产业已进入深化应用、集约
+共享阶段。数字内容产业以数字内容为研究对象、以信息服务为主题、以产
+业链结构为主线，重点研究产业形成机理、产业链生命周期、价值流动、升
+级路径与发展趋势等。本文遵循理论提出问题、模型分析问题、实证解决问
+题的研究思路，对数字内容产业的成长历程、成长机理及发展策略等问题进
+行了全面深入系统的研究。本文综合运用信息资源管理、产业集群、产业
+链、经济学等理论剖析了数字内容产业链的成长条件、成长动因和成长机
+理，构建了数字内容产业链的成长模型，提出了数字内容产业链的整合与延
+伸两种策略，探讨了数字内容产业的发展途径和规律，并针对中国数字内容
+产业的成长特点及其存在的问题，提出了中国数字内容产业的发展对策及建
+议。
+
+
+摘　要
+
+
+数字化技术的快速发展，使数字内容产业逐渐成为信息产业的重要分
+支，获得了相对独立的发展。随着全球市场经济体系的逐步完善和各项政策
+的全面实施，数字内容产业已经显示出其应有的产业特性和价值增长潜力。
+通过准确分析和揭示全球数字内容产业的成长历程和特点，探寻和掌握数字
+内容产业的成长机理及规律，促进中国数字内容产业的快速成长，已成为一
+项急待解决的重大课题。
+
+本文以全球数字内容产业的成长状况为研究背景，深入阐述和总结了
+数字内容产业的内涵界定、国内外数字内容产业的发展规模、速度和产业细
+分市场格局；融合多门学科的理论知识体系和多种研究方法，以理论提出问
+题、模型分析问题、实证解决问题的研究思路研究数字内容产业成长机理及
+发展策略。
+
+本文综述了国内外相关研究成果，构建了数字内容产业的理论研究基
+础。数字内容产业在主观形式、客观内容、组织复杂等因素的共同作用下成
+长和发展着，相关的理论是研究的重要基础，包括信息资源管理、产业链、
+产业集群、产业经济学、区域经济学和价值链理论。在这些理论的指导下，
+对数字内容产业界定了概念内涵，明晰了机理模型，制定了发展策略。
+
+（1）总结了数字内容产业的成长过程、环境和市场特征。数字内容产业
+的成长历程大体上经历了产业形成、成长和成型三个阶段，从产业分布、产
+业发展模式、竞争特点和产业投资，理论联系实际地阐述了数字内容产业的
+成长特点。从政策、经济、社会、技术四个层面概述了数字内容产业的成长
+环境，分析了产业成长的有利和不利因素。从产业区域性分布看，欧美地区
+占据绝对领先的地位，从政府支撑产业发展模式看政府推进是支撑全球数字
+内容产业发展的一个重要模式，从产业供给竞争特征看全球的数字内容产业
+的竞争格局日趋交叉化、复杂化、高强度化，竞争推动了整体产业发展，从
+
+产业盈利模式看仍有待于发展和成熟，逐渐向多元化、差异化发展。
+
+（2）基于产业集群背景下的数字内容产业形成机理，数字内容产业集
+群与产业集聚是两个不同的相关概念，在分析数字内容产业集聚原因的基础
+上，研究了数字内容产业集群的形成过程、影响因素和集聚机理，得出了数
+字内容企业通过人才、技术、资本和市场的因果反馈作用，为数字内容产业
+集聚的发展提供支持，高水平的相互作用是数字内容产业集聚的主要推动力
+的结论。数字内容产业集聚的动力机制模型包括内在动力机制和外在作用机
+制。内在动力及信息产业集聚中包含本地资源转化为内生优势；外在作用机
+制分别政府行为、外部竞争环境等，其作用是带来信息产业集聚的外部优
+势。
+（3）数字内容产业链的成长机理及模型。结合全球数字内容产业链的成
+长现状，从产业链的构成、成长途径与条件、成长动因与机理以及成长模型
+等方面来研究数字内容产业链成长的基本规律，得出数字内容产业链的成长
+来自交易效率、劳动生产效率、专业化分工、社会资本积累能力、交易信息
+传递水平，甚至隐性知识传递和技术溢出等多种因素的共同作用。应用超边
+际结构模型分析交易效率水平、劳动分工深化和数字内容产业链的整体效应
+三者之间呈现出一种互动内生的关系。数字内容产业链的成长是一个系统而
+复杂的过程。
+（4）提出了数字内容产业发展途径及其策略。全球价值链理论为数字
+内容产业的升级方式和途径提供了有效的分析工具。分析了数字内容产业链
+升级包括过程升级、产品升级、功能升级和链条升级四种方式和途径。阐释
+了数字内容产业的生命曲线反映了数字内容产业的发展程度随时间的变化
+规律。提出了延伸与整合两种发展策略，即纵向延伸策略、“微笑曲线”策
+略、水平整合和垂直整合策略。从以PEST环境推进数字内容产业升级和宏
+观、中观、微观数字内容产业升级的可选途径总结了中国数字内容产业的发
+展途径及发展策略。
+（5）分析了中国数字内容产业的发展状况与策略。通过全面分析、总
+结中国数字内容产业的结构、影响因素、产业发展状况，发现了产业发展中
+存在的问题。采集、应用了国内权威统计数据，提升了研究的说服力和可信
+度。从内容数字化的发展模式、数字内容产业的商业模式、数字内容产业链
+
+主导模式三个角度论述了中国数字内容产业链的成长模式。最后提出了中国
+数字内容产业发展的对策建议。
+
+本文的理论价值在于，以数字内容产业集群形成机理、产业链成长机理
+及产业升级途径为主要研究方向，涉及的范围较广，研究内容具有一定的深
+度，研究工作有一定的原创性，研究成果不仅能为全球的数字内容产业发展
+提供新的策略，也能为中国数字内容产业的健康有序发展提供理论依据。本
+文的应用价值在于研究成果具有科学性和可操作性，提出发展数字内容产业
+的整体策略及应用模型，指导数字内容产业的实践活动。
+
+关键词：
+数字内容产业，数字内容产业链，成长机理，发展策略
+
+
+
+Abstract 
+
+
+Research on Growth Mechanism and Development 
+Strategies of Digital Content Industry 
+
+
+With the rapid development of digital technology, digital content industry (DCI) 
+has become an important branch of information industry and obtained independent 
+development. As the global market economy improves and policy fully implements, 
+the DCI has shown proper characteristics and value-added capability. How to analyze 
+accurately to reveal growth process and characteristics of global DCI, and how to 
+explore and master growth and law mechanism to enhance rapid growth of Chinese 
+DCI, have become a pressing major issue. 
+
+Based on the growth condition of global DCI, this paper, firstly, elaborates 
+and summarizes the DCI connotation definition, development scale, speed, and 
+industry subdivision market pattern of the domestic and international DCI. And then, 
+integrates theories of multi-discipline and various research methods to study growth 
+mechanism and development strategy of the DCI with the research ideas, which are 
+raising problems by theory, analyzing problems by model, and solving problems by 
+demonstration. 
+
+This paper reviews the relevant research results at home and abroad, to build 
+theoretical research base of the DCI which grows and develops in combined action of 
+factors as subjective form, objective content, and organization complexity. Its important 
+basis is related theory, including information resource management, industrial chain, 
+industrial clusters, industrial economics, regional economics and value chain theory. 
+
+
+Under the guidance of these theories, the paper defines the concept connotation of the 
+DCI, clarifies mechanism model, and formulates development strategy.
+
+（1）Summarizing development process, environment and market characteristics 
+of the DCI. The DCI experiences three stages: formation stage, growth stage, and 
+modeling stage. It describes development characteristics of the DCI in aspects of 
+industrial distribution, industrial development model, competitive features and 
+industrial investment; overviews development environment and analyzes positive 
+and negative factors of industry growth in aspects of policy, economy, society 
+and technology. Looking from regional distribution, Europe and America occupy 
+a absolutely leading position; from the mode of government supporting industry 
+development, government is an important mode to support development of global DCI; 
+from characteristics of industry supplying competition, the competition pattern of 
+global DCI becomes overlapping, complex and high-intensive, moreover, competition 
+promotes the whole industry development; as for industry profit mode, it needs to 
+develop and be more mature, and should gradually diversifies and differentiates.
+（2） Formation mechanism of the DCI based on the industry cluster. The 
+digital content industry cluster （DCIC）, different from industry cluster, studies the 
+formation process, influencing factors and agglomeration mechanism by analyzing 
+cause of the DCIC, and then, obtain the conclusion that the digital content enterprises 
+support development of the DCIC through cause-and-effect relations among 
+talent, technology, capital and market, and high level interaction, which is the main 
+driving force of DCIC. The dynamical model of DCIC contains internal and external 
+mechanisms. The inner dynamism takes local resources into endogenous advantages; 
+external dynamism includes government behaviors and external competitive 
+environment, and its role is to bring external advantages of DCIC.
+（3）The growth mechanism and models of digital content industry chain 
+(DCIN).With the growth situation of DCIN, this paper studies basic laws of DCIN 
+
+development in aspects of industry chain structure, ways and conditions of growth, 
+development drivers and mechanism and development model, then it concludes that 
+the DCIN develops by combined actions of transaction efficiency, labor productivity, 
+specialization, ability to accumulate social capital, transaction information transmission 
+level, or even tacit knowledge transfer and technology spillovers and other factors. 
+Three samples, which are analyzing trade efficiency level with inframarginal structural 
+model, deepening of division of labor, and the overall effect of DCIN, show endogenous 
+relationship. The growth of DICN is a complex and systemic process.
 
-                               ���ɡG��F�|�å͸p�����ĩe���|�@��¼w�ޥ�
+（4）Promoting the development way and strategy of DCI. Global value chain 
+theory provides effective analytical tool for the upgrade mode and means of DCI. 
+DCIN upgrading contains four ways: process upgrading, product upgrading, function 
+upgrading and chain upgrading. The life curve of DCI reflects that the development 
+level of DCI varies with time. It also proposes two development strategies: extension 
+and integration, namely, the vertical extension strategy, the "smiling curve" strategy, 
+horizontal integration and vertical integration strategy. From approaches of PEST 
+environment promoting the DCI upgrading, and DCI upgrading in macro, medium and 
+micro scopes, we summarize the development way of Chinese DCI.
+（5）Analyzing the development situation and strategy of Chinese DCI. Through 
+comprehensively analyzing and summarizing the structure, influencing factors, industrial 
+development condition of Chinese DCI, we discover the problems in industry development, 
+besides; we collect and apply the domestic authoritative statistical data to enhance the 
+persuasiveness and credibility. From three angles as development model of digital content, 
+business model of DCI, and leading model of DCIN, we discusses the growth model of 
+DCIN. Finally propose the strategies and countermeasures of Chinese DCI. 
+In theoretical value, this paper mainly researches on the DCIC formation 
+mechanism, industry chain growth mechanism and industrial upgrading method, with 
+a broader scope, certain depth and originality, and the research achievement can not 
 
+
+only provide new strategy for the development of global DCI, but also can provide 
+theory basis for Chinese DCI to develop healthily and orderly. In application value, the 
+research achievement is scientific and operational; the paper proposes overall strategy 
+and application models of DCI development, to guide the practice of DCI. 
 
-      �˴H�Х��ߪk����                      ��  �e���B������
-
-  ==1���W
+Keywords: 
 
-  ==2�]�Ĥ@�`�^�˭�
+Digital content industry, Digital content industry chain, Growth 
+mechanism, Development strategy 
 
-�˭����ҡA�Y�k���j�A�ϸ`�Яk�A�Υصh�ټ����û��A�⨬�šA�ۦ��X�A�c���A
-��߶��B�ӽw�A���B�Ӯz�A�������b���A�w�W�˭����Ҭҩy�۪K���C�ĤG���H�Ѧ�
-�A�˴H���X�ȭ��A�ӥ[���j�h�̡A�۪K���ڴ��C�ĤT�˭��εL���̡A���w�A�۪K��
-�ϷФ��ѡA�ӵL���Ҫ̡A���뭷�������A�o�P�۪K���ڴ��C�A�����Y�q�����Ѵ���
-�Q�@�A�K�P���۪K�¶����G�C�˭��ۦ��ժ���G�Q�G������A�Ӷ��f�L���Ӵ��̡A
-���i�P�ժ���C
-
-  ==2�]�ĤG�`�^�˴H
-
-�˴H���ҡA�Y���f�k�A�y��j�A������A�c�H������A�L�ۦ��έP�Y���دk�A��
-���󰮩ίݺ��ӳݡA�⨬�����L�֡A�߯B�ƦӺ�̡A���b���A�H�W�˴H���ҡA�ҩy
-�¶����Ĥ@�H�o�䦽�A�˴H�_���A�Y�صh�A�|�ϩ�¡A������|�Q���A���Y�q�Τ�
-�����|�Q�E�A�����Ѵ��������Q�@�ƨΡA�L���Ĥ����f�ӯq�[�`�]�C�ժ�X�D�J��
-�G�Q�T�D�ղz�˴H���W�Ķ˭��Ƨ��C
-
-  ==2�]�ĤT�`�^����
-
-�������ҡA�����Y�h�I�H�A�����ۦ��A����j���A�f���«�Ө����h�A�ήɴc�H�A
-�άȤ��A�ߵ�Ӯz�A�L�ݪ��ءA�q�y�ժ�C�L��P�_�o���д��A���d���G�Q�|�A
-�۪K���S���T�Q�|�A���s��𸶼���Q�G�A�����Ѵ��F���ؼ��ơA�����ӯߨI�i�U��
-�A�j�Ӯ���U���A�ΤT�@�Ӯ���ק��C�b���b�ت̤p��J�B�D�J�B�Ѥ����C
-
-  ==2�]�ĥ|�`�^����
-
-���㤧�ҡA�@���ɯk���̡A�o���A���`�Яk�A�o�����ɡA�θ����Ȥj�K�Q�A�ߨI
-�ӽw�A�H�W���㤧�ҡA�������Ѵ��L�L�����A���Τ��d���βH�����B�ۭd���S���A
-���Υ��S�����U�A�o�ζ��s�Ѭr�h�U�A�ݤ�G�Y����g���̡A���ݤg�A�G�H������
-�g�A��f�h�U�C
-
-  ==2�]�Ĥ��`�^���H�Ѥ�
-
-���H�Ѥ����ҡA�Y�h���j����k�⨬�šA�������A�ϵL���c�H�߯B��A���˴H�]�A
-���Y���k�y��j������A�����L�֤��ۦ��A���˴H�A�Ϸ���ӯ߽w�̡A���˭��]
-�C���h�˽áA�H�h�˺a�A�a�íѶ˫h���ؼ��ƪ̡A�q�y�H�j�C���A�����Ѵ��̧��C
+
+目　录 
 
-  ==2�]�Ĥ��`�^���~�˴H
 
-�l�o�߫K�I�A���دf���M�̡A���ˤ]�A�߯B�Ӫ��f�ةM�̡A�~�ˤ]�A�f�b����|��
-�����f�A�f�b�ݸ��������دf�A���˳q�Ѵ��A�~�����Ѵ��A���~�@���Ҷ˳q�����A
-�M���Y���Ѵ��A�H�l�M�����A�T�k�ܯ��C
+目　录
 
-  ==2�]�ĤC�`�^�@������
 
-���H����A�����Ҷh�A�~�T��{�}���d��A�|�ɤ��~�Ѩ��ҶˡA��ı�����Y�k���
-�j�h�A�L�ݦۦ��L���A�W�H�o���A���P�����A�L�ƶ˴H���~���f�A��P�������f�A
-�@���¯f�o�@�A�T���إ~�éy���Ѵ��C�]�Y�P���լƥ����Ѫ̡A�`�A���Ѵ��A�T��
-�鶡�纥�i��A�õL�ҷl�A���ؼ����ơA������h�A�д�ĸ�k�A���i�U�̡A�T�A��
-��������A�ΤU�᥼�U�A�ΤU�ҥ����A�Τj���e��f��A�Φ���l�����ѡA�ο��
-�_�ҡA�άV�L�H�f�𦽬r�ǬV�A�Τ��`��Ϯ����@��©�r�A�}���r�s�r���r�A�@
-���Ĭr�μY�Z�����˷l�k�h�A�Τ[�w���t�Y�k�A�������\�A�}�˭��A�~�Y���A���w
-�f�A�ΰ��H����ѯe�A�p���孷�n���A�H�ůl�k�A�L�ݤ�ơA���H���Ѵ��A���A�P
-�����~���ųq�A�f�Ұ��U�A�M���ѤD�q�P���ġA���������β����g�L�h�A�}�n
-�m�̤ŻP�A���A���~�ѤH�̩y�A�ۦ��y�Ʃ󤤨o�C
+第１章　绪　论………………………………………………… 
+1
 
-  ==2�]�ĤK�`�^�ǬV
+1.1　研究背景和研究意义 ………………………………………… 1
 
-�Z�˴H���~���f�A��H�O���A�\�ߤ��B�̡A�ǬV�]�A�]�Y�H���ĸѪ��A�������ѡA
-��f�ϬƦӦM�p�o�C��v���k�A�ۦ��y�H�a���ժ���A�L���y�ƥ۲D�J���A������
-�U�A�䤣�Ѫ̳q����طL�ơA�H�Ҫv���A�ӻP�˴H���k�ҵL���]�C���Ѵ��B�q����
-�Ҭ�����C
+1.1.1　研究背景 …………………………………………………… 1
 
-  ==2�]�ĤE�`�^����
+1.1.2　研究意义 …………………………………………………… 3 
 
-�Z���ү߯B�A����ϸ`�k�h�A�c���c�H�̡A�i�����A���i�U�]�C�˴H�L���¶����A
-�˭��ۦ��۪K���C�@�k���ݭ��H�q�����Ѵ��A�ΤѤ����̧��C
+1.2 文献综述 ……………………………………………………… 3
 
-  ==2�]�ĤQ�`�^����
+1.2.1　数字内容产业内涵界定 …………………………………… 4
 
-�Z���ү߹�Ӥ��B�A���c�H�δc���A�����k�A�ۦ�ĸ�y���j�K�A�Ϋ|�������̥i�U
-���A���i���]�A�H�W���ҡA�y�p�Ӯ���A�j�Ӯ���A�խG�Ӯ���A��ӥΤ��C�@�k
-���ݭ��H����A�Ϊ��ب��ҭѤ����A���L���ҡA�Ӧ��i�U�̡A�q�ΤT�A�Ӯ���U��
-�C���ĵo�m�ġA�ϵL�����J�ئӵL���ݤεl�����e�]�C�μ������`�A�ӽ��ļƤU�A
-��������Q�A���Ϧ����̡A�j�Ӯ���[�̹E�@���P�U���A�f�b�ءA�ߨI�Ӫ̡A�L��
-���H����A�Ϊ����ҭѤ����A�Τ��~�Ѩ��ҶˡA�����L���A�߸��h���Aĸ�k����A
-�b�������A���O�ߨI�̡A�y�T�A�Ӯ���X�Ѭr���U���A�Ѭr�խG�Ӯ�����m�j���C
+1.2.2　国内外数字内容产业发展现状 …………………………… 7
 
-  ==2�]�ĤQ�@�`�^������
+1.2.3　国内外数字内容产业研究述评 …………………………… 10
 
-���حѨ����ҡA�Υb���Υb�b�ؤ��Ҫ̡A�׫e���ؤG�ҡA�f�b�۰ѡA���������A��
-���دf���U���A�Ӫ��f���ѡA�������i�A�R���S���i�A�k���M�Ѷ˭��A�ժ���C��
-�H�����Ψ�P�A�p��J���C�@�k���ݭ��H����βD�J���A�Ѥ����A�G�ĦX�@�A�η�
-�Ѥ��A�Ϊ����h�ؼ��֡A�Ѥ��@�D�J�b�C���ؼ��h�����֡A�D�J�@�Ѥ��b�C������
-�A�ئ��L���A���k�Y�h�ίt�ιáA���i���R�U�̡A�Ѥ��D�J���X�M�Ѥ��C�Ѥ��S��
-��h����̡A�ζ��s�Ѭr���C���ؤ����ѷL�̤��d���C���ؤ����Ѳ��̤j��J���L
-�U���A��ƪ̤j��J�X�j�Ӯ���U���A�������ؤ����A�A���Ѵ�����A�Y���ѡA�f
-�w���ܡA��T��A�b�تk���U���A�������U���Ӧ��h��������ӤJ�ءA�E�����ݵ�
-�l�҂x�o�����ҡA���̥��M�A�M�̥����C���y���M���īŴ�����A�M�Ѩ��ءA�f��
-�Φ����ӷU�A�εL����M�ӷU�A�Τp��J�B�D�J�B�Ѥ��X�M�D���A�f�b�b���b�ءA
-�Τp��J�B�D�J���X�M�ӸѤ��A�Τp��J�X�Ѭr���C�p�A���ե��h�̡A�j��J�X�T
-�A�Ӯ���C���حѷL�A�b���b�حY�طL�̡A�y�j��J�X���s�Ѭr���X�A�C�Ѥp��J
-���ҫ�f���ѡA���ؼ��է�ơA�ӤߤU���{�L�СA�εo�����X���ѡA�ߤU�l�R�A��
-�R���Q�A�ζ����f�h���A�Τֳ��f�U�Q�M���A�ߤU�h�Ӥf���C�Τӳ��f�����ӵh�A
-�εL���دg�A���o���C�K��A���߯B�ӼơA�ӯߦb�٦סA��Ʀӷƪ̡A�éy�j��J
-���C�f�ܤC�K��A�ؼ��w�ơA�����L�A�����B�ơA�ΤT�A�Ӯ���X�Ѭr�U���C�U��
-�������i�U�̡A�Υժ���Ϊ����ۻI���C�߬x���ئ��L�����i���̡A�ζ��s�Ѭr��
-�C
+1.3　研究思路与研究内容 ………………………………………… 11
 
-  ==2�]�ĤQ�G�`�^���ᤣ��
+1.3.1　研究思路 …………………………………………………… 11
 
-�Z�O���ҡA�k�������A�̪k�����A��f�S���ѡA���ᤣ�ѡA���ҫe��O�L���Ҫ̡A
-�q�y�D�J���դ��A�H�h����A�L�ϼ��ƦM���]�C�������~�A���Ӥp��J���A��P��
-���Ӥw�C����l���ίq�����A�Τp��J���A�ŪZ�H�ѥۻI���C�˴H�j�o���A���X��
-�ѡA�ϵL���ߩ|�B�̡A�a���ժ���Ѥ��C�˴H�ή۪K���o�b��\�A�_���Я߯B�̡A
-�A�y�۪K���C���ᤣ�ѡA�U�ҥ����̥ժ���C������ꤣ�o�v�A�L���Ӵ����d���C
-���ᤣ�Ѥ��~�����A�f���д���J���l�C�Ѫ�����|���U�̡A�Ѭr�B�D�J�B�Ѥ���
-�A��ն������A�~���é��C
+1.3.2　研究内容 …………………………………………………… 12
 
-  ==2�]�ĤQ�T�`�^�U�ᤣ��
+1.4　研究方法 ……………………………………………………… 13
 
-�Z�O���ҡA�k���U���A�̪k�U����f�S���ѡA�Τj�U��A�ΦA�T�U��A���թ|�Ʀ�
-���h�A�����l�Ӥ����A����U���A���U�ߦӥߦ��A���U���A�h�����Ӧ��A�H�D
-���Ĥ���h����դ��ƪ̡C��������l�A�U�Q����A�����h�̡A�Φ]�j�U��A���
-�Q����Ӽ����h�A�߮z��ꤣ�i��U�̡A�ν�������l�A�p�K���ߡA�j�K�F�n�W��
-�ָ��ӫ�h�̡A�����@�g�]�A�q�y���s�Ѵ��H�Ѥ��C�˴H�U���ӹL�G���L���A����
-�L�O�A�ե����C�S���j�U����A������h�A�A�T�U���A���U�ơA�Y�U������A��H
-�߷L����z�A���[�H�k�L�i�ͤ��z�A�ܦ��U���禺�A���U�禺�A���βD�J�X�Ѭr
-���դ��A�����h�����ߺ��͡A�������k�C�U���e��L�ݤ�ơA�l�����Ѥp��J���C
-���U��G��j��ִ��C���U��ݻJ���e��Ӭ�d���C
+1.5　论文的主要创新点 …………………………………………… 14
 
-  ==2�]�ĤQ�|�`�^�b�W�F��
+1.6　本章小结 ……………………………………………………… 14
 
-���f�b�J�̡A���Υʸ����R���A�Ϊ��ҽ}�A�����J�ص���ݤ��A�к��Ӱ����୹�A
-�|�ϷL�֦ӯߥE��̡A�y�ʸ����R���C�˴H�Y�k�[���U�A�O�H����A�ݻJ�禳�J��
-�G�]�A�����F���A���H�ժ���[��C
+第２章　数字内容产业研究相关理论…………………………16
 
-  ==2�]�ĤQ���`�^�b�U�n��
+2.1　信息资源管理理论 …………………………………………… 16
 
-���f�b���U�J�A�h�Ӯ�B��������n���ӥi�]�C
+2.1.1　信息资源管理发展历程 …………………………………… 16
 
-  ==2�]�ĤQ���`�^�X�f
+2.1.2　信息资源管理理论派别 …………………………………… 18 
 
-�T���X�f�A�����������H�఼�A�f�ꭱ��ĸ�y�򧿡A�p�~�o���hĸ�y�q�ơA�U���h
-�K�֡A�B�W���X�A�ᥲ�o���A�ժ���C
+
+数字内容产业成长机理及发展策略研究 
 
-  ==2�]�ĤQ�C�`�^��P
 
-��P�A�פ@��Ӷ��ֳ����ҭѨ��A�G�鶧���P�ӳ��ѯf�A�T��ֶ��P�ֳ��ѯf�A�e
-���g���ҬO�]�A�p��J���A�D�J���A���d���A�Ѥ����A�q�t���A���Ѵ��A�j��J��
-�A�i��Τ��C���լƱ��i�U�̡A�T�A�Ӯ���A�θѬr�X�Ӯ���C
+2.2　产业链理论 …………………………………………………… 19
 
-  ==2�]�ĤQ�K�`�^�y�f
+2.2.1　产业链理论的发展 ………………………………………… 20
 
-�y�����f�A�o�������A�f���Y�n�A���r���y�A���j�I���A�y���ϱj�A�Υصh�Υب�
-�A�γ��ΤϥءA�Ψ��ũΦk��A��ߨI���ӿ�αa��̡A�L�����y�A������X�y
-�A�q�y�T�A�Ӯ���X�Ѭr�U���C
+2.2.2　产业链理论的核心思想 …………………………………… 21
 
-  ==2�]�ĤQ�E�`�^�Y�k
+2.3　产业集群理论 ………………………………………………… 22
 
-�Y�k���ҡA�L�ݭ��H�������f�ۦ��Y�k�A�ѩy�ժ���A�Υ[�t�|���ק��C�Y�k�[
-���U���P����A�y���F��A���Υժ�[��C���t��f�ݹ��Y�h�A�b�LӬ�d���C�Y�h
-����h�A���s�Ѭr���C�Y�k�f���۪K�B���S���C����ݹ��Y�k�A�ժ�B�b�L��ִ�
-�C�����Y�k�߷Щ�妡A�H�ѥۻI���C�˴H�����Y�k�A���״��C
+2.3.1　产业集群的形成机理 ……………………………………… 22
 
-  ==2�]�ĤG�Q�`�^���k
+2.3.2　产业集群产生的条件 ……………………………………… 25
 
-���k���ҵL�ݭ��H�A�q�Ѵ��C�����ơA�Y������k�h�A���s�Ѭr���C�˴H�E�̹M��
-�k�h�A�֤O�Y�۸y�}�­��A���A������A�T�A�Ӯ�A��v�A�[�e���B���e���A�J
-���ȷΦW�ȷδ��C���㨭���ɵh�A���d���C
+2.4　经济学理论 …………………………………………………… 27 
 
-  ==2�]�ĤG�@�`�^���Ⱥ��h
+2.4.1 产业经济学理论………………………………………………27
 
-���Ⱥ��A�ߨI�̡A�H�T�A�Ӯ���X�Ѭr�U���A�Ѹ�����h�д�ĸ�k�A�߹�ƦӨI��
-�A�L�ݤ�ơA�T�A�Ӯ���C�ֶ��Ҹ����h�̡A�p��J�h�����[���Ĵ��C�ֶ��҂J�U
-�l�R�̡A�p��J�h�Ǥl�[�d�r�C�ӳ��Ҹ����ɵh�A�۪K�[���ġA�h�ƥ[�۪K�j���C
+2.4.2　区域经济学理论 …………………………………………… 28
 
-  ==2�]�ĤG�G�`�^���ӴH��
+2.4.3　信息经济学 ………………………………………………… 29
 
-���ӴH���ݤֶ��A�@��G�T�@�A�ө��L���A�Τp��J���D���C
+2.5　本章小结 ……………………………………………………… 30
 
-  ==2�]�ĤG�T�`�^���
+第３章　数字内容产业的成长历程……………………………31
 
-����ݶ����A�@��@�o�A��ժ�ӧ@�]�C�����ؼ����ơA�ΦR�U��A���Ѥj�K������
-�ܤQ�l��A��ժ����A�߯ݷм��Ӿ҂x�p�Ī��A�ߨI��̡A�T�A�Ӯ���C�����ֶ�
-�X�f�A�U�Q��ժ�o���p�Ī̡A�j��J���A�q�y�T�Ӯ�X�Ѭr�C
+3.1　数字内容产业的成长状况 …………………………………… 31
 
-  ==2�]�ĤG�|�`�^�ۦ�
+3.1.1　数字内容产业的成长过程 ………………………………… 31
 
-�ۦ��̡A���o���Ѧ١A�ۥX���]�C�˭��ۦ��]�A�˭��ۦ��۪K���C�˴H�ۦ��ߨI��
-�ӹ�C���حѼ��̡A�T���X�f�C�ۦ��ְ̳f�A�ۦ����Y�k�A�ۦ��̶˴H�A�ۦ�����
-�b�J���ت̡A�����ۦ��ߵ�̡A�ѩy�ժ���C�˴H�즽����A�ժ���[�¶��گB��
-�C�˴H���U��A�ۦ��ߵ�����w�A�ժ�[�H�ѻa���A���A����D�q�P���k�]�C
+3.1.2　数字内容产业的成长特点 ………………………………… 36
 
-�����ۦ��ժ���A��H�F�����դ��C�ۦ��h�A�ŪZ�H�ѥۻI���C
+3.2　数字内容产业的成长环境 …………………………………… 39
 
-  ==2�]�ĤG���`�^�ۧQ�}�G�U
+3.2.1　数字内容产业的成长环境 ………………………………… 39
 
-�ۧQ�̡A���g�U�ħ��ئӦۧQ�]�C�߯B�����ѡA�ۧQ�Τp�K���Q�̤��d���A�@���m
-�g���@�A�ۭd���S���C���㤺�Ʀӧ@�g�̡A���s�Ѭr���C�ΦۧQ�M����«C�A�ߤU
-�l�h�f��̬�����۶ǩ�z�G�����A�Ӧ��U�Q�̡A�T�@�Ӯ���C�����ӤϤU�A�Ϥ�
-�����ݡA�Ӧ��U�Q�M�\���ơA���Ҧb�A�����شH�]�A��H�|�f�����اQ��A�ةM��
-�H�۪K�Ѫ��A�ΥΤڨ����ĤU���C�Ө���Q����A�ҩy���d����Q�ݸѪ��C
+3.2.2　影响数字内容产业成长的因素分析 ……………………… 42
 
-  ==2�]�ĤG���`�^�p�K���Q
+3.3　数字内容产业市场特征分析 ………………………………… 44
 
-�p�K���Q�̡A�p�K���Ө��ߤ]�C�����}�˴H�j�o����A�G�������ꤣ�o�v�A�߯B�A
-�p�K���Q�A�L���д��̡A�f���д��p�K���Q�̡A�p�K���ߡA�q�y���d���A�ۭd���S
-���D���C
+3.3.1　国外产业市场特征 ………………………………………… 44
 
-  ==2�]�ĤG�C�`�^�æR
+3.3.2　国内产业市场特征 ………………………………………… 45
 
-�Z�æR�̡A���ʤW���]�C�L�ݪ��سq�y�D�J���C�˴H���f�@���æR�A�խG�Ӯ���C
-�дe���áA���s�Ѭr���C�æR�д��̡A�ۭd���S���A���d���C�t�y�ê̡A�ժ�[�b
-�L��֡C�˴H�æR�|�ϳְf�M�N�A�խG���C��Ť��ƴc�߹æR�̡A�ժ�Ѭr���C
+3.4　本章小结 ……………………………………………………… 47
 
-  ==2�]�ĤG�K�`�^�R�m
+
+目　录 
 
-�R�m�̤W�R�U�m�A��W�N�ä]�C�@���R�m�N�óq�y���d���A�q�����A�ե����C�R�m
-�N�÷д��}���~�Ѩ��ҶˡA�ӦR�m�����h�e�̡A�ìҮۭd���S���A�H�����C
 
-  ==2�]�ĤG�E�`�^�ݹ�
+第４章　数字内容产业集群形成机理…………………………48
 
-�j���ݹ¦Ӻ��̡A���s�Ѭr���A�μ��ƫy�´e�áA�T�A�Ӯ���C�ֶ��y�̡A�p��J
-�h�H�Ѥj�ǥ����[�����l�����C�ݹ��Y�k�̡AӬ�d�b�L���C�y�ª̡A�ժ���[�b�L
-�ܱ�C�y�¤��w�A�H�ѥۻI���A�ΫŪZ�H�ѥۻI���C��f�y�¡A�b�L��ִ��C����
-���e�y�¡A�����l���C
+4.1　数字内容产业集群概述 ……………………………………… 48
 
-  ==2�]�ĤT�Q�`�^��
+4.1.1　产业集群与产业集聚 ……………………………………… 48
 
-�Z�f���д��̡A�˴H���X�Ӵ��̡A�����ϦR�A�W����f�A�ѩy���d���C�ֳ��f�G�T
-��A�f��|���T�A�Ӯ���C���ؼ���ơA�˴H���{�A�d�������A�д�����A�h����
-�_�h���i�ԡA���çN�C�A�j�����඼�A���礣������A�ݫ�e�æ������̡A�T�A
-�Ӯ�����U�|�A�ߤ����A���Y�L�f���H�A���ؤj���ӷU�A�ܦ������h�����Q�A��
-���X�禳�ĤO�A���H�����ųq�A���Q�ӷU�A�Φ��R�U��A�д��f���߯B�j�A�ժ��
-�[�H�ѡC����h���A�D�J���[�ƥۡC
+4.1.2　数字内容产业集群 ………………………………………… 49
 
-  ==2�]�ĤT�@�`�^����
+4.2　数字内容产业集聚的原因分析 ……………………………… 49
 
-�˴H����h���A�D�J���[�ƥۡC�����˴H�������A���d���C�@�������gļ�ݺ��A
-���s�Ѭr���C����Ӵ��A�ե����A�Υ[�ƥۡA�ƪ̥[���ġC
+4.2.1　数字内容产业集群现状 …………………………………… 49
 
-  ==2�]�ĤT�G�`�^�҂x�A��СA���o�v
+4.2.2　数字内容产业集群的原因 ………………………………… 50
 
-�҂x�A�Фߤϴ_�A�ˤ��o�v�̡A�м����{�󤺡A�Ӯ𤣯�ųq�]�A�ίݺ����h�A��
-�СA�L���X�A��Ъ̱��l���D���C�ή�̡֪A�[�̯�@���C�ιê̡A�Ϊ�~�H����
-�U�̡A�[�����b��C�Z�҂x��Ъ̡A�ҥβD�J���ƨΡA�Ωy���ޤ⨬�A�Ϥ߯ݵ���
-�Ŵ��Ӥw�C�߷и������פ��w�A���l�p�����D���C�ζ����f�U����A����Ӿ҂x��
-�A�T�A�Ӯ���C������ꤣ�o�v�A���d���βD�J���C�f��D�u���y���o�v�A���d��
-�A���s�Ѭr���C�Фߪ̡A�D�J���C�ֶ��үݤ��ЦӤ��ê̡A�p��J�h�b�L�H�ѥ[��
-�o��D���C
+4.3　数字内容产业集群的机理分析 ……………………………… 52
 
-  ==2�]�ĤT�T�`�^�d��
+4.3.1　数字内容产业集群的形成过程 …………………………… 52
 
-�@���d�������A���d���A�ۭd���S���A���s�Ѭr���A�D�J���A�ժ���A�p���ݴ��A
-�T�A�Ӯ����ΡC�˴H�����}�A�ߤU������A���õo���ӫy�A�δ��ΧQ�μO�A�Τp
-�K���Q�p�����A�γݪ̤p�C�s���C
+4.3.2　数字内容产业集群形成的影响因素 ……………………… 54
 
-  ==2�]�ĤT�|�`�^�l
+4.3.3　数字内容产业集聚机理 …………………………………… 56
 
-�˴H���حѼ��A�U�ҥ����A�k���M�ѡA�~�U���D�A�h���l�C�ߤU�l���Ӥ��h�A����
-��n�̵l�A�߯B�ө|�c�H�̡A�����Ѥ]�A�����۪K�Ѫ��A�w�ӫ�Τj�����s�m�ߴ�
-��l�]�C�Υu�Τ��d���ϰ����جƨ}�A�εl�c�H�Ӧ��X�̡A�εl�ӷСA�p�K���Q��
-�A�εl�d������U�Q�̡A�Τw���l�A�]�ĩ|����H��l���A�~��U���A��l��ơA
-���A�U�Q�߷�ļ�̡A�L�ݵl�߯B�I�éy�����δ��դU���d���A�W�A���C�εl���w�A
-�h�������к��A��ĸ�k�ߨI�A�L�L�Ҫ̡A�y�j�����s�m�ߴ��A�Τp���ݴ���i�A
-�U�����l�A�b�}���C
+4.4　本章小结 ……………………………………………………… 58
 
-  ==2�]�ĤT���`�^����
+第５章　…数字内容产业链的成长机理及模型…………………60
 
-���ݤ��Ҧ��T�A�����ӵh�̦W�j���ݡA�����ӵh�̦W�p���ݡA�ߤU�å��Y���X�̡A
-�W�����ݤ]�C���U���ᤣ�j�K������A�ް��Ӵ��A��ժ�֦�����A�q�ߤU�ܤp���R
-���ӵh���i��A�ӯߨI��ƼơA�Φ����ߨI��̡A�y�j���ݴ��A�γ��ݭ��U���C��
-�߯B�̪����}�]�A���i�U�A�U���h���A�y�p���ݴ��A�Τp��J�������M�Ѥ��A���}
-�̤�i�U���C�ε������߯B���ؼ��մc�A���i�U�̩y�T�A�Ӯ���A���@�T���A���T
-�ɳ\�A�W�A�o�Q�ƨ}�C�����y��ߥ��I�A�f�L�̤�ΤT�A�Ӯ�b�A�A���k�ӤU���C
-�ؼ��ƪ̥H�j���ݴ��j�b�A�ӤU���C�Φ����ݧO�L�j�̼��ҡA���Y�L���X�ߨI�ƪ�
-�A�����ݤ]�A�q�y�j���ݡC�p���ݡA�ߤU�����ӵh�A�߯B�ӷơA�O�L�j�̼��ҡA��
-�����ݪ̡A�p���ݴ��C�˴H�U���Ӧ��A���ݡA���s�Ѭr���[�L�ߡC�˴H���ݵ�l�A
-�D�J���[�L�\�ܱ�A�Φ��ۼ����ݪ̡A��ݰ��_�A���������Ӧ��ݫ�e���Aĸ�k��
-�_�A���ߨI�ƦӺ�̡A�Τj�Ӯ���[�̹E�@���P�U���C���ҽ}���J�ص���ݤ��A��
-�����Ȥ��୹�A�L�֦ӯߥE��̡A�ʸ����R���C�Ӷ������U�Q�ðf�A���ҽ}�A����
-�u�𤣴c�H���A�����o�@���ɡA�Y�h�ߤU�l�R���A�ނJ�U�h�̡A�Q�Ǵ��C���ݦӵo
-���̡A�������B���ݴ��U�b�A�U���C����U�Q����A�󵲯ݵo���A�����������A��
-�ݴ��T���A�j�Ӯ���G���A�U�����ΡC�߯B���i�U�̡A�p���ݴ��X�p��J���C
+5.1　数字内容产业链的构成 ……………………………………… 61
 
-  ==2�]�ĤT���`�^����
+5.1.1　数字内容产业链的特殊性 ………………………………… 61
 
-�Ӷ��f��`�A���Ҥ��b�A�`�g���b��U�J�A�߷L�Ӳ`�A�����ݦӵo�g�̡A���b�U�J
-�A�p����R���A�p�K�ۧQ�]�A��U�ӷU�A�y�𤧡C�ΤӶ��f�A�����ߨI�̡A�`�g��
-�b���U�J�]�C�p���R�p�K���Q���L��A�p�K�ۧQ�p�g�̡A���g�A�ζ����b������
-�ӳߦk�Ψg�A�j�K���R�Ӥϩ����̡A���b��]�C�εL�����ҡA���o����`�A�߯B
-�̡A��i�U�A�Τw�U��߼ơA�G�����\���ȡA�Ƥ餣�j�K�����]�A�éy������U
-���C�˴H�����A�p�����p�K�ۧQ�̡A������]�A���U�����δ��A�Ω���Y�̬�í��
-�C�Ӷ��f���Ѧӯb���U�J�A���H�۪K�Ѫ��A�w�ӤU��A�y�礯�Ӯ���A�Ω�����
-���C�˭����U���ѡA���{�g���H���n�����A�βM�D���A�y�J�G�E�A�R�X�M��λ�
-���R�夣�ɡA�l�就�d�H�P�����j�K�¡A�R���a�����A�o�g�[�����B�j���C
+5.1.2　数字内容产业链的构成 …………………………………… 62
 
-  ==2�]�ĤT�C�`�^ĸ�y
+5.2　数字内容产业链的成长机理 ………………………………… 63
 
-ĸ�y�o�g�A�T�A�Ӯ���X�Ѭr���U���C�Y�˴H�L�gĸ�y�A�H�����]�A���H���U���C
-�Y�Q�p�K�A�j�K��R�A�ӤU�Q�ߩM�̡A��H���ĤU���A�D��v�]�C�Y�ۧQ�̸�����
-�A���ϩM�A��������A�խG�Ӯ���βD�J���q�ΡC
+5.2.1　数字内容产业链的成长途径和条件 ……………………… 64
 
-  ==2�]�ĤT�K�`�^�o��
+5.2.2　数字内容产业链的成长动因与机理 ……………………… 70
 
-�����f�A�������ơA�к����{�A�d�������H�P����۷i�A�Ө���o���A��Ԧ��Y��
-�X�A���L�����V���١A�p�K���Q�A�������ߪ̡A����o���A�y�������դU���d���C
-���ݦӵo���̡A�����P���ݴ��U�b�U���C�λ~�A���r���ĤU���A�Ϸl����A�E�J��
-�Q����A��ε��ݦӵo���̡A�ί����������A���ݴ��T���A�Ӯ���@���U���A�Ψ�
-�P�o���̡A�ί������[���s�Ѭr���A�@�A��U���C�Y�L���p�K�Q�ӵo�L���̡A���
-�L�]�A���l�f�ִ��C�o���ƪ̡A�����X�T�A�Ӯ���C
+5.3　数字内容产业链的成长模型 ………………………………… 77
 
-  ==2�]�ĤT�E�`�^�o��
+5.3.1　基础模型建立及说明 ……………………………………… 78
 
-�o���A�U�ҥ����A�D�J���C�����U�A�G���o���A�ժ���[�H�ѥե��C�����G���o��
-�ߨI�A���i�U�̡A�T�A�Ӯ���U���C�˴H�G���o���A�D�J���[�ƥ۽դ��d���Ƨ��C
-�˴H�C�K��A�o�������L�������̡A�η��äW�A���ѩӮ�����L�̡A�򴺤�o��
-�B�ƪ̡A�i�Υʸ����R���C
+5.3.2　超边际结构模式分析及模型求解 ………………………… 79
 
-  ==2�]�ĥ|�Q�`�^�o�g
+5.3.3　模型结果分析 ……………………………………………… 81 
 
-�˴H�A�o�g�b���|��A���׿˲��A�������l�������C�T�A�Ӯ���[���k���ǡA�W��
-�k�Ӯ���A�H�Q�Ʀ�A�ԷL�w�A�H�T�t���R���A��βD�J���A�~�ߴ��A���s�Ѭr��
-�դ��Aĸ�k�o�g�A�ƫ��W�έu����e�A�Ҭ��������ơA�ΤT�A�Ӯ�X�Ѭr�U���A��
-���A�g�T�A�Ӯ���C�o�g���Ƨ�e�J���̡A�T�U���L�A���i�U��A�K���F���A�H��
-�����R�X��C�J���A�@���ӷU�A��H���S�������դ��C
+
+数字内容产业成长机理及发展策略研究 
 
-  ==2�]�ĥ|�@�`�^�o��
 
-�Z���f�j���N�X�A�ӤϴH�Ԫ̡A��������P����֬Ʃ��ءA���������Ӥϭݤ��ơA
-��Ϭ��H�ԡA�߷L�����̡A�T�A�Ӯ���A�ΤQ�Ǵ��U���C�Z���@���A�L�ݯf���L
-�ơA�Τw�g�s�U�̡A�ΤU�ҥ����̡A���H�D�J���դ��A�ƪ̶��s�Ѭr���C�ΤU��G
-�T��A�Υ��g�U�A�����д��A�ߨI��Ӧ����Ҫ̡A�T�A�Ӯ���U���A�մc�̥[���s
-�Ѭr���C�ξԤ��̡֪A�ξԫᦽ�X���̡֪A�ξԼƦ��A�g�j�ԦӦ������̡A�D�}��
-���ơA�Ӫk�����F�A�q�y�T�A�Ӯ���A�Χ�[���s�Ѭr���U���A�H���̼��Ӷ}�{��
-�]�C
+5.4　本章小结 ……………………………………………………… 82
 
-  ==2�]�ĥ|�G�`�^�o��
+第６章　…
+………数字内容产业发展途径及其策略……………………83
 
-�Ϊ������ƦӮ��Ӯ𤣯�h�̡A�Τw�U��Ӽ����h�̡A�ίb�����ƶ��ַ��`�A�H��
-����{�A������B�󨭪��|�ϡA�H�P�q���M�N�A�h�Ƥ����A���I���A�ثC���k�A
-���t�鱫�A�|���A�εhļ���ꦽ�A�æR�U�Q�A������h�A�Э޴e�áA�ݫ�G�n�A��
-���e�ơA�H��b�����`�A�ӯ߹D���Q�A�ϭP�ߨI�Ӧӱ����C�U������y�Ƥ��z�A��
-�Ͽר�˴H�����r�̡A�Ωl�o�������ɬơA�ӫK�����ҭԪ̡A�Ψ�P���լƪ̡A�q
-�y�Ѭr�[�j�Ӯ���U���A�����h�̡A�y�A�U���C�M���j�H���G�T�U���Ӽ����h�Y��
-�o�A�禳���k�H�U�T�����A�Q�@�G�Q��A����h�ӱo���̡A�K�P���U�h����ӥ���
-�]�C�U����ְh�ӥ��U�̡A���s�Ѭr���դ��A�Υ��U�����A�H�P���N�߷L�A�ө��_
-�N���̡A�Y��U���A�ݳ��ɵ��Ӧ��C�\�����ܦӵM�]�A���U�禺�A�y�D�J���ζ�
-�s�Ѭr���A�ΤG�ĦX�A�A�Υժ�X�D�J���A�i���h���n�����H�Ŵ��A�h�߯ݷŷܯ�
-���H�͡A�ܩ�ߴ_���O�A��i�H�T�A�Ӯ���U���A�θѬr�[���@���դ��C�U��y�A
-�h�����ġA�ҵo���Ѫ��C�ؼ��̡֪߳A�y�ժ���C�����ֲ`�A�ӽ��ĤU�A��������
-�Q�̡A���ϥ����A���s�Ѭr����[�̹E���@���P�U���C
+6.1　数字内容产业的发展途径 …………………………………… 83
 
-  ==2�]�ĥ|�T�`�^�`��N��
+6.1.1　基于价值链产业升级的方式 ……………………………… 83
 
-�����f�A�߿�A���X���c�H�A�����u��A�g�y�p�������A�@�̵o�h���ѤH�A�`��N
-�ɡA���Ӥ��w�A�����L�ݡA�T�A�Ӯ���C
+6.1.2　基于价值链产业升级的路径 ……………………………… 85
 
-  ==2�]�ĥ|�|�`�^�Ҵ_���_
+6.2　数字内容产业的发展规律 …………………………………… 88
 
-���U��Ҵ_�A��J���l�C���s�_�@�A���s�Ѭr�������ѥ[���s�A�b�ت̡A�T�A�Ӯ�
-���A�b���̡A�q���������Ѵ��C�b���b�ءA�j��J���A�p��J���A�D�J���A�Ѭr��
-�A�H�ҥΤ��A���_�A�T�A�Ӯ���C
+6.2.1　数字内容产业生命曲线 …………………………………… 88
 
-�˴H�Х����W�סC
+6.2.2　数字内容产业的发展规律 ………………………………… 89
 
-  ==1���U
+6.3　数字内容产业的发展策略 …………………………………… 90
 
-  ==2�¶����@�@
+6.3.1　数字内容产业的延伸策略 ………………………………… 90
 
-�¶��]�����^�A�۪K�]�|���^�A�̯�]�G���^�A�����]�C�T�^
+6.3.2　数字内容产业的整合策略 ………………………………… 92
 
-�k�@�G���A���G��A�ΤK���A���ġC�¶��ʼ��A���V�άK�ݯf�H����H�̤D�ΡA��
-��L�ܤ���A�A�����o�����A���[�����b��A�ۻI�@��A�����@���A�۪K�[��A��
-�O�P�C
+6.4　中国数字内容产业的发展途径及其策略 …………………… 94
 
-  ==2�۪K���@�G
+6.4.1　以PEST环境推进数字内容产业升级 ……………………… 94
 
-�۪K�A���ġ]�U�G���b�^�A�̯�]�@���b�^
+6.4.2　数字内容产业升级的可选途径 …………………………… 95
 
-�k�@�@���A���T���A�Ǥ@�T�A�ΪA�A���L���A���[���ġA�W�۪K���Ĵ��C�[�j���A
-�W�۪K�j�����C�������G�Ӷ��f�ۦ��Ӥp�K�ƪ̡A���i�P�۪K���C
+6.4.3　中国数字内容产业的发展策略 …………………………… 96
 
-  ==2�۪K���ڴ��@�T
+6.5　本章小结 ……………………………………………………… 97
 
-�۪K�A���ġA�̯�]�U�G���b�^�A�����]�|���^�A�j�ǡ]�G�T�^�A���ڡ]�����G��
-�^
+第７章　…中国数字内容产业发展状况及对策研究……………98
 
-�k�@�G�A�A���ΡA���L���C
+7.1　中国数字内容产业结构与影响因素分析 …………………… 98
 
-  ==2���ڴ��@�|
+7.1.1　中国数字内容产业结构分析 ……………………………… 98
 
-���ڡ]�@��|���^�A�¶��]�T���^�A�����]�T���^�A�۪K�A�̯�A���ġ]�U�G���^
-�A�Ǥ@�T
+7.1.2　中国数字内容产业影响因素分析 ……………………… 100
 
-�k�@�G���A���ΪA�A���Ш������סC
+7.2　中国数字内容产业整体发展状况 ………………………… 101
 
-  ==2�ɳ¸��ڴ��@��
+7.2.1　中国数字内容产业发展概述 …………………………… 101
 
-�ɳ¡A�����A���ġA�̯�]�U�T���^
+7.2.1.1　发展现状 ……………………………………………… 101 
 
-�k�@�G�A�A���ΡA�Y�j�̴H�Y���A�Y���Y�ŪA�A���D���סC
+
+目　录 
 
-  ==2�j�C�s���@��
 
-�¶��A�ۻI�]�U�|���b�^�A�۪K�]�@���b�^�A�̯�]�P�W�^�A�����]�T�T�^
+7.2.1.2　基本特点 ……………………………………………… 109
 
-�k�@�G���A���T���A�Ǥ@�T�A���Ψ��L���A���i�j�L�A���`���A�H�ů������C
+7.2.1.3　2009—2011年中国数字内容产业趋势分析 ………… 111
 
-  ==2�p�C�s���@�C
+7.2.1.4　中国数字内容产业链结构分析 ……………………… 117
 
-�b�L�]�����^�A�_�����]�@���G���^�A�¶��A���ġA�Ө��A�̯�A�����A�۪K�]�U
-�@���K���^
+7.2.2　产业发展中存在的问题 ………………………………… 122
 
-�k�@�G���A�����|���A���νѤ�A�Ҥ��Υ����C
+7.3　中国数字内容产业链的成长模式 ………………………… 124
 
-  ==2�j��J���@�K
+7.3.1　内容数字化的发展模式 ………………………………… 124
 
-��J�]�T���^�A�����]�@���b�^�A�N�x�]�C���^�A���ġ]���b�^�A�b�L�]�@���^�A
-�L��]�G���^
+7.3.2　数字内容产业的商业模式 ……………………………… 125
 
-�k�@�@���A���������A�Ǥ@�T�A�Τj��J�A�X�T�A�Ӯ���A�X���s�Ѭr���A�X�j��
-����C
+7.3.3　数字内容产业链主导模式 ……………………………… 125
 
-  ==2�p��J���@�E
+7.4　中国发展数字内容产业的政策建议 ……………………… 126
 
-��J�]�K���^�A�����A�̯�A�H�ѡ]�U�T���^�A�b�L�]�G���b�^
+7.4.1　对政府的建议 …………………………………………… 126
 
-�k�����A���������A�Ǥ@�T�ΡA�ŪA�C
+7.4.2　对数字内容企业的建议 ………………………………… 129
 
-�@�k����X�D�J�Ѥ��C
+7.5　本章小结 …………………………………………………… 130
 
-�@�k����X�D�J���C
+第８章　结语与展望………………………………………… 
+131
 
-�@�k����X�Ѭr���C�@�k����h�Ǥl�[�d���C
+8.1　全文结论 …………………………………………………… 131
 
-�@�k����h�H�Ѥj�ǥ����[�����l�����C
+8.2　研究展望 …………………………………………………… 132
 
-�@�k����h�b�L�H�ѡA�[���o��C
+参考文献……………………………………………………… 
+134 
 
-  ==2�j�Ӯ���@�Q
 
-�j���A�~�v�]�U�G���^�A�p���]�|���^�A�L��]�T�T�^
+
+第１章　绪　论 
 
-�k�@�@���A���G��A���Ϋp���L��A���U�j���A�Ψ��K���A�h���J�v�Τ@�G�m�A��
-�ŪA�C�@�k����[�̹E���@���P�C
 
-  ==2�խG�Ӯ���@�Q�@
+第１章　绪　论
 
-�j���]�T���^�A�~�v�]�G���^�A�̯�]�@���b�^
 
-�k�@�@���A���G��ΡA�ŪA�C
+数字内容产业作为信息产业深入发展的新兴领域，已经成为全球经济增
+长点的一个重要分支，随着科学技术的发展，数字内容产业从形成、发展至
+成熟阶段都给情报学领域提出了更多的实际问题，需要情报学等学科理论去
+研究和发展。
 
-  ==2�p�Ӯ���@�Q�G
+1.1　研究背景和研究意义
+数字内容产业（Digital Content Industry）自1995年西方7国信息会议首次
+提出以来，引起了全球众多机构、研究人员的广泛兴趣和关注。随着发达
+国家、发达地区及城市的内容产业的兴起和产业链建设不断完善，内容产业
+研究与发展的重点也在不断变化。当前内容产业已发展至具体实施与应用阶
+段，其内涵不断深入到产业供应链与产业发展模式核心，研究层级则不断向
+产业集群转移。
 
-�j���]�T���^�A�p���]�@���b�^�A�L��]�@���^
+1.1.1　研究背景
+数字内容产业伴随着信息技术的发展获得了相对独立的发展，随着市场
+经济体系的完善和各项条款的实施，逐渐脱离了对传统产业的依赖，显示出
+其应有的产业特性和价值增长潜力。在立体化、多层次的全球数字内容产业
+发展格局中，中国数字内容产业的竞争优势并不明显。尽管近年来中国数字
+内容产业获得了快速发展，但数字内容产业的规模和结构存在一定的不足，
+成长潜力与能力也未充分体现。因此，准确分析和揭示全球数字内容产业的
+成长历程和特点，探寻和掌握数字内容产业的成长机理及规律，整合各类数
+字内容资源，对促进中国数字内容产业链的成长，使中国在世界数字内容产
+业的竞争中占有一席之地成为一项急待解决的重大课题[1]。
 
-�k�@�@���A���G��ΡA�ŪA�C
+数字内容产业并不是一个全新的产业，它是原有分属不同行业的产业
 
-  ==2�T�A�Ӯ���@�Q�T
+[1]罗海蛟.发展数字内容产业是国家级的战略决策[J].中国信息界，2010（3）：25-28.
+
+数字内容产业成长机理及发展策略研究 
 
-�j���]�G���^�A�~�v�]�@���b�^�A�p���]�@���b�^�A�L��]�@���^�A�̯�]�G���^
 
-�k�@�@���A���ηŪA�C
+门类的融合，或者说是行业归属的重新划分。美国在1997年对其产业分类标
+准进行了重新调整，用北美产业分类标准NAICS（North American Industrial 
+Classification Stand）代替使用多年的标准产业分类SIC（Standard Industrial 
+Classification），其中一项重要的调整就是设立一个全新的“信息产业群”，
+这个产业群没有包括广义上的计算机，却包括了数据处理业、出版业、信息
+服务业、电影和音乐、广播和传播业等，这个全新的产业实际上就是数字内
+容产业，这种分类思想就是对信息产业的全新理解。
 
-�@�k�����v�A�[�e�����e���A�J���ȷΦW�ȷδ��C
+信息产业的发展逐渐深化并产生了一个重要分支，信息产业分解转化为
+数字内容生产、信息制造业和信息服务业，它提供的数字内容与信息服务方
+式成为信息产业发展的关键，而“数字内容产业”也是基于此而产生的 [1]。美
+国Syracuse University信息学院发表的《内容-1996》报告中指出内容产业目前
+可以分为两类，一类是在线内容产业，即数字内容产业；另一类是像报业、
+出版业等这样的传统媒体产业，它们都属于潜在的数字内容产业 [2]。数字内
+容产业是在技术和内容的融合下产生的数字内容，进而形成一个庞大的产业
+群，为特定的用户群创作、分销数字文本、图片、音频和视频等产品和服务
+的所有创造价值的业务。
 
-�@�k����[���k���ǡA�W���k�Ӯ���C
+中国在没有使用“内容产业”提法之前，就开始了内容产业的建设。早
+在1996年就启动了“国家数字图书馆”的规划和建设；《中国文化蓝皮书》
+在2002年至2003年两次提出要大力发展“内容产业”；内容产业在业界已经
+开始进行产业运作模式和规律的探索。目前关于数字内容产业成长机理及发
+展策略的直接研究并不多见。数字内容产业的成长模式和产业集群的形成机
+制及内在机理亦不甚明朗，数字内容产业的价值链都在围绕核心或优势信息
+资源展开，有着非常强的行业渗透性，易于与其他产业融合，形成衍生性产
+品。同时产业集群的存在能降低生产、交易和运输的成本，共享集群内部的
+公共设施和服务，增进企业间的信息、知识和业务经验的交流与共享，既细
+化了专业分工，又创造了规模效应，更重要的是还能满足跨企业或产业的用
+户内容需求[3]。
 
-  ==2�礯�Ӯ���@�Q�|
+[1]彭祝斌.中国电视内容产业链成长研究[D].湖南：湖南大学，2008：13-15.
+[2]雷建军.软化的“媒介”—整合过程中的媒介内涵演变[J].现代传播，2007（1）：54-56.
+[3]李晓鹏，孙建军.现代内容产业及其产业模式探析[J].情报资料工作，2008（3）：9-13.
+
+第１章　绪　论 
 
-�礯�]�h�֦y�^�A�~�v�]���b�^�A�j���]�G���^�A�۪K�A�̯�]�U�@���b�^
 
-�k�@�@���A���ΡA�ŤߪA�C
+1.1.2　研究意义
+（1）理论意义
+随着3G、4G的到来，数字内容产业的发展趋势是移动化和融合化，产业
+的整体盈利水平将有明显提升，移动互联网成为电信运营商、内容开发商和
+运营商等各方力量关注的焦点，移动视频将会成为未来移动互联网的重要应
+用，因此，电视内容、影音以及动漫内容也都将被整合到移动互联网平台。
+此外，交互式网络电视（IPTV）和数字电视的商业化进程不断加快，数字电
+视和IPTV的普及在电信运营商的推动下都有了突破性的发展，因此数字内容
+产业如何发展、如何盈利是摆在我们面前的一个重要研究课题。本文研究对
+于有效解决数字内容产业发展相关问题，促进数字内容产业研究理论体系建
+设具有重要的理论意义，同时对于数字内容产业研究有助于推进情报学应用
+领域新的学科生长点的拓展。
 
-  ==2�R���a�����@�Q��
+（2）实践意义
+“入世”之后的新规则使我国传统的产业运行体制和经营理念都面临着
+强大的挑战和冲击，与数字内容相关的产品和服务将逐步实现对外开放，中
+国的数字内容产业面临着更为激烈的市场竞争，而我国数字内容产业无论在
+规模、资金、人才、环境和管理等方面，还是在相关内容产品的数量与质量
+上都无法与国外数字内容企业相抗衡。中国数字内容产业要在竞争中求得生
+存和发展，必须要在新的竞争环境下，充分掌握全球数字内容产业的发展态
+势，谋求数字内容产业链的全面发展，找出解决问题的途径和办法。本文依
+据信息资源管理、信息产业运行机制、产业集群、产业链、价值链等理论，
+在分析全球数字内容产业成长现状、机理、环境、对策的基础上，针对中国
+数字内容产业成长中存在的问题提出相应的发展策略，有助于解决我国数字
+内容产业在未来发展中的问题并定位方向，有助于促进中国的数字内容产业
+不断地成长和健康发展。 
 
-�R���A�ը��ġA�d���֡]�U�����^�A�ͦa���]�|���^
 
-�k�@�@�����ΡA�����[�����@���C�o�g���ҥ[�j���C����L�j���A���Ҥ����C
+1.2 文献综述
+信息时代催生了数字内容产业，并使之成为发展迅速的新兴产业，各
+界学者或业内人士都把关注数字内容产业的发展作为信息产业的重要分支。
+数字内容产业与信息产业是一种相互依存、相互促进的关系，信息产业为数
 
-  ==2�j���ݴ��@�Q��
+
+数字内容产业成长机理及发展策略研究 
 
-�j���]�G���^�A�~�v�]�G���b�^�A�̹E�]�@���Ǥp�K�O�^
 
-�k�@�@���A���ηŪA�C���֦A�A�A�մc���Q�A�H�N�[���C
+字内容产业提供技术保证，可以带动内容产业的进一步发展。信息产业通过
+电子化、信息化，为数字内容产业的发展提供新的发展方向，为数字内容产
+品提供了不断扩大的市场，刺激了数字内容产业的技术开发与应用，促进了
+数字内容产业集群的优化和升级。但是我们也发现他们对数字内容产业的研
+究并不深入。关于数字内容产业的研究目前主要集中在以下两个方面：数字
+内容产业的概念与归属研究、数字内容产业链成长研究。虽然对“数字内
+容产业”的概念和内涵还没有达成一致，但无论是“欧盟计划”、经合组织
+（OECD），还是“中国数字内容产业发展研究报告”，都对“数字内容产
+业”的相关概念进行了阐述和论断，对数字内容产业的分类和归属进行了分
+析和划分。
 
-  ==2�j���ݶ�@�Q�C
+1.2.1　数字内容产业内涵界定
+（1）国外数字内容产业的内涵
+欧盟（European Union）在《信息社会2000计划》（1996）中提出了“数
+字内容产业（Digital Content Industry）”的概念，内涵概括为“制造、开发、
+包装和销售信息产品及其服务的产业，其产品范围包括各种媒介的印刷品、
+电子出版物和音像传播”[1]。
 
-�j���]�b��^�A�~�v�]�G���b�^�A߬���]�T�����t��^�A�����]�Q�G�T���^
+经合组织（经济合作与发展组织OECD）在1998年《作为新增长产业的内
+容》的专题报告中提出了“内容产业（Content Industry）”的概念，内涵概括
+为“由主要生产内容的信息和娱乐业所提供的新型服务产业，包括出版、音
+乐、电影、广播和影视传播等产业部门。该专题报告进一步把“内容”划分
+为两类：一类是传统的视听和音乐内容，以“一对多”形式由单一生产者向
+众多受众传播；另一类则是综合了数字文本和视听内容等多媒体服务，通过
+播放器或互联网传送，即新媒体”[2]。
 
-�k�j�����A�U߬���S�Aù������B�~�v�p�d�A��p�u�l�j�C�C�A�@�Y�J�̹E���T�r
-�A�ջe�b�͡A���@��A�Φܥb��A�ŪA�C���@�J���Q�A�A�A�C
+美国软件与信息业协会（U.S. Software and Information Industry Association，
+SIIA）在SIIA网站（2009）里提出了“内容产业”的概念，内涵概括为“将在
+线内容出版商和提供商、支持信息产品和服务营销与提供的技术和服务提供
 
-  ==2�p���ݴ��@�Q�K
+[1]European Commission.In of 2000（1996-1999），1996.
+[2]OECD.Content As a New Growth Industry.DSTI/ICCR.IE（98）6F/NIAL，1998.
+
+第１章　绪　论 
 
-�b�L�A���s�A���o��]�@�T�|���Τ��^
 
-�k�@�@���A���ηŪA�A���Q�A�A���C�Y�U�C
+商都归类为从事内容产业的企业”[1]。
 
-�@�k����X�p��J���C
+美国北美行业分类系统（NAICS）（1997）提出了“信息产业”的概
+念，内涵概括为“特指将信息转变为商品的行业，它不但包括软件、数据
+库、各种无线电通信服务和有线信息服务，还包括传统的报纸、书刊、电影
+和音像产品的出版。而计算机、通讯设备等硬件制造则被划为制造业的一个
+分支” [2]。
 
-  ==2������@�Q�E
+澳大利亚在《澳大利亚数字内容行动章程》（2005）中提出了“数字内
+容产业”的概念，内涵概括为“包括信息通信技术产业的应用与服务两个组
+成部分，同时也包含了传统的电影、娱乐和文化产业，重点发展创意数字产
+业”[3]。
 
-�����]���^�A���Ρ]�U�C��h���ͪ��^�A�����]�C�T�^�A�j���]�G���b�^
+爱尔兰国家政策与咨询委员会在《爱尔兰数字内容产业发展战略》
+（2002）中提出了“数字内容产业”的概念，内涵概括为“创建、设计、管
+理和销售数字产品和服务以及为上述活动提供技术支持的产业，是将传统内
+容产业、媒体业、娱乐业、软件与流媒体、电子硬件和电信等加以综合集成
+的经济活动领域”[4]。 
 
-�k�@�G���A���ΡA�A�A�C
+英国贸工部（United Kingdom：The Department of Trade and Industry，
+DTI）在《英国数字内容产业发展行动计划》（2000）中提出了“数字内容
+产业”的概念，内涵概括为“包括出版业、软件业、网页制作业、图形设计
+业、游戏业、广播电视业等创意产业” [5]。日本经济产业省在《新经济成长战
+略》（2006）中提出了“内容产业”的概念，内涵概括为“加工制作文字、
+影像、音乐、游戏等信息素材，通过媒介流通到用户的信息商品，包括瞬间 
 
-  ==2�����@�G�Q
+[1]Dick Kaser.SIIA’s Global Information Industry Summit：Content Industry Considers Business Models. 
+Information Today[EB/OL].November 2008：52-53.[2009.7.20 ].www.infotoday.com. 
+[2]中共上海市建设和交通工作委员会党校特供信息[EB/OL].[2009-07-22]http：//www.Um colleg e.com/
+xxkx/xxkx_text.asp？id=345=345.
+[3]Hsin-Hann Tsai， Hong-Yuh Lee， and Hsiao-Cheng Yu.Developing the Digital Content Industry in 
+Taiwan[EB/OL].2006：60-63. [2009-07-06]. www.interscience.wiley.com. 
+[4]Justin Pearse. Pact is well placed to serve the digital content industry[EB/OL].New mediaage 5 march 2009 
+78-79.[2009-07-20].http：//www.nma.co.uk/. 
+[5]Justin Pearse. Pact is well placed to serve the digital content industry[EB/OL].New mediaage 5 march 2009 
+78-79.[2009-07-20].http：//www.nma.co.uk/.
+
+数字内容产业成长机理及发展策略研究 
 
-�����]���^�A���Ρ]�U�C��h���ͪ��^�A�����]�C�T�^�A�j���]�G���b�^
 
-�k�ӥ��һe�@�G��A�Τ��G��A�Τ@��ܤ����A�ŪA�A٢�ɦ奼�U�A�A�A�C
+可以接收、消费的信息和历经百年拥有大批读者的文学作品” [1]。韩国《韩国
+2003年信息化白皮书》（2003）中，“数字内容产业”是指“利用电影、游
+戏、动漫、唱片、卡通、广播电视等视像媒体或数字媒体等新媒体，进行储
+存、流通、享有的文化艺术内容的总称”[2]。
 
-  ==2���s�Ѭr���@�G�Q�@
+综上可以看出国外关于数字内容产业的概念和内涵还没有形成共识，不
+同的国家和组织都从各自的角度对其进行了界定，从涵盖的内容看有一点是
+得到共识的：都以内容为核心，信息或数字为纽带，强调不同产业间数字产
+品的交叉和融合，是一个新兴的产业领域。
 
-���s�A���f�A�����A���l
+（2）国内数字内容产业的内涵
+《上海市政府工作报告》（2003）中指出：“数字内容产业依托先进的
+信息基础设施与各种信息产品行销渠道，向用户提供数字化的图像、影像、
+语音等信息产品与服务的新兴产业类型，它也包括软件、远程教育、动漫、
+媒体出版、音像、数字电视、电子游戏等产品与服务，属于智力密集型、高
+附加值的新兴产业[3]。”
 
-�C�A�����A���ηŪA�C����X�j�Ӯ���C�@�k����[�L�ߡC����X�T�A�Ӯ���C�@
-�k����[�̹E���@���P�C����X�խG�Ӯ���C�@�k����X�D�J�Ѥ����C
+台湾经济部工业局数字内容产业推进办公室在《2004台湾数字内容产业
+白皮书》（2004）中将数字内容产业定义为：“提供将图像、字符、影像、
+语音等资料加以数字化并整合运用的产品或服务的产业 [4]。”国务院发布的
+《2006－2020年国家信息化发展战略》（2006）中，数字内容产业属于信息
+产业的重要组成部分。在信息网络背景下，文化、出版、广播、影视、市场
+资讯、市场调查、游戏动漫等，凡是以内容加工为对象，产品形式表现为信
+息形式的，都属于信息产业。在我国政府目前的界定中，数字内容产业被归
+属于信息服务业。
 
-  ==2�ժ���]�����褪�G�Ӷ��f�L���Ӵ��̡A���i�A�^�@�G�Q�G
+国内学者吴佩玲（2007）分析了数字内容产业与信息内容产业，但未说
+明二者的联系和区别；汪礼俊（2008）指出创意产业的核心内容就是数字内
 
-�����]�@���b�^�A�̯�]�@��^�A�e�̡]�@�X�^�A�ۻI�]�|��^
+[1]孙国庆.日本内容产业发展分析[J].日本研究，2006（1）：53-56.
+[2]The Korea Times.Korea to Invest W21 Billion in Digital Contents Industy [EB]. http：//times. Hanko oki. 
+eomjlPage /tech/200502k/t2005021417553912350.htm.
+[3]中华人民共和国传媒大学广告学院.中华人民共和国数字内容产业发展状况研究[EB/O L].[2008-1230.]
+http：//www.diyilu.com/news/view/id-116 2009-07-21.
+[4]赖茂生，闫慧.论信息资源产业及其范畴[J].情报科学，2008（4）：481-484.
+
+第１章　绪　论 
 
-�k�������ηŪA�C�@�k����[�a���C�@�k����[�H�ѻa���C�@�k����[�b�L��֡C
-�@�k����b�L�ܱ�C�@�k����X�Ѭr���C�@�k����[�H�ѥե��C�@�k����X�D�J��
-�C�@�k����[�¶��گB���C
 
-  ==2�D�J���@�G�Q�T
+容产业；李新娟（2008）认为数字内容产业、信息内容产业是等同的，都是
+融合了信息技术后的升级产业；雷弯山（2008）提出数字内容产业、信息内
+容产业、创意产业、数字创意产业都只是数字内容产业的不同称谓[1]。
 
-�s¼�]�@��^�A�����]�b��^�A���l�]�b��^�A�̯�]�b��^�A���v�]�@���^�A��
-���A�j���]�b��^
+国内一些组织和学者对数字内容产业的定义体现了广义的概括和总结。
+认为数字内容产业是基于数字化信息技术，融合出版、广播影视、通信网络
+等多种媒体的文化、创意等综合产业，它包括信息与通讯技术产业和文化产
+业中的部门，蕴含着信息内容、信息文化与信息服务，体现了出版、影视、
+通信和信息技术的产业交叉[2]。
 
-�k�����A���ΤJ�e�ֳ\�C�@�k����X�Ѭr���C�@�k����[�ƥۡC�@�k����[�ܱ��L
-�ߡC�@�k����X�Ѥ����C�@�k����[�ƥ۽դ��d���C
+（3）数字内容产业内涵小结
+数字内容产业本身具有一定的复杂性、前沿性和与其他传统或新兴产业
+的部分交叉。文化产业、内容产业、创意产业、数字产业、版权产业和网络
+产业等在产业范畴的界定上并不是完全独立、泾渭分明的，它们之间存在着
+许多交叉和融合。因此不能简单判定同一事物的不同概念的孰优孰劣，只能
+从不同角度和研究需要出发做出选择。
 
-  ==2���d���]�����褪�G�����f�A���h�Ӵ��̡A���i�A�^�@�G�Q�|
+数字内容产业是处在发育和渐渐明晰中的产业领域，以上不同概念界定
+的共同之处在于数字内容产业与图像、文字、影像、语音以及数字化技术的
+关系，体现了数字内容产业所强调的创意和技术两个重要元素，它们的融合
+也是数字内容产业有别于其他产业的最重要特征。
 
-�ޭd�AӬ�d�A�ե��]�U�����^�A�ۤߡ]�@���^�A�A�m�]�@��^
+各界对数字产业的理解都跳出了技术层面的认知，扩展至对内容产业的
+内涵、特征、产业结构、发展模式等的深入研究。数字内容产业作为全球新
+型快速发展的产业，由于信息技术的变化以及自身的发展将不断地扩展与丰
+富。
 
-�k�νթηΡC�@�k����[�����ĽժA�C
+1.2.2　国内外数字内容产业发展现状
+（1）国外数字内容产业的发展
+①产业规模与增长
+研究数据表明，全球数字内容产业是一个规模庞大、快速增长的产业。
+2002—2009年全球数字内容产业规模及其增长情况如图1.1所示。从全球数字
+内容产业规模看，2000年其规模仅为约600亿美元，自2002年以来其市场规模
 
-  ==2�F�����]�Y���d�X�q���O�]�^�@�G�Q��
+[1]胡再华.数字内容产业特征、现状和发展策略研究[D].武汉：华中师范大学，2006-05-25：142-147.
+[2]罗海蛟.上海数字内容产业预测与分析[J].中国信息界，2010（1-2）：105-109.
+
+第１章　绪　论 
 
-  ==2�ʸ����@�G�Q��
 
-�ʸ��]���񪣡^�A���p���]�����S�ί��ֳ\�^
+数字内容产业近年来获得了各国政府的高度重视和认可，不但制定与
+数字内容产业相关的政策和法律，还实施了一系列的国家级发展战略和规
+划。中国政府及企业面对加速成长的数字内容产业，应该借鉴其他国家和地
+区在管理机制、人才培育、法规健全、鼓励金融投资、开拓国际市场方面的
+举措，制定出符合实际的全方位推动战略，优化目前的数字内容产业发展环
+境。同时还要考虑如何更精确地把握全球数字内容市场发展脉动，更深入地
+梳理细分应用价值变迁轨迹，这需要从区域与国别、细分市场、流通渠道、
+竞争格局、竞争策略、定量预测等多个角度洞察行业发展动向，构建起产业
+结构高级化、产业发展集聚化、产业水平国际化的现代产业体系[1]。
 
-�k�����A���a�b�X�A���@���b�A�N�ĥb���A�դU�@���P�A���R�[�A�C
+本文认为，数字内容产业（Digital Content Industry）是基于信息基础设
+施和各类产品行销渠道，向用户提供数字化的图像、语音、影像等产品与服
+务，形成与信息、文化、网络、创意产业交叉融合的新兴产业类型。由于数
+字内容产业涵盖的范围非常之广，且各国都有自己特有的产业分类体系，因
+此关于数字内容产业的含义和分类至今尚未形成统一的认识。
 
-�Y�h�[�{���A�J�h�[�ܵy�C
+随着信息技术普及，特别是信息资源处理技术的普及，数字化信息资源
+与传统信息资源的界限日趋模糊，表现在无论是从信息内容产业业态、企业
+产品上都很难将数字化与传统的内容产品完全分开。由此可见数字内容产业
+的地位正在逐渐攀升。研究数字内容产业的发展对促进我国数字内容产业发
+展的意义极其重大。
 
-  ==2�T�t���]���R���^�@�G�Q�C
+1.3　研究思路与研究内容
+1.3.1　研究思路
+本文遵循了“理论提出问题—模型分析问题—实证解决问题”的研究思
+路，对数字内容产业链的成长机理及发展对策等问题进行全面深入系统的研
+究。本文综合运用信息经济学、产业链等理论对数字内容产业链的成长机理
+及发展策略提出问题，运用超边际结构模式分析及模型求解数字内容产业链
+的成长模型，通过中国数字内容产业链的成长模式及策略进行分析，提出中
+国数字内容产业面临的现实问题及解决对策。本文的研究思路见图1.5所示。
+本文将以数字内容产业的成长历程为起点，通过对数字内容产业链的成长条
 
-���e�����ɥĥb���A����ĪA�@�b�A���Z�ޱ��ަR�X�A�p�R�֡A��H����ħ뤧�A
-���w�A���e���δ��A�b���ߤ�C
+[1]张玲，李辉.基于网络结构的信息内容产业集群式发展机理研究[J].情报科学，2008（6）：934-938.
+
+数字内容产业成长机理及发展策略研究 
 
-  ==2���l���@�G�Q�K
 
-�j���l�]�C�T�^�A���a�]�b�X�^
+件、成长动因和成长机理的剖析，构建数字内容产业链的成长模型，然后从
+数字内容产业链的横向整合与纵向延伸两种策略，探讨数字内容产业的发展
+途径、发展规律和发展策略，并针对中国数字内容产业的成长特点及其存在
+的问题，提出中国数字内容产业的发展策略。
 
-�k�H���α��l�ܤ@���b�A�J���a�N�ܥb���A�ŪA�C
+............................................................................................................................................................................................................................................................
+..............................................................................................................
+..
+. 
+. 
+........
 
-  ==2���l�f�ִ��@�G�Q�E
+. 
+..
+. 
 
-�j���l�]�Q���T�^�A���f�]�b��^�A�̯�]�G���b�^
 
-�k�i�C�A���G��ΡC
+..
 
-  ==2���l�p�����@�T�Q
+......
 
-�j���l�]�C�T�^�A�p���]�b��^�A�L��]�G���^
+. 
+..
+. 
 
-�k�i�C���ΡC
 
-  ==2�Q�Ǵ��@�T�Q�@
+..
 
-ʹ��A�j�u�A�̹E�]�����^
+.... 
 
-�k�����A���@���A�ǤQ�T�A�A�}�N�ġA�b�����ĥ��b���P�A��̤@���P�C
 
-  ==2�������@�T�Q�G
+图1.5　本文的研究思路
 
-�����]�@��^�A�j�u�]�b��^�A���l�]�Q�T�^
+1.3.2　研究内容
+本文试图构建数字内容产业成长的基本理论，因此用信息资源管理、产
+业链等理论提出数字内容产业成长历程中存在的问题。用模型和相关理论分
+析数字内容产业的成长机理、成长途径和发展策略，理论分析是本文研究的
+重点。通过实证解决问题是本文研究的另一侧重点，即数字内容产业成长理
+论在中国数字内容产业发展中的具体应用。
 
-�k�������ΡC����X���ݴ��C����X�j�Ӯ���C���褭���A���ݴ��T���A�j�Ӯ�G
-���C����Ѭr���C
+全文共分为八章。
 
-  ==2�j�����s�m�ߴ��@�T�Q�T
+第一章是绪论。阐述选题的背景及其意义，综述国内外的相关文献，介
+绍本文的研究思路，确定本文的研究内容与方法，提出论文取得的主要研究
+成果与创新点。
 
-�j���A���s�A�����]�����^
+
+第１章　绪　论 
 
-�k�����A���ΡC
 
-�@�k�p�����ƨ}�C
+第二章是数字内容产业研究相关基本理论。综合介绍了本文研究中涉及
+的一些重要理论，包括信息资源管理理论、产业链理论、产业集群理论、经
+济学理论、价值链理论等。
 
-  ==2�ۭd���S���@�T�Q�|
+第三章是数字内容产业的成长历程分析。探讨了数字内容产业的成长状
+况和三个成长阶段以及成长的特点，分析了数字内容产业的成长环境、产业
+市场特征。
 
-�]�Y���d���[�H���ۡB�ۻI�^
+第四章是数字内容产业集群形成机理。概述了数字内容产业集群与产业
+集聚的相关概念，然后在分析数字内容产业集聚原因的基础上，研究了数字
+内容产业集群的形成过程、影响因素和集聚机理。
 
-�k�����ηŴ��A�ηs���������աA�ηΡC�@�褣�νޭd�A�@��[�̯�A�@�観�H��
-�A�����A�쭻�A���ڡA�ƥۡA�̯�A�@�@�Q�T���A�@�W�ۭd�ե����C
+第五章是数字内容产业链的成长机理及模型。阐述了数字内容产业链的
+内涵及其构成，数字内容产业内各企业之间依据技术经济联系为生产内容产
+品或提供相关服务所涉及到的一系列互为依存的上下游链条关系，探讨了产
+业链形成途径与成长条件、机理及模型。
 
-  ==2�H�ѥۻI���@�T�Q��
+第六章是数字内容产业发展途径及其策略研究。从产业组织的价值链出
+发研究了数字内容产业的发展途径，从产业纵向延伸和横向整合的角度论述
+了国内外数字内容产业的发展策略。
 
-�H�ѡ]�G���b�^�A�ե��]�b��^�A�����]�b��^�A�����]�T���^�A�t�|�]�b��^�A
-Ӭ�d�]�b��^�A�b�L�A�s���]�T���^�A�̯�]�@��^�A�ۻI�]�T��^
+第七章是中国数字内容产业的成长模式及发展战略实证分析。阐述了中
+国数字内容产业整体发展状况、成长模式和创新环境，提出了中国数字内容
+产业的发展策略。
 
-�k�i�C���ΡC
+第八章是结语与展望，阐述了本文的结论、主要创新点和研究展望。
 
-  ==2�Z�ŪZ�H�ѥۻI���@�T�Q��
+1.4　研究方法
+本论文在写作过程中，采用了如下研究方法：
 
-�H�ѡ]�G���^�A�ۻI�]�@��^�A�t�|�]�G��^�A�����]�G���^�AӬ�d�A�����]�U�@
-���^�A�̯�]�����^
+（1）文献调研法：阅读和参考了200余篇国内外相关论文、图书、专
+著、工具书等文献，综合运用文献调研法、语义分析描述法以及知识组织的
+方法和计算机领域的相关技术进行理论探讨和实证研究。
+（2）规范分析方法：规范分析作为科学研究基本方法之一所要解决的是
+“应该怎么样”的问题。规范分析和实证分析通常是结合使用的，通过实证
+来证明理论假设、推论、定义的准确性。
+（3）实证分析方法：实证分析所要解决的是“是什么”的问题。由于实
+
+数字内容产业成长机理及发展策略研究 
 
-�k�����A���ΡC
 
-  ==2�b�L��ִ��@�T�Q�C
+证分析在一定程度上是规范分析的基础，而规范分析则是对实证分析结果的
+一种理论提升。
 
-�b�L�A���֡A�̯�A�H�ѡAӬ�d�A�p���]�U�G���b�^�A���ڡ]�b��^
+（4）对比分析方法：在论证全球数字内容产业成长的同时，从中寻找更
+为一般的发展规律。通过与发达国家的比较，探讨促进中国数字内容产业成
+长的策略。
+（5）超边际分析方法：在数字内容产业链成长模型的研究中，本文采用
+了超边际分析方法来构建数字内容产业链成长的理论模型，来进一步解释数
+字内容产业链的成长机理。
+（6）专家咨询法：在研究过程中，通过参加国内外相关学术会议和专家
+咨询，了解与本文相关的研究成果，虚心请教相关领域的专家并与其进行合
+作研究。
+事实上，对数字内容产业成长机理及发展策略进行全面系统深入的分
+析，单靠哪一种研究方法和理论是做不到的。在各学科日益融合的今天，事
+物发展的复杂性恰好体现了方法融合这一特点。
 
-�k�����A�������C
+1.5　论文的主要创新点
+笔者认为，本论文的创新点主要体现在以下几个方面：
 
-  ==2Ӭ�d�b�L���@�T�Q�K
+（1）研究了数字内容产业集群的形成过程、影响因素和集聚机理。得出
+了数字内容产业集聚的动力机制模型。 
+（2）系统分析了数字内容产业链的成长条件、成长动因和成长机理，构
+建了数字内容产业链的成长模型。
+（3）从数字内容产业链的延伸与整合两个维度，探讨了数字内容产业的
+发展途径，提出了数字内容产业成长的发展策略。建立了数字内容产业成长
+的纵向和横向拓展模式。
+（4）针对中国数字内容产业的成长现状及其存在的问题，提出了中国数
+字内容产业的成长模式及发展对策。
+1.6　本章小结
+本章基于全球数字内容产业的成长状况为研究背景，深入阐述和总结
+了数字内容产业的内涵界定、国内外数字内容产业的发展规模和产业细分市
 
-Ӭ�d�A�b�L�A�����]�U�@�����ġA�������ҥΤ��@�j���A�Φܥ|�����ġA�o�U����
-�ĪA�^
+
+第１章　绪　论 
 
-�k���ΡC�@��[�����A�̯�A���֡]�U�@���^�C
 
-  ==2�j��ִ��@�T�Q�E
+场格局；融合多门学科的理论知识体系和多种研究方法，以理论提出问题、
+模型分析问题、实证解决问题的研究思路研究数字内容产业成长机理及发展
+策略；最后概括论文主要研究内容、介绍论文研究方法，提出论文的创新之
+处。
 
-���֡A�̯�]�U�@��^�A�H�ѡ]�G��^
+
+数字内容产业成长机理及发展策略研究 
 
-�k�������T���C
 
-  ==2��Ӭ�d���@�|�Q
+第２章　数字内容产业研究相关理论
 
-���֡A�̯�]�U�@��^�A�H�ѡ]�G��^�A�b�L�A�ե��A�t�|�A��Ӭ�d�]�U�b��^
 
-�k�����������C
+数字内容产业是信息化进程从信息基础设施建设阶段进入信息资源开发
+利用阶段的产物。数字内容产业不同于信息技术产业。信息技术产业主要是
+物质产业，属于第二产业中制造业和工业范畴，其产品也主要是物质产品；
+而数字内容产业是精神产业，属于第三产业范畴，是为生产和生活服务的，
+其产品是精神产品。数字内容产业是信息技术产业基础之上的一场新的信息
+革命，代表着信息化发展正从初级阶段进入高级阶段，从物质时代走向精神
+时代。对学术界来说，虽然数字内容产业是一个新兴的研究领域和实践领
+域，但相关的理论为其研究奠定了良好的基础。
 
-  ==2�b�}���@�|�Q�@
+2.1　信息资源管理理论
+信息资源管理研究可归纳为4个发展历程和5个理论派别，各阶段的理论
+兼容并蓄地发展。随着信息资源管理实践的发展，其理论研究也日渐丰富。
+信息资源管理研究介于宏观与微观层次范畴，从信息产业政策到企业内部组
+织，通过研究发现信息资源管理的规律，科学地指导信息资源的规划、组
+织、协调和控制[1]。
 
-�b�}�A�L�ߡ]�����^
+2.1.1　信息资源管理发展历程
+（1）传统管理阶段
+20世纪70年代，信息资源管理大多处于以科技文献信息服务为中心的传统
+管理时期，服务面较窄，主要面向企业内部科技人员，信息处理的主要对象是
+书籍、文件、资料等纸质文献，服务内容以提供技术文献和相关服务为主，服
+务方式也以手工为主。这个阶段存在的主要问题是管理思想上较少考虑与效益
+直接挂钩，技术加工手段极其落后，出错率较高，工作效率亦受到严重制约，
+信息交流机制不健全，人们没有意识到信息的存在价值，基本停留在文献的存
 
-�k�����T���A���s�δ��դU�A�ζ��s�Ѭr���դU�A���m�ߴ��դU�C
+[1]陈婧.国内外企业信息资源管理理论研究进展[J].情报资料工作，2008（6）：98-100.
+
+第２章　数字内容产业研究相关理论 
 
-  ==2�ե����@�|�Q�G
 
-�ե��AӬ�d�A�H�ѡA�����]�U�b��^�A�̯�A���ڡ]�U�@��^�A�쭻�]�G���b�^
+档、保存和备案方面，没有为信息的经营和管理做出实质性的贡献。
 
-�k���մ��դU�G���A���[�ƥۡA�Υ[�����C
+（2）技术管理阶段
+20世纪80年代，现代信息技术迅速发展，信息资源管理工作进入技术管
+理阶段。政府、企事业“硬”环境逐渐改观，由最初的自动数据处理、基层
+日常管理业务，发展到以计算机网络系统来存储与控制业务流程，随着管理
+信息系统的大规模开发，为数据采集、综合处理数据创造了条件。由于各界
+得到了信息技术改进带来的效益，人们逐渐认识到了信息资源的战略价值。
+这个阶段的研究成果主要表现为信息的管理方法革新、处理能力增强、管理
+成本下降、资源配置效率提高。但是这个阶段也存在技术至上的观念，导致
+企业盲目投资，追求技术领先。
 
-  ==2�|�f���@�|�Q�T
+（3）综合管理阶段
+20世纪90年代初，企业发现基于信息技术为核心的信息资源管理方式没
+有带来预想的好处。Nicholas Carr指出IT技术正在从一种潜在的战略资源变为
+一般化的生产要素，企业不会因为拥有了信息技术就独具优势，信息资源管
+理需要从管理和制度上变革 [1]。Michael Hammer（1990）提出了结合信息管理
+的企业流程再造对企业的生产流程管理和组织系统进行重组整合 [2]。人们开始
+以全面系统的观点来看待企业的信息资源建设，主张在信息管理中的技术、
+经济、人文和管理的综合集成[3]。
 
-�̯�]�@���^�A�����]�@���^�A���l�]���̥b��^
+（4）知识管理阶段
+Emerald（1997）出版了第一种知识管理的专业期刊《Journal of Knowledge 
+Management》，研究集中在知识管理的含义、方法、体系或模式、效益评价
+及特定的知识管理等问题。知识管理专家马克·麦克艾尔洛埃在1999—2002
+年期间，不仅发表过“第二代知识管理”的文章，还出版了《新型知识管
+理：复杂性、学习和可持续创新》一书，阐述了“第二代知识管理”的核心
+思想。第二代知识管理以知识生命周期为核心，跟踪知识生产流程、兼顾知
+识生成和集成平衡，致力满足知识需求，追求供需平衡。
 
-���ηŪA�C
+信息资源管理的各阶段与当时的技术、经济、社会背景是相适应的，反
 
-  ==2�����l���@�|�Q�|
+[1]Carr，Nicholas G. IT Doesn ’t Matter. Harvard Business Review，2003，81（5）：41-50.
 
-�����l�]�b��^�A�����V�A�H�ѡA�����A���֡]�G���^
+[2]Michael Hammer. Reengineering Work：Don ’t Automate. Havard Business Review，1990（7）：104-111.
+[3]卢泰宏.信息资源管理：新的制高点[J].国外图书情报工作，1992（3）：1-6.
+
+数字内容产业成长机理及发展策略研究 
 
-�k�������ǷΡC
 
-  ==2���״��@�|�Q��
+映了人们信息管理思想发展的轨迹，推动了相关研究的螺旋式上升。因此知
+识管理研究业已成为新的热点问题[1]。
 
-�t�|�]�@��b�^�A�ۻI�]�C���b�^�A��Ī�]�b��^�A�̯�A�H�ѡA�Ө��]�U�G���b
-�^
+2.1.2　信息资源管理理论派别
+（1）信息学研究流派
+信息学研究流派是现代信息管理学的开创者，集成和发展了几千年的
+文献管理思想。霍顿在1985年出版的《信息资源管理》一书，是以信息资源
+管理为逻辑起点的信息资源管理专著 [2]。他认为信息资源管理是对信息资源
+规划、组织、预算、决算、审计和评估的实施过程。在克里斯和高、怀特、
+伍德等学者的共同努力下信息资源管理研究发展迅速。国内的知名专家霍国
+庆、秦铁辉等人在信息资源的集成管理、战略管理、获取途径和利用方法等
+研究方面成果突出 [3]。信息学研究流派主要研究信息资源的采集、分类、组
+织、检索与传递，已经逐步地建立了独立的理论体系，研究的深度与广度不
+断提高，该流派引领着信息资源管理学科发展的节奏。
 
-�k�����A�f�����z��֮ɡA���մ��b�J�A���X�ӸѡA�@��L�H�ѲӨ��C
+（2）管理信息系统研究流派
+早在20世纪30年代，柏纳德就已提出了信息资源管理系统的思想，是管
+理信息系统的最早形态。美国的D.胡塞因和K.M.胡塞因提出的理论是计算机
+资源管理理论，探讨的是信息系统的开发、管理和应用问题，又被称为“管
+理中的信息系统理论” [4]。国内的相关研究成果也较多。如郑继芳、薛华成等
+从管理信息系统的基本概念、建立过程和社会功效等角度着手研究信息资源
+管理 [5]。管理信息系统流派主要研究的是如何采用信息技术来促进信息管理，
+该流派局限于技术角度，还存在经济、人文和社会视角的盲点，其基础理论
+还有待深化。
 
-�t�|��
+（3）商业管理研究流派
+经济界和管理界将信息资源视为最重要的生产力要素，并主张从经济
+效益方面进行管理。美经济学家保罗·罗默于1983年提出，信息应被看作与 
 
-�t�|�A�㥻�A�a���]�����^
+[1]Mark W.McElroy. 
+The New Knowledge Management——Complexity， Learning， and Sustainable 
+Innovation. ElsevierPress，2003：133.
+[25]Forest W Horton. Information Resources Management.Englewood Cliff， NJ： Prentice Hall，1985.
+[26]秦铁辉.企业信息资源管理[M].北京：北京大学出版社，2006：7-8.
+[27]乌家培.经济信息与信息经济[M].北京：中国经济出版社，1991：34-36.
+[28]郑继芳.现代企业信息资源管理[M].武汉：华中理工大学出版社，1990：83-89.
+
+第２章　数字内容产业研究相关理论 
 
-�k�����A���դT���A���عæ��K�ѡC
 
-��J���l
+劳动力和资金一样重要的生产要素。德信息管理学家施特勒特曼引入“价值
+链”的概念，提出应沿着价值链进行信息资源管理 [1]。国内杜栋等人指出要从
+侧重于“管理信息系统”向重视“信息资源价值”转变 [2]。商业管理研究流派
+研究的是如何合理配置资源，评估信息资源开发建设的经济成本、效益与风
+险，确定信息商品的价格，考察信息资源建设对社会经济发展的影响。
 
-��J�A�H�ѡA�̯�A�j���A���k�A����
+（4）政策研究流派
+政策研究流派源于行政管理和法律领域，主要致力于规范企业行为，维
+护信息安全。美国制定了与信息管理相关的法律如《信息科学技术法》《美
+国技术领先法》《信息技术管理改革法》等。我国的信息管理法律研究虽然
+起步较晚，但是近几年来也加紧了规章制度方面的建设，包括信息资源管理
+标准、流程，信息资源管理人员激励与约束，信息监督和防伪制度等内容。
+我国信息资源管理政策研究表现出一定的零乱性和滞后性，理论性、原则性
+较强，较难为相关决策提供参考。
 
-�k�񤭿��A�������A���ΡC�Z�ŪZ�[�b�L�����l�ܱ�C
+（5）信息生态学研究流派
+信息生态学研究流派是近几年出现的新流派，它认为应该以人的需求为
+中心来管理企业的信息环境。美托马斯·H.达文波特于1997年首次将生态理
+念引入信息管理中 [3]。纳尔蒂也于1999年在出版的著作《Information Ecology 
+：Using Technology with Heart》中提出了许多有建设性意义的观点 [4]。国内专
+家于晓镭、李佳洋、靖继鹏等人撰文探讨了信息生态圈与3ESP模式，分析了
+目前信息环境中存在的问题，提出了建立信息生态系统，并形成了“以人为
+本”的信息管理思想，目标是达到信息环境的生态平衡[5][6]。
 
-  ==2�B�x���@�|�Q��
+2.2　产业链理论
+随着互联网的广泛应用，企业的管理思想和技术问题逐渐变得复杂化和
 
-��J�A�̯�]�G��^�A�����A���k�A���ġ]�@��^�A�ѡA�b�L�A�j���C
+[29]苗东升.系统科学精要[M].北京：中国人民大学出版社，1998：27-34.
+[30]杜栋，蒋亚东.企业信息资源管理[M].北京：北京交通大学出版社，2006：13-32.
+[3]Thomas H Davenport， Laurance Prusak .Information Ecology：Mastering the Information and Knowledge 
+Environment.Oxford University Press，1997：204-211.
+[4]Bonnie ANardi， Vicki L O ’Day. Information Ecology：Using Technology with Heart.MITPress，1999.
+[5]于晓镭.企业信息生态圈与3ESP模式[J].中国电子商务，2000（17）：50.
+[6]李佳洋，郭东.信息生态学——现代企业信息管理的新模式[J].情报科学，2005（5）：673-677.
+
+0数字内容产业成长机理及发展策略研究 
 
-�ӳҼ����C���H���סC
 
-  ==2�_�����@�|�Q�C
+多维化，人们认识问题和解决问题的思维方式不仅打破了企业之间信息沟通
+的时空界限，企业的管理模式也从金字塔模式朝着扁平的网络模式转变，管
+理思想从纵向思维朝着横向思维模式转变。横向思维模式已成为国际管理学
+界和商业领域的热门话题，产业链理论就是其中的典型代表[1]。
+
+2.2.1　产业链理论的发展
+产业链的思想早期来自西方经济学家的相关论断，马歇尔（A.Marshall，
+1920）在《经济学原理》中提出“产业链是把分工扩展到企业与企业之间，
+强调企业间分工协作的重要性” [2]。赫希曼（A.Hirschman，1958）在《经济
+发展战略》中从产业的前向和后向联系的角度来定义产业链的概念。荷利汉
+（Houlihan，1988）认为产业链是从供应商—生产者—流通业者—消费者的
+所有物质流动。史蒂文斯（Stevens，1989）将产业链看做是由供应商、制造
+商、分销商和消费者连接在一起组成的系统，其中贯穿着反馈的物流和信息
+流。哈里森（Harrison，1993）提出了基于价值网络的产业链是从采购原材料
+到将它们转换为中间产品和成品，再将成品销售到消费者的功能网络 [3]。由于
+西方形成了特有的政治和经济体制、环境以及研究方法，国外学者更多的是
+从企业角度分析产业间的关联问题，提出了和企业有关联的价值链、供应链
+以及产品链等概念。
 
-���A�¶��A�ժ�A�Ө��A�󭺯Q�A���A�����A�ۻI�A�t�|�A�����A��粡A��Q
-
-�k�����A�U�����A�C�A�@���A�ΪA�A�ί��s�e�U�C
-
-���ȡA���W����
-
-�k��ܶ¡A�A�@�������U�A���̤G���C
-
-  ==2�q�����@�|�Q�E
-
-�e���t�������q�Ѵ��A�󦹥[�¶��o���̨ΡA�M���褤���մ��󦹥h�����A�ƥۡA
-�[�t�|�A�ե��A�����A�秮��]
-
-�a���A�ۻI�]�|��^�A�̯�A�����]�G��^�A�ƥۡ]����^�C
-
-  ==2�q�����A�Y�Ѥ����@���Q
-
-�ƥۡ]����^�A�̯�]�@��^
-
-�k�������աA�Υ[�e�A�ν��a���աA�@�W�Ѥ����A�S�W���@���C
-
-  ==2�q�t���@���Q�@
-
-�����A�t�|�A���k�A���ġA�j���A�����A�¶��A�s¼�A�~�v�]�U�b��^�A�ۻI�]�@
-��^�A�����A�ܱ�]�U�@��^�A�ƥۡ]�@��^�A�̯�]�G��^�A���A�ե��A���l
-�]�U�G���b�^
-
-�k�񤭿��A�������A���ΡC
-
-  ==2���Ѵ��@���Q�G
-
-�q�����A�q�t���]�U�b��^
-
-�k�@��A���B���B�a���Φ��ġA���ѥ[��b�q�t�������C
-
-  ==2���s��𸶼�@���Q�T
-
-���]�@��^�A�p���]�b��^�A�ի󨧡]�G���b�^�A���s�]�T���^
-
-�k�񤭿��A�J�s�ֳ\�A���ΡA�N�A�C
-
-�v�y�}���ڵh����C
-
-��߻�F�P�ΰs�A���e�ŪA�����C
-
-  ==2�L�~�Y
-
-�v�@�����n�A��n�A���n�A�s�n�A�m�g�A���۸��ȿ��e�A�{���k�h�C
-
-�²o���]�@������Q�G��^�A�b�}�]�n�̤G��^�A�ޤ��m���]�G��^�A�T�W�]�G��
-�^�A�m�֡]�G��A�U�Φn�L����ȷۭ��A�����X���H�^
-
-�k�P�e�ĮͰ������A�S�Τj���G��δ��A���ѽk���Y�A�C�A�G���b�A�մ��e�U�A��
-��i�A�����U�C
-
-  ==2�ӤA����
-
-�ʬ��A�W���A���s�]�U�|�⬰���^�A�e���]�G���^�A�ŭ��]�G���^
-
-�k�ΤT��T���A�|��K���i�A�ΰ����¤J�e�ĥ��M�áA�Φn�կȨ��]�e�Ħp��
-�j�C�v���ͩΦb�L�A�Φb�y�A�b�СA�b�CϮ�A�G�CϮ�A�T�CϮ�A�Ƨ��C
-
-  ==2�v���Τ��k��
-
-�����]�hĪ�^�A��Q�]�h�y�^�A�Ө��]�h���^�A�ڨ��]�h�ߪo�U�����^
-
-�k�U���������ӥ��A�����h�B�A�C�X�ߤ�A�����`�U�A�p�����A���H�Q���麤���A
-�Lê�C
-
-  ==2���İl�Ψ��n�P���Y�]�s�j�ܹD���h�I�D�Ѷǡ^
-
-�b�}�]�b��^�A�̬h�ڡ]�b��^�A�ޥ�]�b��^�A�j���]�b��^�A�T�W�]�|��L�N
-�^�A�p�Y�]�|��L�N�^�A�m�Z�]�G��L�N�^�A�쭻�]�G��^�A�ϧg�l�]�|����ס^
-�Aʹ��]�@��^�A�W���ڥ֡]�K��^�A�²o���]�G��b�A���Y���Q�⬰��^�A�m��
-�A�����A�����C
-
-���b�}�ܲo�������A�~�Ψm�����T���@�ΥĬ��Y�A�p���l�j�A�C�A�T�����C
-
-  ==2���M�p�t���]�S�W�c�H��^
-
-�T�s�a���]����������@��@�]�^�A�ժ�]�G��^�A�t�Q�]�|��h�����ͥΡ^�A��
-���]�|��b�ͥΡ^�A�Ө��]�T��h�g�b�^�A�ե��]�G�⤭���^�A��Q�]�|��^�A��
-��Ψ��Y�y�A�L�h�t�|�]�|��^�A�����]����t��ӥ��J�ġ^
-
-�k��ѦU�ͥΡA�Ͱ������ΫסC
-
-�@�����H�Φh�~�c�H�A�Φۤv�p�K�~�L�A���ĥ߮ġA�}�˭����Φn�s���ĥb���A
-�Τ@���A���C�D�ˤJ�\���s�ֳ\���ĥI���A粸��˥ΦR�A�A�A�\�����]�A�p�����X
-�A�A�A�A�βC�X����˳B�A�I�ĥi�C
-
-�����r�˳B�A�f�����~�b�A�N�ĶK�˳B�C
-
-���������̥H�s�V�����ĥI���C
-
-�p�Y���}�����~���͡A�C�A�b���A���߮ġC
-
-  ==2Ī�P�Y
-
-�v�p��l�e�i���A�{�j���ȡA�����ٽG�A�ʭG���M�A��n���n�A�ìҪv���C
-
-Ī�P�A���f�A�J���s�]�U�@��^�A���s�]�����^�A���i�A�ר��M�A�s�x��A�쭻�]
-�U�|���^�A�t���l�]���Q����ס^�A�T�W�A���֡]�U�����^�A�b�}�]�K���^�A�ϧg
-�l�]���Q��^�A���֡A�C�֡]�U�K���^�A�e���]�@���b�^�A���q�]�@��b�^�A����
-��
-
-�k���ӥ��A�������x�Ĭ��Y�A���̤j�A�C�A�@���A�Ťߦ̴��U�C
-
-  ==2�L���_�A�@�W������
-
-�M�v���ҤC�ˡA�|�ϵL�O�A�}�L�I�x�A���`�įk�A���صL���A�������_�A�U����N
-�A�ڥ���G�A�A�ܤQ�]���إ��ơA�G�Q�]����֦~�A�@��ᶧ�D�_��A�|�Q�]�W�i
-�����A�ܤ@�ʤ�U�f�Ұ��A�V���H�A�L�����AŽ�v���աA���H�A���j���ܤl�c�A��
-�����q�̦��\�ġC
-
-�t���l�]�G��^�A�����]�@��s���^�A�b�}�]�@��^�A�ը��ġ]�����^�A�鵷�l�]
-�@��t��s���^�A�D�ɤl�]�@��^�A�����]�����^�A��s�ҡ]�@�j���p���^�A����
-�]�@�⤣�h�ߡ^�A�ŭ��]�T���t��^�A�I���]�T���t��^�A���ȭ��]�����t��^�A
-����]�@�⪥�^�A�ڴu�]�@��^�A�j�����]�@��^�A�P�F�ʡ]�T���^�A�}�G�ȡ]��
-���^�A�񲴯�]�T���^�A�JĪ�ڡ]�����^�A�H�ѡ]�@��^�A�A�m�]�@��^�A�s�ġ]
-�@��^�A�����l�]�@��^�A���a���]�G��^�A�����V�A���v�T�AӬ�d�]�U�@��^�k
-�G�Q�C�����ŭ��A�I���A���ȭ��A�鵷�l�A�|���t�㬰�ӥ��A��l�G�Q�T���U�o��
-���ӥ��A�P�e�|���һe�����A�P�o�@�G�ʤd�S�A�Y�p���l�j�A�C�A�T�Q�Y�W�ܤE
-�Q�Y�A�n�s�e�U�A�H���������A�צX����A�[�B���@���C
-
-  ==2�I�Ĥ�]�M�|�ǡ^
-
-�����]�T��^�A�¶��]�b��^�A��s�ҡA��Ϳ�]�G���U�ֳ\���I�ġ^�A�n�¡]�|�Q
-�E�ɬ�ӡ^�C
-
-  ==2�w�l��
-
-���s�]�@����ڦP�H�@�B�^�A�H�]�����^�A�ŭ��]�G���^�A�S�ġ]�G���^�A����]
-�����^
-
-�ѽk���w�C
-
-  ==2�ͦٴ�
-
-�s���]���ڡ^�A���ۯס]���ڦU�b��^�A�ŭ��A�S�ġA�����v�A�����A��粡]�~�H
-���U�@���^�A��ܡ]�G���^�A�����]�@���^
-
-�k�����A�ݽH�Y���ɡA���Ķ񺡦b�H�f�W�A�H�I�ĶK���@��A�̯���~�G���A�I��
-�@�G��@���C
-
-  ==2�l�����ش�
-
-�̯�A���ϡA���k�A���ġA�ժ�A�����A�t�|�A�x�ۡA���o���A���Ȫ�A�ܱ�
-
-�C�A���s�@�T��A�Φܤ@��A�ŤߪA�C
-
-  ==2�H���Y
-
-�H���]�����^�A���С]�T���^�A�͸��]�T���^�A�쭻�]�T���^�A�S�ġ]�@���^�A��
-���]�T���^�A��粡]�@�T�^�A�����]�T���^
-
-���N�����b��ƶ}�A�ݶ¦�L�o�A�N�e�Ĭ��ӥ��A�J�����ͤáA�ɤJ�����A���X�N
-�w���Y�A�p�Ǥj�A�C�A�Ťߤ@�Y�u�s�ƶ}�A�s�T��T�A�A���ıq�|���X�A�j�T��A
-�@�A�A�Ĥ���A�A�@�Y�A��U�w�l�ġC
-
-�˴H�Х����U�סC
-
-
-
-
+国内学者杨公朴和夏大慰（2005）认为“由同一产业内具有连续追加价
+值关系的活动构成的价值链可以称为产业链”。简新华（2002）认为“经济
+活动中的各产业依据前、后向的关联关系组成了产业链”。茵明杰（2006）
+等提出应重视产业链的知识联系，突出了产业链中知识关联的重要性，指出
+产业链在本质上是以知识分工协作为基础的功能链，通过知识的分工与共享
+创造递增报酬为顾客创造价值，产品的生产和物流只是产业链的外在表现形
+式[4]。刘贵富（2006）定义产业链为企业以产品为对象，以投入产出为纽带，
+以价值增值为导向，以满足用户需求为目标，依据特定的逻辑联系和时空布
+
+[1]侯涛.面向电子商务的供应链管理研究[D].武汉：武汉大学信息管理学院，2004：63-67.
+[2]Marshall A. Principles of Economics [M]. London： Macmillan Press，1920：1877-1890.
+[3]程宏伟.西部地区资源产业链优化研究[M].成都：西南财经大学出版社，2009：39-41.
+[4]茵明杰，刘明宇.产业链整合理论述评[J].产业经济研究，2006（3）：60-67.
+
+第２章　数字内容产业研究相关理论 
+
+
+局形成的上下关联的、动态的链式组织[1]。
+
+综上，产业链概念本身就是一个不断发展、不断完善的过程，内涵可以
+概括为产业链中包含有多个相关企业，这些企业是上、下游关系，是围绕满
+足用户需求的某一最终产品进行的生产交易活动，产业链是一条增值链。
+
+2.2.2　产业链理论的核心思想
+（1）注重系统性与整体性
+产业链具有诸多特征和特点，比如强调敏捷性、交叉性、区域性、环
+境适应性等，也可以总结为链上各环节组织之间的协调沟通、统筹兼顾，以
+及对产业链实现多维度、全方位的考察和调控。产业链中各个组成部分是一
+个有机的整体，相互联动、相互制约和相互依存，每个环节都由大量的同类
+企业构成，各环节或组织之间存在着大量的信息、物质和资金方面的交换关
+系，因而在本质上要求有极强的系统性和整体性。广义上的产业链包含价值
+链、企业链、供需链和空间链四个维度，这四个链在相互对接的过程中形成
+了产业链，这种均衡“对接机制”是产业链形成的内模式，作为一种客观规
+律，它像一只“无形之手”进行宏观的、系统的管理和调控[2]。
+
+（2）重视增值性和核心竞争力
+随着产业链上的分工不断向纵深发展，传统的产业价值创造活动逐步
+由“一个企业主导”分离为“多个企业共同合作”的活动，这些企业相互构
+成上下游关系，共同创造价值，并且上游和下游产业之间是一个价值递增过
+程，同时产业价值链之间相互交织，呈现出多层次的网络结构。产业链是技
+术经济关联链，以价值为纽带决定和影响各节点产品的主要价值，构成链的
+部分均可能创造节点产业产品或业务的价值，以及构成其竞争优势的潜在来
+源。产业链上具有增值和竞争优势的贡献，是产业链的最本质和关键之处。
+
+（3）正视差异性和强调区域优势
+产业链上的各节点对要素条件的需求存在差异性，不同的环节，对于技
+术、人力、资本和规模等要求不同，因而具有不同的区位偏好，处在链上的
+各个产业，在空间位置上有一定的集中度，有利于集中技术、资金和资源等
+方面的优势，来重点培育产业链上各环节的发展，又可以加强各产业之间的
+
+[1]刘贵富.循环经济的循环模式及结构模型研究[J].工业技术经济，2005（4）：9-14.
+[2]姜霞美.我国信息产业链的结构及其优化的研究[D].湘潭：湘潭大学，2007：73-77.
+
+数字内容产业成长机理及发展策略研究 
+
+
+组织与协调，形成规模效应。此外，由于产业链上的各个环节存在着盈利水
+平的差异性。因此，要求对产业链的薄弱环节予以特别的关照和扶植，对某
+些盈利能力低的环节或部门给予适当补贴。
+
+（4）注意动态性和开放性
+产业链的形成和发展首先是一个动态的、开放的过程，产业链要求上下
+游各环节之间实现信息互动和敏捷反应。其次，产业链依赖的技术基础是一
+个动态的不断更新和升级的过程，产业链上的人员、资金、产品或服务等要
+素也是一个动态流动的过程。最后，产业链对外部供应和需求也是敏感的，
+在产业链上，各环节组织具有非正式性和相对流动性，上游与下游组织也不
+是一一对应的关系，这种有序竞争也是产业链的核心优势所在[1]。
+
+2.3　产业集群理论
+2.3.1　产业集群的形成机理
+（1）外部经济理论
+对产业集群形成机理的研究最早可以追溯到英国新古典经济学家马歇尔
+（A.Marshall）和美国经济学家克鲁格曼（Krugman），他们对产业集群发展的
+内在机制进行了比较深入的研究，分别形成了产业区理论和新经济地理论。由
+于他们的理论视角都是外部经济，所以概括为产业集群的外部经济理论。
+
+（2）集聚经济理论
+经济学家韦伯（Weber）在其著作《工业区位论》（1909）中，从微观
+企业的区位选择角度阐释了产业集群现象，他把区位因素分为区域因素和集
+聚因素。韦伯认为，产业集聚分为两个阶段。第一阶段是企业自身的简单规
+模扩张，从而引起产业集中化，属于产业集聚的低级阶段；第二阶段主要是
+各企业通过相互联系、组织并集中形成高级聚集阶段，即产业集群。胡佛
+（Hoover）在出版的《经济活动的区位中心》（1948）中认为产业集群是某
+产业将集聚经济视为生产区位的一个变量，认为产业集群是某产业在特定地
+区的集聚体的规模所产生的经济。巴顿（Barton）的贡献在于探讨了产业集群
+与创新的关系，他认为，地理上的集中给予企业很大的刺激去进行改革和创
+新，同时聚集有利于企业、供应商和客户间的沟通和交流，并在信息的传播
+
+[1]王娟娟.基于产业链的数字信息服务双轨制协调管理研究[D].湘潭：湘潭大学，2008：25-28.
+
+第２章　数字内容产业研究相关理论 
+
+
+中了解市场动态，最终导致创新的产生[1]。
+
+（3）新产业区理论
+新产业区理论产生于20世纪七八十年代。当时西方发达国家随着工业
+化的推进，一些老工业区由于自身创新能力的衰退，局域经济陷入停滞或衰
+退。然而，在此背景下，以美国硅谷为代表的一些欧美新产业地区，却出现
+了与此相反的良好发展态势，从而引起了许多学者的关注。这些新产业地区
+的共同特点就是中小企业在产业区域聚集成长，区内企业的专业化程度很
+高，企业之间既竞争又合作，协同面对外部市场。新产业区是以专业化生产
+为特征的新兴经济增长区域，他们或者以资源相关型产业为主，或以制造业
+为主，或以服务业为主，不仅包括中小企业，也包括大企业在内。新产业区
+竞争优势取决于区域企业网络和劳动力市场网络的性质，以及由此产生的学
+习和创新能力[2]。
+
+（4）新竞争经济理论
+美国经济学家波特（M．Porter）教授及其同事利用4年的时间，在调查了
+10个国家和一些地区的基础上，完成了其论著《国家竞争优势》，提出了著
+名的国家竞争优势理论。他们发现国家的竞争力取决于产业创新与升级的能
+力，而产业的竞争优势则依赖区域是否具备有利的产业环境。在书中，波特
+提出了国家竞争优势的“钻石模型”（Diamond model），见图2.1。
+
+......................................................................
+图2.1　波特的集群“钻石”模型
+
+波特的“钻石模型”由四大因素构成：第一是生产要素条件，该国生产
+要素的地位是产业必备的竞争要素；第二是需求状况，指本地市场对产品或
+服务的需求；第三是相关支撑产业，指该国是否具备这项产业的支援产业与
+
+[1]何雄郎，李国平.产业集群演进机理与区域发展研究[M].北京：中国经济出版社，2009：38-43.
+[2]黎苑楚.信息产业演进规律与发展模式研究[D].武汉：武汉大学，2005：25-27.
+
+数字内容产业成长机理及发展策略研究 
+
+
+相关产业以及是否具有国际竞争力；第四是厂商结构、战略和竞争，指支配
+企业如何创建、组织与管理的国内条件和竞争性质。“机会”和“政府”两
+个变量则会影响国家环境与企业竞争力的关系。外部环境出现重大变革与突
+破常常是产业发展的机会，而政府则影响着菱形构架的所有其他要素，进而
+影响整个国家的产业竞争力。企业长期的竞争优势只有通过创新才能取得，
+保持竞争优势的法则就是无止境的改善。企业能否无止境的改善则取决于由
+上述钻石体系所提供的国内产业环境[1]。
+
+（5）交易费用理论
+与外部经济理论不同，产业集群交易费用论强调，企业空间行为是由其
+内部和外部环境共同作用的交易性质所决定的。科斯（Coase）于1937年在
+《论企业的性质》论著中提出了关于交易费用的概念，认为企业作为价格的
+替代物而产生。威廉姆森（Williamson）在1975、1985年出版的《治理机制》
+和《资本主义经济制度》论著中界定了交易费用分析方法，提出了交易的不
+确定性、交易频率和资产专用性来解释经济活动规制结构的决定。产业集群
+有助于减少环境的不确定性，改变小数目条件。前者是因为具有外部经济的
+空间集聚，可以增加交易频率和降低区位成分，使交易的空间范围和交易对
+象相对稳定；后者是因为众多的企业地理接近，市场参与的角色增加，市场
+机制就更能发挥作用。产业集群有利于克服交易中的机会主义，提高信息的
+对称性。产业集群不仅使企业的经济活动根植于地方社会网络，也有助于形
+成共同的价值观和企业文化，有利于企业间的合作与信任，促使交易双方很
+快达成并履行合约，节省了企业搜寻市场信息的时间和成本[2]。
+
+（6）创新理论
+创新理论由奥地利经济学家熊彼特（J.A.Joseph Alois Schumpeter）最早系
+统地提出并加以论述。“创新”是指一种新的生产函数或供应函数，是在生
+产系统中引进一种生产要素和生产条件的新组合。所以，创新是一种“内在
+的因素”，有赖于企业家更适当地、更有利地运用现存的生产手段，对现存
+的生产要素组合，进行创造性的破坏并在此基础上实现了新的组合。成功的
+
+[1]吴德进.产业集群论[M].北京：社会科学文献出版社，2006，57.
+[2]Growston， Kevin. 
+Information technology and the transformation of industries：Three research 
+perspectives[J].Journal of Strategic Information Systems， March 2004，V13，nl：5-28.
+
+第２章　数字内容产业研究相关理论 
+
+
+创新带来的成本降低和利润提高，吸引其他的企业效仿，技术和知识的流动
+在整个经济系统内产生，并向邻近的部门和区域蔓延[1]。
+
+2.3.2　产业集群产生的条件
+产业集群的产生条件包括供给条件、需求条件、社会文化和历史条件三
+个方面[2]。
+
+（1）产业集群产生的供给条件
+产业集群产生的供给条件体现在集群产品的可分性、差异性、运输成本
+和竞争环境的动态多变性、技术创新的网络性。
+集群产品的可分性表现在集群内部企业之间的劳动分工高度深化。产品
+价值链条越长，工序分解的可能性越大，垂直方向的劳动分工越长，更有可
+能吸引众多的企业聚集在一起。集群产品的技术可分性，降低了创办企业的
+资本要求，使一家一户承担某个特定的工序成为可能。
+
+集群产品的差异性表现在最终产品发生产品差异化的潜力比较大。集群
+产品差异化的潜力主要体现在水平方向上，主要发生在产品外观形态方面，
+而不是在产品的实质功能和效率方面。这种差异化在很大程度上依靠产品的
+精心设计获得。众多企业生产同类产品会在地理空间上聚集，如果没有足够
+的产品差异化空间，企业彼此之间将不可避免地陷入恶性价格竞争[3]。
+
+集群产品的低运输成本表现在最终产品的低运输成本。只有低运输成本
+能保证最终产品的可贸易性。从供给与需求相配比的要求看，企业集群采取
+集中生产方式，开拓包括国内贸易和国际贸易在内的占领市场途径。从理论
+上讲，运输成本越低，这种商品集中生产就越具备贸易性，集群式企业集中
+生产所辐射的市场半径就越大。
+
+竞争环境的动态多变性表现在需要其他的供给条件和需求条件的配合。
+企业所处的竞争环境将决定产业组织和生产组织的形式。对于竞争环境相对
+稳定的企业可以通过控制产品开发和生产组织的时间来换取企业在空间扩张
+上的灵活性。对于竞争环境动态多变的企业，因协调、沟通以及信息反馈的
+因素，使得企业的生产组织必须在地理空间上相互接近。因此，集群内部生
+
+[1]吕静.文化创意背景下的互联网创新途径[D].重庆：西南政法大学新闻传播学院，2009：16-18.
+[2]海涛.中小企业集群的竞争优势研究[D].长沙：中南大学商学院，2004:83-87.
+[3]程波.我国产业集群可持续发展研究[D].重庆：重庆大学经济与工商管理学院，2005:48-52.
+
+数字内容产业成长机理及发展策略研究 
+
+
+产中间产品的企业和服务机构大都具备专业化的互补能力，实现彼此之间的
+协调[1]。
+
+技术创新的网络性表现在企业集群为产业创新网络的缔结提供了平台。
+创新网络是指众多企业和机构相互合作，进而实现产品创新或工艺创新。创
+新网络的目标是利用不同组织的资源和差异化的技术能力，实现整体创新能
+力的提高。因资源的限制，产业集群多以中小企业为主体，而单个企业难以
+实现创新功能，因而，产业集群可以把众多中小企业联合起来实现集体创新
+功能。分工细密的集群内部本身就是一个近距离的创新网络，同类企业的聚
+集有利于远距离的创新机构与集群形成技术联盟或开展产学研合作。
+
+（2）产业集群产生的需求条件
+产业集群产生的需求条件体现在集群产品的时尚性与艺术性、集群企业
+可以获取多方面的需求利益和本地市场的支持。
+集群产品的时尚性与艺术性是指产品的外观形态设计，如造型、色彩、
+风格、规格和材料等的变化给消费者带来的主观心理感受，有可能远远超过
+产品的内在功能和效率特征。产品的时尚性使产品的市场需求面临周期性的
+变化，并为集群产品差异化创造了机会。时尚性使市场需求的变动极为迅
+速，经常处于不稳定状态，使得任何一家企业都无法长久垄断和控制市场，
+只有不停地创新和对市场的快速反应才能赢得市场。
+
+集群企业可以获取多方面的需求利益是集群产品的独特消费需求特征。
+包括容易被消费者发现、获取顾客和订单，利用现存的营销渠道和品牌，节
+省营销成本，荻取市场需求变动的最新信息等。节省市场调查成本对消费者
+而言可以货比三家，增加了消费者的挑选机会，减少了搜寻成本。互补产品
+的存在也有利于吸引买家。需求信息的反馈、与顾客的互动交流沟通也有利
+于企业准确把握市场，生产适销对路的产品。因而，处于集群环境中的中小
+企业更容易获得生存和成长机会。本地市场的支持体现在由于本地市场需求
+强大而产生的集群，具有超前性[2]。
+
+（3）集群产生的社会文化和历史条件
+产业集群是一个社会经济概念。社会文化资本的丰富性使集群内部的经
+[1]蒋东仁.论产业集群及其成长中的政府行为[D].南京：南京理工大学经济管理学院,2005：39-43.
+[2]陈海涛.中小企业集群的竞争优势研究[D].长沙：中南大学商学院,2004：79-81.
+
+第２章　数字内容产业研究相关理论 
+
+
+济关系具有很强的社会根植性。运行良好的集群通常存在共同的历史、文化
+传统、行为规则和价值观念。社会文化环境氛围就会促使集群内部形成一种
+相互信赖的关系，也会减少交易费用，使企业家之间的协调与沟通更容易进
+行，企业之间的深度劳动分工得以执行[1]。
+
+2.4　经济学理论 
+2.4.1 产业经济学理论
+产业经济学是应用经济学领域的重要分支，是第二次世界大战后日本最
+先发展起来的新兴应用经济理论体系。主要代表人物有日本的筱原三代平、
+马场飞雄、宫泽健一和佐贯利雄以及美国的迈克尔·波特等[2]。
+
+产业经济学从作为有机整体的“产业”出发，探讨以工业化为中心的
+经济发展中产业间的关系结构，研究产业内企业组织结构变化的规律以及方
+法。研究对象是产业内部各企业之间相互作用关系的规律、产业本身的发展
+规律、产业与产业之间互动联系以及在空间区域中的分布规律等[3]。
+
+产业经济学以“产业”为研究对象，主要包括产业结构、产业组织、产
+业发展、产业布局和产业政策等。研究结果为国家制定国民经济发展战略及
+产业政策提供经济理论依据。产业经济学属于中观经济，是连接宏观和微观
+经济的纽带[4]。
+
+产业组织理论主要是为了解决产业内企业的规模经济效应与企业之间
+的竞争活力的冲突。张伯伦、梅森和贝恩等人建立了传统的产业组织理论体
+系，即著名的市场结构、市场行为和市场绩效理论范式，奠定了产业组织理
+论体系的基础。
+
+产业结构理论主要研究产业结构的演变及其对经济发展的影响。该理论
+主要从经济发展的角度出发，研究产业间的资源占有关系和产业结构的层次
+演化，从而为制定产业结构的规划与优化政策提供理论依据。
+
+产业关联理论侧重于研究产业之间的中间投入和中间产出的关系，昂惕
+
+[1]朱亚军.论企业集群经济与农村剩余劳动力的转移[D].广西师范大学政治与行政学院，2005：103-105.
+[2]产业经济学（Industrial Economic 网络（http://baike.baidu.com/view/283525.htm）.
+[3]王欣.信息产业发展机理及测度理论与方法研究[D].吉林：吉林大学，2008：58-65.
+[4]王娟娟.基于产业链的数字信息服务双轨制协调管理研究[D].湘潭：湘潭大学管理学院,2008： 
+115-117. 
+
+数字内容产业成长机理及发展策略研究 
+
+
+夫的投入产出法能很好地反映各产业的中间投入和中间需求，这也是产业关
+联理论区别于产业结构和组织理论的一个主要特征。
+
+产业布局理论是经济发展规划的基础也是经济发展战略的重要组成部
+分，更是实现国民经济持续稳定发展的前提。产业布局理论主要研究影响产
+业布局的因素、与经济发展的关系、指向性政策、基本原则和基本原理的一
+般规律。
+
+产业发展理论主要是研究产业发展过程中的规律、周期、影响因素、产
+业转移、资源配置和政策等问题。其研究结果有利于决策部门或者企业根据
+产业发展的各个阶段采取不同的产业政策或发展战略。
+
+产业政策研究从纵向看包括产业政策调查、政策制定、政策实施方法、
+政策效果评估、政策效果反馈和政策修正等内容；从横向看包括产业发展政
+策、组织政策、结构政策、布局政策和技术政策等内容；从其作用特征看包
+括秩序型（制度型）产业政策以及过程型（行为型）产业政策。
+
+“五力模型”由著名的经济学家迈克尔·波特（Michael Porter）于20世纪
+80年代初提出，对企业战略的制定产生了全球性的影响。用于竞争战略的分
+析，进行有效的分析客户的竞争环境。包括供应商的议价能力、购买者的议
+价能力、新进入者的威胁、替代品的威胁和行业内竞争者[1]。
+
+2.4.2　区域经济学理论
+区域经济学为应用经济学的分支学科，与产业经济学一起构成中观经
+济学，区域经济学属于经济学与地理学的交叉学科。关于区域经济的研究对
+象尚未形成统一的观点，具有代表性的观点主要有：①区域经济学是研究特
+定地理范围的经济学，它与一般经济学并无什么差别，只是其研究范围是区
+域而不是国家，持此种观点的多为初学者；②研究人类经济活动的地理分布
+和空间组织规律，所以又将其称为空间经济学，持这种观点的代表人物有诺
+斯、里查森、胡佛等；③研究区域的主要问题，持这种观点的代表人物有诺
+斯、里查森、胡佛等艾萨德（被誉为西方区域经济学的创始人）、周起业和
+刘再兴等；④研究区际差异和联系，持此种观点的代表人物主要是杜贝；
+
+⑤研究区域与经济相互作用规律和相互关系，持此种观点的代表人物是张敦
+富；⑥从宏观角度研究国内不同区域经济发展及其相关关系的决策性科学，
+[1]魏农建.产业经济学[M].上海：上海大学出版社，2008:29-35.
+
+第２章　数字内容产业研究相关理论 
+
+
+持此种观点的主要代表人物有陈栋生、李京文、郝寿义和安虎森等 [1]。
+
+经济区域是按人类经济活动的空间分布规律划分的，具有均质性和集聚
+性的，经济结构基本完整的，在国民经济体系中发挥特定作用的地域单元。
+区域经济是一个国家经济的空间系统，是经济区域内部社会经济活动和社会
+经济关系或联系的总和，是经济区域的实质性内容。
+
+（1）区域经济学是运用经济学的观点，研究不同区域经济的发展变化、
+空间组织及其相互关系的综合性应用科学。
+（2）区域经济学是研究和揭示区域与经济相互作用规律的一门学科。主
+要研究市场经济条件下生产力的空间分布及发展规律，探索促进特定区域而
+不是某一企业经济增长的途径和措施，以及如何在发挥各地区优势的基础上
+实现资源优化配置和提高区域整体经济效益，为政府的公共决策提供理论依
+据和科学指导。
+（3）具体分析区域经济发展中的规律性问题，包括区域特征分析，目标
+系统与政策、手段，产业结构演进，人口增长与移动，城市建设与布局，区
+域国土规划，区域联合与区际利益的协调，区域比例关系等[2]。
+2.4.3　信息经济学
+信息经济学起源于20世纪，发展于50年代，成熟于70年代。研究重点
+多种多样，有的学者侧重于基础理论研究，有的则侧重于应用研究，正是这
+两种研究的互相补充和互相促进，才奠定了信息经济学的理论基础。70年代
+以后，信息经济学的发展标志是有大量信息经济的论著问世。美国霍罗威茨
+的《信息经济学》、英国威尔金森的《信息经济学——计算成本和收益的标
+准》、日本曾田米二的《情报经济学》等都是代表之作[3]。
+
+（1）信息经济学形成与发展
+信息经济学的研究有两条主线。宏观信息经济学的创始人是弗里兹·马
+克卢普（Fritz Machlup）和马克·尤里·波拉特（Mac Uri Porat）。最早研究
+西方信息经济学和微观信息经济学的是斯蒂格勒（George Joseph Stigler）和阿
+罗（Kenneth J. Arrow）。
+
+[1]惠宁.产业集群的区域经济效应研究[M].北京：中国经济出版社，2008：31-35.
+[2]孙久文.区域经济学[M].北京：首都经济贸易大学出版社，2010：32-35.
+[3]陈建斌，郭彦丽.信息经济学[M].北京：清华大学出版社，2010：191-195.
+
+0数字内容产业成长机理及发展策略研究 
+
+
+宏观信息经济学又称情报经济学或信息工业经济学，是以研究信息产业
+和信息经济为主的一门新兴学科，是研究信息这一特殊商品的生产、流通和
+利用以及经济效益的在信息技术不断发展的基础上发展建立起来的重要的经
+济学领域。
+
+微观信息经济学又称为理论信息经济学，它从微观的角度入手研究信息
+的成本和价格，同时提出用不完全信息理论修正传统的市场模型中信息完全
+和确知的假设，重点考察、运用信息来提高市场经济效率的种种机制。因为
+研究主要在非对称信息情况下，当事人之间如何制定合同、契约及对当事人
+行为的规范问题，因此又称契约理论或机制设计理论。
+
+（2）信息经济学的研究内容
+信息经济学是信息科学的分支学科之一，是一门研究信息的经济现象及
+其运动变化规律的科学，主要研究内容包括信息的经济作用、成本和价值、
+经济效果等信息经济理论，也包括信息产业结构、信息系统、信息技术等相
+关内容。
+
+信息的经济作用方面主要研究信息的经济属性及其在经济发展中的作用。
+成本和价值方面主要研究信息价值的定性和定量描述。经济效果方面主要研究
+信息的使用价值量与劳动消耗量的比例和信息的经济效益计算和考核等。
+
+信息产业结构主要研究信息产业结构及其发展规律和趋势，信息产业与
+部门经济结构、服务性行业结构、教育机构的关系。信息系统包括如何建立
+和发展完善的信息系统，从经济角度考察信息系统评价的标准和方法。用技
+术经济原理研究、比较各种信息技术的应用，提出采取新信息技术的最佳方
+案，了解信息技术发展的特点和规律等。
+
+2.5　本章小结
+本章构建了数字内容产业的理论研究基础。数字内容产业在主观形式、
+客观内容、组织复杂等因素的共同作用下成长和发展着，相关的理论是研究
+的重要基础，包括信息资源管理、信息产业的运行机制、产业链、产业集
+群、产业经济学、区域经济学、信息经济学和价值链理论。在这些理论的指
+导下，对数字内容产业界定了概念内涵，明晰了机理模型，制定了发展策
+略，研究成果具有重要的指导意义和参考价值。
+
+
+第３章　数字内容产业的成长历程 
+
+
+第３章　数字内容产业的成长历程
+
+
+3.1　数字内容产业的成长状况
+近年来，数字内容产业的成长虽然成效卓著，但仍然存在许多问题。客
+观、准确地认识数字内容产业的成长现状，既是深入探讨数字内容产业链成
+长理论的基础，也是进一步研究数字内容产业链、创新环境、发展对策的前
+提。本章将从数字内容产业链的成长历程、数字内容产业链各个环节的具体
+状况、数字内容产业的成长环境以及成长特点等方面出发，全面认识和了解
+数字内容产业链的成长历程，为数字内容产业链成长理论、创新环境的研究
+以及数字内容产业发展规律的探讨奠定基础。
+
+3.1.1　数字内容产业的成长过程
+目前数字内容产品的生产和流通绝大部分是由互联网、传媒、出版以及
+信息服务等企业完成的，因此有学者认为以美国、欧盟、日韩等为代表的发
+达国家数字内容产业链相对成熟和稳定，而发展中国家的数字内容产业还没
+有形成真正的产业链，产业链上组织表现形式多样，产业规模小，衍生产品
+及附加值少。本文认为，产业链的完整与否并不是判定产业链存在与否的标
+准。企业都是经济实体，产业是同类或相关企业为了共同的目的形成的利益
+集团，他们加入或退出产业链条的理由，都是以经济利益能否得到实现为标
+准的。产业链的这种开放与成长的特性，造成了同类型的产业在不同的社会
+情境下，其产业链的表达形式会不尽相同。
+
+从第1章内容可以看出，数字内容产业并不是全新的产业，而是随着数字
+技术的不断进步和发展，与信息、文化、创意、网络产业交叉融合的的新兴
+产业类型。由于全球市场经济发展的不均衡，数字内容产业发展的产业化和
+集团化程度不一致，发展的外部环境更是千差万别，但是随着各国政府的重
+视和国家战略的制定，数字内容产业在各国都进入了一个相对快速的发展阶
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+段。数字内容产业的成长历程与各国的信息、文化、创意、网络产业的发展
+有着密切的联系。数字内容产业的成长历程大体可以分为三个阶段。
+
+（1）产业形成阶段（1995—2000）
+1995年“数字内容”、“内容产业”等名词引起了各国和各界学者的注
+意。在数字内容产业的引入期，数字内容产品、数字内容服务、数字内容产
+业的名词和概念开始出现，但是内涵的界定还不成型，产业规模不明显。20
+世纪90年代数字制作技术水平相对落后、网络覆盖率只在发达国家较高，因
+此数字内容产品和服务的生产能力、产品质量、营销渠道、贸易范围受到限
+制和影响，数字内容产业进入起步阶段[1]。
+
+1996年至2000年之间，日本、韩国和台湾等地已广泛使用内容这一概念
+并将其纳入经济政策范畴。韩国和台湾政府部门中相关机构名称分别为“韩
+国文化内容振兴院”（Korea Culture and Contents Agency）和“台湾数字内
+容产业推动办公室”（Taiwan Digital Content Industry Promotion Office）。美
+国和欧洲国家则更加泛化数字内容所包括的对象。例如，美国的著作权产业
+（Copyright Industries）、娱乐产业（Entertainment Industries）、英国的创意产
+业（Creative Industries）、法国的文化产业（Cultural Industries）等，这些产业
+所指对象均与数字内容产业有所交叉[2]。
+
+①数字内容产品的出现
+在这一阶段，数字内容产品可以理解为既是内容产品，又是数字产品。
+数字内容产品是内容产品中数字化的那一部分，如大型网络数据库、数字图
+书馆、网络期刊等的出现，强调数字技术的应用给人们带来的新特性，内容
+产品中通过传统媒介承载和传播的部分就不属于数字内容产品，例如纸质文
+档、书刊、报纸、图片等。与数字产品相比，数字产品中强调内容的部分是
+数字内容产品，不包括数字化过程和转换工具。例如收发电子邮件是数字化
+过程，属于数字产品的范畴，但不属于数字内容产品。不过，电子邮件本身
+可以理解为数字内容产品，因为它既有数字化的形式，又有内容。因此，数
+字内容产品是数字产品中强调内容属性的部分，是数字产品和内容产品的交 
+
+[1]Challenges for the European Information Society beyond 2005.Report of Commission of the European 
+Communities，COM（2004）757final Brussels，2004.
+
+[2]王斌，蔡宏波.数字内容产业的内涵、界定及其国际比较[J].财贸经济，2010（2）：110-116.
+
+第３章　数字内容产业的成长历程 
+
+
+集。
+
+②数字内容服务的出现
+《国际服务贸易统计手册》（2002年）将服务定义为：“服务不是能够
+确定所有权的独立实体，不能脱离生产单独进行交易。服务是伴随生产的辅
+助性产出，一般由生产者按照消费需要所从事的活动，完成生产后，服务必
+须要提供给消费者” [1]。我们经常很难严格区分实物产品与服务的划分界限，
+因为二者交易过程往往相互渗透和相互关联。例如，转让软件技术的同时又
+有硬件产品的配套输出，硬件产品配送时往往也可能含有软件的安装和调试
+服务等。
+
+因此，数字内容服务可以定义为向其他经济组织或个人提供数字内容产
+品，帮助其制造、存储和传播数字内容产品的所有相关服务的总称。数字内
+容服务的外延涵盖了所有移动服务、网络服务和与数字内容产品有关的所有
+服务，其中包括手机短信传输、手机导航、网络数据存储、网络视频上传、
+下载、分发和管理等。在实际中，数字内容服务与产品的界限同样难以严格
+划分。例如，电子邮件用户编辑产生的数字内容产品一定伴随有163、雅虎、
+hotmail等提供的数字内容服务。优酷网、土豆网和迅雷等提供网络视频服务
+的同时也提供了网络视频内容产品，用户同时也享受了网站的视频管理、索
+引和分发等服务。
+
+（2）产业成长阶段（2001—2006）
+进入21世纪，网络已覆盖全球200多个国家，“网络地球村”业已实现人
+类跨越时空，不受地域的限制，实时进行交流和贸易。伴随着数字制作技术
+的快速发展，数字内容产业也进入了快速的成长期。
+
+在此阶段理解数字内容产业是广义的，它是依托信息技术支撑，一切
+与之有关的文化产业链上的产品或服务都可称为数字内容产业的范围。由于
+数字内容产业同现有的文化产业、信息产业、创意产业等并生共存，是处在
+发育和渐渐明晰中的产业领域。同时，数字内容产品和数字内容服务的概念
+已经趋于达成一致，数字内容市场的多元化对多样化产品形成强烈的需求，
+因此市场上嗅觉灵敏的中小企业将担当数字内容产品创新的重任。在数字内
+
+[1]United Nations and World Trade Organization， Manual on Statistics of International Trade in Services， July 
+2002：254-259.
+
+数字内容产业成长机理及发展策略研究 
+
+
+容产品创新中，随着差异化数字内容产品的系列开发，产品组的共性知识也
+在不断积累。中小企业之间共同组建技术联盟，既有利于分享共性知识、分
+担产品研发成本、合作开发生产流程和利益共享等，又能加快新产品推出速
+度，从而促使内容产业快速成长。
+
+①全球数字内容产业的成长
+在成长阶段里，数字内容产业融合了信息产业和文化产业的部分内容成
+为新型产业。其中具有代表性的二种新型产业是：
+一个是网络游戏产业。1996年至2006年，第三代大型网络游戏
+MMOGAME风靡全球，网络游戏不再依托于单一的服务商和服务平台而存
+在，而是直接接入互联网。MMOGAME又称“在线游戏”，简称“网游”，
+是可以多人同时参与的游戏，通过人与人之间的互动达到交流、娱乐和休闲
+的目的。美国的网络游戏业已连续多年超过好莱坞电影业，成为全美最大的
+娱乐产业。美国市场的电脑网络游戏仍然占据主流地位，因为其在工作、上
+网和娱乐上的多功能性要比电视网络游戏更具优势。2004年，美国网游市场
+达到73亿美元，2006年，美国网游市场达到125亿美元。1999年韩国政府制定
+音像制品和游戏软件相关法令，鼓励游戏软件制作、人才培养、加强基础设
+施，同时实行游戏软件的评判监督和分级制度，2006年，韩国的游戏市场也
+已经超过其引以为傲的汽车工业[1]。
+
+另外一个是数字动漫产业。以“创意”为核心，以动画、漫画为表现形
+式，包括动漫图书、报刊、电影、电视、音像制品和基于现代信息传播技术
+手段的动漫新品种等和数字动漫直接产品的开发、生产、出版、播出和销售
+以及与动漫形象有关的电子游戏等衍生产品的生产和经营的产业。2004年，
+全球数字内容产业产值达2228亿美元，与游戏、动画相关的衍生产品产值超
+过5000亿美元。2004年，日本动漫占据全球份额的70%以上。
+
+全球除了网络游戏产业、数字动漫产业迅速发展以外，数字学习（教
+育）、数字电影、数字音乐、数字出版、网络电视等内容产业产值也急剧攀
+升。2003—2006年间，全球数字内容产业的年均增长率保持在11%以上 
+[2]。
+
+[1]徐涛.中国游戏产业成长分析[D].清华大学新闻与传播学院，2005.6：16-18.
+[2]侯亮.国内外数字内容产业发展现状分析[J].软件导刊，2007（11）：6-8.
+
+第３章　数字内容产业的成长历程 
+
+
+②中国数字内容产业的成长
+2004年，信息产业部把国产网络游戏软件的开发列入了电子发展基金项
+目。同年4月国家广电总局向全国印发了《关于发展我国影视动画产业的若干
+意见》用以促进国产动画的发展。接着文化部也成立了专门的小组负责数字
+内容相关细分产业的扶植与促进工作；另外，国务院办公厅在2006年下发了
+《关于推动我国动漫产业发展若干意见的通知》，通知反映了政府各部门对
+数字内容产业各个细分产业发展的重视和支持。北京、上海率先制定了促进
+和规范数字内容产业的管理办法和规范，并逐渐形成了重点发展区域[1]。
+
+（3）产业成型阶段（2007年至今）
+在产业的成型期，数字内容产品的特点得以确定，数字制作技术标准逐
+渐形成，产品的开发成本也随之上升，行业竞争的重点逐渐转向以降低成本
+为目的的内容创新。大企业由于具备较高的市场垄断地位和雄厚的资金，并
+有开发新一代数字内容产品和内容创新的动力，在大企业间构建产业链，实
+现了软件硬件的技术联盟，既有利于人力资源、信息资源的整合，又能分享
+共性知识、分担开发成本和共享创新收益。因此，大企业间形成的核心技术
+联盟积累了丰富的共性知识，吸引了众多的中小企业加入联盟[2]。
+
+①全球数字内容产业的成型阶段
+美国、欧盟、日本等发达国家以及韩国具有发达的网络基础、先进的研
+发技术、充足的资金实力以及广阔的市场，为全球数字内容产业的发展奠定
+了良好基础。美国是目前全球数字内容产业最发达的国家。
+
+在企业实力方面，美国聚集了一批CG、Dreamworks、Google以及AOL 
+TimeWarner等领先的数字娱乐软硬件厂商，从而确立了美国在全球数字内容
+产业的绝对领先地位。美国目前在动漫、在线音乐、数字电视节目、数字出
+版与典藏等方面已经形成了垄断性的优势。欧洲和日韩紧随其后，拥有大
+批软件开发、游戏开发和终端产品设计制造等环节领先的企业，欧盟各国悠
+久、独特的文化历史以及语言环境也形成了数字内容形式丰富、内容多元化
+
+[1]刘钢.数字内容产业的发展对我国现代化的贡献.第六期中国现代化研究论坛论文集[C].北京，2008： 
+97-101.
+[2]李婧，李凌汉.中国数字内容产业发展中存在的问题及政府调控[J].经济研究导刊，2009（4）： 
+21-22. 
+
+数字内容产业成长机理及发展策略研究 
+
+
+的产业特色。
+
+②中国数字内容产业的成型阶段
+在企业实力方面，北京、上海、广州、深圳和苏州集中了国家级动漫游
+戏产业振兴基地和数字内容产业园区。广州在网络游戏、数字媒体等方面，
+以网易为代表的数字内容企业市场地位大幅提高。苏州形成了泰山动画、宏
+广、宏扬、蜗牛电子、园区动漫等一批具有一定规模的动漫企业。以腾讯为
+代表的深圳互联网企业，在网络游戏、无线增值业务方面都具有一定优势。
+2008年，中国数字内容产业保持了较快的增长势头，整体产业规模持续达到
+2173.8亿元，比2007年增长了26.5%。2008年6月，中国数字音乐平台A8音乐
+（00800.HK）在港交所主板挂牌上市；7月，中国手机动漫第一股湖南拓维信
+息系统股份有限公司在深圳证券交易所中小板上市；9月，华友世纪斥资2100
+万元战略投资台湾唱片公司种子音乐。除此之外，手机游戏、移动SNS社区和
+移动营销等都成为风险投资以及战略投资者关注的热点。
+
+3.1.2　数字内容产业的成长特点
+（1）产业分布
+从数字内容产业的特性来看，它是各国文化发达程度的一种反映，对
+各国民族文化的宣传发扬、国家形象的塑造和提升有着重要意义。而且，随
+着工业社会逐渐向信息社会升级，数字内容产业作为信息应用的核心，不仅
+具有高增长性、高附加值性的特征，其对相关产业以及国民经济的带动作用
+日趋明显。因此，全球各国普遍将数字内容产业作为重要的战略性产业来发
+展。
+
+全球数字内容产业分布区域格局如图3.1所示，欧美地区占据相对领先
+的地位，尤其在互联网内容、动漫影音、数字出版等方面，欧美集中了大多
+数全球领先的产品开发商、服务提供商，成为全球数字内容产业最发达的地
+区；日本和韩国等地则在移动互联网应用、以及游戏方面处于领先的地位，
+形成了独具特色的产业优势。而随着欧美日韩等数字内容比较发达的国家和
+地区的产业发展逐渐进入到稳定发展阶段，亚太、南美等地开始呈现出快速
+发展的势头，并成为推动产业发展的重要驱动力量，市场地位逐步上升。
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+各环节企业的相互配合。
+
+从终端上讲，终端设备的多样性、功能的丰富性已经成为终端设备企业
+努力的方向，而终端企业在产品设计研发中也充分考虑到对内容和服务的支
+持，并且将很多内容与终端产品进行了结合和打包。
+
+对于内容开发企业而言，由于终端和网络的技术标准不统一，必须针对
+不同的终端和网络特征设计有针对性的产品策略。尤其在未来，跨媒体化趋
+势更加明显，数字内容的开发也需要满足移动通信网、有线电视网和广播网
+等的需要。
+
+②盈利模式多元化
+从数字内容的发展特点来看，四种盈利模式获得了企业关注。首先是
+基础网络接入的收入，网络接入与数字内容是博弈的关系。用户接入网络才
+能获得相应的内容，而内容的丰富性和高质量能够提高用户粘性和用户使用
+率，从而产生更大的利润空间；其次是广告收入，无论是互联网内容还是动
+漫影音，广告收入都是目前企业盈利的最主要支撑，而广告形式的创新是关
+键；第三，内容直接收费，这种模式在移动数字内容、数字影音以及数字出
+版方面应用比较成熟，但需要有良好的版权保障机制；第四，是从内容延伸
+出来的增值服务，例如从内容延伸到产品销售、客户服务等领域，都能够创
+造出增值的价值。从发展趋势来看，通过内容向增值服务延伸具有更大的发
+展潜力。
+
+③网络视频、SNS等热点领域值得关注
+从2008年全球数字内容产业发展热点来看，以下两个领域值得重点关
+注：一是视频内容，视频内容在近几年一直发展非常迅速，2008年美国大选
+中，YouTube成为总统竞选的重要工具将视频网站的发展推向了一个高潮，用
+户认知度以及市场地位都得到了大幅度提升；另外一个是移动社区，SNS概念
+在全球发展迅速，2008年呈现出明显的移动化趋势，未来移动SNS将会成为用
+户之间沟通、分享的重要渠道[1]。
+
+（4）产业投资
+从2008年全球数字内容产业的投资并购案例来看，主要呈现以下特点：
+[1]刘钢.数字内容产业的发展对我国现代化的贡献.第六期中国现代化研究论坛论文集[C].北京，2008： 
+104-109. 
+
+第３章　数字内容产业的成长历程 
+
+
+①博客成为收购的热门对象
+主要有英国卫报集团收购了Paidcontent，康泰纳什收购了ArsTechnica等，
+此外Huffington Post等博客也获得了大规模融资。在2009年，经济环境的不景
+气也将加速传统媒体商业模式的调整，而博客则可能从中找到更多发展的空
+间。
+
+②创业公司通过合并寻求发展
+近几年由于受到金融危机的影响，很多创业公司面临经营困难，而不得
+不选择合并或者倒闭。而创业公司本身在经营理念和商业模式上的相似性，
+为他们之间的合并提供了有利条件。例如博客网站Six Apart收购了微型博客
+Pownce，Live Universe收购了个性化门户PageFlakes及视频网站Revver，社区网
+站Buzznet并购音乐社区Qloud，拥有博客平台软件Wordpress的Automattic先后
+收购了在线投票和调查服务商PollDaddy和社会化留言系统IntenseDebate等。
+
+3.2　数字内容产业的成长环境
+3.2.1　数字内容产业的成长环境
+（1）政策环境
+就全球范围来看，数字内容产业的成长初期离不开政府的推动、扶持和
+监管，无论在市场经济体制下，还是在计划经济体制下，政府都扮演着非常
+重要的角色。随着数字内容产业链的成熟、市场规模的壮大，在市场经济作
+用下，以美国为代表的发达国家政府对数字内容产业放松管制，建立健全产
+业政策以及法律法规，通过市场来规范产业的运作。
+
+管理体制方面，外国政府大多采用市场经济环境下的民间的、中介协
+会的作用于数字内容产业的管理体制。日本成立数字内容产业协会；韩国成
+立数字内容产业发展委员会和数字内容规划与服务局；澳大利亚成立交互媒
+体产业协会、游戏开发商协会；英国成立数字内容产业联盟。为保护作者创
+作的积极性，我国相继成立了“中国文字著作权协会”、“文化创意组织协
+会”等机构，开辟专门的数字产业基地（有的称“创意园”），以此推动文
+化创意产业的发展，从体制上适应数字内容产业的发展要求。
+
+美国在政策方面与其他国家侧重点不同，由于美国数字内容完全市场
+化运作，本土拥有足够的内需市场规模、健全的商业环境以及蓬勃的内容产
+
+
+0数字内容产业成长机理及发展策略研究 
+
+
+业，发展数字内容产业的先天条件深厚，厂商之间的自由竞争为产业加速发
+展提供了充足的动力，政府无需制定专门的推动计划，而是侧重于进行核心
+新技术的研发，以弥补企业研发能力的空白。除此之外，美国政府还通过制
+订严格的媒体法规，以确保市场的竞争秩序，激励产业成长。欧盟等国也高
+度重视数字内容产业发展，通过政府的扶持和关注为数字内容产业的快速发
+展提供了重要支持[1]。
+
+欧盟高度重视数字内容产业发展，通过了eContent Programme（20012004
+年），作为推进数字内容产业发展的整体部署，并且在2005年3月，通过
+了旨在促进多语言数字内容的创新和在线服务的eContent Plus Programme，用
+以促进欧盟范围内数字内容的共享和共同发展[2]。
+
+政府的扶持和关注为日本数字内容产业的快速发展提供了重要支持。日本
+政府将数字内容产业定位为“积极振兴的新型产业”，并采取了多种措施来扶
+持和促进数字内容产业的发展，力图以强大经济实力与技术能力为基础，建造
+超高速互联网、开发核心技术，推动日本成为全球数字内容产业强国 [3]。
+
+中国数字内容产业在政策方面秉承扶持和监管并重的原则。在相关扶持
+方面，中国政府已经将数字内容产业的发展提升到了战略性的高度。在《中
+华人民共和国国民经济和社会发展第十一个五年规划纲要》明确指出，“鼓
+励教育、文化、出版、广播电视等领域的数字内容产业发展，发展动漫产
+业，并从完善信息基础设施、积极发展信息服务业、加强社会主义文化建设
+三个方面规划了数字内容产业的发展。
+
+政府在积极推动和严格监管的双重力量的作用下，数字内容产业的发展
+也将保持在健康的轨道上，产业竞争日益走向规范[4]。
+
+（2）经济环境
+在经济环境中，影响因素主要包括区域经济规模、产业结构、对外开放
+[1]Department of Commerce of US.The Emerging Digital Econmy[EB/OL〕.
+[2]Nick Mooer，Acumen.European Content for the21 century：A Forecast to2005[EB]http： www.a cumenuk .co. 
+uk/paapers/European_content_vision.php.
+[3]Chuan-Kai lee.Cluster Adaptability across Sector and Border：The Case of Taiwan ’s Information Technology 
+Industry [D]. Berkeley：Univ. of California，2006：1-206.
+
+[4]罗海蛟.发展数字内容产业是国家级的战略决策[J].中国信息界，2010（3）：25-28.
+
+第３章　数字内容产业的成长历程 
+
+
+交流的程度和广度等。在宏观经济环境方面，近十年全球经济一直保持着稳
+定增长，虽然2008年全球经济发展放缓，但整体经济环境依然良好，仍将保
+持较快增长势头。在经济高速发展的带动下，数字内容市场需求不断升级，
+推动了产业的加速发展。
+
+与此同时，全球互联网内容和移动内容等产业经过多年的积累和探索
+已经形成了较为成熟的商业模式，数字内容产业的商业价值逐渐爆发出来，
+从而吸引了大量企业和投资者的参与。中国数字内容产业的竞争也将逐步升
+级，由最初的流量竞争，逐渐上升到用户粘性以及用户价值的竞争。
+
+全球数字内容产业快速增长的同时，也吸引了各国企业和投资者的目
+光，欧美、日韩的数字内容企业争相进驻中国，在互联网、移动、数字影
+音、动漫等各个领域展开与国内企业的合作，促进了中国数字内容产业的成
+熟和发展。随着经济环境的逐渐回暖，数字内容仍将是全球投资者关注的重
+点领域。
+
+（3）社会环境
+数字内容产业具有资本密集、技术密集、知识密集和人才密集的行业
+特征，它的发展繁荣不仅有赖于民主、文明和稳定的政治制度，更有赖于开
+放、发展的市场经济制度以及高素质的人才队伍。近年来，各国都加强了对
+数字内容产业发展的重视力度，在网络电视、数字影音和移动视频等新兴热
+点领域已经开始尝试运用技术的进步有力促进数字内容产业的升级。
+
+全球发展数字内容产业的环境和氛围逐步形成，许多国家有代表性的数
+字内容产业园区都聚集了大批企业和人才，形成了数字内容产业发展的良好
+氛围。
+
+在教育培训方面，全球有关数字内容的培训机构相继成立，各国在许多
+高校中开设了游戏、动漫等相关专业，为数字内容产业的发展培养了大批人
+才，在家庭和个人用户需求方面，随着互联网应用的普及以及网络电视的快
+速发展，人们对数字内容产业的接受和理解都取得了很大进步。
+
+（4）技术环境
+网络技术发展日新月异，推动了网络安全产品和服务的不断升级。近年
+来TAG、RSS、API、Ajax等技术得到广泛应用，带来了服务模式和商业模式
+的巨大创新。2009年，以Facebook、Twitter为代表的SNS正在迅速改变全球互
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+联网格局，Morgan Stanley的数据表明，互联网用户现在有16％的时间在体验
+SNS服务，如今SNS不仅局限于互动社交，而且还广泛融合游戏、多种应用甚
+至电子商务等众多模式，SNS已经成为影响全球网络用户的新的生活方式，成
+为引领互联网发展新的代名词，风靡全球。同时，业界对于计算理念的讨论
+和探索，为未来网络发展提出了新的方向，也为数字内容服务商提出了创新
+的要求[1]。
+
+此外，网络安全环境的不断改善为数字内容产业发展提供了必要支持，
+主要体现在两个方面：一方面网络安全产品已经从简单的防火墙到目前的具
+备报警、预警、分析、审计和监测等全面功能的网络安全系统；另一方面，
+网络安全技术取得巨大进步，为政府和企业在构建网络安全体系方面提供了
+更加多样化的选择。
+
+3.2.2　影响数字内容产业成长的因素分析
+（1）有利因素
+①各国政府积极推动产业环境完善
+随着数字内容产业在市场经济中的表现日益突出，各国政府对数字内容
+产业的重视程度持续提高。美国、欧盟等国将会进一步加大对数字内容产业
+及其相关细分市场的支持力度，从资金、税收、产业环境优化、产业链完善
+等多方面给与市场调节和政府宏观调控。例如以建立产业基地或者产业园的
+形式，搭建完整的区域数字内容产业链，提升区域整体企业竞争实力；建立
+专业机构，开展培训，为产业发展积累人力资源[2]。
+
+②网络基础不断提升支持产业升级
+一方面，全球宽带网络覆盖率不断提升，资费不断下降，另一方面，移
+动通讯正在加快互联网应用整合，全球的移动内容将实现全面共享。企业看
+到了移动互联网的发展潜力，以流媒体业务为核心的视频等增值服务将获得
+更加广阔的发展空间。网络的不断改善和提升为数字内容产业发展提供了技
+
+[1]移动SNS社区海外标杆案例研究报告（2009）中国市场报告网http//www.360BaoGao.com/2009-10/ 
+yidong shequhai waibiaogananliyanjBaoGao.html 2009.11.
+[2]何东.数字内容产业的发展与展望[J].武汉电信网络监控部，2007：5-6.
+
+第３章　数字内容产业的成长历程 
+
+
+术支持[1]。
+
+（2）不利因素
+①版权和相关法律问题依然存在
+数字内容的版权和相关法律问题一直是制约全球数字内容产业发展的
+瓶颈。尽管在开放性和可复制性较高的互联网数字内容方面，各国的相关部
+门都制定了具有针对性的法律法规，但是由于缺乏完善有效的监管体系，使
+得版权问题的解决面临较多挑战。尤其在互联网时代，用户原创内容（UGC（User Generated Content）的大范围应用会使得网络原创内容的版权更加难以
+确认。由于版权问题导致内容厂商的商业利益无法得到保障，甚至难以建立
+合适的商业模式，结果是使得大量产业价值流向盗版市场或者违规经营者。
+全球范围内的数字内容产业由于版权问题无法得到确认和保障，将会严重制
+约大批数字内容开发商或者开发人员的研发热情，限制产业发展的步伐，甚
+至会导致产业发展陷入恶性循环[2]。
+
+②数字内容竞争同质化现象严重
+数字内容的同质化问题，主要表现在游戏方面。在网络游戏市场，随
+着市场的高速发展，运营的游戏产品数量不断增多，大量游戏的背景、游戏
+方式颇为类似，尤其在休闲游戏和手机游戏方面，由于游戏产品本身比较简
+单，不存在技术研发壁垒，而市场对产品的需求量又非常大，因此，开发
+商、运营商之间相互拷贝的现象非常普遍。从网络游戏出版内容层面看，创
+新能力仍然不足，同质化现象仍然突出，低俗内容也时有发生。在数字内容
+同质化问题的背后，隐藏着不规范的市场环境和恶性竞争，这必将导致整个
+行业陷入低利润运营甚至难以产生盈利模式的困境。
+
+③金融危机考验产业的盈利能力
+全球范围内的众多数字内容企业依赖风险投资生存，而2008年以来全
+球性的金融危机，必然会在一段时间内影响到市场总体投资状况。一方面，
+投资者希望从数字内容产业中真正寻找到具有增值空间的投资项目；另一方
+面，投资者对资金运用的谨慎态度，则可能会减少风险投资的金额和数量。
+这对于大多数数字内容企业而言，需要立即做出策略调整，提升自身的盈利
+
+[1]高新民.发展在线数字内容产业促进数字网络融合[N].中国电子报，2008（4）.
+[2]治钢.中国数字内容产业亟待解决三大问题[N].中国经济时报，2007.
+
+数字内容产业成长机理及发展策略研究 
+
+
+能力，及时应对可能面临的投资减少的危机，以期获得更多稳健投资者关注
+的机会[1]。
+
+3.3　数字内容产业市场特征分析
+3.3.1　国外产业市场特征
+（1）产业区域性分布特征
+从产业分布的区域格局来看，欧美地区占据绝对领先的地位，2009年
+全球互联网产业分布区域调查显示北美占38%、欧洲占21%、南美占9%、日
+本占5%、除日本之外的亚太区域占19%、其他地区占9%（数据来源：CCID 
+2010，08）。在互联网内容、动漫影音、数字出版等方面，美欧集中了大多
+数全球领先的产品开发商、服务提供商，成为全球数字内容产业最发达的地
+区；而日本、韩国、澳大利亚等地则在移动互联网应用、游戏等方面处于领
+先的地位，形成了独具特色的产业优势。亚太、南美等地区的产业市场则
+随着数字内容比较发达的国家和地区的快速发展也开始呈现出快速发展的势
+头，并逐渐成为推动全球产业发展的新生驱动力量，其市场地位逐步提升 [2]。
+
+（2）政府支撑产业发展模式特征
+政府推进是支撑全球数字内容产业发展的一个重要模式。近年来，全球
+各国充分发挥政府在促进数字内容产业发展方面的作用，实施战略性计划推
+进内容产业的不断升级和结构优化，通过实施人才战略促使内容产业的持续
+发展。通过政府政策支持建立信息产业基地、数字内容产业门户网站、数字
+内容论坛为创业企业和中小型企业提供资金支持、建立长效机制、提高进出
+口水平、鼓励开发内容资源等方面有效地推进数字内容产业发展。
+
+政府从技术与法律法规方面保证数字内容产业的健康发展。一方面利用
+现代技术把内容监管的环节和手段前移到标准、硬件和传输环境，把内容管
+理贯彻到产业链各个环节，另一方面出台相关法律法规，建立有效的监管体
+系，确保数字内容产业健康有序地发展。政府部门的重要作用还体现在宏观
+上引导数字内容产业发展，鼓励自由市场竞争，推进形成生态产业链，在持
+续发展中不断优化产业结构。
+
+[1]侯亮.国内外数字内容产业发展现状分析[J].中国电信武汉分公司，2007：6-8.
+[2]2008年中国数字内容产业及2009—2013年发展预测研究报告：CCID.2009.08：114-119.
+
+
+第３章　数字内容产业的成长历程 
+
+
+（3）产业供给竞争特征
+从全球范围来看，数字内容产业的竞争格局日趋交叉化、复杂化、高
+强度化。产业供给方面呈现出终端设备厂商加速对上游内容产业的渗透；内
+容的跨平台发展也日益显著，传统互联网内容和移动互联网内容相互融合渗
+透，移动通讯网络日渐普及；动漫、游戏等成熟领域呈现出垄断的特征，产
+品研发成本越来越高[1]。
+
+产业竞争的结果是产业链的完善与协作的增加，竞争整体推进了产业发
+展。数字内容产业在“用户终端—互联网络—市场营销—内容和服务”的完
+整价值链的每个环节之间具有紧密的联系。用户终端是用户获取内容和服务
+的载体，互联网是用户应用和获取内容的渠道，市场营销是将用户终端与内
+容的相互匹配、整合真正实现内容价值的活动。因此，产业的快速发展要求
+价值链中各环节的企业必须更好地相互配合。
+
+（4）产业盈利模式特征
+从数字内容产业的发展来看，产业赢利模式仍有待于发展和成熟，逐渐
+向多元化、差异化发展，从基础网络接入的收入，到广告收入、内容直接收
+费及从内容延伸出来的增值服务来看，满足个人、政府和企事业单位的差异
+化服务具有更大的发展潜力[2]。
+
+3.3.2　国内产业市场特征
+（1）各级各地政策支撑，产业集群效应初显
+数字内容产业作为一个在中国刚刚发育起来的新型产业，政府在加强市
+场监管，营造良好的数字内容市场运行环境，建设完整的产业链，成立我国
+数字内容产业协会等方面将起到重要的引导、扶持和推动作用。
+
+数字内容产业作为现代信息服务业的重要组成部分得到了各级、各地政
+府的高度重视，各地在税收、人才引进方面给予优惠政策，并组建产业基地
+和园区来推动数字内容产业的发展。在各地方政府差异化的政策引导之下，
+产业集群的效应已经初步显现出来，各地产业市场表现出各自的发展特点。
+
+[1]Uday M. Apte，Uday S. Karmarkar， Hiranya K. Nath.Information Services in the U.S.Economy： VALUE，
+JOBS， AND MANAGEMENT IMPLICATIONS [J].Caufornia Mangenmen Review，2008：12-30.
+[2]Dae-Je Chin.Broadband and digital content：Creativity， growth and employment [J]. Digtal Content Creation 
+Distribution and Access january，2006：30-31.
+
+数字内容产业成长机理及发展策略研究 
+
+
+比如，北京的数字内容产业全面发展，在动漫、网络游戏、增值业务、
+网络教育等方面都具有明显优势，尤其在原创内容开发上处于领先的地位。
+北京聚集了大批优秀的内容开发企业和人才。上海在动漫和网络游戏优势突
+出，在动漫方面，上海美术电影制片厂在我国动漫界长期处于领先地位，同
+时上海还是“国家动漫游戏产业振兴基地”和“国家动漫游戏产业示范基
+地”。网络游戏方面，上海是中国网络游戏运营中心。而广州、苏州、深圳
+等地的数字内容产业发展也处于国内领先的地区[1]。
+
+（2）产业发展支撑环境日益完善
+从经济环境来看，经济环境方面的支撑依然强劲。截至2009年上半年，
+虽然国内市场继续受到全球经济下滑、人民币升值等因素的影响，但整体经
+济环境依然保持着增长势头，而且已有回暖迹象。互联网内容和移动内容等
+产业经过多年的渗透和融合已经形成了较为成熟的商业模式，从而吸引了大
+量企业和投资者的参与。
+
+从社会环境来看，人才资源日益丰富。全社会都加强了对数字内容产业
+发展的重视力度。许多城市相继成立数字内容产业基地，聚集了大批企业和
+人才，形成了数字内容产业发展的良好氛围；在教育培训方面，有关数字内
+容的培训机构相继成立，许多高等院校也开设了游戏、动漫等相关专业，为
+数字内容产业的发展培养了大批人才。
+
+从技术环境来看，数字内容提供模式日益丰富，技术支持日益加强。在
+网络基础层面，带宽发展迅速，3G发牌、VOIP、IPTV等新兴商用技术的进步
+将有力促进数字内容产业的升级。近年来TAG、RSS、API、Ajax等技术得到
+广泛应用，带来了服务模式和商业模式的巨大创新。2008年，SNS在中国掀起
+了热潮，随之而来的Widget技术的大量应用和普及，都丰富了数字内容的提供
+模式。同时，网络安全产品和服务的不断升级和改善为数字内容产业发展提
+供了必要支持[2]。
+
+[1]中国数字内容产业发展状况研究（下）.中商情报网[2009-7-20].http：//www.askci.com，2009.7.20.
+[2]李靖，李凌汉.中国数字内容产业发展中存在的问题及政府调控[J].经济研究导刊，2009（4）： 
+21-22. 
+
+第３章　数字内容产业的成长历程 
+
+
+3.4　本章小结
+本章论述了数字内容产业的成长历程大体上经历了产业形成、成长和成
+型三个阶段，从产业分布、产业发展模式、竞争特点和产业投资理论联系实
+际地阐述了数字内容产业的成长特点。从政策、经济、社会、技术四个角度
+概述了数字内容产业的成长环境，分析了产业成长的有利和不利因素。最后
+分析、论述了国内外产业区域分布、政府支撑产业发展模式、竞争和盈利模
+式的市场特征。
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+第４章　数字内容产业集群形成机理
+
+
+随着信息技术的发展，以数字和创新为特征的信息内容产业成为全球最
+具活力的新经济增长点之一，并且受到了世界各国政府的关注。本章概述了
+数字内容产业集群与产业集聚的相关概念，然后在分析数字内容产业集聚原
+因的基础上，研究了数字内容产业集群的形成过程、影响因素和集聚机理。
+
+4.1　数字内容产业集群概述
+4.1.1　产业集群与产业集聚
+从各国经济的发展和产业演化过程来看，产业发展的一个重要特征就是
+产业总是聚集在某一个特定的地区范围内发展和壮大，而不是在所有的地区
+均匀地发展。人们在考察和研究产业发展的地区集中化现象时，往往不加区
+分地使用产业集聚与产业集群两个术语。欧美发达国家学者认为产业集群与
+产业集聚两者之间没有区别，国内的理论界也大都把这两个词等同起来。然
+而，产业集聚和产业集群是既有内在联系又有本质区别的两个不同概念[1]。
+
+产业集聚是指同一类型或不同类型的产业及相关支撑机构在一定地域
+范围内的集中、聚合，是一种基于产品链和增值链的简单劳动分工关系。产
+业集群则是指大量专业化的产业及相关支撑机构在一定地域范围内的柔性集
+聚，并结成密集的合作网络，植根于当地不断创新的社会文化环境，是在集
+聚基础上基于信息和知识联系的“创新链”机制 [2]。可见，产业集聚与产业集
+群的本质区别就在于企业的柔性集聚。
+
+产业集聚与产业集群的区别，还具体表现为它们两者在集聚过程、内在
+关系、产业链、创新网络、集聚动力、知识传递、根植性、发展层次等方面
+
+[1]毕强，韩洁平，赵娜.信息内容产业的发展机理与发展规律研究[J]．情报资料工作，2010.02：20-24.
+[2]王志敏.从集聚到集群产业集群形成机制分析[J].企业经济，2007（2）：39-42.
+
+第４章　数字内容产业集群形成机理 
+
+
+的不同 [1]。就特定区域经济或产业发展来说，总是先有产业集聚后有产业集
+群。产业集聚只是地域集约化经济的初级阶段，而产业集群则是地域集约化
+经济的高级阶段。产业集聚为产业集群提供基础，产业集群是产业集聚发展
+的更高级阶段。
+
+4.1.2　数字内容产业集群
+在数字内容产业内建立起畅通的信息渠道和强大的知识传递共享平台非
+常重要，它们不仅提供大量多样化的信息与知识，而且能够保证其有序合理
+地传递、储存和利用 [2]。数字内容产业集群化恰恰提供了这样一个平台。企业
+的集群化程度越高，相互之间的关系越紧密，越有利于创新的产生和传播。
+集群的存在以及网络化的合作方式是信息产业良好环境形成的基础。数字内
+容企业集群化发展的内在动力，正是由于企业之间各种正式与非正式的合作
+和信息交流带来了创新灵感和加快了对技术的学习过程，从而能形成持续的
+创新动力。同时，大量IT专业人才在企业间的流动，也促使了数字内容产业
+集群中隐形知识的传播。
+
+4.2　数字内容产业集聚的原因分析
+4.2.1　数字内容产业集群现状
+产业集群是当今世界上发达国家产业成长最为显著的经济特征之一，呈
+现出旺盛的生命力，成为一国或一个地区经济持续增长的核心，它不仅可以
+成为区域经济发展的主导，而且也成为提高国家产业竞争的新力量。从世界
+范围看，产业集群化已是一个非常普遍的现象，国际上有竞争力的产业大多
+是集群模式。在经济全球化的今天，产业集群化发展已成为全球性的经济发
+展潮流，产业集群构成了当今世界经济的基本空间构架[3]。
+
+作为新兴产业的内容产业，其集群化趋势也非常明显。全球著名的内容
+产业区如纽约的SOHO、米兰的秀场和日本三岛町数字内容产业园区等，都成
+为了地区发展和创新的新源泉和新动力。伦敦、纽约、东京、新加坡、香港
+
+[1]]刘友金.产业集聚、集群与工程机械工业发展战略[J].求索，2004（8）：4-7.
+
+[2]符韶英，徐碧祥.创意产业集群化初探[J].科技管理研究，2006，（5）：54-56.
+[3]毕强，韩洁平，赵娜.信息内容产业的发展机理与发展规律研究[J]．情报资料工作，2010.02：20-24.
+
+0数字内容产业成长机理及发展策略研究 
+
+
+等经济中心城市也都出现并已成为内容产业的集聚地[1]。
+
+内容产业也正在成为伯明翰、旧金山等经济中心城市复兴的原创动力。
+这些内容产业集群的出现与发展的过程中，存有一些共同的特点。这些区域
+都是在大量专业化的中小企业集聚发展起来的，而且区域内企业之间的专业
+化程度都非常高，区域内知识和信息的流动速度都非常快，灵活的制度环境
+和利于创新发展的社会文化环境的发展势头比较好，区域内的经济增长速度
+非常快 
+[2]。目前，我国北京、上海、广州等大城市都已出现了一些内容产业集
+群。北京2006年斥资5亿元人民币建设文化创意产业区，形成798艺术区等多
+个内容产业集聚区。上海内容产业区在2005年底已挂牌36家创意产业区。此
+外，杭州、南京、深圳、广州、长沙、武汉、大连、青岛、成都等各大城市
+都纷纷设立内容产业园区发展内容产业。尽管目前各地已形成多个内容产业
+集聚区，但是这些集聚区尚未形成规模，与国际上一些发达国家相比，无论
+是硬件环境还是软件环境，差距较为明显，迫切需要政府加强规范、引导及
+政策上的扶持。因此，如何发挥文化资源优势，构建内容产业集群与创新服
+务体系，完善和优化内容产业发展的内部与外部环境，发挥集群效应，打造
+并完善内容产业链，形成新的产业发展群落，是目前发展中的一项迫切而艰
+巨的任务，也是亟待研究的问题之一[3]。
+
+4.2.2　数字内容产业集群的原因
+数字内容产业集群现象的出现是一种必然的现象。它是市场对资源配置
+的一种结果。但是创意产业集群的形成并不是一朝一夕的事情，它需要在多
+种因素的综合作用下才能形成。即便是政府主导型的产业集群，也需要当地
+有相当规模的企业的存在。
+
+理论上，所有的形成因素可以独立地促使数字内容产业集群的产生，但
+实际上客观环境的复杂性，决定了我国数字内容产业集群的形成并不是由某
+一因素引起的，而是多种因素共同作用的结果。我国数字内容产业集群的形
+成过程，除了受到规模经济、技术、资本的明显影响外，还会直接或间接受
+
+[1]韩洁平，毕强.数字内容产业研究与发展[J]．情报科学，2009.11：1741-1746.
+[2]毛利青.创意产业区发展的区域创新网络机制研究[D].上海：同济大学硕士学位论文， 
+2007：33-38.
+[3]曹庆.我国信息产业集群形成机制分析[D].武汉：华中师范大学硕士论文，2008：64-65.
+
+第４章　数字内容产业集群形成机理 
+
+
+到分工、政府、经济发展水平、产业价值链等因素的影响[1]。
+
+（1）分工与内容产业集群的萌芽
+关于产业集群的产生，很多专家都认为是伴随着分工以及专业化的发展
+而诞生的[2]。
+没有分工也就没有集群的产生。以传媒业为例，假如没有记者、技术支
+持者和广告部门，就没有传媒业本身。我们假定，一家大型的传媒集团在某
+一个特定的区域内成立的话，那么传媒集团的发展需要广告制作公司和传输
+渠道等多个环节的支持，这些环节自然而然地向一起聚集，从而更加密切联
+系，共同发展。这说明，分工具有自我繁殖的功能，它可以内生地产生一些
+新市场，即分工具有可以不断积累、自我繁殖的增长机制，它还可以促进成
+本收益比不断下降，促进经济活动的效率不断提升，进而促进内容产业集群
+的产生[3]。
+
+（2）政府对数字内容产业集群的影响
+同中央政府相比，地方政府的行为更具有现代经济学意义上的“经济
+人”的某些特征。事实上，在数字内容产业集群的形成与发展过程中，地方
+政府的影响比中央政府更为直接、更为明显。
+
+地方政府是各数字内容产业集群的直接参与者甚至还是管理者，在积极
+营造集群的创新环境、提供基础设施等公共物品、有效规范地方市场行为以
+及挖掘区内潜在创新资源方面，发挥着不可替代的作用。我国数字内容产业
+集群的产生有两种不同的类型，第一种是市场型数字内容产业集群（如北京
+中关村硅谷的形成）；第二种是政府干预型的数字内容产业集群（如珠江三
+角洲信息产业群等）。但是不管是哪种数字内容产业集群，其成长与政府作
+用的发挥密不可分，产业集群的发展离不开政府的支持。例如，在中关村，
+在电子信息产业群成长初期，政府的作用极其微小。随着数字内容产业群的
+不断发展壮大，当地政府才基于市场经济的原则去营造或提供良好的政策环
+境。而在上海、广州、深圳等地区，数字内容产业群的产生基本上也是中央
+
+[1]韩洁平，毕强，赵娜.信息内容产业集群形成机理分析[J]．情报资料工作，2009.11：5-9.
+[2]林竞君.网络、社会资本与集群生命周期一个新经济社会学的视角[M].上海：复旦大学出版社，2005：85.
+[3]王欣.信息产业发展机理及测度理论与方法研究[D].长春：吉林大学博士论文，2008-10-01：99-101.
+
+数字内容产业成长机理及发展策略研究 
+
+
+政府和地方政府产业政策设计的结果，出台一系列优惠政策，吸引众多企业
+聚集在该区域，数字内容产业群开始形成[1]。
+
+（3）传统产业对信息产业集群的支撑
+数字内容产业与信息产业是一种相互依存、相互促进的关系，信息产业
+为数字内容产业提供着技术保证，可以带动其他相关产业的进一步发展。信
+息产业通过电子化、信息化，为数字内容产业的发展提供了新的发展方向，
+为数字产品提供了不断扩大的市场，刺激了数字内容产业的技术开发与应
+用，促进了数字内容产业集群的优化和升级。上海、天津、福建等沿海地区
+的商业历史悠久，国际贸易交往频繁，雄厚的传统产业基础为数字内容产业
+的发展提供了大量的资金、人才、技术和政策环境[2]。
+
+（4）经济发展水平对信息产业集群的影响
+我国数字内容产业集群的现状是我国经济发展不平衡的反映，东部沿海
+地区经济发展速度快，信息化水平高，在资金、技术、人才方面积累了先天
+性优势，而中西部地区经济基础薄弱，信息基础设施落后，信息意识缺乏，
+信息获取能力低，资金、技术分散，与发达地区的“数字鸿沟”十分明显，
+并有扩大的趋势，因此数字内容产业难以集中研究、开发并形成规模经济。
+随着“西部大开发”和“中部崛起”政策的施行，国家投资战略重点开始向
+中西部转移，国家会逐步加大对中西部的投入，社会资本也开始在中西部聚
+集，中西部的数字内容产业研究开发和产业优势正在形成[3]。
+
+4.3　数字内容产业集群的机理分析
+4.3.1　数字内容产业集群的形成过程
+（1）产生阶段
+在这个阶段，由于人力资源、科技资源、区位优势等各种有利条件和因
+素已经具备或者开始形成，少数信息企业开始进入特定区域，从事信息产品
+的生产和提供信息服务。但是，在产生阶段信息企业数量少且大多是独立经
+
+[1]李怡，陈永飞.信息产业集群的形成机制与演变规律[J].经济问题探索，2006（2）：53-56.
+[2]郑宏丹.现代信息产业与创新城市之间的互动机制分析[D].北京：北方交通大学硕士论文，2009： 
+46-48.
+[3]桂学文，曹庆.我国信息产业集群形成模式的实证分析[J].情报科学，2007：26-28.
+
+第４章　数字内容产业集群形成机理 
+
+
+营，还没有形成品牌或品牌没有号召力，更没有出口能力。企业之间的相互
+支持与配合较少，产业集群供应链尚未形成，中介服务机构和企业联合组织
+几乎不存在。
+
+该阶段发展的风险是随着集群规模的扩大，人力资源优势、区位优势逐
+渐变得不明显，而集群又没有形成完善的本地分工网络，企业就可能转移到
+其他优势区域，甚至使数字内容产业集群“空心化”消失，集群很可能成为
+所谓的“飞地” [1]。此外集群企业间的无序竞争、盲目模仿也可能破坏集群的
+健康成长。所以，发展数字内容产业集群，政府要采取措施避免过度竞争所
+致的“柠檬市场”，并制定有利于信息产业健康发展的政策法规[2]。
+
+（2）成长阶段
+数字内容产业集群经过产生阶段之后，集群规模经济效益逐渐显现出
+来，集群步入行业内的分工和协作阶段，此时该数字内容产业集群进入成长
+阶段。
+
+成长阶段内企业之间的竞争更加激烈，那些实力甚强的大企业继续扩大
+规模，而实力较弱的企业不甘心就此退出集群，为了避开与大企业的正面冲
+突不得不实行差别化经营，包括产品差别化和生产活动差别化，即数字内容
+产业集群横向分工和纵向分工。尽管企业以产品差别化进行的横向分工在集
+群第一阶段就可能存在，但不是多数企业的主要活动。集群纵向分工包括集
+群企业产业内分工与集群发展所需的上下游产业间分工，后者在集群发展的
+第一阶段就已经存在，但同样受到限制。集群规模的壮大为集群产业内两个
+方向的分工发展提供了市场机会，而分工和协作关系直接导致集群的成长，
+是产业集群成长的必要条件。同时，信息产业规模扩大，产量迅速增加，产
+品市场份额、品牌形象和普及率迅速提高[3]。
+
+（3）成熟阶段
+在成熟阶段，数字内容产业集群内企业创新能力增强，生产过程和产品
+走向标准化，集群对区域经济影响作用大。数字内容产业供应链体系逐步配
+
+[1]仇保兴.发展小企业集群要避免的陷阱——过度竞争所致的“柠檬市场”[J].北京大学学报哲学社会
+科学版，1999（12）：25-29.
+[2]王朋飞.产业集群发展阶段研究[D].青岛：中国海洋大学硕士论文，2006：55-56.
+[3]贾明江，蔡继荣.企业集群发展阶段的探讨[J].软科学，2004（5）：32-33.
+
+数字内容产业成长机理及发展策略研究 
+
+
+套和完整，相关企业彼此既竞争又合作，形成复杂、稳定、密切的本地企业
+网络。在这个阶段，集群内出现一些在国际上具有竞争力的龙头企业，群内
+企业和群外企业的合作和联系日益频繁。在成熟阶段，数字内容产业集群的
+规模和产量巨大、产业集中度高、产品占国内市场份额大、技术达到国际先
+进水平。另外，集群内产品大量对外出口，产品占国际市场份额较大，集群
+作为整体加入到全球价值链当中，逐步融入全球性竞争。
+
+................
+
+ 
+
+
+ 
+
+
+......
+. 
+
+
+........................................................................................
+图4.1　数字内容产业集群成长的动力系统结构
+
+4.3.2　数字内容产业集群形成的影响因素
+产业集群的本质是规模经济和范围经济共同作用的过程，规模经济导致
+经济集群产业点，再加上范围经济产生集群产业区，规模经济和范围经济共
+同作用产生经济集群核心区[1]。
+
+韦伯把传统制造业集群总结为四个方面的因素。一是技术设备的发展。
+随着技术设备专业化整体功能的加强，技术设备相互之间的依赖会促使工厂
+地方集中化。二是劳动力组织的发展。韦伯把一个充分发展的、新颖的、综
+合的劳动力组织看作是一定意义上的设备，由于该组织也十分“专业化”，
+因而促进了产业集群化。三是市场化因素 [2]。韦伯认为这是最重要的因素。产
+业集群可以最大限度地提高批量购买和出售的规模，获得成本更为低廉的信
+用，甚至“消灭中间人”。四是经常性开支成本。产业集群会引发煤气、自
+
+[1]徐康宁，冯春虎.中国制造业地区性集中程度的实证研究[J].东南大学学报哲学社会科学版，2003
+（13）210-213.
+[2]Han Jieping.The research and progress of global digital content industry， ISBIM 2010：2010 Second 
+International Seminar on Business and Information Management，Wuhan，September 13-14，2010[C]. 
+HongKong：2010：74-79.
+
+第４章　数字内容产业集群形成机理 
+
+
+来水等基础设施的建设，从而减少经常性开支成本。
+
+数字内容产业不同于传统的工业、制造业，对运输成本、自然环境等
+依赖程度低，其所特有的技术经济特征决定了在集群形成过程中有着独特因
+素，并且这些因素对数字内容产业集群的作用大小也不相同。
+
+（1）利润驱动与区位选择因素
+从理论上讲，一切生产要素的聚散、重组都是为了以最小的投入创造最
+大的收益，产业集群中的任何企业都有一种向能够获得收益最高的地理位置
+流动的倾向。收益的差别构成了流动的动机，而流动的结果抹平了收益的差
+距，因而，收益是影响企业流动的主要因素。事实上，经济学家们在这一点
+上已达成共识，即企业集群的主要动因在于通过不断追求短期利益以获得长
+期利益，实现长期利益最大化。
+
+数字内容产业集群和传统产业集群一样，集群内企业都是以盈利为目
+标。数字内容产品的特征是科技含量和价格都比较高，因此，更注重按需生
+产。由产品与用户相互关系决定的市场特征成为数字内容产业集群的考虑因
+素。如果产品具有世界市场，那么对高水平电子通信网络的易达性就成为产
+业区位选择和确定的一个主要因素；如果产品市场具独特性，即为特殊用户
+生产，在产品的使用和服务等方面要与用户保持持续的联系，那么，空间接
+近就成为产业区位选择的必要条件之一，即选择接近消费者的区位。因此，
+在进行数字内容产业区位选择时，应通过分析产品与消费者的关系，确定产
+品市场的特征，然后再确定产业的区位[1]。
+
+（2）以信息企业为核心的产业链因素
+无论是技术创新还是公司运作都不是在真空中运行的，数字内容产业集
+群的形成往往是在一个产业链上进行。例如联想公司把电子产品行业中的生
+产外包给制造企业，而公司主要负责方案设计、咨询、营销和组装。通过技
+术或者社会网络将大小信息企业连接在一起，从而形成一个长期合作关系。
+这种结构保证了企业间合作的信任，并且减少了采购与生产的风险和成本。
+
+数字内容企业强调产业链主要好处在于缩短产品生命周期、节约成本和
+生产成本、注重核心竞争力等。集群网络内的企业注重各自的核心技术，组
+
+[1]李晓鹏，孙建军.现代内容产业及其产业模式探析[J].南京大学信息管理系，2008（3）:8-12.
+
+数字内容产业成长机理及发展策略研究 
+
+
+成一个以某一企业为核心的产业链。正是这种产业链的存在，才可能促使企
+业在某一地域集聚，从而促使了数字内容产业集群的形成[1]。
+
+（3）风险投资等资金因素
+数字内容产业的发展，在很大程度上依赖于创新产品的提供，而创新产
+品的产生在很大程度上依赖于风险资本的投入。因此，能否获得风险资本，
+以及风险资本投资机构的性质和区位选择，成为数字内容产业选择区位的因
+素之一。风险资本来源于大公司、政府及风险投资公司。通常情况下大公司
+的研究与开发机构、大学和科研机构等技术创新信息源最容易获得风险资
+本，因此，不同类型风险资本与这些创新机构的关系，决定了数字内容产业
+的区位，从而影响了数字内容产业集群的形成[2]。
+
+（4）人力资源因素
+人力资源素质是影响数字内容产业集群形成的另一个重要因素。数字内
+容产业的生产过程包括了不同的工序或阶段，每一工序或阶段对人力资源质
+量的要求不尽相同。以知识为基础的研究与设计、先进制造业、低技能装配
+和测试，所需的劳动力种类依次为科技人员、技能劳动力和低技能劳动力。
+
+在信息技术产业中，以知识为基础的研究与设计生产阶段因需要大量
+科技人员，其区位往往趋向高质量劳动力集中的地区，装配和测试生产阶段
+则需要大量低技能劳动力，而这部分人力资源是大量存在、广泛分布的。因
+此，其区位富有弹性，灵活多变，这时，人力资源成本仍是考虑的因素。对
+处于中间生产阶段的先进制造业来说，由于对人力资源需求不大，但与第一
+生产阶段研究与设计的产品有密切联系，所以其区位往往会接近创新中心[3]。
+
+4.3.3　数字内容产业集聚机理
+数字内容产业集聚的机理是指推动数字内容产业集聚形成与发展的力量
+结构体系及运行规律具有一定的稳定性和规律性。数字内容产业集聚机理是
+获取持续竞争优势和推动数字内容产业集聚发展的根本力量。数字内容产业
+集聚激励包括内在动力机制和外在作用机制。内在动力及数字内容产业集聚
+
+[1]张玲，李辉.基于网络结构的信息内容产业集群式发展机理研究[J].吉林大学，2008，26（6）： 
+935-938.
+[2]何飞鹏.数字内容产业的关键变革[J].港澳台之窗，2009：33-34.
+[3]孔翠莲，罗思，余臻.下一代网络背景下的数字内容产业发展分析[J]．特区经济，2009：12.
+
+第４章　数字内容产业集群形成机理 
+
+
+中包含本地资源转化为内生优势；外在作用机制分为政府行为、外部竞争环
+境等，其作用带来数字内容产业集聚的外部优势。其动力机制模型如图4.2。
+
+......................................................................................................................
+图4.2　数字内容产业集聚的动力机制模型
+
+数字内容产业集群中的企业与上下游的供应商、互补企业、传统企业以
+及竞争企业之间存在着合作与交流。企业与研究机构、政府及金融机构等存
+在着知识、信息和资源的交流[1]。
+
+企业和企业之间的关系分为垂直联系和水平联系，垂直联系是指供应商
+和用户在产业链上的互动联系，在产业链的上端表现为供应商和内容生产厂
+商的垂直联系，双方利用地理上的接近，充分发挥其生产技术和运输系统的
+作用，降低彼此的生产成本。供应商除了要努力降低“原材料”和特殊内容
+订单，还要提高供应商从产品涉及到产品创新的积极性。在垂直联系的产业
+链末端，就是生产商和用户之间的联系，生产商为用户提供需求服务，用户
+为生产商提供进一步的需求信息，促使生产商不断进行内容产品的创新。在
+需求市场，不仅仅是价格上的竞争，更重要的是质量和多样性上的竞争，因
+此，生产商要增加与用户的互动关系，建立良好的客户关系系统。企业之间
+的水平联系是指知识、信息在水平方向上的传递和扩散，表现为产品市场上
+的竞争。企业之间应该处理好这种竞争关系。竞争是企业持续发展的动力，
+
+[1]王文平.产业集群中的知识型企业社会网络：结构演化与复杂性分析[M]．科学出版社，2009： 
+137-145.
+
+数字内容产业成长机理及发展策略研究 
+
+
+竞争促进创新，增加企业的竞争优势[1]。
+
+竞争环境会激励企业的发展和竞争力的提高，从而增强数字内容企业
+集聚的整体竞争力。集聚在企业的竞争中得到发展，但是如果企业的竞争演
+变为过度的竞争，就会影响集聚的正常发展。水平关系除了竞争以外还有合
+作，这种合作关系，不仅在互补企业之间存在，在竞争企业之间也存在合
+作。这种关系主要体现在市场共创集体品牌的培育和维护方面[2]。
+
+外部作用主要是通过市场范围、供求关系、相互支撑产业的完备性市场
+的潜在容量和产业规模等相联系。研究机构、金融机构和政府等为企业提供
+技术、人才、资本以及咨询、培训等服务，实现知识、信息、资源的流动和
+传递。研究机构不断地为数字内容企业提供新的知识和技术以及对企业中的
+人员进行培训，而且研究机构可以和数字内容企业一起进行合作研发，为企
+业的技术改造和升级提供确实可行的方案。政府虽然不直接进行技术创新，
+但它可以为数字内容企业提供良好的环境，给予政策保证和优惠支持。金融
+机构可以为数字内容企业提供资金，金融机构往往也存在集聚，区域内的金
+融机构、创新基金和风险投资机构等可以为数字内容企业提供金融资本，金
+融资本直接影响到创新活动的产生与增值过程。从数字内容产业集聚的外在
+作用力来看，政府行为、外部竞争等也会影响数字内容产业集聚动力机制的
+发展和完善。产业集聚在形成之初，基本上都是企业的自发行为，在数字内
+容产业集聚的雏形出现以后，地方政府往往都会积极参与、热情扶持，政府
+的支持加快了数字内容产业的聚集[3][4]。
+
+4.4　本章小结
+首先概述了数字内容产业集群与产业集聚的相关概念，然后在分析数字
+
+[1]彭祝斌.中国电视内容产业链成长研究[D].长沙：湖南大学博士论文，2008：45-46.
+[2]Han Jieping.The Research of Information Content Industry Developing Mechanism and Regularity，
+ICIII2010：The 2010 International Conference on Energy Sources and Smart Grids Development，
+Kunming，September 10，2010[C].2010：136-147.
+[3]Han Jieping.The Formation Mechanism Analysis of Information Content Industry Cluster，ISQNM 2010：
+2010 International Symposium on Quantum，Nano and Micro Technologies，2010[C].NewYork： 
+2010:158-167.
+[4]李怡.中国信息产业集群发展研究[D].上海：复旦大学博士论文，2005：35-38.
+
+第４章　数字内容产业集群形成机理 
+
+
+内容产业集聚原因的基础上，研究了数字内容产业集群的形成过程、影响因
+素和集聚机理。得出了数字内容企业通过人才、技术、资本和市场的因果反
+馈作用，为数字内容产业集聚的发展提供支持，高水平的相互作用是数字内
+容产业集聚的主要推动力的结论。数字内容产业集聚的动力机制模型包括内
+在动力机制和外在作用机制。内在动力及信息产业集聚中包含本地资源转化
+为内生优势；外在作用机制包括政府行为、外部竞争环境等，其作用是带来
+数字内容产业集聚的外部优势。
+
+
+0数字内容产业成长机理及发展策略研究 
+
+
+第５章　 数字内容产业链的成长
+机理及模型
+
+数字内容产业的主体是企业，企业内部包括了所有数字内容产品和服
+务的设计、生产、宣传与销售等，而且综合、分解或融合了许多原有产业的
+形态。随着环境的变化与发展，产业链上的企业还需要进一步地重新整合或
+重新专业化分工，形成新的产业链环节，才能凸显新兴产业的竞争优势。数
+字内容产业实际上是一个庞大的产业集群，涉及数字内容产品生产、交易、
+传输、技术支持、服务等多个环节，集群式发展是产业的一个特点。数字内
+容产业中“内容”是主要的驱动力和最重要的资产，内容产业将被“需求”
+驱动，而不是被技术驱动。终端用户才是最终服务的决策者，而不是以政府
+为主导的的引导者，内容在数字产业中处于核心的地位。同时，在网络宽带
+互联、网上安全交易、资源共享等诸多领域需要令人满意的技术解决方案。
+内容产业的发展既需要内容，也需要技术，有时还需要配套的产品或服务支
+持，形成多元支撑的格局，这是数字内容产业新的发展范式[1]。
+
+目前，全球一些发达国家的数字内容产业链的成长已经接近于成熟阶
+段。首先表现在产业链较长且相对成熟稳定，各环节规模较大，发展较均
+衡，相互之间衔接也很紧密，产业链结构完善，跨国企业甚至是龙头企业数
+量多且实力强；其次表现在产业创新能力、生产能力强大，产业资本密集，
+人才密集，盈利模式和利润来源渠道多。因而，发达国家数字内容产业链的
+成长和壮大具备了坚实的基础。
+
+与发达国家相比，发展中国家的数字内容产业链的成长尚处于成型至成
+熟阶段之间。一方面，产业链条较短，各环节规模偏小，发展也不平衡，相
+互之间衔接亦不够紧密，龙头企业数量少，产业链结构显得不完善，这些都
+表明数字内容产业链的发展还未成熟；另一方面，产业创新能力、生产能力
+
+[1]彭祝斌.中国电视内容产业链成长研究[D]，长沙：湖南大学博士论文，2008：88-92.
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+不足，产业资本运营水平低，资金缺口大，人才短缺，产业盈利模式和利润
+来源少，龙头企业缺乏竞争优势。因而，产业链的成长和壮大仍显得缺乏坚
+实的基础[1]。
+
+产业链成长的基础是产业链的形成，而产业链的纵向延伸和横向整合则
+是产业链成长的关键。尽管研究产业链的相关理论已经比较成熟和完善，但
+研究数字内容产业链的有关理论尚未构建起来，特别是有关数字内容产业链
+形成、成长机理、发展趋势的有关理论尚未有人述及[2]。
+
+5.1　数字内容产业链的构成
+从某种角度看，数字内容产业的发展即可理解为数字内容产业链的发
+展。因此，探讨数字内容产业链的构成及相关内容，应该首先从了解数字内
+容产业的构成开始。
+
+5.1.1　数字内容产业链的特殊性
+（1）信息流与物流具有同质性
+传统产业链控制的对象是信息流、物流和资金流。对于数字内容产业来
+说，它的物流也是通过计算机和网络产生并进行传播的，因此数字内容产品
+实际上也是数字信息，与信息流同样具有同质性。这不但模糊了数字内容产
+品和需求信息的界限，加大了区分难度，而且对信息安全控制技术提出了更
+高的要求。
+
+（2）上下游环节具有可逆性
+数字内容产业链的上下游环节并不是绝对的。传统产业链上的各个环节
+是一个线性流程，前后联接，通常不可逆转，但是在数字内容产业中，下游
+组织如数字图书馆可以为上游的数字内容生产机构如出版社等反向提供参考
+咨询服务，所以产业链能够表现为双向网状链接结构。
+
+（3）中间环节具有可跳跃性
+由于互联网的普及和便捷，形成了数字内容产业的网状链接结构，使得
+产业的中间环节存在可跨越性，即数字内容的生产者可以和内容消费者进行
+直接的沟通，相互交流数字内容产品和需求反馈。这也就要求中介服务机构
+要更加注重自己环节的增值性，以吸引数字内容产品用户，提供更好的服务。
+
+[1]刘陆军.数字内容产业特征、现状和发展策略的研究[D].武汉：华中师范大学， 
+2006：35-39.
+[2]邵昶.产业链形成机制研究[D]，广州：中南大学硕士论文，2005：47-51.
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+（2）数字内容产业链的构成要素
+在产业链的概念和内涵中，产业链的构成要素是最基本的组成内容。由
+于数字内容产业基于传统的信息产业和文化产业，核心竞争力来源于内容的
+创意与设计，以网络基础设施为传播平台，国家政策、法律法规为导向，在
+市场机制的作用下，构建了数字内容产业发展的条件或环境，也决定了数字
+内容产业发展规模与速度[1]。
+
+数字内容创意、策划、生产、包装、广告、营销乃至推广，还包括数
+字内容产业中投资、研发、生产、销售和衍生产品开发以及配套服务，这些
+都是数字内容产业链的基本环节和要素。这些环节和要素都是数字内容产业
+链不可缺少的组成部分。因此，本文认为一个完整的数字内容产业链（见图
+
+5.2）包括了数字内容市场调查、内容创意、内容生产、内容交易、内容消费
+和衍生产品开发六个环节。资本、人才、政策法规和网络基础设施作为生产
+经营要素参与每一个环节的运作，而不是单独作为产业链上的一个环节。
+....................................................................................
+图5.2　数字内容产业链结构图
+
+5.2　数字内容产业链的成长机理
+产业链的形成可以追溯到分工理论，亚当斯密早在1776年出版的《国富
+论》中就指出了分工的重要性，而且还提出了分工受市场范围限制的思想。
+因此，数字内容产业链的形成和发展应该具备一定的条件，通过数字内容产
+业链的形成和发展可以为产业链上的主体带来经济效益。尽管在数字内容产
+业链形成和发展过程中有多种力量在发生作用，但最终仍然取决于产业链上
+的行为主体的意愿。数字内容产业链形成和发展的作用力量，将落实在数字
+内容产业链的主体上，利润是促使数字内容产业链的主体发生行为的根本原因。
+
+[1]谢友宁，杨海平，金旭虹.数字内容产业发展研究[J].图书情报工作，2010（12）：16-19.
+
+数字内容产业成长机理及发展策略研究 
+
+
+5.2.1　数字内容产业链的成长途径和条件
+数字内容产业链和其他产业链的形成一样也存在一个内在的形成、发展和
+演变的过程。一般来说，数字内容产业链的形成途径一般可归纳为三种。
+
+（1）龙头企业主导途径。
+龙头企业主导途径是指数字内容产业链上的企业会吸引其他企业进入，
+并且围绕数字内容产品而展开市场运作，从而主导并构建了产业链。这种构
+建途径是当产业链上的主导企业具备了相当的控制产业链上游、下游的实力
+时，同时对开发的数字内容产品充满信心，才能主动构建起数字内容产业
+链。龙头企业主导而形成的数字内容产业链的竞争力取决于龙头企业的资源
+整合能力。由于龙头企业毕竟居少数，市场开拓风险也较高，如果企业自身
+的专业化程度和资本实力不够，那么构建的数字内容产业链的竞争力将会十
+分薄弱，这种数字内容产业链构建模式不宜被广泛采用。假如龙头企业本身
+的实力超群，企业又对产业链的控制较好，这样的模式一旦被采用，构建的
+数字内容产业链才能产生深刻的影响。
+
+2000年1月10日，美国在线公司以1620亿美元并购时代华纳公司。合并后
+的美国在线时代华纳具有世界上最大的在线及时通讯软件、世界上最大的在
+线地图服务提供商、世界上最大的互联网接入提供商、美国最大的有线电视
+频道、美国最大的有线电视新闻频道、美国第二大有线电视运营商、世界最
+大的影视片库。二者的结合标志着传统内容向数字内容的转化已经开始[1]。
+
+（2）集聚衍生途径。
+集聚衍生途径是指在市场需求诱导、技术促进和政府积极推动下，数字
+内容产业链各环节上的企业能够独立投资，进而形成具有上下游、辅助性业
+务的关系产业链。目前，无论在发达国家，还是在发展中国家，数字内容产
+业市场中存在着许多市场咨询、调查公司、内容创意公司、交易代理公司、
+数字内容生产和开发公司。从这些公司的成长历程来看，集聚衍生模式对于
+数字内容产业链的形成更为重要。集聚衍生途径尽管离不开政府的推动，但
+从投资主体看，仍是市场选择的结果。
+
+韩国政府从20世纪90年代中期以来，高度重视文化产业领域的发展，力
+图跻身世界文化内容产业的五大强国之一。负责推动数字内容产业的政府机
+
+[1]孔剑明.数字内容产业的典型：时代华纳的盈利模式分析[J].新视觉艺术，2009.04：102-104.
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+构分别为情报通信部和文化观光部以及隶属的文化产业振兴中心、文化内容
+振兴院、游戏产业开发院、软件振兴院（数字内容支援中心）、电子通信研
+究所的“数字内容技术开发团”、民间团体诸如韩国数字内容产业协会、韩
+国情报产业联合会及三星经济研究所等，显示了该国从政府到民间都相当重
+视数字内容产业的发展，并视为韩国未来高成长性的重点产业[1]。
+
+（3）买断转让途径。
+买断转让途径是一种高度市场化的数字内容产业链构建途径，是指卖
+方转让给买方数字内容产品的播出权或者经营权，从而组建了数字内容产业
+链。例如，许多大型图书馆的电子书城买断作者的数字出版权，获得独家播
+出权。
+
+采用买断转让途径构建的数字内容产业链在数量上占了相当大的比重。
+买断转让途径最大的优点是操作简单，其不足是产业链稳定性不够好。因为
+产业链上各环节存在着信息不对称或者地位不对等的情况，因而这种途径构
+建的产业链前后衔接性和利益分配的合理性就会不如龙头企业主导和集聚衍
+生途径构建的数字内容产业链成熟。
+
+数字内容企业作为产业链上的重要环节，它是经济活动的实际承担者和
+组织者，也是最终利益与风险的承担主体，其参与产业链的收益可以总结为
+三个方面：第一是在政府税收奖励和环境支持下，能够有效地降低了产业进
+入门坎，使得数字内容企业容易形成创业资本的积累；第二是由于数字内容
+产业链的逐步形成与企业的聚集，理顺了供需关系，稳定了技术联盟，使数
+字内容企业的信息成本与交易费用降低，并通过技术获取费用节约而获得间
+接收益；第三是由于专业化分工与形成产业链之间的互相促进关系可以显著
+提高数字内容企业的运行效率，从而给产业链上的运行主体带来专业化分工
+收益[2]。
+
+从数字内容产业链的成长途径来看，它是以数字内容产品生产为基础的
+链网结构。由于产业链内在的物质、信息、资金、技术和知识等流动而构成
+产品链、信息链、价值链、技术链和知识链（见图5.3），这些链内嵌于产业
+链的网状结构之中，由于数字内容产业链的链网关系比较复杂，增加了判断
+
+[1]杨梅.发达国家内容产业发展概要[J].中国信息界，2010.1-2：102-104.
+[2]王娟娟.基于产业链的数字信息服务双轨制协调管理研究[D].湘潭大学硕士论文，2008：55-59.
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+增值效应的存在，能够满足数字内容产业链的各环节主体追求利润的内在需
+要，使得数字内容产业链得以存续并不断拓展。从另一个角度看，当市场具
+有一定规模且前景看好时，就可以将更多数量的工作移交给专业化厂商去完
+成，以致辅助性的环节又会分化成为独立的企业，促进了产业链的各个环节
+的分化。
+
+对于产业链来说，其增值的内在要求是：生产效率≥内部企业生产效率
+之和（协作乘数效应）。同时，交易成本≤内部企业间的交易成本之和（分
+工的网络效应）。用数学模型表示就是： 
+
+
+n
+
+ 
+n 
+fi(x)  g(x)　而且　 H(x)  C(x)
+
+i=1j=1jj
+
+在这个数学模型中， 
+
+
+① 
+fi 
+xi表示第 
+i个企业的生产效率， 
+g()x表示产业链的生产效率， 
+Hj(x)表
+示第 
+j个企业的交易成本，Cx表示产业链的交易成本；
+()
+
+②单个企业的生产效率要受到自身规模和范围经济效应的制约： 
+fi(xi)..Mi(xi)..fi(xi)..Ni(xi)，其中， 
+Mi(xi)、N(x)分别表示第 
+i个企业的规模
+ii
+
+经济效应和范围经济效应[1]。
+
+价值增值作为数字内容产业链形成和发展的前提和基础，是因为在数字
+内容产业链的形成和发展过程中，在市场自发力量的作用下，如果产业链上
+的各个行为主体参与到数字内容产业链中得不到相应的经济利益的回报，那
+么，这些行为就不可能参与到数字内容产业链中，即使参与进去，也将从数
+字内容产业链的环节上脱离而去。而要使数字内容产业链所有环节的行为主
+体都能获得更大的经济利润，唯一的前提是产业链能够实现价值的增值。
+
+数字内容产业链通过纵向延伸和横向拓展中可具体分解为基本价值链、
+拓展价值链和辅助价值链等三个部分。其中，基本价值链是数字内容产品从
+制作、交易、消费最终到达客户的价值生成过程，其增值能力分别产生于数
+字内容产品制作、交易和消费等三个主要环节；辅助价值链是数字内容产品
+创意的供给、数字内容生产技术设备的供给、数字内容产品研发技术支持
+等，其功能是提高数字内容产业链的运行效率和能力；而拓展价值链是由基
+
+[1]邵昶.产业链形成机制研究[D].中南大学硕士学位论文，2005:28-29.
+
+数字内容产业成长机理及发展策略研究 
+
+
+本价值链上某环节能力的拓展或数字内容产品附加值深度开发而形成新的功
+能产品所带来的产业链增值能力的拓展部分，这一部分价值增值空间一般较大。
+
+（2）分工深化。
+分工深化是数字内容产业链形成并不断发展的充分条件。劳动分工的意
+义在古典经济学中就得到了充分的重视。亚当斯密认为“分工就是提高劳动
+生产率，并获得报酬递增机制的重要途径”，马歇尔的三要素学说，即劳动
+市场共享、中间产品投入和技术支持，从报酬递增与组织化关系角度直接提
+出分工的“外部性”原理。杨格则论证了市场规模与迂回生产、产业间分工
+相互作用和自我演进的机制，并提出关于劳动分工水平自我演进，“杨格定
+理”认为“递增报酬的实现依赖于劳动分工的演进”，“不但市场的大小决
+定分工程度，而且市场大小由分工程度所制约”，“需求和供给是分工的两
+个侧面”[1]。
+
+企业在组织生产的过程中，由于“科斯定理”、规模经济和范围效应
+等诸多条件的限制，生产过程将不能全部由一个企业来承担，因此就产生了
+企业间的关联。这种企业间的关联恰好就促成了产业链的产生。分工与交易
+的复杂化对交易条件、交易制度和交易方式的要求提高了，通过什么样的形
+式在产业链中联结不同的分工与交易活动是日益突出的问题。企业如果不能
+应付复杂的分工与交易活动问题，就只有依靠企业间的相互链接才能解决问
+题。随着迂回生产的每一个环节的技术依赖性的加强，处于众多环节中的
+专业人员，如果完全通过市场机制进行交易活动，难度将会很大而且非常复
+杂，效率也会降低。因此就会产生市场之外的某种形式的经济组织对这些环
+节进行协调、组织与维系的需要，而产业链的出现及其企业对接在这些需求
+推动下产生。
+
+随着技术的进步，数字内容产业市场规模逐步扩大，产生的需求也日渐
+多样化，原来由企业全部承担的部分职能开始发生分离，企业所承担的职能
+趋向于专业化。随着产业链上各个环节从事同一分工的企业不断增多，形成
+的产业纵向分工也越来越细。企业的纵向分离、外包和外购中间产品或中间
+服务开始大量出现。同时，单个企业的生产不仅受到自身能力的制约，还受
+
+[1]罗伟.汽车产业集群的机理与实证研究[D].武汉理工大学博士论文，2007：49-53.
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+到上下游企业的制约。因而，产业中分工的不断深化和演变，企业之间的关
+系也在不断演变，既有相互的合作与互补，也有相互的竞争和制约，产业链
+的雏形就显现了出来[1]。
+
+因此，数字内容产业链的形成和发展，也是基于专业分工的不断深化，
+众多的数字内容生产企业之间必须构成某种相互联系和相互依存，从而使得
+相互之间的协调合作以及生产迂回度增强。数字内容产业链上各环节专业化
+程度不断加深，迂回生产链条不断延长，产生报酬递增的内生机制，再通过
+正反馈循环，最终实现数字内容产业链的成长壮大。
+
+（3）交易费用降低。
+交易费用降低是数字内容产业形成并不断发展的必要条件。尽管在数字
+内容产品生产关键环节或战略环节上的大型企业和核心环节所进行的劳动分
+工深化，能够产生报酬递增的内生机制从而形成数字内容产业链，但这并不
+必然带来数字内容产业链的快速成长，因为数字内容产业链的各环节由各类
+企业、组织组成。因此探究数字内容产业链的成长条件还应从数字内容生产
+企业的组织方面寻找原因。
+
+从降低交易成本的角度来看，“企业是对价格机制的一种替代，企业
+和市场是两种可以成为互相替代的协调生产的手段”，数字内容生产企业规
+模的大小取决于数字内容生产企业的存在而节约的交易费用与由于数字内容
+生产企业的存在而引起的组织费用和管理费用之和之间的比较。而“企业对
+市场的替代只不过是用要素市场取代产品市场”，当经济活动中只存在数字
+内容生产企业、市场和介于数字内容生产企业与市场之间的中间组织形式这
+三类组织结构时，选取哪种组织形式作为合适的制度安排，取决于数字内容
+产业的资产专用性、交易频率和交易的不确定性的水平。当三个变量的水平
+较低时，市场调节的自动调节是有效的调节手段；当三个变量处于较高水平
+时，企业的强制调节会代替组织；当三个变量的水平介于上面两者之间时，
+自动调节和强制调节就会同时发生作用，形成介于企业与市场的中间组织形
+式[2]。
+
+[1]李想.模块化分工条件下网络产业链的基本构造与运行机制研究[D].复旦大学博士论文，2008：28-33.
+[2]何雄浪.专业化分工、网络组织与产业集群形成和发展机理分析[J].宁波广播电视大学学报，2006-12-15：83-87.
+
+0数字内容产业成长机理及发展策略研究 
+
+
+从数字内容产业链的现实情况看，因为构成产业链的上游包含数字内容
+制作公司以及数字内容创意公司，具有规模小、数量大且布局分散等特点，
+以三个变量水平来衡量，适宜采用市场调节比较有效；而构成产业链的中游
+和下游的生产制作环节，则随着环节的延伸表现为资产专用性、交易频率逐
+渐变大的特征，到数字内容节目消费环节则表现出资产专用性下降、交易频
+率和不确定性显著提高的特征。由此可见，数字内容产业链的组织适宜构建
+成一种“网络组织状态”，即具有网络关系的新的经济组织形式，这种新
+的经济组织形式在其特定的经济环境下，比市场和科层组织的交易成本都要
+低，从而有利于数字内容产业链的成长与发展。
+
+5.2.2　数字内容产业链的成长动因与机理
+数字内容产业链与其他产业链成长一样，除了需要具备相应的条件之
+外，还必须有一定的内外因素的刺激与作用，这些内外因素聚集起来形成促
+进数字内容产业链成长的动力。
+
+（1）数字内容产业链成长的动因
+数字内容产业链的产生和成长动因需要在明确数字内容产业主体行为
+的基础上从更高的层次去分析。现实生活中，人们接触、体验和实践着数字
+消费产品带来的快乐，对每种产品而言都是某种产业链运作的成果，由于产
+品的多样性也就预示着人们参与经济活动所形成的产业链的多样性。亚当斯
+密认为分工是导致经济进步的唯一源泉。信息经济的发展与繁荣程度就取决
+于信息产业作为一个完整的经济体参与社会分工的能力和水平。在以产业链
+竞争为主要竞争模式的现代社会中，数字内容产业从信息产业中分化出来，
+它的发展将更多地依赖于数字内容产业的市场主体调动一切积极的因素来实
+现资源优势向产业优势转变的能力。在这个过程中，市场需求强度和供给
+意愿、技术进步水平和政府主体决策共同构成了数字内容产业发展的核心因
+素。如图5.3所示，它们所形成的市场需求拉动力、市场利润诱致力、技术进
+步推动力和政府扶持驱动力自然成为促进数字内容产业链成长的主要动力。
+
+①数字内容产业链成长的拉动力是市场需求
+从本质上看，市场需求是社会生产的前提，是影响产业链的结构变动和
+规模扩大的最重要因素。没有市场需求，市场供给意愿就仅仅是一厢情愿。
+只有在市场有效需求的拉动、引导和刺激下，数字内容生产主体才有意愿组
+
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+织资本、劳动力和技术等要素投入到数字内容产业中，从事数字内容生产经
+营活动，自然而然，这些最初的市场主体就成为数字内容产业链的“产业
+核”。伴随着社会经济的进步、技术的创新、城市化水平的提高、社会分工
+的深化，人们的消费意识、消费观念、消费偏好和消费能力推动着市场需求
+向多样性、复杂性、差异化和层次性方向演进，特别是当人们的物质需求得
+到充分满足，而劳动生产率极大提高导致人们休闲时间越来越多的时候，以
+数字内容产品为核心的信息产品得到了人们普遍关注和重视，数字内容产业
+的消费需求越来越旺盛，而且特定的潜在数字内容需求将逐步萌芽、形成和
+扩大，这样造成了对数字内容产业新供给力量的强大拉力。在需求拉力作用
+下，数字内容产业新分支和新企业将不断涌现，并逐渐发展起来，在一定条
+件下，这些新的产业分支和新的企业群体将形成新的市场供给和市场需求。
+
+②数字内容产业链成长的诱致力是市场利润
+数字内容产业链是一个价值链的增值过程。正是由于这种价值增值效
+应的存在，从而能满足数字内容产业链中各个市场主体追求利润的内在需
+求。数字内容产业链是实现数字内容价值的途径。任何产品的价值只有通过
+最终消费者才能实现，否则所有的中间产品的生产就是浪费。对于数字内容
+产业来说，如果形成不了产业链，数字内容产品将进入交易市场，最终不能
+输出，这样其价值将不能实现。而且数字内容产业链的本质是最终体现“整
+体”之和大于“部分”之和，即“1+l>2”的价值增值效应。实际上，促使
+数字内容产业链形成和发展的根本动因是数字内容产业链的所有行为主体因
+为参与产业链上某一环节而获得了极大的经济利润和回报。一旦失去市场利
+润，数字内容产业链上的主体将很快推出产业链。因此，科特勒认为，制造
+商希望渠道合作，该合作产生的整体渠道利润将高于各自为政的各个渠道成
+员的利润。
+
+在中国，传统信息产业还没有得到充分发展，信息产业仍是个高度垄断
+的行业，强大的政策壁垒阻止了业外的进入者，也限制了社会资金的进入。
+尽管体制改革已在全国范围内展开，但仍没有解决传统信息产业的渠道瓶颈
+问题。目前数字内容的生产加工环节和销售渠道仍然是主要的利润区，具有
+强大的利润空间，并强烈吸引着业外资本的大量涌入。在巨大的利润诱致力
+作用下，数字内容产业链在形成和发展中，更应特别重视它的三次销售：通
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+过销售数字内容来实现数字内容产业的第一次销售；通过广告实现数字内容
+产业的二次销售；将同一内容符号在不同载体间转移，通过内容的多次开发
+拓宽盈利范围和渠道，实现数字内容的三次销售。
+
+③数字内容产业链成长的推动力是技术进步
+作为数字技术发展的产物，数字内容产业链的形成和发展受到技术进步
+的作用和影响是非常显著的。而这种显著作用和影响表现为对数字内容产业
+链形成的巨大推动力。
+
+技术进步导致新的数字内容产业环节形成。随着生产技术的变革和社会
+需求的扩大，数字内容产业链中某些产品或环节逐渐分离出来，形成新的数
+字内容产业和部门。由于数字技术的发展，特别是由于数字内容制作技术的
+专业化和普及化，数字内容制作可由企业制作公司完成，也可由个人创意独
+立完成。
+
+技术进步促进原有数字内容产业环节、产品的改造和提高。新技术的采
+用有力地提高了原有数字内容产业的技术水平和数字内容产品质量与更新换
+代能力，从而使原有数字内容产业环节得到改造和提高。由于数字技术的发
+展，无论是数字内容制作的水平，还是数字内容传播的范围都得到了很大程
+度的提高。
+
+技术进步刺激数字内容市场产生新的社会需求。社会需求结构取决于数
+字技术进步所带动的需求满足能力的提高。没有技术进步的先导力量所实现
+的数字内容产品创新，所谓的需求只是潜在的，而一旦数字内容生产技术进
+步引起了数字内容新产品、新功能的突破，就会极大地刺激新的社会需求，
+推动数字内容产业的形成和发展。
+
+技术进步促使数字内容产业劳动生产率提高。正是由于科技进步的作用
+使得数字内容产业链各环节的劳动生产率得到快速提升，它一方面可以促进
+数字内容产业链的规模效益，降低数字内容生产成本，提高数字内容产业盈
+利能力和竞争力，另一方面导致熟练的数字内容产业劳动力的游离、转移和
+分流，为数字内容产业新兴部门或产业环节的形成创造条件。
+
+④数字内容产业链成长的驱动力是政府扶持
+在现代经济的运行中，政府作为市场的宏观调控者，对数字内容产业
+的推动和扶持起到了决定性的作用。因此，数字内容产业链的发展离不开其
+
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+赖以生存的生态环境。其生态环境主要是政治、经济和文化因素，其中最为
+重要的是政治环境，即政府对数字内容产业的政策。综观国际数字内容产业
+的发展，长期以来，竞争、垄断、管制、多样化四大问题彼此制约，难解难
+分。在西方，美国的内容产业是高度商业化的，以市场为主导；而在欧洲则
+相反，以政府管制为主导。但不管美国还是欧洲，在数字内容产业链的发展
+过程中，都需要政府的扶持和支撑。
+
+（2）数字内容产业链成长机理
+①规模效应
+数字内容产业发展的规模效应主要有两个方面：一是数量上的规模；一
+是质量上的规模。
+数量上的规模，即量的程度，表现为只有当一定数量的数字内容企业聚
+集在一起，具有一定的规模，数字内容产业系统的整体发展才有可能。如单
+个数字内容企业只能生产某些数字内容产品，只有多个数字内容企业及其相
+关企业聚集在一起，才能形成一定的规模，产生整体涌现的可能性才大。这
+是因为数字内容产业聚集才能互相协作，扬长避短，从而有利于生产、交易
+和信息流通，产生一加一大于二的效果。
+
+质量上的规模，即质的程度，表现为数字内容产业由于量变逐渐增大，
+在经济结构中逐渐占据重要的地位，成为社会的主导产业之一，如果把不相
+关的企业聚集在一起，也不会产生整体的涌现和演化。只有将整个数字内容
+产业链的企业很好地组织起来，才能发挥最大的作用。
+
+②结构效应
+就产业系统本身而言，其演化主要由它的组成成分按照系统的结构方
+式相互作用、相互补充、相互制约而发展起来的，即结构效应。在农业、工
+业、服务业相继占主导地位之后，当前的信息社会，信息产业比重增加，产
+业结构发生了重大的改变，信息产业成为主导产业，数字内容成为人们的主
+要消费对象。在这个过程中，数字内容产业系统的变化是由小变大的，这些
+变化最终使产业结构发生了变化。
+
+③时间效应
+所有产业系统，都要经历产生、成长、成熟、衰退的过程，数字内容产
+业也是如此。在这个过程中，数字内容产业系统对外界环境的适应性增强，
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+并且始终伴随着机理涌现，从而直接导致数字内容产业系统新阶段的产生。
+企业始终与外界进行交互，这既是企业不断学习、积累的过程，也是数字内
+容产业系统不断向前发展的动力基础。而随着数字内容产业系统的不断发展
+完善，数字内容产业系统也变得越来越复杂，数字内容产业系统内外的信息
+量也在不断增加，规模也在逐渐增大。
+
+数字内容产业发展的动力在于数字内容产业内部和外部的作用，数字内
+容产业内部的企业不断地进行协同、合作或竞争，争取最大的生存机会，以
+适应数字内容产业内部的变化。同时，整个的数字内容产业规模在变化，导
+致产业的结构产生相应的变化，数字内容产业系统逐渐形成为一个更高效的
+整体。另一方面，数字内容产业系统与外部环境不断交互，逐步调整自己的
+发展战略，以更好地适应外部环境的变化。在这个过程中，数字内容产业系
+统内部不断地进行完善。演化强调内外因素的相互作用，也就是具有智能的
+适应性。数字内容产业系统是在企业与企业、企业与外部环境之间的相互影
+响和相互作用下向前演化的，系统的交互式是数字内容产业系统发展和进化
+的主要动力。作为一个以不断创新的尖端技术为先导的行业，信息技术的创
+新决定了数字内容产业演化方向。数字内容产业是随着信息技术的发展、社
+会环境、市场需求、传统产业的关联和其他因素的变化而向前演化的。
+
+（3）产业链成长机理的模型
+目前关于产业链形成机制的研究不是很“专业化、独立化”。现有对
+产业链的研究主要依附于产业集群、产业创新、供应链、生产链等，或者只
+是对某一个具体的产业链条进行分析，而对普遍意义上的产业链的生成机制
+研究还很不够。而且对产业链形成机制的研究往往是从供给和生产的角度出
+发。目前，对产业链的一个比较公认的看法是：产业链是指从自然资源到消
+费品之间的层次。而这种定义的出发点就是生产和供给。应该说，人们对于
+产业链的现有认识尚未统一且较为模糊，造成这一现象的原因除了与研究者
+视角的多样性有关以外，还与产业链本身的复杂性有关。
+
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+..............................................................................
+O
+图5.4　产业链形成的蛛网模型
+
+尽管如此，吴金明学者仍提出了一个较为理想的产业链形成模型——蛛
+网模型。这一模型不仅将三者有机结合起来，而且很好地阐释了产业链形成
+的过程[1]。
+
+这一模型主要内容如下：
+
+如图5.4所示，产业链的形成首先是由社会分工引起的，在交易机制的
+作用下不断引起产业链组织的深化。图5.4中， C1、C2、C3表示社会分工的程
+度，其中， C3＞C2＞C1表示社会分工程度的不断加深； A1、A2、A3表示市场交
+易的程度，其中， A3＞A 2＞A1表示市场交易程度的不断加深； B1、B2、B3表示
+产业链的发展程度，其中， B3＞B2＞B1表示产业链条的不断延伸和产业链形式
+的日益复杂化。三个坐标相交的原点 O，表示既无社会分工也无市场交易更无
+产业链产生的初始状态。
+
+从C1点开始，而不是从坐标原点开始，意味着社会分工是市场交易的起
+点，也是产业链产生的起点。社会分工 C1的存在促进了市场交易程度 Al的产
+生，在 A1作用下，需要 B1的产业链形式与它对接。 B1这种产业链形式的产生又
+促进了社会分工的进一步发展，于是，社会分工就从 C1演化到 C2。相应地，
+在C2的作用下，市场交易程度从 A1发展到 A2，A2又促进了产业链形式从 B1发展
+到B2。接着，按照同样的原理， B2促使 C2发展到 C3，C3又促使 A2发展到 A3，A3
+又促使产业链从B2发展到B3…，如此周而复始，使产业链不断形成和发展。
+
+这一模型揭示了产业链形成的机理。该模型认为，产业链的形成和发展
+
+[1] Rosen S. Specialization And Human Capital [J]. Journal of Labor Economics, 1983（1）:43-49. 
+
+数字内容产业成长机理及发展策略研究 
+
+
+首先来自于社会分工，然后再来自于社会交易，从而不断地引发产业链的循
+环发展，直至完善。这一分析框架和模型为数字内容产业链成长机理的研究
+提供了一定的理论基础。
+
+（4）数字内容产业链的成长机理分析
+依照吴金明学者的蛛网模型，数字内容产业链的成长是从社会分工开始
+的。由于数字技术的不断发展，数字内容的需求增大，数字内容产业规模扩
+大，单个企业全部承担数字内容的创意、生产、输出等整个环节往往会力不
+从心，因而需要其他经济主体的参与，这样数字内容产业便开始进行社会分
+工。首先，由各国政府宏观调控，国际市场机制作用下的数字内容产业逐步
+形成各具特色的数字内容产品制作团队，它们之间既有竞争又有合作，形成
+专业化的内容创意中心、产品营销渠道、细分的市场领域等。在此基础上，
+数字内容的创意、市场调查等环节由专业的部门或组织来完成。在数字内容
+产业社会分工不断深化的过程中，数字内容产品的交易水平也随之加深。数
+字内容企业之间、数字内容企业与其他组织之间以及其他组织之间的数字内
+容产品交易数额不断增加，交易范围不断扩大。与此相适应，数字内容产业
+链的组织在逐渐深化。
+
+吴金明学者的产业链成长蛛网模型演绎了数字内容产业链的成长过程，
+并且在演绎过程中将产业链附加值、劳动分工、专业化以及交易水平等要素
+纳入了一个统一的分析框架和模型中。但深入分析，该模型并没有探讨产业
+链附加值、劳动分工与专业化以及交易水平等三大要素共同发生作用的数字
+内容产业链的成长模型，也没有从这三个要素的相互作用中阐释数字内容产
+业链成长的作用机理。
+
+为了能够将产业链附加值、劳动分工与专业化以及交易水平等三者结合
+起来阐释数字内容产业链成长机理，本节将在上节研究的基础上，构建数字
+内容产业链的成长机理分析模型（见图5.5）。该模型将产业链附加值、分工
+程度和交易水平等条件分解成不同指标融入分析框架之中，其中，劳动生产
+率是数字内容产业链附加值的解释变量，一般劳动生产率越高则产业链附加
+值越大；交易效率代表交易水平，受交易集中程度、社会资本积累水平和交
+易信息传递水平的互动影响。
+
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+................................................................................................................
+图5.5　数字内容产业链的成长机理分析模型
+
+由图5.5不难发现，首先，交易费用降低或节约可以有效提高交易效率，
+而交易效率的改善不仅能够提高劳动生产率进而促进产业链附加值的增长，
+而且可以促进交易集中程度、社会资本积累能力和交易信息传递水平的提高
+并产生互动效应。其次，劳动分工深化，即专业化分工程度提高可直接带来
+劳动生产率的增长进而提高数字内容产业链附加值，同时，由于专业化分工
+程度提高可有效促进数字内容产品交易集中程度，进而通过推动数字内容产
+品交易效率的带动形成正向连锁反应。第三，数字内容产业劳动生产率的提
+高不仅得益于专业化分工的深化，而且也受益于由于交易信息传递水平提高
+所导致的隐性知识传递和技术溢出效应。第四，正是由于存在劳动生产率的
+基础作用、专业化分工程度的直接作用以及在交易效率促进下与交易集中程
+度、社会资本积累能力和交易信息传递水平及隐性知识传递和技术溢出的互
+动作用，数字内容产业链才能获得有效的发展和成长。
+
+从上述数字内容产业链成长的机理分析模型中可以看出，数字内容产业
+链的成长来自交易效率、劳动生产效率、专业化分工、社会资本积累能力、
+交易信息传递水平，甚至隐性知识传递和技术溢出等多种因素的共同作用。
+数字内容产业链的成长是一个系统而复杂的过程。
+
+5.3　数字内容产业链的成长模型
+上节从途径、动因以及条件等三个方面探讨了数字内容产业链形成与成
+长的内在规律，本节将在上述基础上，通过建立数理模型，进一步探讨数字
+内容产业链形成与成长的内在规律，重点分析分工与交易同数字内容产业链
+的成长关系。
+
+杨小凯在继承亚当斯密和杨格的有关分工思想基础上，引入了科斯的交
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+易费用概念，并用超边际分析方法将分工与交易两大理论进行了有机结合。
+杨小凯认为，分工和交易是生产方式的一个问题的两个方面。分工的深化产
+生专业化经济，也带来了交易费用，由此会出现两者冲突。而报酬递增机制
+与竞争的市场具有相容性，存在着竞争均衡和帕累托最优的一致性，当分工
+的边际效益等于边际交易费用时，分工水平达到最优，每个“角点均衡”意
+味着局部的帕累托最优，全部均衡是众多“角点均衡”中效用最大的那个
+“角点均衡"。这为本文研究数字内容产业链的成长问题提供了方法论上的启
+迪[1]。
+
+5.3.1　基础模型建立及说明
+本文假设，在数字内容产业链中只有生产企业1和生产企业2，它们具有
+上下游关系；产业链中共生产两个产品m和n，其中m是n的中间产品，n是最
+终产品，并假设产出可全部转化为有效需求且产品价格不变，令 Pm=1， Pm=k；
+企业1和企业2作为生产者，他们既可以同时生产产品m和产品n，也可以专业
+化生产其中的一种，但两企业不为生产某产品而改进自身的生产技术条件；
+在两企业自身的生产技术条件不变的前提下，假定企业1生产产品m具有规模
+报酬递增的特征（即具有比较优势）、生产产品n仅具有规模报酬不变的特
+征，而企业2则刚好相反，也就是说，企业1没有在市场上购买产品m的激励，
+而企业2没有在市场上销售产品m的激励；假设两企业只使用自己的劳动力，
+即不再雇佣也不出售劳动力，且劳动力的机会成本为0。根据上述假设，构建
+企业1和企业2的分析模型[2]。
+
+企业l：产品m的生产函数：Q..Q1..Q....L （5.1）
+
+..........
+
+产品n的生产函数：Q..O 
+=β..Q..L....（5.2）
+
+收益函数：R..P..Q....P..Q......Q......kβ..Q..L....（5.3）
+
+禀赋约束条件(..) ： L......L(..) ........（5.4）
+
+企业2：产品m的生产函数：Q..N 
+QL
+...... 
+β 
+L....（5.5）
+
+产品n的生产函数：Q.... 
+Q....λQ..
+C 
+....（5.6）
+
+2
+
+收益函数： 2 
+PQ 
+O 
+. 
+PQ 
+.. 
+= 
+k(2 
+N 
++λQ.. 
+)Lα 
+2O 
+.Q.. 
+（5.7）
+
+R 
+= 
+O 
+2 
+N 
+β 
+L2 
+
+
+[1]张平，王树华．产业结构理论与政策[M]．武汉：武汉大学出版社，2009：63-68.
+[2]吕炜．产业盈利性——基于复杂适应系统理论的评价模式与实证[M]．北京：经济科学出版社，2009：16-74.
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+禀赋约束条件：L......L........（5.8）
+
+式中， i表示企业（ i=1，2），则 Qi表示企业 i用于生产数字内容产品 n的
+自给量； Qi 
+表示企业 i用于生产数字内容产品n的市场购入量； Qi 
+..表示厂商 i用
+于生产产品(..) n的市场供给量；λ表示交易效率系数，显然有 0≤λ≤1，Lm、Ln
+
+分别表示厂商 i用于生产产品m和n的劳动数量； αi、βi为生产函数系数（包含
+
+学习费用），由题设，α≥1、β≥0且α 
+≥β。
+
+iiii 
+
+
+5.3.2　超边际结构模式分析及模型求解
+根据超边际分析的定理及其引理：一个人至多卖一种产品，不买和卖或
+自给同一种产品，如果他不自给最终产品或卖最终产品的话，他就不自给中
+间产品。根据上述规定，结合数字内容产业链各个环节的组织特征，则存在3
+种简化模式（如图5.6所示）。
+
+...... 
+
+
+............................................
+....................................$ 
+
+
+...... 
+
+
+....................
+...... 
+...... 
+...... 
+...... 
+...... 
+...... 
+
+
+图5.6 数字内容产业链的超边际结构模式图
+
+如图5.6所示，模式A表示企业1专业化生产数字内容产品m，厂商2专业化
+生产数字内容产品n，企业2所需的中间产品m全部来自于企业1；模式B表示
+企业1和企业2独自生产数字内容产品m和产品n，且自给自足；模式C表示企
+业1生产数字内容产品m和产品n，并向厂商2提供中间产品m，厂商2专业化生
+产产品n。利用超边际基础模型的公式（5.1）至公式（5.8），可以针对模式
+A、模式B和模式C三种链接结构进行求解和分析。
+
+（1）根据模式A的链接方式，可以得到
+针对企业1，明显有；Q........L..........L........；所以
+
+..
+
+　 .... 
+..Q..........　（5.9）
+
+针对企业2，明显有L..........L..........Q..
+C 
+Q..
+4 
+........； 
+
+R......kQ............Q.... 
+k........ 
+......　　（5.10） 
+
+
+0数字内容产业成长机理及发展策略研究 
+
+
+L. 
+1N 
+
+
+数字内容产业链的总体效果R" 
+= 
+R" 
+1 
++ 
+R" 
+2 
+=kλ2........ 
+　（5.11）
+
+（2）根据模式B的链接方式，针对企业1，有 
+Q.. 
+....Q.. 
+L......L......L
+
+T 
+..........N 
+
+
+# 
+11 
+
+
+1 
+11
+
+则 R 
+= 
+QT 
++ 
+kβ..QL 
+..O 
+= 
+kβ..Lα 
+..N 
+(2 
+. 
+L..N 
+) 
+=. 
+kβ..L 
+α 
+N 
++1 
++2kβ..L 
+α 
+N 
+
+
+. 
+
+
+解得当 L..N 
+=
+α 
+21 
+α+ 
+11,L. 
+..O 
+=
+α12 
++1
+时，有最大值 
+
+# 
+11R1 
+=
+α 
+21 
+k 
++
+β 
+1 
+. 
+...
+α 
+21 
+α+1 
+...
+α1 
+（5.12）
+
+同理，针对企业2，可得
+
+当 L. 
+2N 
+=
+α22 
++1,L. 
+2O 
+=
+α 
+22 
+α+
+21 
+时，有最大值 R2 
+# 
+=
+α 
+2k 
+2 
+β+ 
+21 
+. 
+...
+α 
+22 
+α+ 
+21 
+...
+α2 
+（5.13）
+所以，数字内容产业链的总体效果 
+
+R# 
+= 
+R1 
+# 
++ 
+R# 
+2 
+= 
+2kβ1 
+. 
+.
+. 
+2α1 
+..
+α1 
++ 
+2k 
+β2 
+. 
+.
+. 
+2α2 
+.
+. 
+α2 
+　 （5.14）
+
+α+1 
+α+1 
+α+1 
+α+1
+
+1 
+. 
+1 
+. 
+2 
+. 
+2 
+.
+
+（3）根据模式C的链接方式，针对企业1有规划问题： 
+$ 
+11
+
+Mα 
+xR1 
+= 
+QT 
++ 
+kβ1QL 
+1O 
+.L
+
+.1N 
++ 
+L1O 
+= 
+.. 
+
+
+...... 
+. 
+
+
+11 
+Lα
+
+Q 
++ 
+Q 
+=
+
+.T 
+11
+
+. 
+N 
+
+
+解得，当 
+
+α.1 
+α.1
+
+2kβ1 
+.1 
+. 11. 2kβ1 
+.α1 
+.1 
+. 2k 
+β1 
+.1. 11 
+α1 
+. 2k 
+β1 
+.1. 1 
+
+
+= ,L 
+= ,Q 
+= 
+
+
+,Q 
+= 
+
+1..T 
+
+
+.. 
+
+
+..
+
+kβ kβ kβ kβ kβ kβ
+
+11 
+1 
+. 1 
+. 1 
+. 1 
+.
+
+时，有最大值 R1 
+$ 
+= 
+..
+2kβ1 
+.1 
+..
+α1 
+　（5.15）
+. 
+kβ1 
+.
+
+
+第５章　数字内容产业链的成长机理及模型 
+
+
+针对企业2有 α1.1 
+
+
+ 
+.. 
+2kβ1 
+.α1 
+.1 
+. 
+2kβ1 
+. 
+1.
+
+Q 
+= 
+0, 
+L2N 
+= 
+0, 
+L2O 
+= 
+2, 
+QC 
+= 
+QT 
+= 
+...
+
+kβ1 
+. 
+kβ1 
+.
+
+a 
+.1 
+
+
+则 R2 
+$ 
+= 
+(kλ2α 
+.1) 
+.　 .. 
+. 
+121112121kkβαβ.....
+　 （5.16）
+
+kβ 
+kβ
+
+1 
+. 
+1 
+.
+
+所以 
+
+a 
+.1 
+R$ 
+= R1 
+$ 
++ R$ 
+2 
+= 
+ 
+2kk 
+ 
+11 
+. 1+(k22 
+.1). 
+2k1 
+k 
+.
+ 
+11 
+.1 
+. 
+ 
+2kk 
+ 
+11 
+.1
+（5.17）
+
+5.3.3　模型结果分析
+为了简化分析问题的复杂性，以便于找到并分析局部“角点均衡”解，
+
+根据前提假设条件，不妨令： α1 
+=α2 
+= 
+2, 
+β1 
+=β2 
+= 
+0.5, 
+k 
+=4，并代入上述公
+式。
+
+通过比较分析，得到如下结论：
+
+（l）对企业1来说，因为 R" 
+1 
+≥ 
+R# 
+1 
+R$ 
+1，因此选择模式A优于模式B，选择
+模式B又优于模式C。
+（2）对企业2来说，情况较为复杂一些。当 0.25≤ 
+λ≤1时，因为 
+R" 
+2 
+≥ 
+R$ 
+2 
+R# 
+2，因此选择模式A优于模式C、选择模式C又优于模式B；当 
+
+0.1 
+≤ 
+λ<0.25 
+时， R2 
+" 
+≥ 
+R2 
+# 
+R2 
+..，因此选择模式A优于模式B，模式B又优于模式
+C；当 0.06 
+≤ 
+λ<0.1时为空集；当 0 
+< 
+λ<0.06 
+时，于 R" 
+2 
+≥ 
+R# 
+2 
+R$ 
+2，但由 R2 
+$ 
+..<0， 
+R2 
+" 
+..<0，因此企业2只选择模式B。
+（3）对整个数字内容产业链系统来说，当 0.27 
+≤ 
+λ≤1时， R" 
+> 
+R$ 
+>R# 
+，
+因此选择模式A优于模式C，选择模式C又优于模式B；当 0.08 
+ k<0.27 
+时， R" 
+> 
+R# 
+>R$ 
+，因此选择模式A优于模式B，模式B又优于模式C；当 
+0.05 
+k0.08 
+R# 
+> 
+R" 
+>R..，因此选择模式B优于模式A、选择模式A又优
+<时， 
+于模式C；当 0< 
+k 
+<0.05时， R# 
+> 
+R$ 
+>R" 
+，因此选择模式B优于模式C，选择
+模式C又优于模式A。
+
+综合上述分析结果，不难得到这样的结论：当数字内容产业链在发展过
+程中由于交易环境、信用以及制度等原因，导致交易效率很低，即交易系数
+较小（如本研究中的 λ< 
+0.08）时，数字内容产业链中的企业则倾向于自行进
+行数字内容产品的生产和销售，不参与产业链的分工；但是，只要交易效率
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+得到有效提高，并达到一定的阈值（如本研究中的交易系数 
+λ> 
+0.08）时，
+数字内容产业链中的企业则会倾向于参与分工，并随着交易效率的提高，企
+业参与分工的积极性将得到增强，并在效益最大化目标驱动下，进一步提高
+专业化生产能力和产业链的上下游合作水平。由此可见，交易效率水平、劳
+
+动分工深化和数字内容产业链的整体效应三者之间呈现出一种互动内生的关
+系。
+
+5.4　本章小结
+本章结合全球数字内容产业链的成长现状，从数字内容产业链的构成、
+成长途径与条件、成长动因与机理以及成长模型等方面来研究数字内容产业
+链成长的基本规律，并试图构建数字内容产业链成长理论，得出数字内容产
+业链的成长来自交易效率、劳动生产效率、专业化分工、社会资本积累能
+力、交易信息传递水平，甚至隐性知识传递和技术溢出等多种因素的共同作
+用。数字内容产业链的成长是一个系统而复杂的过程。
+
+
+第６章　数字内容产业发展途径及其策略 
+
+
+第６章　 
+数字内容产业发展途径
+及其策略
+
+从第三章数字内容产业成长的历史过程看，不经历产业形成、成长和成
+型三个阶段就无法形成规模和范围经济，因此第四章阐释的数字内容产业集
+群现象的出现是在数字内容产业成长到一定阶段的产物，并且它是一种必然
+的现象，是市场对资源配置的一种结果。从第五章产业结构和产品结构的角
+度看，产业集群实际上是某种产品的加工深度和产业链的延伸，产业链的本
+质就是用于描述一个具有某种内在联系的企业群结构。
+
+数字内容产业是以知识经济为基础的新兴产业，产业内容涉及多项领
+域，包括动画、游戏、影音、数字学习、软件、通讯应用等信息资源产业，
+并涵盖各项产业的整合和传统产业的数字化。对于数字产业的发展，具有发
+展知识经济的重要意义，并可促进传统产业转型成高附加值产业，提升整体
+产业竞争力。世界各国都积极推动此项产业，中国应结合现有信息产业在全
+球生产体系中的优势地位，加强产业辅导，并取得产业发展的领先地位。
+
+6.1　数字内容产业的发展途径
+从产业组织的角度看，产业链升级一直是国内外学术界重点研究的问
+题之一，已有的文献主要从产业层面和企业层面两个角度对产业链升级的一
+般规律向产业链升级的途径进行了研究；而迈克尔·波特（Michael Porter，
+1990）的全球价值链理论为我们研究产业链升级提出了更有效的分析工具。
+
+6.1.1　基于价值链产业升级的方式
+当前产业组织方式的特征可以被概括为全球化之下的垂直分解化和网络
+化。一方面，各国之间的联系日益密切，不断增长的国际贸易、直接投资、
+人员流动以及日益快捷的通信和交通将整个世界经济越来越紧密地联系起
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+来。另一方面，企业之间的联系、合作和交往越来越密切，企业的边界呈现
+出日益模糊的趋势，企业之间的竞争从孤立的企业之间的竞争转变到整个价
+值链和价值网的竞争，企业已经被嵌入全球价值链之中。因此，推进产业链
+升级首先要从封闭式产业升级方式转变为开放式产业升级方式 [1]。也就是说，
+产业升级要着眼于利用国内和国外、企业内和企业外的各方面资源，既要立
+足于利用企业内部资源提高企业和产业的竞争力，又要充分利用企业外部资
+源以及通过企业之间的资源共享与合作来提升竞争力；既要关注价值链内部
+的活动，又要关注价值链之间的活动。全球价值链（Global Value Chain）理论
+恰恰为我们提高了促进数字内容产业链升级的新视角 [2]。在产业组织垂直分解
+化和网络化的框架下，全球价值链理论提出四种升级方式：
+
+（1）过程升级。是指通过重组生产系统或者采用先进技术来提高内部过
+程的效率并使这些内部过程的效率明显优于竞争对手。这些过程既可以是环
+节内部的数字内容创意或制作，也可以是价值链中各环节之间数字内容交易
+和输出。
+（2）产品升级。引入新的数字内容产品或者比竞争对手更快、更新地替
+换老产品来增加单位价值，包括在价值链的单独环节内或者价值链的不同环
+节之间改变新产品的服务方式或开发过程。例如，传统图书馆向数字图书馆
+的升级。
+（3）功能升级。通过改变在企业内部进行的活动的组合来增加附加价值
+或者转换到价值链的其他不同环节。例如，从创意设计到制作、从制作到品
+牌经营等。
+（4）链条升级。将在一个价值链中获得的能力运用到新的价值链中去。
+例如，网络企业从数字内容制作、网络营销、数字出版物到移动手机视频
+等。
+总之，在价值链中的升级意味着在价值链上的攀升，逐步离开低端的和
+进入壁垒领域的竞争。同时，升级也具有产业的特点，会由于各产业的特定
+性质而有所差异。
+
+[1]张蕴如．加工贸易与开放式产业结构升级探析[J]．国际经贸探索，2001（3）：30-36.
+[2]Gereffi G．“International Trade and Industrial Upgrading in the Apparel Commodity Chain [J]．In Joumal of 
+International Economies，Vol．48，No.1，1999：37-70.
+
+第６章　数字内容产业发展途径及其策略 
+
+
+6.1.2　基于价值链产业升级的路径
+（1）升级路径
+研究表明，数字内容产品具有一条沿以上四种方式升级的路径可循
+（Gereffi，1999；Lee and Chen，2000） [1]。就数字内容产业而言，它的升级
+过程依循从过程升级到产品升级再到功能升级最后到链条升级的路径（见图
+
+6.1）。在循此路径的升级过程中，数字内容生产企业的自主权不断增大，对
+价值链中非实体活动的参与越来越多，对市场的影响和控制越来越强，获得
+的附加价值越来越多。而企业的升级从国家的产业层面来看，就表现为国家
+数字内容产业循此路径的升级。
+..
+
+
+..
+
+
+..
+
+
+..
+
+....... 
+
+
+....... 
+
+
+....... 
+
+
+....... 
+
+
+..
+
+..
+
+.... 
+
+
+
+............................. 
+
+
+ 
+
+
+...... 
+
+
+ 
+
+
+ 
+
+
+.......... 
+
+
+ 
+
+
+..........
+
+..... 
+................ 
+
+
+..... 
+..
+
+....
+
+..
+
+...................... 
+....
+
+..... 
+
+
+图6.1　数字内容产品升值途径
+
+数字内容产业属于非实体内容产业，多数产品为网络化、数字化产品，
+因此产品和链条增值的空间会更大，与传统的产品制造业相类似，数字内容
+产业与传统产业名词对应表如表6.1所示。
+
+表6.1　数字内容产业与传统产业名词对应表
+
+数字内容产业传统产品制造业 
+OEA
+原始数字内容素材
+（Original Digital Content Material）
+原始设备组装
+（Original Equipment Assembling） 
+OEM
+数字内容产品制造商
+（Original Digital Content 
+Manufacturer）
+原始设备制造商
+（Original Equipment Manufacturer）
+
+[1]Lee，J.and J.Chen．“Dynamic Synergy Creation with Multiple Business Activities：Toward a Competen- 
+ce-based Growth Model for Contract Manufacturers”， in R．Sanchez and A. Heene （eds.）. Research in 
+Competence based Management[M]．Advances in Applied Business 5trategy Series，Vol，C，JAI Press， 
+2000:587-596.
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+续表6.1
+
+数字内容产业传统产品制造业 
+ODM
+原始创意设计内容制造商
+（Original Creative Design Content 
+Manufacturer）
+原始设计制造商
+（Original Design Manufacturer） 
+OBM
+原创数字内容品牌生产商
+（Original Brand Digital Content 
+Manufacturer）
+原始品牌生产商
+（Original Brand Manufacturer）
+
+（2）升级路径的多种可能
+Lee和Chen（2000）详细分析了传统制造企业主体通过与其合作伙伴紧密
+合作来提升能力从而获得增长的过程。由于低端制造领域附加价值非常低，
+因此合作制造商倾向于提升自己在价值链中的地位，而垂直分解的价值链恰
+恰为供应商提供了建立和提升其能力的潜在机会。数字内容企业是通过从事
+高端数字内容产品的OEM，能够进一步获得设计和开发知识从而提高自身能
+力。然而，由于来自合作企业的知识转移仅仅是有选择发生的，因此提高能
+力要依赖于合作制造商自身的学习和对研发能力的投资[1]。
+
+数字内容产业的发展遵循从过程升级到产品升级再到功能升级最后到链
+条升级的一般规律，这种升级顺序并非固定不变。企业和产业的升级过程还
+可能出现以下情况（见图6.2）。
+
+......
+
+..................................................
+图6.2　产业升级的可能路径
+
+[1]Lee J.and J.Chen．“Dynamic Synergy Creation with Multiple Business Activities：Toward a Competen ce
+
+
+based Growth Model for Contract Manufacturers”，in R.Sanchez and A.Heene （eds.），Research in Com 
+
+petence based Management[M]，Advances in Applied Business 5trategy Series，JAI Press，2000:680-712. 
+
+
+第６章　数字内容产业发展途径及其策略 
+
+
+①选择不同的升级路径。处于不同价值链中和处于价值链的不同阶段的
+企业可能会选择不同的升级路径，例如，处于ODM阶段的企业显然可以直接
+进入OBM阶段，处于OEM阶段的企业也可以创立自有品牌，当然要面临更大
+的困难。
+②可能会出现与升级相反的退化现象。升级需要企业能力的积累和提
+升，但是当能力提升速度不能适应市场的竞争时，企业就会出现与升级相反
+的退化过程。例如，处于OBM阶段的企业需要具有强大的品牌运作能力、市
+场营销能力和资金实力，如果企业上述能力无法支撑起自有品牌时，该企业
+就会从OBM退化到ODM。
+③可能会发生升级后的解体。从OEM到ODM再到OBM的升级呈现出垂直
+分解化的特点，但与此同时，升级的企业还可能将某些已经处于非核心地位
+的活动外包出去，例如，OBM阶段的企业可能会将某些生产和设计活动外包
+给处于ODM和OEM阶段的商业企业。
+④直接进入新的链条。无论处于何种阶段的企业，都可能会因为技术的
+升级或者企业产品多元化的扩张，进入新的价值链。而那些开发通用型软件
+的企业本来就是为多个价值链服务的。
+⑤由OEM到ODM再到OBM。实际上描述的是由生产商驱动的价值链内的
+升级过程，在由购买者驱动的价值链中，企业在功能升级阶段会更倾向于将
+所从事的活动从制造领域转换到批发零售或者营销和品牌经营领域。
+同时还应该看到，处于同一阶段企业的能力也存在相当大的差别，成
+为自有品牌制造商也并不意味着产业升级已经结束。一方面，企业的技术水
+平、品牌影响力、营销能力以及资金实力等各方面还可能会与行业领先企业
+存在相当大的差距，例如国内的联想虽然拥有自己的品牌，但在技术水平方
+面要远逊于DELL、惠普等跨国公司；另—方面，市场竞争是无止境的，所谓
+“逆水行舟，不进则退”，企业只有不断提升各方面的能力，强化核心竞争
+优势，才能在市场竞争中立于不败之地。
+
+就数字内容产业而言，全球价值链理论为我们提供了促进数字内容产
+业链升级的新视角。数字内容产业属于非实体内容产业，多数产品为网络
+化、数字化产品，因此内容产品和链条增值的空间会更大。在循此路径的升
+级过程中，数字内容生产企业的自主权不断增大，对价值链中非实体活动的
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+参与越来越多，对市场的影响和控制越来越强，获得的附加价值越来越多。
+另外，在遵循一般规律的同时，数字内容产业的升级顺序并非固定不变。企
+业和产业的升级过程还可能出现以下多种情况：选择不同的升级路径；可能
+会出现与升级相反的退化现象；可能会发生升级后的解体；直接进入新的链
+条。比如网络企业从数字内容制作、网络营销、数字出版物再到移动手机视
+频等就属于链条升级，还有腾讯QQ、迅雷、金山、360等推出免费产品的同
+时，也会有许多收费的内容产品的更新换代，达到产品升级的目的。
+
+......
+
+6.2　数字内容产业的发展规律
+6.2.1　数字内容产业生命曲线
+Tichy G.（1998）在产品生命周期基础上，提出了区域产品生命周期理
+论，为信息产业的研究提供了理论支持。这一产业同其他产业一样，都具有
+自身的产生、成长、成熟、衰退的过程，或者说有自己的产业生命周期。对
+数字内容产业的生长曲线函数进行微分求解，可以得到数字内容产业的生命
+曲线。数字内容产业的生命曲线反映的是数字内容产业发展程度变化，即反
+映数字内容产业的发展程度随时间的变化规律[1]。
+
+.............. 
+
+
+..: 
+........: 
+........:
+
+
+..
+
+............
+
+..........R
+.......... 
+
+
+图6.3　数字内容产业的生长曲线与生命曲线
+
+数字内容产业的生长曲线与生命曲线如图6.3所示。起动点是数字内容
+产业开始最大的点，起飞前，加速度递增，起飞后，加速度递减；当数字内
+
+[1]Final Evaluation of the INFO2000 Programme．[2009-11-1]．http：//europa.eu.int/ comn/ information- 
+society /evaluation/pdf/reportlinfo 2000-en.pdf.
+................
+......
+
+..................
+
+
+第６章　数字内容产业发展途径及其策略 
+
+
+容产业的产值达到其极限值的1/2的时候，生命曲线线性最明显，达到了鼎盛
+点，鼎盛点是数字内容产业发展速度最大的点；成熟点是生长曲线下降段的
+拐点，是数字内容产业的加速度达到最小的点；淘汰点是数字内容产业发展
+到一定规模，被其他产业取代的点。从起动点到起飞点的形成阶段是数字内
+容产业初步发展的阶段；从起飞点到鼎盛点的成长阶段是数字内容产业高速
+发展的阶段；从鼎盛点到成熟点的成熟阶段是数字内容产业发展速度减缓的
+阶段；从成熟点到淘汰点的衰退阶段是数字内容产业发展程度接近极限的阶段。
+
+6.2.2　数字内容产业的发展规律
+（1）数字内容产业按照产业的生命周期进行发展
+通过对上述生长曲线和生命曲线的描述，可以发现数字内容产业的发展
+受利益驱动机制和生态平衡机制的双重制约。它的成长是一个萌芽、成长、
+成熟和衰退的动态过程。数字内容产业系统整体发展过程是由多个相类似的
+微型发展过程叠加而成的。其发展变迁呈现两条轨迹：一是产业间的结构升
+级和叠加演进；二是产业内的自身升级与发展进化。目前，数字内容产业正
+处于快速成长期。
+
+（2）数字内容产业的聚集也存在着生命周期
+数字内容产业是逐步发展起来的，随着数字内容产业的发展出现了内容
+产业的聚集，产业的聚集是产业链延长和完善的结果。
+在数字内容产业聚集形成阶段，产品和生产过程还没有标准化，由于
+某些原因，企业聚集在一起进行产品生产，聚集区内的内容企业由于信息网
+络、分工协作以及资源共享所产生的聚集经济获得竞争优势。
+
+在数字内容产业的成长阶段，数字内容产业聚集速度加快，增长率高，
+聚集开始经历一个从量变到质变的过程，随着生产信息产品的企业数量的增
+加，聚集区内的资源会日益集中，更多的企业投入到数字内容的产品生产
+中，数字内容产业链初步形成。
+
+在数字内容产业的成熟阶段，生产过程和产品开始走向标准化，企业为
+了追求大规模的生产，开始延长和完善产业链，整个产业链体系开始配套和
+完整起来，聚集区内的企业的竞争力较强，相关企业彼此既竞争又合作，形
+成企业网络。
+
+在数字内容产业聚集的衰退阶段，聚集区内的企业失去了对市场的灵
+
+
+0数字内容产业成长机理及发展策略研究 
+
+
+活反应，缺少应变的内源力，生产成本开始上升，企业大量退出，竞争力下
+降，整体规模开始减少，数字内容产业聚集停止发展并导致衰退。
+
+（3）数字内容产业的发展受内在作用力和外部作用力的相互影响
+数字内容产业系统是一个开放的系统，如果内在和外部引起涨落的因
+素是线性的，不可能引起数字内容产业系统结构的变化。相反，如果系统处
+于外界各种因素的强制作用下，具有非线性的动力机制，数字内容产业系统
+运行呈现一个在多重稳定态之间进行选择的相变过程，这使组织结构日趋复
+杂。外部环境影响着数字内容产业的发展，外在作用力不仅影响系统多样化
+的产生，而且新行为的引入也同样改变环境，数字内容产业发展产生多样
+化，多样化推进数字内容产业发展。
+
+（4）信息技术在数字内容产业的发展过程中起着重要的作用
+信息技术是数字内容产业发展的直接动力，信息技术促进了技术创新，
+技术创新导致了数字内容产业组织和数字内容产业结构的变化，数字内容产
+业组织和结构的发展推动了数字内容产业系统的发展。反之，在数字内容产
+业系统不同的发展状态或不同的阶段，数字内容产业组织和数字内容产业结
+构同样影响着信息技术的创新模式和路径[1]。
+
+6.3　数字内容产业的发展策略
+数字内容产业的发展取决于数字内容产业链的环节由少变多，由短变
+长，专业分工由粗变细，由泛到精，产业规模由小变大，由弱变强。要实现
+数字内容产业的成长，最主要的两种模式为数字内容产业链的延伸与整合。
+通过数字内容产业链的延伸，不仅数字内容产业链的环节数量变多，数字内
+容开发深度提高，而且数字内容产业链环节的分支数量也会变多，数字内容
+产业分型能力变强。通过数字内容产业链的整合，数字内容产业规模不断壮
+大，竞争能力增强。如前所述，在数字内容产业主体意愿和数字内容产业链
+的动力机制的作用下，数字内容产业链才能实现成长和壮大。
+
+6.3.1　数字内容产业的延伸策略
+（1）基于产业链的纵向延伸策略
+产业链的纵向延伸是指按产业链向后扩展到原材料供应或者前向扩展到
+[1]赖茂生，闫慧，龙健．论信息资源产业及其范畴[J]．情报科学，2008（4）：481-490.
+
+第６章　数字内容产业发展途径及其策略 
+
+
+最终产品的用户，包括产业内延伸和产业外延伸[1]。
+
+对于数字内容产业来说，产业链的纵向延伸就是在数字内容市场调查、
+内容创意、内容生产、内容营销和衍生产品开发等产业链环节上不断向前或
+向后进行拓展。通过数字内容产业链的纵向延伸，数字内容产业链的环节数
+变大，表明数字内容开发深度提高。一般来说，数字内容产业链的延伸包括
+前向延伸和后向延伸。前向延伸是从产业链的上游环节向下游环节渗透，比
+如电视内容生产公司自行参与交易，通过前向整合进入批发或零售环节，获
+得经营自己产品的渠道，去掉中间的相关环节，可以带来明显的成本节约，
+从而获得竞争优势。后向整合则相反，电视内容生产企业向价值链上游的渗
+透主要是保证节目创意稳定的供应，比如电视内容生产公司向电视节目市场
+调查的进入[2]。
+
+数字内容产业链的形成与发展可以以产业链上任一环节为开始端，然后
+以这一环节为基础再向前或向后延伸，最终成长为完整的产业链。比如，某
+国外电视内容传媒企业首先从事电视内容节目的创意，当公司达到一定规模
+之后，再涉及节目的生产、节目的交易，直至节目的播出，最后便形成了一
+条完整的产业链。可以看出电视内容产业链延伸的过程，就是电视内容产业
+链成长的过程。
+
+（2）基于“微笑曲线”的延伸策略
+在经济全球化和技术日新月异的今天，产业链中各个环节对价值创造
+的贡献发生了很大变化。对于一条产业链而言，最明显的特征就是利润逐渐
+向产业链的研发和销售两端转移，而中间环节的利润则受到层层的纵向控制
+与压榨。“微笑曲线”就是对这一现象生动的说明，在制造业中，中国已成
+为世界制造业大国，但制造业的劳动生产率/人年3.8万元，是美国和日本的
+4%，德国的5.5%，即人均劳动生产率低，主要从事低端产业 [3]。与制造业
+一样，中国数字内容产业也同样存在这样的问题，根据刘沙白提供的数据，
+“目前中国电视内容播出机构拿50%，内容提供商只能拿到25%”，可见，中
+
+[1]韩洁平．电子商务基础概论[M]．吉林科技出版社，2009：83-89.
+[2]彭祝斌．中国电视内容产业链成长研究[D]．湖南：湖南大学，2008：86-90.
+[3]杨惠馨，纪玉俊，吕萍．产业链纵向关系与分工制度安排的选择及整合[J]．中国工业经济，2007
+（9）：14-20.
+
+数字内容产业成长机理及发展策略研究 
+
+
+国电视内容产业链的利润分配也印证了“微笑曲线” [1]。如图6.4所示，在整
+个数字内容产业链中，较多的利润往产业链的两端转移。
+
+既然数字内容产业链中也存在“微笑曲线”，这就要求拥有数字内容
+生产能力的企业，必须通过向“微笑曲线”两端的渗透来创造更多的价值，
+进入创意、衍生产品开发等产业链环节具有很大的利润发展空间。另外，对
+于数字内容生产企业或集团来说，之所以选择产业链的纵向延伸，是因为通
+过纵向延伸，除了可以保证稳定的供求关系，防止经营活动受外界不确定因
+素影响之外，更为重要的是可以用内部交易代替市场交易，从而降低交易成
+本。并且数字内容产业链进行纵向整合，使得信息的传递变得更为通畅，从
+而避免了数字内容市场交易中因信息不对称而导致的低效率的资源配置，相
+应地也就减少了获取有关市场信息的总成本，因为监测市场、预测供应需求
+的固定成本可以分摊到产业链的各个环节或者各企业中。
+
+................喌 
+........ 
+..............
+
+ 
+
+
+....................
+........
+
+图6.4　数字内容产业的“微笑曲线”
+
+6.3.2　数字内容产业的整合策略
+（1）基于全球数字内容资源的水平整合策略
+在全球经济一体化的发展趋势下，原有产业价值链被打断并在全球范
+围内进行重组。这样，企业已经没有必要自己从事价值链的全部环节，它可
+以充分利用全球资源，在全球范围内组织生产，自己只需从事具有核心能力
+的业务，而将自己不擅长的非核心的业务外包给全球范围内成本最低、质量
+
+[1]刘沙白，中国电视产业与市场化程度研究．[2009-11-5]．http：//people. com.cn/GB/ 14677/22114/ 
+36723/ 2744416．html. 
+
+第６章　数字内容产业发展途径及其策略 
+
+
+最好的企业，立足全球资源建立产业链。通过产业链上的整合对国内外数字
+内容资源进行整合，可以更快、成本更低地生产出我们所需要的数字内容产
+品。
+
+数字内容产业链的水平整合是不同数字内容生产企业处于产业链的同
+一层次或环节上，围绕着骨干生产企业或者名牌产品，共同开发产品、开拓
+市场并实现某种联合以增强对供应商的开价能力的合作方式。整合有两种方
+式，一种是水平合并，另一种是建立横向联盟，典型的是价格联盟。水平合
+并的目的是通过提高数字内容生产市场集中度，提高市场占有率，从而增加
+对数字内容生产市场价格的控制力，增加垄断利润。同样，数字内容生产市
+场集中度的提高也有助于在位厂商之间联合构建进入壁垒，阻止潜在的进入
+者进入。数字内容企业的兼并与重组是数字内容产业链上常见的水平整合策
+略。
+
+全球数字内容产业链深化了与跨国公司的合作，以及和国内企业与跨
+国公司在价值链上的垂直分工关系。国内企业为了实现分工地位的升级，需
+要不断提高技术水平。而与跨国公司建立合作是促进跨国公司技术溢出从而
+使国内企业获得跨国公司先进技术的重要途径。如果双方建立起长期合作关
+系，跨国公司还可向供应商或生产厂商转移产品技术和组织管理模式。通过
+采取进入跨国公司全球生产体系的方式，可以直接接受跨国公司技术与管理
+的溢出，提升自己的技术和管理水平，使数字内容产品质量达到国际标准[1]。
+
+（2）基于产业结构优化的垂直整合策略
+数字内容产业结构合理化和高度化的统一是在现有产业发展的基础上所
+实现的产业之间的协调。数字内容产业涵盖范围较广，涉及文化、创意、网
+络、动漫、影音等，因此需要协调各产业间在生产规模上的比例关系，提高
+产业间的关联程度，也包括产值结构的协调、技术结构的协调、资产结构的
+协调和中间要素结构的协调等。数字内容产业结构正在向资金密集型产业、
+技术知识密集型产业演进。数字内容产业的垂直整合策略是不同的数字内容
+生产企业处在产业链上的不同层次或环节，围绕骨干企业进行整合。它可以
+分为垂直合并和纵向约束两种类型。其中，垂直合并是指数字内容生产企业
+
+[1]史丹，李晓斌．高技术产业发展的影响因素及其数据检验[J]．中国工业经济，2004（12）：32-39.
+
+数字内容产业成长机理及发展策略研究 
+
+
+将数字内容产业链上游或下游的企业合并组建成为新的数字内容生产企业，
+向产业链下游合并被称为前向合并，反之称为后向合并。数字内容产业链上
+的企业也可以通过对上下游的生产企业施加垂直约束，使之接受一体化的合
+约，通过产量或价格控制实现纵向的数字内容产业链垄断利润最大化。
+
+推进数字内容企业间分工合作的深化，这种分工的深化表现为三个方
+面：一是企业间垂直分工在整体上的深化；二是大企业与大企业以及中小企
+业之间形成业务外包关系（例如美国电子产业的外包关系）；三是技术创新
+型的小企业集群的发展（例如硅谷）。数字内容企业要优化企业的组织结
+构，即大企业形成研发和营销环节比重大、加工制造环节比重较小的“哑铃
+型”结构，中小企业形成加工制造环节大而研发和营销小的“橄榄型”结
+构。大企业和中小企业这种错位分工格局的形成，既有利于解决劳动力就业
+问题，又有利于大企业形成和发挥核心能力 [1]。同时，还应大力促进技术创新
+型的中小企业集群的发展，发挥小公司在创新方面的优势。就像硅谷中的中
+小企业，它们是创新内容生产的重要源泉，能够为大企业提供重要的内容产
+品，其中有些企业有望成长为未来的具有竞争优势的大企业。
+
+6.4　中国数字内容产业的发展途径及其策略
+6.4.1　以PEST环境推进数字内容产业升级
+根据以往的研究，国内数字内容产业发展仍需要有良好的PEST［政治
+的（Political）、经济的（Economic）、技术的（Technological）和社会的
+（Social）］环境，也需要从相关方面去寻求升级路径。
+
+首先是政策层面，我国政府已经认识到了在信息技术日新月异地新经济
+时代数字内容产业的重要性，由于数字内容是横跨多个产业并且是产业升级
+的重要产业，国家正力图通过政府机构职能配置、协调与综合引导来促进我
+国数字内容产业的发展。另外，近年来，国家也在大力加强与数字版权保护
+相关的立法与执法工作，从而为我国数字内容产业发展奠定更为健康的成长
+环境。
+
+其次是经济层面，我国的工业化与信息化推进政策是中国未来经济成长
+
+[1]A．D.钱德勒主编，柳卸林主译．大企业和国民财富[M]．北京：北京大学出版社，2004：
+549-550．
+
+第６章　数字内容产业发展途径及其策略 
+
+
+的重要基础，在此基础之上，将为我国数字内容产业发展奠定重要基础，也
+是推进其快速发展的重要途径。从截至2010年我国的经济发展情况来看，良
+好的经济增长环境是其宏观基础，而推进计算机、通信与消费电子产业的发
+展则是促进数字内容产业发展的重要基础，而这些也是推进我国数字内容产
+业发展的重要途径。
+
+再次是社会文化层面，随着经济发展的现代化与数字化，我国人民的社
+会文化生活日益丰富，而推进社会文化生活的数字化，则是促进我国数字内
+容产业发展的基本途径。只有通过全民加强对横跨移动通信技术、互联网技
+术、动漫影视技术、新兴的物联网技术等技术领域的应用，以数字化服务于
+人民文化生活质量的提升，这也是我国数字内容产业发展不可脱离的路径。
+
+最后是从技术层面主动推进相关技术在经济与文化领域的应用。一方
+面经过多年来的发展，我国已经在多项ICT（Information and Communication 
+Technology）技术领域迎头赶上，但是之前的模仿多于创新，而创新的技术发
+展模式即意味着在移动通信、互联网、广播电视、物联网等相关技术的开发
+与应用过程中，从数字内容产业发展需求的宏观视角来加强相关技术开发，
+从而有效地推进技术转化，通过技术、经济与文化相互促进，将是数字内容
+产业创新与快速成长的重要途径。
+
+6.4.2　数字内容产业升级的可选途径
+宏观层面加强国家数字内容产业发展规划。在国家相关政府主管部门调
+整与加强协调作用的基础之上，共同制定符合中国国情的数字内容产业发展
+规划，以科学规划来整体上协调相关资源的调配，从而为数字内容产业升级
+奠定蓝图。
+
+中观层面上充分利用近年来国家发展园区经济与产业的经验，通过合理
+布局来推进国家数字内容产业的协调发展。截至2010年以来，我国部分地区
+在动漫产业园区方面已经进行了早期的尝试，而对于整个的数字内容产业发
+展而言，由于其跨领域性与复杂性，在园区规划与发展方面必须结合数字内
+容产业自身的特点，不能简单划一。
+
+从微观层面加强对数字内容产业主导主体的支持与引导，推进数字内容
+产业企业的成长与繁荣，以企业发展来带动产业发展。实践证明，有效地推
+进企业主体对于产业成长是必需的，要通过数字内容产业领域各细分市场中
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+龙头企业的培育与产业链网络的培育来带动数字内容产业的升级，这也是我
+国数字内容产业升级的最根本的依靠。
+
+6.4.3　中国数字内容产业的发展策略
+（1）整体规划、优化布局
+数字内容产业的跨领域性与复杂性必须有一个整体规划，通过合理规
+划来优化产业布局，推进产业的协调、健康发展。比如，对于目前占据数字
+内容产业市场规模重要地位的短信息与彩信业务而言，需要与其他的移动互
+联网业务比如即时通讯业务、无线电子邮件业务、手机报业务、手机视频业
+务等整体配合，加强其内部的协调性；而对于整个的产业发展而言，还需要
+加强相关标准与政策的推进，保证相关业务在绿色、健康的主题下健康地发
+展。整体规划优化布局的另外一个基点就是要减少重复投资与自由市场竞争
+的盲目性，推进相关产业的合理配置。
+
+（2）因地制宜、推进个性化发展
+由于不同的地区与不同的企业的个性化，要求数字内容产业要因地制
+宜、推进个性化发展。不同的地域自身的经济、社会与文化特征不同，因而
+其在数字内容产业发展需求与发展重点及步骤方面会有所不同，这就要求各
+地加强适合自身的产业发展。对于产业链网相关的企业而言，必须清楚地认
+识到自身在发展数字内容产业方面的特长与核心能力，注意培育自身的个性
+化发展能力，以个性化推进自身业务的不断丰富与成长。
+
+（3）把握规律、加强细分与创新
+数字内容产业的跨领域性与复杂性，导致其既存在着共同的特性，也存
+在着不同细分领域自身的规律。不论是政府主体还是企业主体在促进数字内
+容产业发展的过程中，必须根据数字内容产业自身的特点，把握产业链的不
+同环节细分与创新机会，从业务创新、细分内容生产与运作创新、细分内容
+延伸与创新、相关产业与设备创新、软件与服务创新、企业运营策略创新等
+相关环节来加强自身的发展。
+
+（4）研究需求、持续策略改进与升级
+截至2010年，我国数字内容产业已经形成了巨大的产业规模，但是就产
+业本身而言，其发展的想象空间还很大，产业链自身的改进空间也很大。要
+求参与或者想要参与到产业链竞争的相关主体必须加强对于数字内容分类、
+
+
+第６章　数字内容产业发展途径及其策略 
+
+
+延伸与创新环境的研究，并且根据社会文化、经济与技术等相关环境的变化
+来不断地进行策略改进与升级，才有可能适应于国内数字内容产业的发展，
+并不断地发展壮大。
+
+6.5　本章小结
+本章概述了全球价值链理论为数字内容产业的升级方式和途径提供了有
+效的分析工具。阐释了数字内容产业的生命曲线，反映了数字内容产业的发
+展程度随时间的变化规律。提出了延伸与整合两种发展策略，即纵向延伸策
+略、“微笑曲线”策略、水平整合和垂直整合策略，这些切实可行的发展策
+略用来实现数字内容产业的不断发展和壮大。从以PEST环境推进数字内容产
+业升级和宏观、中观、微观数字内容产业升级的可选途径总结了中国数字内
+容产业的发展途径及发展策略。
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+第７章　 中国数字内容产业发展
+　　　　状况及对策研究
+
+现代信息服务业可分为信息传输、信息技术和信息内容服务，信息内容
+服务以数字内容产业为主，其已成为推动世界经济发展的新兴产业。数字内
+容产业是指将文字、图像、视频、语言等各种信息数字化并通过网络或其他
+方式提供给用户，以满足其多方面需求的产业 [1]。目前我国国民经济分类中
+还没有单独划分出数字内容产业，数字内容产业相关内容分散在“电信和其
+他信息传输服务业”、“新闻出版业”、“广播、电视、电影和音像业”、
+“文化艺术业”等相关行业中。随着信息传输网络的完善，传输内容的重要
+性逐渐凸显，并逐步形成一个单独的产业。数字内容产业作为快速发展的新
+兴产业，产业范围随着信息技术的进步，还处于不断发展中。
+
+我国的信息高速公路建立起来后，发展信息高速公路上的数字内容产业
+就变得更加重要。数字内容产业已成为全球经济社会舞台上的重要角色，对
+我国经济社会发展的促进作用将会越来越大。
+
+7.1　中国数字内容产业结构与影响因素分析
+7.1.1　中国数字内容产业结构分析
+根据数字内容产业的定义、内涵、现有的产业分类系统以及产品同一性、
+产业规模和生产同一性分析，构成数字内容产业的基本架构的是以下子产业：
+数字出版业、数字广播电视业、数字电影业、通信增值服务业、网络游戏业、
+内容软件业、动漫产业、数字学习业、网络广告业、数据处理等产业。
+
+这些产业与我国国家统计局制定的《国民经济行业分类表》(GB/T 4754—
+2002)、《统计上划分信息相关产业暂行规定》和《文化及相关产业分类》的
+
+[1]韩洁平.电子商务基础概论[M].长春：吉林科技出版社，2009，110-112.
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+对照情况如表7.1所示[1]。
+
+表7.1　产业对照表
+
+产业名称与《国民经济行业分类表》对应的行业名称 
+GB/T 4754—2002
+分类代码
+数字出版业音像制品出版、电子出版物出版、其他出版
+8824、8825、 
+8829
+数字广播
+电视业
+广播、电视、有线广播电视传输服务、无线广播电
+视传输服务
+8910、8920、
+6031、6032
+数字电影业电影制作与发行、电影放映、音像制作
+8931、8932、 
+8940
+通信增值
+服务业
+固定电话增值服务、移动电信增值服务、其他电信
+增值服务
+6011、6012、 
+6019
+网络游戏业互联网信息服务 6020
+内容软件业
+应用软件服务（图书、地图软件制作）、其他软件
+服务
+6212、6290
+动漫产业
+其他专业技术服务（专业的电脑三维动画设计活
+动） 
+7690
+数字学习业其他未列明的教育 8499
+网络广告业广告业、其他互联网信息服务7440、6020
+数据处理与数
+据库业
+数据处理、互联网信息服务6120、6020
+咨询与
+调查业
+市场调查、社会经济咨询、工程管理服务（工程咨
+询）、其他计算机服务（计算机咨询）、房地产
+中介服务（房地产咨询）、律师及相关的法律服
+务（律师咨询）、职业中介服务（劳动就业与职
+业咨询）、广告业（广告咨询）、旅行社（旅游咨
+询）、科技中介服务（科技咨询）、其他专业咨询
+7432、7433、
+7671、6190、
+7230、7421、
+7460、7440、
+7480、7720、 
+7439
+代理业贸易经纪与代理 6380
+
+[1]毕强.信息内容产业的发展机理与发展规律研究[J]．情报资料工作，2010（02）：20-24.
+
+00数字内容产业成长机理及发展策略研究 
+
+
+7.1.2　中国数字内容产业影响因素分析
+（1）影响因子的确定
+在数字内容产业演化中，信息技术、国民经济发展、科学研究与发展、
+信息人才、信息产业政策和国外的发展对我国数字内容产业的演化有重要的
+作用。具体的中国数字内容产业影响因子如表7.2所示[1]。
+
+表7.2　中国数字内容产业影响因子
+
+国民经
+
+影
+
+济发展 
+响
+数
+字
+信息
+
+
+内
+
+技术
+
+容
+产
+科学研
+
+
+业
+究发展
+
+
+发
+展
+的
+
+
+信息
+因
+
+
+人才
+素
+信息产
+业政策
+
+
+GDP
+劳动生产率
+全要素生产率
+第一产业增加值
+第二产业增加值
+第三产业增加值
+邮电业务总量
+计算机拥有量
+电视覆盖率
+报刊图书杂志的印张总数
+R&D人员、经费支出、科学家与工程师
+专利受理数、科研成果数
+成交合同数、成交合同额
+每百人在校大学生数
+技术人员数
+科技互动人员数
+信息劳动者人数
+科技拨款占财政支出的比例 
+R&D/GDP
+科技经费支出占GDP的比例
+
+（2）中国数字内容产业的影响因素分析
+通过对数字内容产业的研究可以发现R&D和信息资源的利用对数字内容产
+业发展影响最大，R&D、技术创新、信息技术和全要素生产率对数字内容产业
+
+[1]韩洁平．信息内容产业集群形成机理分析[J]．情报资料工作，2009（11）5-9.
+
+第７章　中国数字内容产业发展状况及对策研究 
+0 
+
+影响较大，尤其是R&D和信息技术严重制约着我国数字内容产业的发展 
+[1]。
+
+信息产业政策在推进中国数字内容产业创新发展方面影响很大。一方面
+是表现在国家政策推进的创新，比如，2010年以来国家在大力推进三网融合相
+关的政策与实施，这些就会为与影视动漫相关的新型互联网应用的数字内容产
+业创新提供良好的环境；另一方面是经济创新，在绿色与环保主题下推进经济
+快速健康发展为数字内容产业发展提供创新动力与需求环境。国家加强了文化
+创意产业与数字内容产业相关的政策扶持力度。2010年8月，国家出台了《关
+于加快我国数字出版产业发展的若干意见》，对于数字出版产业的定义、总体
+目标、产业发展保障措施进行了描述，对于加快我国数字出版业发展具有重要
+的意义，也是近年来我国在数字内容产业发展领域的又一项重要决策。
+
+从国民经济发展来看，中国的信息产业结构在宏观调控和微观调整中逐
+渐走向合理化和统一化，GDP和劳动生产率平稳提升，继续以较大的优势成
+为全球互联网网民数量、移动通信用户数量总量最多的国家，我国整体稳定
+的经济增长环境是数字内容产业成长的宏观环境，而快速发展与迎头赶上的
+移动通信与互联网产业则是重要的产业环境基础。
+
+从信息技术、信息人才与科学研究发展来看，计算机与移动通信技术、
+互联网技术、物联网技术与现代的消费电子产品技术成为推进中国数字内容
+产业创新的重要社会文化与技术环境。从与之相关的2G、3G、4G（LTE）、
+物联网等相关技术角度而言，近年来我国正在迎头赶上，技术创新与世界同
+步，加之以智能手机、电子（纸）书、平板电脑等产品技术领域的创新与发
+展，这些都构成了我国数字内容产业创新的技术环境。而与之对应的信息人
+才培养则成为各高校和科研院所等研究机构的重要任务。
+
+7.2　中国数字内容产业整体发展状况
+7.2.1　中国数字内容产业发展概述
+7.2.1.1　发展现状
+（1）产业环境
+①政策环境
+中国数字内容产业政策的特征是扶持和监管并重，中国政府已经将数字
+[1]姜宏波，韩洁平.电子商务概论[M].北京：清华大学出版社，2009，67-69.
+
+0 数字内容产业成长机理及发展策略研究 
+
+
+内容产业的发展提升到了战略性的高度。《中华人民共和国国民经济和社会
+发展第十一个五年规划纲要》中明确指出，鼓励教育、文化、出版、广播电
+视等领域的数字内容产业发展，发展动漫产业，并从完善信息基础设施、积
+极发展信息服务业、加强社会主义文化建设三个方面规划了数字内容产业的
+发展。同时，国家对数字内容产业相关领域的监管力度也不断加强。2008年1
+月31日，广电总局和信产部共同颁布的《互联网视听节目服务管理规定》开
+始施行，根据该法规规定，从事互联网视听节目服务的网站必须取得广播电
+影电视主管部门颁发的《信息网络传播视听节目许可证》，在3月20日和5月
+19日广电总局分别公布了《互联网视听节目服务抽查情况公告》第1号和第2
+号，对违规网站予以公布。在积极推动和严格监管的双重力量的作用下，数
+字内容产业的发展也将保持在健康的轨道上，产业竞争日益走向规范。
+
+②经济环境
+在宏观经济环境方面，近几年中国经济一直保持着高速增长，2008年受
+到全球经济疲软、人民币升值等因素的影响，GDP增长率有所下降，但整体
+经济环境依然良好，仍将保持较快增长势头。在经济高速发展的带动下，数
+字内容市场需求不断升级，推动了产业的加速发展。
+
+与此同时，互联网内容和移动内容等产业经过多年的积累和探索已经形
+成了较为成熟的商业模式，数字内容产业的商业价值逐渐爆发出来，从而吸
+引了大量企业和投资者的参与。中国数字内容产业的竞争也将逐步升级，由
+最初的流量竞争，逐渐上升到用户粘性以及用户价值的竞争。
+
+产业快速增长的同时，也吸引了国内外企业和投资者的目光，欧美、日
+韩的数字内容企业争相进驻中国，在互联网、移动、数字影音、动漫等各个
+领域展开与国内企业的合作，促进了中国数字内容产业的成熟和发展。中国
+数字内容产业的发展一直受到全球投资者的关注。2008年，视频网站、SNS以
+及移动互联网都成为投资者关注的焦点，但受到金融危机的影响，下半年投
+资明显减少。预计随着经济环境的逐渐回暖，数字内容仍将是投资者关注的
+重点领域。
+
+③社会环境
+数字内容产业具有资本密集、技术密集、知识密集、人才密集的行业
+特征，它的发展繁荣不仅有赖于民主、文明、稳定的政治制度，更有赖于开
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+0 
+
+放、发展、向上的市场经济制度以及高素质的人才队伍。
+
+近年来，在国家和地方政府大力扶持与引导下，全社会都加强了对数字
+内容产业发展的重视力度。在网络基础层面，带宽发展迅速，3G发牌在即、
+VOIP、IPTV等新兴热点已经开始尝试商用技术的进步，将有力促进数字内
+容产业的升级。同时，发展数字内容产业的环境和氛围逐步形成。在全国各
+地，许多城市相继成立数字内容产业基地，聚集了大批企业和人才，形成了
+数字内容产业发展的良好氛围；在教育培训方面，有关数字内容的培训机构
+相继成立，许多高等院校也开设了游戏、动漫等相关专业，为数字内容产业
+的发展培养了大批人才。
+
+在家庭和个人用户需求方面，随着互联网应用的普及以及数字电视的快
+速发展，人们已经初步形成了对数字内容产业的接受和理解，尤其在音视频
+内容、动画、游戏和各种数字出版物等方面，都取得了较大进步[1]。
+
+④技术环境
+网络技术发展日新月异，推动了网络安全产品和服务的不断升级。近年
+来TAG、RSS、API、Ajax等技术得到广泛应用，带来了服务模式和商业模式
+的巨大创新。2008年，SNS在中国掀起了热潮，随之而来的Widget技术的大量
+应用和普及，丰富了数字内容的提供模式。同时，业界对于计算机理念的讨
+论和探索，为未来网络发展提出了新的方向，也为数字内容服务商提出了创
+新的要求。
+
+此外，网络安全环境的不断改善为数字内容产业发展提供了必要支持，
+主要体现在两个方面：一方面网络安全产品已经从简单的防火墙发展到目前
+的具备报警、预警、分析、审计、监测等全面功能的网络安全系统；另一方
+面，网络安全技术取得巨大进步，为政府和企业在构建网络安全体系方面提
+供了更加多样化的选择。但是，单纯依靠网络安全技术的革新，不可能完全
+解决网络安全的隐患，网络面临的威胁并未随着技术的进步而有所抑制，矛
+盾更加突出，网络犯罪层出不穷，黑客攻击日益猖獗，网络安全继续面临挑
+战。一方面，需要加强互联网新技术、新业务的安全性研究，及时制订科学
+的防御方案和具体措施，加快应急处理体系的建设，健全和完善应急处理机
+
+[1]吉林省教育厅“十一五”社会科学研究项目，吉林省政府网站信息构建发展状况研究，2009.11.
+
+0 数字内容产业成长机理及发展策略研究 
+
+
+制；另一方面，要完善信息安全监控体系，杜绝危害国家安全的有害信息的
+入侵，建立信息安全的有效处理机制。
+
+（2）2009－2011年中国数字内容产业总体规模增长与预测
+2008年，中国数字内容产业保持了较快的增长势头，整体产业规模持续
+达到2173.8亿元，比2007年增长了26.5%。推动产业快速发展的动力主要来
+自：
+
+①网络基础设施建设加快，宽带网络和移动通讯网快速提升，同时，电
+脑、手机等数字终端设备数量增长，数字技术快速普及；
+②网民规模和手机用户数量大幅增长，用户对数字内容和服务的接受程
+度、应用水平逐渐提升；
+③互联网应用服务趋于成熟，移动增值业务的发展也步入高速增长的轨
+道，网络游戏、网络广告等业务的成功，充分调动了政府、企业和用户的参
+与热情；
+④产业巨大的发展潜力和增值空间，吸引了投资者对数字内容产业的高
+度关注。
+表7.3　2004—2009年整体市场规模及2010—2012年预测
+
+年份2004年2005年2006年2007年2008年2009年2010年2011年2012年
+产业规模
+（亿元） 537.0 849.8 1276.5 1719.1 2173.8 2887.2 3854.4 5014.6 6453.8
+增长率 73.0% 58.0% 50.2% 34.7% 26.5% 32.8% 33.5% 30.1% 28.7%
+
+数据来源：CCID 2010，08。
+根据前面的分析，预计未来三年，中国数字娱乐产业将会继续保持良好
+相对平稳的增长态势，到2011年，产业规模将超过4000亿元。
+
+表7.4　2008—2012年中国数字内容整体市场规模及2010—2012年预测
+
+年份2008年2009年2010年2011年2012年
+产业规模（亿元） 2173.8 2887.2 3854.4 5014.6 6453.8
+增长率 26.5% 32.8% 28.4% 30.6% 31.5%
+
+数据来源：CCID 2010，08。
+
+（3）2009－2011年中国数字内容产业细分市场总体规模及产业结构预测
+从产业结构上看，目前，中国数字内容产业已初步形成以互联网数字内
+容、数字影音动漫、移动数字内容服务为主，数字教育、数字出版等市场快
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+0 
+
+速发展的产业格局。其中，移动数字内容服务所占比重最大，其次为互联网
+数字内容服务。2009年，互联网数字内容服务整体规模占21%，网络广告、网
+络游戏和搜索引擎成为市场增长的主要动力；移动数字内容服务市场份额达
+到59%；数字影音动漫市场份额达到16%。2009年中国数字内容细分市场份额
+见表7.5所示。
+
+表7.5　2009年中国数字内容细分市场份额 
+
+
+2009
+
+移动数字内容服务
+
+互联网数字内容服务
+
+数字影音动漫
+
+其它
+
+市场份额 
+
+59% 
+
+21% 
+
+16% 
+
+4%
+
+数据来源：CCID 2010，08。
+
+预计未来三年，在产业结构方面，移动数字内容依然占据最主要的地
+位，这是因为，移动数字内容盈利模式简单且利润高；而互联网数字内容，
+尽管拥有更加丰富的形式和内容，却缺乏较好的盈利模式，因此，注重商业
+利益的互联网数字内容提供商将会转移重心至移动数字内容，从而更进一步
+带动移动数字内容的发展；同时，数字影音动漫业会有更大的进步，并逐渐
+进入规模化增长的阶段。2012年中国数字内容产业市场结构预测见表7.6所
+示。
+
+表7.6　2012年中国数字内容产业市场结构预测 
+
+
+2012移动数字内容服务互联网内容服务数字影音动漫其他
+市场份额 54% 25% 15% 6%
+
+数据来源：CCID 2010，08
+
+（4）中国数字内容产业细分市场
+①互联网数字内容服务是数字内容产业的重要组成部分，也是数字内
+容产业逐步走向成熟的主要动力。尽管在规模上移动数字内容远超过互联网
+数字内容，但恰恰是在网络游戏、搜索引擎、即时通讯等互联网业务的带动
+下，移动数字内容才逐步趋于多媒体化、丰富和完善。
+规模：庞大互联网用户是互联网数字内容服务发展的重要基础。2008
+年中国互联网用户达到2.98亿人，比2007年增加了8 800万人，同比增长了
+
+41.9%，继续保持了迅猛的增长势头，超过美国成为全球网民人数最多的国
+家。
+
+0 数字内容产业成长机理及发展策略研究 
+
+
+表7.7　2004—2009年中国网民规模增长情况
+
+年份2004年2005年2006年2007年2008年2009年
+网民规模（百万人） 94 111 137 210 298 384
+增长率 18.1% 23.4% 53.3% 41.9% 28.9%
+
+数据来源：CCID 2010，08。
+
+在用户规模快速增长，用户互联网应用行为不断成熟的带动下，互联网
+内容服务发展迅速。2008年，互联网数字内容市场规模达到452.7亿元，增长
+率为40.0%，保持了较快的增长势头。
+
+表7.8　2004—2009年中国互联网数字内容市场规模增长情况
+
+年份2004年2005年2006年2007年2008年2009年
+市场规模（亿元） 109.7 151.5 211.4 323.3 452.7 597.8
+增长率 37.2% 38.1% 39.5% 52.9% 40.0% 32.1%
+
+数据来源：CCID 2010，08。
+
+结构：从细分市场格局上看，2008年，网络游戏在互联网数字内容领域
+所占份额达到40.6%，成为最成熟的商业模式；即时通讯市场的发展逐渐趋
+缓，份额稳中略降至14.2%；搜索引擎进一步得到中小企业的认可，市场规模
+呈现较快增长；网络视频、博客、播客等一些新兴应用迅速普及，尽管规模
+不大，但未来增长势头强劲。
+
+表7.9　2009年中国互联网数字内容市场结构 
+
+
+2009
+
+网络游戏
+
+网络广告
+
+即时通讯
+
+搜索引擎
+
+电子邮件
+
+音乐彩铃
+
+其他
+
+市场份额 
+
+43% 
+
+22% 
+
+13% 
+
+11% 
+
+3% 
+
+1% 
+
+7%
+
+数据来源：CCID 2010，08。
+
+②移动数字内容服务
+在电信政策的开放、电信与网络环境的渐趋完善和终端消费市场的成熟
+的带动下，移动数字内容服务的应用市场展现出巨大的市场潜力。2008年，
+电信运营商重组无疑为移动内容市场的发展提供了更大的动力，而3G牌照的
+发放也成为运营商和SP推动移动互联网发展的主要动因。因此，创新和探索
+成为整个2008年移动数字内容的发展主题。
+
+规模：截止到2008年11月，中国移动电话用户规模已经超过6.4亿人，预
+计到2008年底将会超过6.4亿人，同比增长幅度达到17.1%。而其中，移动互联
+网用户规模也已经超过1亿人，为移动数字内容向移动互联网发展奠定了良好
+基础。
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+0 
+
+表7.10　2004—2009年中国移动通信用户增长情况
+
+年份2004年2005年2006年2007年2008年2009年
+移动电话用户规模（万人） 
+33482 
+39340 
+46100 
+54728.6 
+64100 
+74700
+增长率 
+24.6% 
+17.5% 
+16.9% 
+18.7% 
+17.1% 
+16.5%
+
+伴随移动电话用户规模的进一步增长，2008年，中国移动数字内容服务
+市场实现了20.5%的增长，规模达到1274.0亿元。
+
+表7.11　2004—2009年中国移动数字内容市场规模及其增长情况
+
+年份2004年2005年2006年2007年2008年2009年
+移动数字内容规模（亿元） 
+295.9 
+512 
+792.9 
+1057 
+1274 
+1690
+增长率 
+87.3% 
+73.0% 
+54.9% 
+33.3% 
+20.5% 
+32.7%
+
+结构：在互联网应用快速发展的带动下，移动数字内容也越发丰富和成
+熟，从细分市场格局上看，短信业务的商业化运作相当成功，广泛应用到传
+媒、会议活动、投票、竞猜等业务当中，比重达到70%以上，遥遥领先于其
+他业务；WAP业务加速发展，彩信和移动音乐业务增长迅速，手机游戏增长
+势头也颇为强劲，预计3G发牌之后，市场份额将会进一步增大。
+
+表7.12　2009年中国移动数字内容市场细分结构 
+
+
+2009
+
+IVR
+
+短信/彩信 
+
+
+WAP
+
+移动音乐
+
+手机游戏 
+
+
+手机视频
+
+其他
+
+66% 
+
+
+11% 
+
+
+7%
+
+市场份额 
+
+
+6% 
+
+
+3% 
+
+
+3% 
+
+
+4%
+
+③数字影音动漫
+数字影音动漫是数字内容产业影响面最广，发展潜力最大的业务领域。
+目前，主要包括数字电视及相关内容和动漫内容两块业务。2008年在产业链
+各环节的共同努力下，中国数字影音动漫市场规模达到349.8亿元，增长率为
+38%。
+
+表7.13　2004—2009年中国数字影音动漫市场规模增长情况
+
+年份2004年2005年2006年2007年2008年2009年
+规模（亿元） 
+72.5 
+119.0 
+193.3 
+253.5 
+349.8 
+472.2
+增长率 
+79.9% 
+64.1% 
+62.5% 
+31.1% 
+38.0% 
+35.0%
+
+（5）产业盈利水平
+与前几年相比，中国数字内容产业的整体盈利状况在2008年有明显提升。
+这主要得益于：
+①技术创新和商业模式创新充分拉动了用户需求的增长，随着用户市场
+
+0 数字内容产业成长机理及发展策略研究 
+
+
+需求的逐渐成熟以及应用水平的提升，用户应用普及率大幅提高；
+
+②企业用户对数字内容产业给予高度重视，使得内容服务商的服务水平
+和盈利能力都有所提升；
+③电信重组和3G牌照的发放，充分调动了电信运营商业务转型的积极性，2009年，各大运营商纷纷加快了对互联网和移动互联网业务发展的进程；
+④网络视频牌照制度的出台和实施，在规范市场运营的同时也逐渐显露
+出开放化发展的趋势，越来越多实力较强的企业将会获得牌照，从而获得更
+多投资者的认可；
+⑤IPTV和数字电视的商业化进程不断加快，数字电视已经在全国各地逐
+渐普及，IPTV也在电信运营商的推动下有突破性的发展。
+
+（6）产业投资
+2008年，产业投资的关注度明显向移动互联网领域转移。2008年6月，中
+国数字音乐平台A8音乐(00800.HK)在港交所主板挂牌上市；7月，中国手机动
+漫第一股湖南拓维信息系统股份有限公司（以下简称“拓维信息”）在深圳
+证券交易所中小板上市；9月，华友世纪斥资2100万元战略投资台湾唱片公司
+种子音乐。除此之外，手机游戏、移动SNS社区、移动营销等都成为风险投资
+以及战略投资者关注的热点。
+
+（7）中国部分数字内容产业细分市场规模
+①中国网络游戏市场规模、增长及盈利状况
+2002—2009年中国网络游戏市场规模及其增长情况见表7.14所示。中国付
+费网游用户数量及其增长率见表7.15所示。
+
+表7.14　2002—2009年中国网络游戏市场规模及其增长情况
+
+年份2002年2003年2004年2005年2006年2007年2008年2009年
+市场规模
+（亿元） 
+10.2 
+17.8 
+27 
+40.7 
+65 
+113.5 
+183.8 
+257.5
+增长率 
+213.8% 
+74.5% 
+51.7% 
+50.7% 
+59.7% 
+74.6% 
+61.9% 
+40.1%
+
+表7.15　中国付费网游用户数量及其增长率
+
+年份
+
+2002年
+
+2003年
+
+2004年
+
+2005年
+
+2006年
+
+2007年
+
+2008年
+
+2009年
+
+付费用户数（万） 
+
+
+1069.7 
+
+
+1327.7 
+
+
+1471.1 
+
+
+1602 
+
+
+1781.5 
+
+
+2300 
+
+
+3104 
+
+
+3735
+
+增长率 
+
+
+25.6% 
+
+
+7.3% 
+
+
+6.4% 
+
+
+8.9% 
+
+
+11.2% 
+
+
+29.1% 
+
+
+35.0% 
+
+
+20.3% 
+
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+0 
+
+数据来源：CCID 2010，08。
+
+②中国数字音乐市场规模
+2005—2009年中国数字音乐市场规模及其增长情况见表7.16所示。
+表7.16　2005—2009年中国数字音乐市场规模及其增长情况
+
+年份 2005年 2006年 2007年 2008年 2009年
+市场规模（亿元） 40.8 
+54.1 
+65.6 
+87.3 
+107.3
+增长率 58.10% 32.60% 27.90% 33.08% 22.91%
+
+数据来源：CCID 2010，08。
+
+③手机游戏市场
+2005—2009年中国手机游戏市场规模及增长情况见表7.17所示。
+表7.17　2005—2009年中国手机游戏市场规模及增长情况
+
+年份 2005年 2006年 2007年 2008年 2009年
+市场规模（亿元） 13.0 
+24.3 
+38.5 
+78.1 
+105.8
+增长率 86.9% 58.6% 102.6% 35.5%
+
+数据来源：CCID 2010，08。
+
+④中国原创电视动画
+2004—2009年中国原创电视动画生产规模及其增长情况见表7.18所示。
+表7.18　2004—2009年中国原创电视动画生产规模及其增长情况
+
+年份2004年2005年2006年2007年2008年2009年
+电视动画片总量（万分钟） 2.4 4.3 8.2 10.2 14.6 17.2
+增长率 79.4% 89.7% 24.4% 43.5% 17.4%
+
+数据来源：CCID 2010，08。
+
+⑤中国电子书市场规模预测
+中国电子书设备2010-2012年市场规模预测见表7.19所示。
+表7.19　另附：中国电子书设备2010-2012年市场规模预测
+
+年份2010年2011年2012年
+市场规模（亿元） 42 75 109
+销售量（万部） 215 430 680
+
+数据来源：CCID 2010，08。
+
+7.2.1.2　基本特点
+（1）地方政府引导
+产业集群效应明显。数字内容产业作为现代信息服务业的重要组成部分
+
+0数字内容产业成长机理及发展策略研究 
+
+
+得到了各地方政府的高度重视，各地纷纷在税收、人才引进方面给予优惠政
+策，并组建产业基地和园区来推动数字内容产业的发展。目前，在各地方政
+府差异化政策引导之下，产业集群的效应已经初步显现出来，各地都呈现出
+一些不同的发展特点。
+
+①北京：数字内容产业全面发展，在动漫、网络游戏、增值业务、网络
+教育等方面都具有明显优势，尤其在原创内容开发上处于领先的地位。北京
+聚集了大批优秀的内容开发企业和人才。
+②上海：动漫和网络游戏优势突出，在动漫方面，上海美术电影制片厂
+在我国动漫界长期处于领先地位，同时上海还是“国家动漫游戏产业振兴基
+地”和“国家动漫游戏产业示范基地”。网络游戏方面，上海是中国网络游
+戏运营中心。
+③广州：中国互联网最活跃的市场。广州的数字内容产业在数字影视、数
+字娱乐、数字图书馆、数字媒体、网上教育等领域均有长足发展，尤其在网络
+游戏、数字媒体等方面，以网易为代表的数字内容企业市场地位大幅提高。
+④苏州：动漫产业发展迅速，苏州形成了泰山动画、宏广、宏扬、蜗牛
+电子、园区动码等一批具有一定规模的动漫企业。2005年7月，苏州成立了
+“国家动漫产业基地”。
+⑤深圳：深圳通过为海外代加工动漫为起点，逐步拥有了原创和研发能
+力，成为中国动漫产业发展领先的地区。此外，以腾讯为代表的深圳互联网
+企业，在网络游戏、无线增值业务方面都具有一定优势。
+（2）重大事件带动内容产业发展
+2008年对中国是不平凡的一年，从年初雪灾，到汶川地震，再到奥运会
+举办，发生了很多重大的事件，在针对这些事件的相关报道和活动中，内容
+产业显现出了巨大的影响力。一方面，在资讯、新闻的报道中，互联网门户
+和移动门户网站成为反应最快、信息最全面的渠道，信息传播效率远远高于
+其他媒体，同时，网络视频和手机视频大大丰富了信息传播的形式；另一方
+面，搜索引擎、即时通讯等不仅成为信息内容集成的重要渠道，还体现出了
+公益性作用，例如在汶川地震期间，很多搜索引擎网站通过组织专题，帮助
+网友们搜寻亲人信息，为灾民寻找援助等等。在这些重大事件的过程中，互
+联网和移动内容已经显露出自身的价值。
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+（3）移动互联网发展逐渐加速
+据不完全统计，目前中国提供WAP服务的网站已经达到10万个。从移动
+互联网的服务内容和服务类型上来看，初步服务格局已经形成。一方面，与
+传统PC互联网类似的移动门户、移动搜索、手机游戏、移动IM和手机视频成
+为目前主要的服务类型，同时，在细分领域当中也呈现出了差异化的服务模
+式。另一方面，从手机作为服务终端的角度上，一些基于移动互联网的客户
+端软件也迅速发展起来，例如UCWEB、V8书客、尚邮、瑞图等软件。中国移
+动互联网主要细分领域及代表企业见表7.20所示。
+
+表7.20　中国移动互联网主要细分领域及代表企业
+
+服务类型 代表企业
+移动门户3G门户、乐讯网、摩网、手机搜狐网、手机腾讯网、掌中天涯
+移动搜索易查、儒豹、宜搜、UUCUN、百度搜索
+移动垂直门户搜房手机网、移动书城、风网100TV、手机口碑网、手机天极
+手机游戏当乐、捉鱼、随手互动、掌上明珠、掌上乾坤、摩龙
+移动IMPICA、手机QQ、手机MSN、飞信
+手机视频GGTV、GGLIVE、小虎在线
+浏览器星际浏览器、UCWEB、航海家
+手机客户端
+阅读器掌上书院、V8书客、亿门楼
+邮件 尚邮、UCmail、UUmail
+导航 瑞图、灵图
+
+数据来源：CCID 2009，01。
+
+（4）SNS理念成为产业热点
+2008年SNS市场成为整个中国互联网产业发展的最亮点，SNS网站数量迅
+速增加，门户网站如新浪和雅虎也纷纷推出SNS服务，还出现了一批垂直SNS
+网站，以中国移动为代表的电信运营商开始尝试SNS。
+
+尽管企业热情高涨，但是盈利问题仍然没有得到解决，广告是目前SNS网
+站的主要收入来源，尽管2008年整体市场规模达到4.5亿元，呈现出82.2%的快
+速增长，但整体盈利状况不佳，仍处于入不敷出的状态。
+
+7.2.1.3　2009—2011年中国数字内容产业趋势分析
+（1）产品技术趋势
+①产品跨平台融合化
+从数字内容产品格局上看，移动数字内容仍将持续占据市场的主导地
+位，而随着3G的到来，互联网数字内容将会加快向移动内容的转移和融合，
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+同时在IPTV和数字电视逐渐普及的推动下，互联网和移动与电视内容的相互
+融合也将加快。2009年在电信重组和3G的带动下，移动互联网将会成为电
+信运营商、内容开发商和运营商等各方力量关注的焦点，而移动互联网的内
+容除了来源于传统的移动通信内容之外，还将加大与互联网内容的融合。除
+此之外，移动视频将会成为未来两年移动互联网的重要应用，因此，电视内
+容、影音以及动漫内容也都将被整合到移动互联网平台。
+
+②服务个性化
+随着数字内容产业的迅速发展，消费者和企业对数字内容，尤其是互
+联网和移动数字内容的使用程度和依赖程度逐步提升，对于服务和产品的需
+求程度也将逐步趋于成熟。个人用户的需求将会逐渐趋于多元化、个性化，
+强调互动性和定制化服务，移动互联网内容将会成为未来市场需求的一大亮
+点。企业用户的需求将会与企业信息化水平的提升同步，企业搜索、企业即
+时通讯等都逐渐整合到企业管理信息系统，成为企业管理和运营的重要手段
+之一，而同时，企业门户网站建设将会在未来两年迎来加速发展的高潮，成
+为众多企业渠道格局发展的重要环节。
+
+③OWL简化用户操作、提升用户体验
+OWL即Ontology Web Language。当需要存储在文件中的信息不仅仅能够被
+阅读者理解，而且能够被引用它的机器所理解的时候，需要引入OWL。OWL
+可以清楚地表达每一个词条的语义信息以及各个词条之间的联系。因此，
+OWL的使用可以大大简化用户网上操作行为，提升用户体验。
+
+④RSS/ATOM带动定制化服务发展
+RSS是一种用来分发和汇集网页内容的XML格式，它是一种基于XML标
+准，在互联网上被广泛采用的内容包装和投递协议。通过XML标准定义内容
+的包装和发布格式，使内容提供者和接收者都能从中获益。
+
+ATOM也是和RSS类似的新闻聚合技术。ATOM提供一个在互联网上读写
+信息的简单方法，它允许用户在尽量少的时间内跟踪更多的网站信息，并且
+通过发布自己的文字和想法去实现相互间的无缝共享。
+
+不论是RSS还是ATOM技术都是基于XML/RDF的基础之上的信息聚合技
+术。网站应用该技术，将新闻、广告或其他信息分类，用户一般需要下载和
+安装一个RSS新闻阅读器，然后从网站提供的聚合新闻目录列表中订阅您感
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+兴趣的新闻栏目的内容。订阅后，您将会及时获得所订阅新闻频道的最新内
+容。同时用户的信息可以被RSS数据库存储并进行分析，得到用户的偏好信
+息，再由系统对用户进行针对性的信息推送，从而人性化的为用户服务。
+
+（2）业务创新
+①与电子商务融合，提升赢利空间
+内容产业如何产生盈利一直是困扰内容开发和运营企业的难题。尤其在
+互联网内容和影音动漫方面。但从近年来互联网内容发展的趋势来看，利用
+内容粘性对用户的聚集，拓展差异化的电子商务模式却能够创造出新的盈利
+模式。例如在即时通讯领域，腾讯推出的Q币构建了以虚拟货币为纽带贯穿的
+价值体系，从QQ秀+QQ游戏+礼物的模式，获得了广阔的盈利空间。随着SNS
+模式在2008年的迅速崛起，以虚拟货币+游戏+礼物的新型电子商务模式获得
+了更快的推广和应用，用户之间的高度信任以及便捷的沟通为电子商务的拓
+展提供了重要基础。除此之外，在Web2.0理念的推动下，用户逐渐成为内容
+的创造者(UGC)也急需新的商业模式来证实价值，适当引入电子商务理念，有
+助于激励用户创造的积极性。
+
+②引导企业用户需求，创新业务模式
+从数字内容产业的用户定位来看，目前主要的服务对象都定位于个人用
+户的需求，而对企业需求关注较少。事实上，随着企业对互联网应用的逐渐
+深入，具有企业特色的数字内容需求也逐渐显露出来，为数字内容的发展提
+供了更广阔的空间。预计未来几年，企业级的应用将会逐步显示出增长的潜
+力。企业内部即时通讯系统将成为企业内部沟通、信息共享的重要渠道，企
+业搜索将会在企业知识管理和信息管理方面显现重要的作用，企业短信、企
+业博客以及SNS等等都将会成为企业创新营销、提升品牌的重要手段。
+
+（3）厂商竞争趋势
+①新兴模式不断涌现，企业面临专业化与多元化的博弈数字内容产业仍
+然处于加速创新和发展的阶段，新的内容产品和服务模式不断涌现，行业垄
+断格局尚未形成，对于新兴企业仍有丰富的市场机会。然而在产业不断创新
+的同时，更多新兴企业选择在专业化领域切入市场，一批内容制作能力强、
+创新实力强，又善于掌控和经营内容资源的企业逐步成为影响市场竞争格局
+的重要力量。同时，传统一些内容企业在面临新兴企业的竞争的时候，选择
+
+数字内容产业成长机理及发展策略研究 
+
+
+通过多元化的策略进行横向扩张，以提升自身对市场趋势的适应能力，并压
+制新兴企业带来的竞争压力。在博客、SNS等领域，新兴企业启动市场需求
+之后，新浪、搜狐和网易等传统互联网优势企业纷纷推出了相应的服务来加
+强对用户的控制，从而形成了一批业务覆盖各个领域的大型互联网企业。由
+此，市场中将逐渐形成以专业化新兴企业与多元化优势企业之间的竞争。
+
+②资本运作帮助企业提升和扩张
+资本运作一直是数字内容企业竞争和发展的重要支撑。2008年的金融
+危机，可能在一定程度上对企业资本运作的频率和相关金额产生一定负面影
+响，但从金融市场的发展趋势来看，内容产业恰恰是充满更多机会的领域，
+也将是资本市场未来关注的焦点，预计未来几年，一批实力较强的数字内容
+企业将会通过收购、上市、合并等资本运作手段，实现自身规模的扩张，从
+而会诞生一批整合了多元化服务资源，能够提供跨平台、跨业务领域服务的
+巨型互联网企业。
+
+③电信运营商加大内容服务投入力度
+电信重组之后，三大运营商企业实力的差距在一定程度上有所缩小，从
+而有助于形成在全业务领域的充分竞争，在面临宽带、移动、3G以及IPTV的
+多方面机会之下，加强对内容的涉足和控制将会成为运营商们未来竞争的焦
+点。从目前来看，运营商参与互联网和移动互联网内容开发和运营的意图已
+经非常明显。未来，在新的市场环境下，电信运营商将会将发展内容产业提
+升到战略性的高度，并加大对内容创新的投入。
+
+（4）产业递进与变迁
+①产业细分领域之间横向合作需求不断提升
+从数字内容产业用户需求特征看，多元化、个性化、定制化、交互式成
+为用户最为关注的四大体验，而产业链各细分领域的企业之间存在着相互融
+合渗透的关系，企业间需要加强合作交流，相互取长补短。
+
+从数字内容产业的细分市场看，互联网与移动业务之间的融合已经非常
+明显，而且伴随数字出版、IPTV、数字电视等产业的发展，这些内容与互联
+网以及移动互联网之间的相互影响也将使得内容产业边界更加模糊，内容逐
+渐形成跨平台、跨领域运营的模式。
+
+在细分领域的内部不同业务之间的整合也成为提升产业发展的重要趋
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+势，在互联网方面，电子商务、搜索、Web2.0等应用整合趋势明显，对传统
+门户已经形成冲击，百度、阿里巴巴等企业均不同程度地将搜索与电子商务
+结合发展，Google等企业则将Web2.0与搜索结合，不断推出更加个性化的服
+务。由此可见，各细分领域的优势企业间也需要加强合作交流。
+
+②网络运营商和内容运营商向产业链上下游纵向延伸
+从产业链上下游的角度来看，随着电信重组逐步引发电信运营商之间的
+竞争加剧，围绕内容运营的竞争将会成为运营商们竞争的核心。而且从运营
+商在产业链所处的关键地位来看，它们一方面将会逐渐向产业链上游的内容
+运营和内容创造环节扩张，另一方面，它们会承担产业链资源整合的角色，
+通过合作、并购等方式来整合内容企业的资源。
+
+一些具有较强实力的内容运营商，例如腾讯、新浪、网易等等，它们
+一方面会逐渐从目前所处的内容运营环节上升到对内容源头的掌控，另一方
+面，会通过与电信运营商的合作向下游用户端延伸。
+
+③龙头企业主导竞争格局，成为区域产业发展风向标
+从全球数字内容产业发展来看，各个细分领域的市场竞争特点均遵循
+二八原则，即少数的龙头企业掌握绝大多数的用户及市场份额，而多数的新
+兴企业则需要争食剩余的蛋糕。这种以龙头企业主导竞争格局的局面仍将长
+期存在。
+
+产业龙头企业利用充足资源优势，研发新产品与新应用，并大力推向市
+场，主导市场发展方向，因此龙头企业位于产业链的高端位置，成为市场变革
+的风向标。例如，Google的任何一个细小的产品推出都会成为行业内的关注焦
+点和仿效对象；诺基亚的业务转型被视为是无线互联网市场崛起的重要标志。
+
+为提高创新效率，龙头企业的发展离不开与新兴企业的业务合作，而
+且调研结果表明，数字内容产业内部合作仍具有一定的地区效应，龙头企业
+所在地周边的合作机会更加丰富，这使得该地区更容易成为投融资机构的关
+注重点，从而起到带动区域数字内容产业发展的作用。例如，在杭州周边地
+区，围绕阿里巴巴形成了整体中小企业电子商务加速发展的氛围；而在广
+州、深圳地区，网易和腾讯成为引导产业发展的重要力量。
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+（5）产业支撑体系
+①政策有效引导产业发展，带动区域经济升级
+现代信息服务正在加速对传统产业的渗透和影响，数字内容产业作为信
+息产业的重要组成部分，对传统产业的结构升级和业务创新也起到了支持作
+用，传统产业对数字化技术、对信息技术的应用程度都影响着传统产业的提
+升和发展，而传统产业对数字内容的应用，更加影响着产业升级的方向，从
+而影响区域整体经济的布局。
+
+大力发展数字内容产业对带动区域经济升级有着重要的作用。数字内
+容产业的发展对市场环境、政策框架、管理模式等制度环境提出了更高的要
+求。在产业管理方面，要求建立并适时调整政府部门和职能，通过制订产业
+发展战略、政策法规、实施重大工程、营造环境等措施推动产业发展，充分
+发挥市场机制和政府调节的作用，更加有效地配置国内外的各种资源，推动
+产业发展。
+
+②投融资体系建设为产业发展提供必要支持
+数字内容产业是一个高风险、高投入的行业，因此也对资本市场产生了
+严重的依赖。从国内外数字内容产业的发展历程来看，投资机构在其中扮演
+了重要的角色。尤其在产业概念不断创新的今天，很多新兴服务还处于市场
+培育期，尽管拥有良好的远期市场空间，但短期缺少充足的盈利模式，大量
+的风险投资机构、天使投资人成为扶持新兴企业成长、推动新兴商业模式创
+新的重要动力。而对于一些已经取得一定成功的数字内容企业，纷纷要求上
+市融资，来获得更加充裕资金，以满足自身不断创新发展的需要。
+
+随着产业发展的日趋成熟，投资机构的投资策略不断进行调整，企业对
+融资渠道和环境也呈现出多层次的需求，因此，在投融资方面，不仅需要信
+贷、证券等金融工具，更需要建立一个多元化、多层次、高效的适应产业发
+展的投融资体制。
+
+③人才支撑体系建设是产业创新的动力来源
+数字内容产业的不断创新和发展需要完善的人才体系作为支撑。人才体
+系包括人才培养体系、人才培训教育体系，还包括人才的吸收引进机制，而
+企业对人才的需求也呈现出较为丰富的层次，技术研发人才、管理人才、营
+销人才以及投融资人才都成为产业、企业急需的人才类型。在数字内容新概
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+念、新商业模式不断涌现的今天，为了保障产业能够具备持续创新的动力，
+就需要建成人才结构完善、人才层次丰富且人才储备充足的人才体系。
+
+④园区建设将成为产业发展的载体和根本
+从国际范围的成功经验来看，美、日、韩等互联网及增值服务发达国家
+的产业集群也都是从园区培育、发展、壮大起来的。园区经济的根本特征是
+大量企业在一定区域的集中，而园区的发展有赖于园内企业的产业关联性或
+者业务关联所形成的协同效应。搞好园区建设，必须根据园区自身的综合优
+势和独特优势，合理选择和布局园区所要发展的产业，确定主导产业、相关
+产业和配套产业，形成有效协同的产业链。以此为基础，园区内企业依据产
+业链的分工以及因长期合作所建立的信任基础，形成了既有相互竞争，又有
+资源共享和专业分工所形成的协作，从而进一步形成相关的产业集群。
+
+7.2.1.4　中国数字内容产业链结构分析
+（1）中国数字内容产业链结构
+完整的数字内容产业链由五大环节组成，即内容素材、信息内容、网络
+服务、播放载体以及信息终端。
+内容素材为下游信息内容提供基本素材，包括绘图、影像、音乐以及出
+版四类，主要取材于教育、文化、娱乐以及艺术等领域。
+信息内容是在内容素材基础上，综合运用动画、图像、视频等数字化处
+理技术对内容素材进行整合、集成、包装。信息内容由通常所说的内容提供
+商来提供，他们对获得的内容素材进行加工，在很多情况下，他们本身也是
+内容素材的创作者。
+
+网络服务包括通过无线或有线等方式进行网络增值、内容供应和电子商
+务等服务。通过网络运营服务将信息内容提供给广大用户和消费者，是数字
+内容价值的最终实现渠道，因此网络服务也是数字内容产业中最为重要的一
+个环节。
+
+传播载体在数字内容产业链中起到支持保障和润滑链接作用，主要包括
+Internet、有线电视、移动通信、数字广播等，其中Internet和移动通信是目前
+最主要的传播载体。
+
+信息终端是数字内容最终展现在用户面前的重要形式，目前的信息终端
+主要包括PC/NB、PDA、电视机和移动电话等。
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+从整体上看，内容素材在整条数字内容产业链上居于次要地位，市场发
+展仍不规范，盈利能力弱。
+
+②信息内容：产业链重要环节，盈利能力逐步提升
+信息内容提供商是产业链的重要环节，包括CNN、Sina等新闻/娱乐等门
+户网站、数字影音内容制作商、软件开发商、数字出版商、游戏动漫制作企
+业等，他们将内容素材进行数字化整合、集成和包装，再通过网络运营提供
+给用户和消费者。
+
+从具体运作来看，内容提供商不直接面对最终消费者，其收入主要来源
+于内容的授权/版权收入以及与内容运营商进行收入分成。因此，从一定程度
+上讲，内容提供商缺乏对市场的直接控制权，处于价值链中的被动地位，能
+够获得的业务附加值相对有限，而且在一些领域中，内容提供商的产品和服
+务差异化很小，市场竞争相当激烈，因此，内容提供商的盈利水平受到一定
+限制。
+
+从产业链的发展趋势来看，为了能够更好地满足用户需求，内容提供商
+逐步向运营环节渗透，成为综合性的内容服务企业，从而能够直接面对用户需
+求，逐步拥有较强的品牌影响力以及对市场的主动权，提升自身的盈利能力。
+
+③网络服务规模和实力差距较大
+网络服务是产业链的核心环节，盈利水平较高。数字内容通过网络服
+务商直接提供给用户，是数字内容价值实现的关键环节，是产业链的核心环
+节。网络服务的提供商包括大量的ISP和SP，规模和实力差距较大。
+
+在很多情况下，信息内容提供商也提供网络服务，例如门户网站在提供
+大量信息资讯的同时，也直接提供网络服务；在网络游戏领域里，也有大批
+游戏开发商直接从事游戏运营等。
+
+网络服务提供商在大多数数字内容领域中，位于价值链的核心地位，控
+制着盈利分配。因此，总体上看，网络服务的增值空间很高，相对而言盈利
+水平较高。
+
+④传播载体存在进入壁垒，盈利水平较高
+在传播载体方面，由于政策、资金等方面的原因，目前在Internet、有线
+电视、移动通信、数字广播等载体的运营方面，存在一定的进入壁垒，例如
+在Internet、移动通信方面，主要由中国电信、中国移动、中国联通等几大电
+
+
+0数字内容产业成长机理及发展策略研究 
+
+
+信运营控制。受到政策、资金壁垒的保护，各大传播载体和运营商对产业具
+有较强的控制权，居于绝对主导地位，收益水平很高。从发展趋势上看，传
+播载体的运营商们也在逐步向数字内容的生产和运营领域渗透，甚至形成垄
+断性的优势，例如手机定位服务等。
+
+⑤信息终端更新频率不断加快
+信息终端竞争激烈，产品创新是盈利保障。在信息终端方面，在产业发
+展初期，由于存在一定技术和规模壁垒，企业数量较少，市场竞争较弱，盈
+利空间较大。但近几年来，随着新进厂商增多以及企业生产规模的扩大，市
+场竞争日趋激烈，尤其在手机、电脑、笔记本、电视机等相对成熟的终端领
+域，厂商大多开始陷入价格战，盈利水平逐渐降低。
+
+而从另一方面看，由于用户对内容需求和应用的逐步升级，也带动了终
+端产品的加速创新，用户对终端更新频率的不断加快，也为厂商提供了更多
+发展空间，而企业的创新能力则是能够占领用户市场的关键。
+
+（2）中国数字内容产业链演进趋势
+一般来说，产业生命周期可以分为四个阶段：初创期、成长期、成熟期
+和衰退期。产业生命周期主要特征如表7.21所示。
+
+表7.21　产业生命周期主要特征列表
+
+初创期成长期成熟期衰退期
+市场需求狭小迅速增长缓慢增长或停滞缩小
+竞争者少数数目增加许多对手数目减少
+顾客创新的顾客市场大众市场大众延迟的买者
+资金流量负的适度的高的低的
+利润状况高风险低收益高风险高收益低风险低收益高风险低收益
+
+数据来源：CCID 2009.01。
+
+根据对数字内容产业整体发展状况，以及重点细分行业的分析，对应产
+业生命周期的特征，给出产业目前所处的生命周期阶段，有助于进一步了解
+产业发展特性和掌握未来的发展趋势。
+
+从产业整体发展情况来看，具备以下特征：
+
+①产业呈规模化增长
+经过多年的市场需求培育，目前中国数字内容产业已经具备了良好的用
+户基础，加上产业链各环节的协作大大加强，产业规模处于快速稳步增长的
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+（3）数字版权保护、信息安全、行业标准等产业的发展环境需完善
+在网络环境下，数字版权侵权更加容易，而保护却大多比一般的知识产
+权保护难度更大，数字版权的保护落后制约了我国数字内容产业的壮大。在
+我国，一是数字版权侵权的盗版问题严重，而且维权困难；二是保护的措施
+缺乏，数字化作品难以像印刷时代那样对各项的权利实现有效控制。数字影
+音、电子图书等涉及数字版权的领域，由于知识产权难以得到保护，在国内
+发展缓慢[1]。
+
+信息安全的保障体系不够健全。2009年6月30日发布的《第24次中国互联
+网络发展状况统计报告》显示，半年内有1.95亿网民上网时遇到过病毒和木马
+的攻击，1.1亿网民遇到过账号或密码被盗的问题。网络安全隐患使网民对互
+联网的信任度下降，仅有29.2%的网民认为网上交易是安全的，这制约了电子
+商务、网络支付等交易应用的发展。
+
+在数字内容资源的制作过程中，缺少统一的技术标准和行业规范，存在
+系统兼容性、互联互通性不够的问题，增加了信息资源共享的难度。目前，
+电子图书存储格式达20多种，阅读不同标准格式的电子图书需要不同的阅读
+软件，不同标准的电子图书也不能实现统一检索。
+
+（4）网络基础的设施运营监管不到位
+在网络增值服务的领域，网络运营商利用对网络的垄断地位控制内容传
+输，一些网络增值服务企业创造出新的商业模式后，电信运营商常将新的商
+业模式“拷贝”给利益相关者，抢夺市场，导致无序和不正当竞争。
+
+（5）数字内容资产的评价机制缺乏，企业融资困难
+数字内容企业大多以中小企业为主，资产以无形资产和人力资源为主，
+缺少合理的价值评估机制和方法，难以获得抵押贷款。目前，除网络游戏的
+企业因其利润率高较易获得资金外，其他类型的数字内容企业融资都比较困
+难。即使是数字动漫领先的企业如广东原创动力公司，在省政府列为重点支
+持的贷款企业后，公司办理贷款时，银行要求担保公司担保，且利息也比正
+常贷款高，公司只得最终选择放弃银行贷款。
+
+[1]吉林省社会科学基金项目，我国政府网站信息构建发展状况研究，2007.4.
+
+数字内容产业成长机理及发展策略研究 
+
+
+7.3　中国数字内容产业链的成长模式
+7.3.1　内容数字化的发展模式
+（1）传统纸质内容的数字化
+内容产业从纸质印刷版本走向数字化，这也是目前中国数字内容产业
+链发展的模式之一。一方面是近些年来，计算机、互联网以及学习机、电子
+书、物联网终端等消费电子设备的兴起带来的数字内容产业的发展。传统数
+字内容产业从创作、编辑到出版销售都离不开人工的渠道，而现有的数字内
+容产业的发展，则完全可能离开原有途径而有所突破。电子图书馆与传统内
+容的数字化是近些年来数字内容发展的一个重要组成部分。而类似电子词
+典、工具书、文学作品的网络化也是近年来发展的一个潮流。包括文字、视
+频、图片、影视动漫等多媒体内容在内的传统内容的数字化，仍是当今国内
+数字内容产业发展中的一种重要内容成长模式。
+
+（2）新生与发展起来的数字内容
+移动通信、互联网以及与数字技术等相关的新生数字内容的发展则是数
+字内容产业成长的另外一个重要模式。近年来，随着互联网的发展，逐渐创
+新的网络游戏、网络广告、搜索引擎、电子商务、网络社区、即时通讯等正
+在为互联网注入更多丰富的内容增长空间，这些对于数字内容产业而言都是
+新生的互联网数字内容，电视广播的IP化则带来了三网融合的新生数字内容
+增长空间。而随着近年来全球以及国内的2G、3G以及4G移动通信技术的发
+展，短信、彩铃、彩信、移动音乐、手机游戏、手机电视、手机阅读等的发
+展则通过移动通信平台发展起来，成为规模庞大的数字内容产业，移动通信
+的宽带互联网化发展则给原有的互联网数字内容与移动通信数字内容的融合
+创新提供了富有想象力的发展空间。截至2010年，移动互联网、智能手机、
+平板电脑、应用商店、物联网等方面的发展则为数字内容发展带来了更为广
+阔的释放空间，前几项技术有利于将更多人、更加开放地融入数字内容发展
+的体系当中，而后者则意味着更为广泛的产品信息以及与产品相关的位置、
+参数、价格、质量、服务、物流等相关内容将被引入数字内容发展的规划，
+从而令数字内容在规模方面得以成倍地增长。
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+7.3.2　数字内容产业的商业模式
+（1）商务服务模式
+中国数字内容产业的商务服务模式还处于其发展的成长阶段，商务服务
+模式是指数字内容以传统的信息化内容、互联网服务内容、移动通信内容以
+及其他融合通信内容为载体提供服务的商业模式。比如，网络教育、网络广
+告、电子商务、搜索引擎、视频会议、在线会议、应用商店、移动商务、移
+动导航等。在这些商业模式之下，可以帮助用户实现不同类型的商业应用，
+以信息化的方式实现特定的商业应用价值。除去原有的移动信息化应用之
+外，目前在国内的商业应用模式整体上还处于规模相对较小的阶段上，随着
+3G及移动通信技术、移动互联网技术、传感网、物联网技术等的日益发展，
+商务服务模式的数字内容产业发展空间依然很大。
+
+（2）个人应用与娱乐模式
+国内的数字内容产业商业模式仍是以个人应用与娱乐模式为主体的，
+各种面向个人的移动通信数字内容、互联网数字内容、影视动漫、三网融合
+型应用数字内容的商业模式目前大都是以娱乐模式存在的，都是以满足个人
+应用与娱乐模式为主体的。从目前国内的数字出版、移动通信应用、影视动
+漫、互联网应用来看，大多都是以个人应用与娱乐消费为主导的，研究数据
+表明，个人应用与娱乐模式仍是目前数字内容产业商业模式的主导。分析认
+为，未来5～10年内，个人应用与娱乐模式仍将是构成数字内容产业商业模式
+的最为重要的板块。
+
+7.3.3　数字内容产业链主导模式
+（1）运营商主导
+总体来看，目前国内的数字内容产业还是以移动数字内容为最重要的组
+成部分，加之以三大运营商在移动互联网、手机阅读、三网融合业务以及物
+联网发展过程中的主导作用，运营商主导的数字内容产业在今后多年内仍将
+是今后中国数字内容产业链主导模式。考虑到中国三大运营商的整体实力以
+及国内3G及后3G发展背景下，运营商对于数字内容产业的倚重，运营商主导
+的产业链模式也具备其重要的物质基础。
+
+（2）互联网厂商主导
+互联网主导的数字内容产业链模式仍是最为重要的模式之一。包括新
+
+数字内容产业成长机理及发展策略研究 
+
+
+浪、搜狐、网易与腾讯等互联网企业已经在互联网门户领域及数字内容领域
+取得了重要的位置，而百度等则在搜索引擎等领域建立了领先地位，盛大、
+巨人等则在网络娱乐领域占据重要位置，由于互联网企业在数字内容发展领
+域的得天独厚的优势，互联网厂商主导的数字内容产业链模式在中国也具备
+一定的基础。
+
+（3）其他产业模式
+其他可能的产业链主导模式有专业数字内容厂商主导与设备厂商主导
+等。总体来看，目前在中国产生专业的数字内容厂商主导与设备厂商主导的
+模式的基础还不具备。因而，其他产业链模式只能是处于附属地位的。应该
+说在传统内容向着数字内容转化的这种数字内容产业成长模式之下，专业的
+数字内容厂商和设备厂商还是能在产业链发展中发挥重要作用甚至是主导作
+用的，但是从整体上来看，这种成长模式只能是居于辅助地位。
+
+7.4　中国发展数字内容产业的政策建议
+综合以上内容，作者认为中国的数字内容产业要想健康、稳定地发展，
+需做以下内容的调整与规划。
+
+7.4.1　对政府的建议
+（1）园区和产业基地有利于发展区域数字内容产业
+数字内容产业发展需要有良好的产业环境，因此以园区或产业基地的
+发展来发展数字内容产业，有助于聚集和吸引一批优秀的企业，同时能够更
+好地为企业提供支持和服务，并调动企业的积极性。从而实现组织社会各方
+力量，集成各方优势资源，积极推动数字内容产业及产业链内各环节合作创
+新，达到基地内企业资源的有效配置、信息共享、技术合作的目的，以园区
+和基地为平台尤其有助于促进原创中小企业的发展。
+
+园区和基地的模式有助于形成方法和完善产业价值链，形成相互带动的
+作用，并产生集群效应。在园区规划方面，应当充分与当地的资源相结合，
+发挥比较优势，形成产业集群。选择具有较强外包能力和发展潜力的基地，
+加快建立数字内容产业服务外包基地，形成与原创相互支撑，相互借鉴，相
+互促进的数字内容产业配套基地。此外，要确保产业基地能否发挥应有的作
+用，需要一套完善的管理制度来保障。
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+由于政府管理部门主观意识强烈，缺乏沟通反馈；执行力度与监督不
+够，资源支持尚未普及；政策宣传面过窄，份额大幅的基地内企业感受度不
+强等原因，产业基地并未发挥其应有的作用。建议相关政府部门从以下几个
+方面来完善对产业基地的管理工作，明确基地的管理机构，基地的管理应该
+由企业、产业专家、政府机构多方组成的第三方机构来负责，做到管理者与
+运维者有效区分；建立完善的准入机制和大幅度有效的退出机制，充分利用
+基地的现有资源，不断整合产业链内不同环节企业的资源优势，达到基地功
+能聚合优势的目的，同时也为其他的企业提供新的空间与资源，促进产业基
+地的良性发展；完善基地运营方、企业及政府之间的沟通渠道，提高工作效
+率，切实为企业服务。
+
+（2）数字内容产业发展需要良好的人才环境
+数字内容产业链较长，产业环节复杂，需要有大量复合型和多元化人才
+参与，保障产业的健康、快速发展。目前，无论在互联网数字内容、移动数
+字内容还是在影音动漫等领域，人才供给的缺口呈现出逐渐扩大的趋势，主
+要表现在两个方面：一方面，现有人才供给的整体数量不足，由于数字内容
+产业在中国呈现出加速成长的势头，迅速扩大的市场规模也带来了对从业人
+员需求的迅速增加，而当前我国对数字内容相关人才的培养尚处起步期，相
+应的人才教育培训体系仍有待完善，一时间无法提供足够数量的人才；人才
+的素质无法达到企业的要求，反而当前企业面临着内部需求迅速提升，外部
+市场竞争压力加大的发展环境，无论从产品、服务还是技术研发，都对企业
+提出了很高的要求，尤其在内容开发领域，企业必须从文化内容创新和创意
+方面寻求突破，而现有的人才培训主要围绕着基础技能，对于高端创意型融
+入人才的培育和发掘仍处于摸索阶段。人才数量和素质的不足，成为制约数
+字内容产业提升的核心问题。
+
+建议地方政府必须加快制定人才培养相应鼓励政策，提高服务力度。
+首先加强对学校及科研机构内动漫游戏人才的培养，在高校设立动漫游戏专
+业，鼓励高校通过外聘具有丰富产业经验的创意人才、管理人才来提高教学
+质量，并且鼓励高校学生向复合型人才发展；鼓励社会开办动漫游戏人才培
+训学校，通过整合社会资源来培训专业人才。通过政府与企业合作出资解决
+中小企业人才培养培训问题，快速提高动漫游戏企业内部员工能力。
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+（3）建立健全产业投融资体系
+政府应当充分借鉴国内外先进经验，积极发展产业投资基金和政府引导
+基金，逐步形成以政府投入为引导、企业投入为主体、社会资金广泛参与的
+新型投融资体制，促进资金的有效投入和良性循环。
+
+从政府资金引导方面，应当体现“重点倾斜”的原则，根据区域战略布
+局和发展规划，有侧重地利用政府资金提升和优化产业基础设施，充实和完
+善产业支撑服务体系，尤其重点投向关键技术平台的研发。除此之外，政府
+还应充分发挥行业协会作用，形成涵盖企业、政府、协会、研究院所以及投
+资机构在内的产业互动氛围，推动企业间、企业与投资机构间的定期项目交
+流。例如，由政府出面联合金融、财税等部门，组织特定企业与行业的交流
+会，了解需求。
+
+政府应当注重对国内外金融投资机构，尤其是风险投资、天使投资的
+引进，主要从两个方面出发：一是提升投资的硬环境因素，包括自然条件、
+环境状况、基础设施、经济结构和接近市场等；二是完善开放政策、政府效
+率、社会治安、金融、技术与管理、教育与人力资本、立法与司法状况等软
+环境因素。地方政府应以投资者为中心，通过完善投资硬环境和软环境，吸
+引国外、国内投资机构的进驻，从而进一步丰富产业企业的融资渠道政策。
+
+（4）加强产业引导，制定数字内容产业发展激励
+加强对数字内容产业的宏观引导和规范，努力创造日益广阔、充满活力
+的市场发展空间，规范诸如资质认证等环境，从根本上为吸引产业投资、促
+进企业持续健康发展奠定基础。政府应当加强推动“三网融合”，全面推动
+电子政务、电子商务、企业信息化和社会信息化，刺激全社会对数字内容的
+应用和需求，拉动产业市场的迅速拓展。
+
+知识产权局、工商局、新闻出版等相关政府部门要切实制定措施，密切
+配合，加强数字内容产品的专利、商标、版权、著作权、商业秘密等的保护
+制度，坚决打击各种侵权和盗版行为，鼓励企业建立创新机制，形成核心竞
+争力，进而规范产业市场秩序。
+
+政府需要制定适度的鼓励政策，激励企业大幅度地发展数字内容产业。
+一方面，应当适当加大财政资金投入，用于鼓励社会投资、促进产业集聚、
+扶优扶强企业、激励技术创新、加快人才培养和引进及优化市场环境等方
+
+
+第７章　中国数字内容产业发展状况及对策研究 
+
+
+面；另一方面，进一步系统地研究制定产业发展政策，引导国内外资源向本
+地产业有效汇聚，加速产业的发展。
+
+7.4.2　对数字内容企业的建议
+（1）把握融合趋势，创新产品和服务
+基于用户需求的不断细分、整合是产业发展的动力。从互联网产业的发
+展趋势上看，多种应用的融合正在成为一种方向。专业化的互联网服务提供
+商们正在将触角伸向各种互联网应用。对于WEB2.0这一新兴的概念而言，也
+同样存在这种规律。在WEB2.0概念兴起的时候，企业主要专注于某一细分领
+域的发展，当企业和市场发展到一定规模时，用户对于多种服务的需求，促
+使各细分领域的逐渐融合并形成新的市场。
+
+随着移动网络速度和覆盖范围的提高，互联网内容和单位移动内容将会
+呈现加速融合的趋势，在这一过程中，移动内容的成功盈利模式和经验都会
+被互联网企业所借鉴，从而创新出新的商业模式。适时制定跨平台的产品服
+务策略有利于提升自身对市场变化的适应能力，提升竞争实力。
+
+数字电视、动漫等内容产品，都已经逐步形成了一定的盈利模式，未来
+随着数字内容产业各领域之间的相互渗透和影响，将会诞生更多盈利空间，
+因此对于企业而言应当对多领域、跨平台的融合性业务和服务保持高度关
+注，注重对成功经验的总结和盈利模式的创新。
+
+（2）移动数字内容产业机会与风险并存
+移动与互联网的融合将会进一步加快，从而带来市场格局、商业模式、
+服务模式等方面的彻底变革，因此，对于企业而言，移动互联网业务的探索
+已经启动，应当保持对移动数字内容的关注，并制定有效的产品研发策略，
+以求获取更多的发展空间。
+
+互联网企业应该密切注视移动运营商的动向。中国移动在2007年大规模
+地推广飞信业务已经在一定程度上对即时通讯市场格局带来了影响，而这仅
+仅是中国移动在增值服务布局中的第一步而已，接下来移动必然会加快布局
+的脚步，整合更多服务。从目前来看，构建移动互联网业务平台，探索对传
+统互联网业务的整合将会是电信重组之后各运营商发展的一个重心。互联网
+企业应当在运营商加速整合、布局的过程中，寻求适当的合作切入点，“借
+力打力”，实现自身业务规模的提升。同时，应当注重塑造自身核心竞争
+
+
+0数字内容产业成长机理及发展策略研究 
+
+
+力，这也是持续发展的必须。
+
+3G牌照发放尽管具体时间尚未确定，但必然将会在2009年初有所结论，
+而且运营商已经开始在进行3G运营的测试和准备，在这一过程中，跨互联
+网、固定电话网以及准移动通信网络的融合性服务将会成为运营商们研发的
+重点。对于中国电信、中国联通等互联网运营经验相对欠缺的企业而言，
+必然需要借助和依赖互联网企业的力量来迅速提升自身在增值服务方面的能
+力。
+
+在移动数字内容领域，受到移动通信运营商的严格监控，因此政策性风
+险依然存在。未来，移动运营商对于个人的数字内容和移动增值服务的监管
+力度仍会持续加强，因此，企业应当有所准备应对可能面临的一系列问题和
+风险。
+
+7.5　本章小结
+本章分析了中国数字内容产业结构与影响因素；概述了中国数字内容产
+业发展状况及产业发展中存在的问题；从内容数字化的发展模式、数字内容
+产业的商业模式、数字内容产业链主导模式三个角度论述了中国数字内容产
+业链的成长模式；最后提出了中国数字内容产业的发展策略与对策建议。
+
+
+第８章　结语与展望 
+
+
+第８章　结语与展望
+
+
+8.1　全文结论
+本文以全球数字内容产业的成长状况为研究背景，深入阐述和总结了
+数字内容产业的内涵界定，国内外数字内容产业的发展规模、速度和产业细
+分市场格局；融合多门学科的理论知识体系和多种研究方法，以理论提出问
+题、模型分析问题、实证解决问题的研究思路研究数字内容产业成长机理及
+发展策略。本文的主要观点与研究结论如下：
+
+（1）构建了数字内容产业的理论研究基础
+数字内容产业在主观形式、客观内容、组织复杂等因素的共同作用下成
+长和发展着，相关的理论是研究的重要基础，包括信息资源管理、信息产业
+的运行机制、产业链、产业集群、产业经济学、区域经济学和价值链理论。
+在这些理论的指导下，对数字内容产业界定了概念内涵，明晰了机理模型，
+制定了发展策略。
+
+（2）总结了数字内容产业的成长过程、环境和市场特征
+数字内容产业的成长历程大体上经历了产业形成、成长和成型三个阶段，
+从产业分布、产业发展模式、竞争特点和产业投资，理论联系实际地阐述了数
+字内容产业的成长特点。从政策、经济、社会、技术四个层面概述了数字内容
+产业的成长环境，分析了产业成长的有利和不利因素。综合论述了国内外产业
+区域分布、政府支撑产业发展模式、竞争和盈利模式的市场特征。
+
+（3）基于产业集群背景下的数字内容产业形成机理
+数字内容产业集群与产业集聚是两个不同的相关概念，在分析数字内容
+产业集聚原因的基础上，研究了数字内容产业集群的形成过程、影响因素和
+集聚机理。得出了数字内容企业通过人才、技术、资本和市场的因果反馈作
+用，为数字内容产业集聚的发展提供支持，高水平的相互作用是数字内容产
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+业集聚的主要推动力的结论。
+
+（4）探讨了数字内容产业链的成长机理及模型
+结合全球数字内容产业链的成长现状，从产业链的构成、成长途径与条
+件、成长动因与机理以及成长模型等方面来研究数字内容产业链成长的基本
+规律，得出数字内容产业链的成长来自交易效率、劳动生产效率、专业化分
+工、社会资本积累能力、交易信息传递水平，甚至隐性知识传递和技术溢出
+等多种因素的共同作用。数字内容产业链的成长是一个系统而复杂的过程。
+
+（5）提出了数字内容产业发展途径及其策略
+全球价值链理论为数字内容产业的升级方式和途径提供了有效的分析工
+具。阐释了数字内容产业的生命曲线反映了数字内容产业的发展程度随时间
+的变化规律。提出了延伸与整合两种发展策略，即纵向延伸策略、“微笑曲
+线”策略、水平整合和垂直整合策略。从以PEST环境推进数字内容产业升级
+和宏观、中观、微观数字内容产业升级的可选途径，总结了中国数字内容产
+业的发展途径及发展策略。
+
+（6）分析了中国数字内容产业的发展状况与策略
+通过全面分析，总结了中国数字内容产业的结构、影响因素、产业发展
+状况，发现了产业发展中存在的问题。采集、应用了国内权威统计数据，提
+升了研究的说服力和可信度。从内容数字化的发展模式、数字内容产业的商
+业模式、数字内容产业链主导模式三个角度论述了中国数字内容产业链的成
+长模式。最后提出了中国数字内容产业的对策建议。
+
+8.2　研究展望
+本文研究了数字内容产业成长机理及发展策略，揭示了数字内容产业形
+成、发展的历程和特点，构建了数字产业链的成长模型和成长模式，提出了
+中国数字内容产业的成长对策。本研究是一项富有开创性的研究工作，由于
+时间的限制，文中某些内容的表述还有待进一步推敲。随着研究的深入，我
+们发现还存在许多问题尚未解决，有待于进一步的研究，下面对将来的进一
+步的研究工作进行简单阐述。
+
+（1）数字内容产业链的构成
+由于国内外学术界对于产业链的涵义至今未达成共识，因此对于数字内
+
+第８章　结语与展望 
+
+
+容产业链的概念也未达成统一认识。数字内容产业是一个由生产、传输、销
+售数字内容产品和服务的企业群形成的产业链。完整的数字内容产业链的构
+建对分析产业形成和发展策略起到至关重要的作用，本文认为由五大环节组
+成，即内容素材—数字内容—网络服务—集成传输服务—接收终端。
+
+（2）数字内容产业链的成长模型
+本文采用了超边际结构模式分析及模型求解数字内容产业链成长模型的
+方法，取得了一些初步的研究成果。但对于数字内容产业链中的企业如何参
+与分工，采取什么措施提高交易效率和增强企业参与分工的积极性，并在效
+益最大化目标驱动下，如何进一步提高专业化生产能力和产业链的上下游合
+作水平并没有具体描述，这些都是本文下一步需要重点研究的问题。
+
+（3）数字内容产业的成长规律
+数字内容产业是一个巨大的产业群，内涵丰富，伴随着信息技术的快速
+发展，数字内容产业本身又处在不停地发展、分化、整合中，全面把握数字
+内容产业的总体态势，分析总结其发展规律，存在较大的难度。
+
+（4）深入研究国内数字内容产业理论
+与国外相比，国内研究还缺乏创新性和系统性，缺少深入调查和案例分
+析，许多研究成果理论性、原则性较强，可操作性却较弱。国内理论研究还
+要在：①社会主义市场经济与数字内容产业发展；②数字内容产业人才培养
+与教育模式；③数字内容产业与国家信息政策、法规；④数字内容产业中的
+伦理道德研究等方面进一步努力。
+
+
+数字内容产业成长机理及发展策略研究 
+
+
+参考文献
+
+[1]罗海蛟.发展数字内容产业是国家级的战略决策[J].中国信息界，2010
+（3）：25-28.
+[2]彭祝斌.中国电视内容产业链成长研究[D].湖南：湖南大学，2008： 
+13-15.
+[3]雷建军.软化的“媒介”——整合过程中的媒介内涵演变[J].现代传播，2007(1)：54-56.
+[4]李晓鹏，孙建军.现代内容产业及其产业模式探析[J].情报资料工作，2008 (3)：9-13.
+[5] European Commission.In of 2000(1996-1999)，1996.
+[6] OECD.Content As a New Growth Industry.DSTI/ICCR.IE(98)6F/NIAL，1998. 
+[7] Dick Kaser.SIIA’s Global Information Industry Summit：Content Industry 
+Considers Business Models. Information Today[EB/OL]. November 2008： 
+52-53.[2009.7.20 ].www.infotoday.com.
+[8]中共上海市建设和交通工作委员会党校特供信息[EB/OL].[2009-0722]
+http：//www.Um colleg e.com/xxkx/xxkx_text. asp?id=345=345.
+[9] Hsin-Hann Tsai， Hong-Yuh Lee， and Hsiao-Cheng Yu.Developing the 
+Digital Content Industry in Taiwan [EB/OL].2006：60-63. [2009-07-06]. 
+www.interscience.wiley.com.
+[10]周继红.爱尔兰如何促进数字内容产业的发展[J].中国青年科技，2005(9)：40-43. 
+[11] Justin Pearse. Pact is well placed to serve the digital content industry [EB/
+OL].New mediaage 5 march 2009 78-79.[2009-07-20].http：//www.nma. 
+co.uk/.
+[12] 孙国庆.日本内容产业发展分析[J].日本研究，2006(1)：53-56. 
+[13] The Korea Times.Korea to Invest W21 Billion in Digital Contents 
+Industy [EB]. http：//times. Hanko oki.eomjlPage /tech/200502k/ t2005 
+
+参考文献 
+
+
+021417553912350.htm.
+
+[14]中华人民共和国传媒大学广告学院.中华人民共和国数字内容产业
+发展状况研究[EB/O L].[2008-12-30.]http：//www.diyilu.com/news/view 
+/id-116 2009-07-21.
+[15]赖茂生，闫慧.论信息资源产业及其范畴[J].情报科学，2008(4)： 
+481-484.
+[16]胡再华.数字内容产业特征、现状和发展策略研究[D].武汉：华中师范
+大学，2006-05-25:142-147.
+[17]罗海蛟.上海数字内容产业预测与分析[J].中国信息界，2010（1-2）： 
+105 -109.
+[18]王斌，蔡宏波.数字内容产业的内涵、界定及其国际比较[J].财贸经
+济，2010 (02)：110-116.
+[19]张玲，李辉.基于网络结构的信息内容产业集群式发展机理研究[J].情
+报科学，2008（6）：934-938.
+[20]陈婧.国内外企业信息资源管理理论研究进展[J].情报资料工作，2008
+（6）：98-100.
+[21] Carr， Nicholas G. IT Doesn ’t Matter. Harvard Business Review，2003，81(5)：41-50.
+[22] Michael Hammer. Reengineering Work： Don ’t Automate. Havard Business 
+Review，1990(7)：104-111.
+[23]卢泰宏.信息资源管理：新的制高点[J].国外图书情报工作，1992
+（3）：1-6. 
+[24] Mark WMcElroy. 
+The NewKnowledge Management——Complexity， 
+Learning， and Sustainable Innovation. Elsevier Press，2003：133.
+[25] Forest W Horton. Information Resources Management.Englewood Cliff， 
+NJ： Prentice Hall，1985.
+[26] 秦铁辉.企业信息资源管理[M].北京：北京大学出版社，2006：7-8.
+[27] 乌家培.经济信息与信息经济[M].北京：中国经济出版社，1991:34-36.
+[28]郑继芳.现代企业信息资源管理[M].武汉：华中理工大学出版社， 
+1990:83-89. 
+
+数字内容产业成长机理及发展策略研究 
+
+
+[29] 苗东升.系统科学精要[M].北京：中国人民大学出版社，1998:27-34.
+[30]杜栋，蒋亚东.企业信息资源管理[M].北京：北京交通大学出版社， 
+2006:13-32.
+[31] Thomas H Davenport， Laurance Prusak .Information Ecology：Master- 
+ing the Information and Knowledge Environment. Oxford University Press， 
+1997:204-211.
+[32] Bonnie A Nardi， Vicki L O ’Day. Information Ecology： Using Technology 
+with Heart.MITPress，1999:92-94.
+[33] 于晓镭.企业信息生态圈与3ESP模式[J].中国电子商务，2000(17)：50
+[34] 李佳洋，郭东.信息生态学——现代企业信息管理的新模式[J].情报科
+学，2005(5)：673-677.
+[35] 侯涛.面向电子商务的供应链管理研究[D].武汉：武汉大学信息管理学
+院，2004-04-10:63-67.
+[36] Marshall A. Principles of Economics [M]. London： Macmillan Press，
+1920：1877-1890.
+[37] 程宏伟.西部地区资源产业链优化研究[M].成都：西南财经大学出版
+社，2009-02:39-41.
+[38] 茵明杰，刘明宇.产业链整合理论述评[J].产业经济研究，2006(3)： 
+60-67.
+[39] 刘贵富.循环经济的循环模式及结构模型研究[J].工业技术经济，2005
+（4）：9-14.
+[40] 姜霞美.我国信息产业链的结构及其优化的研究[D].湘潭：湘潭大学， 
+2007:73-77.
+[41] 王娟娟.基于产业链的数字信息服务双轨制协调管理研究[D].湘潭：湘
+潭大学，2008：25-28.
+[42] 何雄郎，李国平.产业集群演进机理与区域发展研究[M].北京：中国经
+济出版社，2009：38-43.
+[43] 黎苑楚.信息产业演进规律与发展模式研究[D].武汉：武汉大学，2005：25-27.
+[44] 吴德进.产业集群论[M].北京：社会科学文献出版社，2006，第57页.
+
+参考文献 
+
+
+[45] Growston， Kevin. 
+Information technology and the transformation of 
+industries：Three research perspectives[J].Journal of Strategic Information 
+Systems， March2004，V13，nl：5-28.
+[46] 吕静.文化创意背景下的互联网创新途径[D].重庆：西南政法大学新闻
+传播学院，2009：16-18.
+[47] 海涛.中小企业集群的竞争优势研究[D].长沙：中南大学商学院， 
+2004-06 -30:83-87.
+[48] 程波.我国产业集群可持续发展研究[D].重庆：重庆大学经济与工商管
+理学院，2005-05-01:48-52.
+[49] 蒋东仁.论产业集群及其成长中的政府行为[D].南京：南京理工大学经
+济管理学院，2005-11-01:39-43.
+[50] 陈海涛.中小企业集群的竞争优势研究[D].长沙：中南大学商学
+院,2004-06-30:79-81.
+[51] 朱亚军.论企业集群经济与农村剩余劳动力的转移[D].广西师范大学政
+治与行政学院，2005-05-01:103-105.
+[52] 产业经济学(Industrial Economic 
+网络（http://baike.baidu.com/
+view/283525.htm）.
+[53] 王欣.信息产业发展机理及测度理论与方法研究[D].吉林：吉林大学，2008：58-65.
+[54] 王娟娟.基于产业链的数字信息服务双轨制协调管理研究[D].湘潭：湘
+潭大学管理学院,2008.
+[55] 魏农建.产业经济学[M].上海：上海大学出版社，2008:29-35.
+[56] 惠宁.产业集群的区域经济效应研究[M].北京：中国经济出版社，2008：31-35.
+[57] 孙久文.区域经济学[M].北京：首都经济贸易大学出版社，2010： 
+32-35.
+[58] 陈建斌，郭彦丽.信息经济学[M].北京：清华大学出版社，2010： 
+191-195. 
+[59] Challenges for the European Information Society beyond 2005.Report of 
+Commission of the European Communities，COM(2004)757final Brus 
+
+数字内容产业成长机理及发展策略研究 
+
+
+sels，2004.
+
+[60] 王斌，蔡宏波.数字内容产业的内涵、界定及其国际比较[J].财贸经
+济，2010 (2)：110-116.
+[61] United Nations and World Trade Organization， Manual on Statistics of 
+International Trade in Services， July 2002:254-259.
+[62] 徐涛.中国游戏产业成长分析[D].清华大学新闻与传播学院，2005.6： 
+16-18.
+[63] 侯亮.国内外数字内容产业发展现状分析[J].软件导刊，2007(11)：6-8
+[64] 刘钢.数字内容产业的发展对我国现代化的贡献.第六期中国现代化研
+究论坛论文集[C].北京，2008:97-101.
+[65] 李婧，李凌汉.中国数字内容产业发展中存在的问题及政府调控[J].经
+济研究导刊，2009(4)：21-22.
+[66] 赵顺龙.技术创新联盟与产业发展阶段的匹配及类型选择[J].江海学
+刊，2009（3）：90-96.
+[67] 刘钢.数字内容产业的发展对我国现代化的贡献.第六期中国现代化研
+究论坛论文集[C].北京，2008:104-109. 
+[68] Department of Commerce of US.The Emerging Digital Economy[EB/OL].
+[69] Nick Mooer，Acumen.European Content for the 21 century：A Forecast 
+to 2005[EB]http：www.acumenuk .co.uk/paapers/European_content _visi 
+on.php.
+[70] Chuan-Kai Iee.Cluster Adaptability across Sector and Border：The Case 
+of Taiwan’s Information Technology Industry [D].Berkeley：Univ. of 
+California，2006：1-206.
+[71] 罗海蛟.发展数字内容产业是国家级的战略决策[J].中国信息界，2010(3)：25-28.
+[72] 移动 S N S社区海外标杆案例研究报告 ( 2 0 0 9 )中国市场报
+告网http//www.360 BaoGao.com/2009 -10/ yidong shequhai 
+waibiaogananliyanjBaoGao.html 2009.11.
+[73] 何东.数字内容产业的发展与展望[J].武汉电信网络监控部，2007：5-6
+[74] 高新民.发展在线数字内容产业促进数字网络融合[N].中国电子报，
+
+参考文献 
+
+
+2008 -1-10(4).
+
+[75] 治钢.中国数字内容产业亟待解决三大问题[N].中国经济时报，2007．
+[76] 侯亮.国内外数字内容产业发展现状分析[J].中国电信武汉分公司，2007：6-8.
+[77] 2008年中国数字内容产业及2009 -2013年发展预测研究报告： 
+CCID.2009. 08:114-119. 
+[78] Uday M. 
+Apte，Uday S.Karmarkar， Hiranya K. Nath.Information 
+Services in the U.S.Economy： VALUE，JOBS， AND MANAGEMENT 
+IMPLICATIONS [J]. Caufornia Mangenmen Review，2008：12-30.
+[79] Dae-Je Chin.Broadband and digital content：Creativity， growth and 
+employment [J]. Digtal Content Creation Distribution and Access january，
+2006：30-31.
+[80] 中国数字内容产业发展状况研究(下).中商情报网[2009-7-20].http：// 
+www.askci.com，2009.7.20.
+[81] 李靖，李凌汉.中国数字内容产业发展中存在的问题及政府调控[J].经
+济研究导刊，2009(4)：21-22.
+[82] 毕强，韩洁平，赵娜.信息内容产业的发展机理与发展规律研究[J]．
+情报资料工作，2010.02：20-24.
+[83] 王志敏.从集聚到集群产业集群形成机制分析[J].企业经济，2007(2)： 
+39 -42.
+[84] 刘友金.产业集聚、集群与工程机械工业发展战略[J].求索，2004(8)： 
+4-7.
+[85] 符韶英，徐碧祥.创意产业集群化初探[J].科技管理研究，2006，(5)： 
+54-56.
+[86] 毕强，韩洁平，赵娜.信息内容产业的发展机理与发展规律研究[J]．
+情报资料工作，2010.02：20-24.
+[87] 韩洁平，毕强.数字内容产业研究与发展[J]．情报科学，2009.11： 
+1741-1746.
+[88] 毛利青.创意产业区发展的区域创新网络机制研究[D].同济大学硕士学
+位论文，2007:33-38.
+
+0数字内容产业成长机理及发展策略研究 
+
+
+[89]曹庆.我国信息产业集群形成机制分析[D].华中师范大学硕士论文，2008- 05-01：64-65.
+[90] 韩洁平，毕强，赵娜.信息内容产业集群形成机理分析[J]．情报资料
+工作，2009.11：5-9.
+[91] 王欣.信息产业发展机理及测度理论与方法研究[D].吉林大学博士论
+文，2008-10-01：99-101.
+[92] 林竞君.网络、社会资本与集群生命周期——一个新经济社会学的视
+角[M].上海：复旦大学出版社，2005：85.
+[93] 李怡，陈永飞.信息产业集群的形成机制与演变规律[J].经济问题探
+索，2006 -12-01：53-56.
+[94] 郑宏丹.现代信息产业与创新城市之间的互动机制分析[D].北京交通大
+学硕士论文，2009-06-11：46-48.
+[95] 桂学文，曹庆.我国信息产业集群形成模式的实证分析[J].情报科学，2007- 11-15：26-28.
+[96] 仇保兴发展小企业集群要避免的陷阱——过度竞争所致的“柠檬市
+场”[J]北京大学学报哲学社会科学版，1999(12)：25-29.
+[97] 王朋飞.产业集群发展阶段研究[D].中国海洋大学硕士论文，2006-04-01：55-56.
+[98] 贾明江，蔡继荣.企业集群发展阶段的探讨[J].软科学，2004-12-30： 
+32-33.
+[99] 徐康宁，冯春虎.中国制造业地区性集中程度的实证研究[J].东南大学
+学报哲学社会科学版2003(13)：210-213.
+[100] Han Jieping.The research and progress of global digital content industry， 
+ISBIM 2010：2010 Second International Seminar on Business and 
+Information Management，Wuhan，September 13-14，2010[C]. 
+HongKong：2010：74-79.
+[101] 李晓鹏，孙建军.现代内容产业及其产业模式探析[J].南京大学信息管
+理系，2008(3):8-12.
+[102] 张玲，李辉.基于网络结构的信息内容产业集群式发展机理研究[J].吉
+林大学，2008，26(6):935-938.
+
+参考文献 
+
+
+[103] 何飞鹏.数字内容产业的关键变革[J].港澳台之窗，2009.33-34.
+[104] 孔翠莲，罗思，余臻.下一代网络背景下的数字内容产业发展分析
+［J］．特区经济，2009:12.
+[105] 王文平.产业集群中的知识型企业社会网络：结构演化与复杂性分析
+[M]．科学出版社，2009：137-145．
+[106] 彭祝斌.中国电视内容产业链成长研究[D].湖南大学博士论文，2008-02 -16：45-46. 
+[107] Han Jieping.The Research of Information Content Industry Develop- 
+ing Mechanism and Regularity，ICIII2010：The 2010 International 
+Conference on Energy Sources and Smart Grids Development，Kunming，
+September 10，2010[C].2010:136-147. 
+[108] Han Jieping.The Formation Mechanism Analysis of Information Content 
+Industry Cluster，ISQNM 2010：2010 International Symposium on 
+Quantum，Nano and Micro Technologies，2010[C].NewYork： 
+2010:158-167.
+[109] 李怡.中国信息产业集群发展研究[D].复旦大学博士论文，2005-04-01：35-38.
+[110] 彭祝斌.中国电视内容产业链成长研究，湖南大学博士论文， 
+2008-02-16.
+[111] 刘陆军.数字内容产业特征、现状和发展策略的研究[D].武汉：华中
+师范大学，2006：35-39.
+[112] 邵昶，产业链形成机制研究，中南大学硕士论文 
+， 
+2005-06-30:47-51.
+[113] 赖茂生，闫慧，龙健.论信息资源产业及其范畴[J].情报科学，2008(4)：481-490.
+[114] 罗海蛟.发展数字内容产业是国家级的战略决策[J].中国信息界，2010 
+(03)：25-28.
+[115] 谢友宁，杨海平，金旭虹.数字内容产业发展研究[J].图书情报工作，2010.12：16-19.
+[116] 孔剑明.数字内容产业的典型：时代华纳的盈利模式分析[J].新视觉艺
+
+数字内容产业成长机理及发展策略研究 
+
+
+术，2009.04：102-104.
+
+[117] 杨梅.发达国家内容产业发展概要[J].中国信息界，2010.1 -2： 
+102-104.
+[118] 王娟娟.基于产业链的数字信息服务双轨制协调管理研究.湘潭大学硕
+士论文，2008-05-08:55-59.
+[119] 金方洙.基于无所不在的资讯环境下内容产业的发展与管理[D].浙
+江：浙江大学，2008：36-37. 
+[120] 邵昶.产业链形成机制研究[D].中南大学硕士学位论文，2005:28-29
+[121] 罗伟.汽车产业集群的机理与实证研究.武汉理工大学博士论文， 
+2007-11 -10:37-46.
+[122] 李想.模块化分工条件下网络状产业链的基本构造与运行机制研究.复
+旦大学博士论文，2008-04-10：28-33.
+[123] 何雄浪.专业化分工、网络组织与产业集群形成和发展机理分析[J].宁
+波广播电视大学学报，2006-12-15:83-87. 
+[124] Rosen S. Specialization And Human Capital[J]. Journal of Labor Economics, 
+1983,(1):43-49.
+[125] 张平，王树华．产业结构理论与政策[M]．武汉：武汉大学出版社，2009：63-68.
+[126] 吕炜．产业盈利性——基于复杂适应系统理论的评价模式与实证[M].
+北京：经济科学出版社，2009：16-74.
+[127] 张蕴如．加工贸易与开放式产业结构升级探析[J]．国际经贸探索，2001(3)：30-36.
+[128] Gereffi G．International Trade and lndustrial Upgrading in the Apparel 
+Commodity Chain [J]．In Journal of International Economies，Vol．48，
+No.1，1999：37-70.
+[129] Lee，J.and J.Chen．Dynamic Synergy Creation with Multiple Business 
+Activities：Toward a Competence-based Growth Model for Contract 
+Manufacturers，in R．Sanchez and A. Heene (eds.). Research in 
+Competence-based Management [M]．Advances in Applied Business 
+Strategy Series，Vol，C，JAI Press，2000:587-596.
+
+参考文献 
+
+
+[130] Lee J.and J.Chen．Dynamic Synergy Creation with Multiple Business 
+Activities：Toward a Competence-based Growth Model for Contract Manufacturers，
+in R.Sanchez and A.Heene (eds.)，Research in Competence- 
+based Management [M]，Advances in Applied Business Strategy Series，
+JAI Press，2000:680-712.
+[131] Final Evaluation of the INFO 2000 Programme．[2009-11-1]．http： 
+//europa.eu.int/ comn/ information-society /evaluation/pdf /repor tlinfo 
+2000-en.pdf.
+[132] 赖茂生，闫慧，龙健．论信息资源产业及其范畴[J]．情报科学，2008(4)：481-490.
+[133] 韩洁平．电子商务基础概论[M]. 吉林科技出版社，2009.12：83-89
+[134] 彭祝斌．中国电视内容产业链成长研究[D]．湖南：湖南大学，2008：86-90.
+[135] 杨惠馨，纪玉俊，吕萍．产业链纵向关系与分工制度安排的选择及
+整合[J]．中国工业经济，2007(9)：14-20.
+[136] 刘沙白，中国电视产业与市场化程度研究．[2009-11-5]．http：
+//people. com.cn/GB/ 14677/22114/ 36723/ 2744416．html.
+[137] 史丹，李晓斌．高技术产业发展的影响因素及其数据检验[J]．中国
+工业经济，2004(12)：32-39.
+[138] A．D.钱德勒主编，柳卸林主译．大企业和国民财富[M]．北京：北
+京大学出版社，2004：549-550．
+[139] 韩洁平.电子商务基础概论[M].吉林科技出版社，2009.12：110-112
+[140] 毕强.信息内容产业的发展机理与发展规律研究[J]．情报资料工作，2010.02：68-73.
+[141] 韩洁平.信息内容产业集群形成机理分析[J]．情报资料工作，2009.11：183-188.
+[142]姜宏波，韩洁平.电子商务概论[M].清华大学出版社，2009.02：67-69
+[143] 吉林省教育厅“十一五”社会科学研究项目，吉林省政府网站信息
+构建发展状况研究，2009.11.
+[144] 吉林省社会科学基金项目，我国政府网站信息构建发展状况研究， 
+2007.4. 
+
+数字内容产业成长机理及发展策略研究 
+
+
+攻读博士学位期间取得的主要科研成果
+
+
+一、发表的学术论文
+
+[1] 韩洁平，毕强.数字内容产业研究与发展[J]．情报科学，2009.11： 
+1741-1746.
+[2] 韩洁平，毕强，赵娜.信息内容产业集群形成机理分析[J]．情报资料工
+作，2009.11：5-9.
+[3] 毕强，韩洁平，赵娜.信息内容产业的发展机理与发展规律研究[J]．情
+报资料工作，2010.02：20-24.
+[4] 韩洁平. 
+论我国企业公司制改组后的完善[J]．工业技术经济，2006.12：25-27.
+[5] 华瑶，韩洁平. 企业文化与评价[M]. 吉林人民出版社，2007.01.
+[6] 韩洁平. 模糊综合评价在吉林市政府网站评价中的应用[J]．工业技术经
+济， 2008。09：115-117.
+[7] 韩洁平省级政府网站兼容一致性组合评价方法研究[J]．图书情报工
+作，2010.02：125-129.
+[8] 韩洁平.管理学科人才培养模式的研究[J]．工业技术经济，2010.01： 
+35-39.
+[9] 姜宏波，韩洁平. 电子商务概论[M]. 清华大学出版社，2009.02.
+[10] 韩洁平. 电子商务基础概论[M]. 吉林科技出版社，2009.12. 
+[11 ]Han Jieping.The Application of the Optimal Stopping Theory in E-supply 
+Chain Basic Data Proof reading，ICEE2010：2010 International Conference 
+on E-Business and E-Government，Guangzhou，May 7-9，2010[C]. 
+2010.05. 
+[12] Han Jieping.Customer 
+Lifetime Value Model Based on Customer 
+Satisfaction，ICISE2010：Information Science and Engineering， 
+Hangzhou，Dec 3-5， 2010 [C]. 2010.
+
+攻读博士学位期间取得的主要科研成果 
+
+
+[13] Han Jieping.Customer the Index System’s Establishment of Carbon Emission 
+Warning for Our Country，ESSG 2010：2010 International Conference 
+on Information Management，Innovation Management and Industrial 
+Engineering， Jilin，December 17-19，2010[C]. 2010. 
+[14] Han Jieping.The Research of Information Content Industry Developing 
+Mechanism and Regularity，ICIII2010：The 2010 International Conference 
+on Energy Sources and Smart Grids Development，Kunming，September 
+10，2010[C]. 2010.
+[15] Han Jieping.The research and progress of global digital content industry， 
+ISBIM 2010：2010 Second International Seminar on Business and 
+InformationManagement，Wuhan，September13-14，2010[C]. 
+HongKong：2010：74-79. 
+[16] Han Jieping.The Formation Mechanism Analysis of Information Content 
+Industry Cluster，ISQNM 2010：2010 International Symposium on 
+Quantum，Nano and Micro Technologies，2010[C]. NewYork：2010.
+二、主持与参加的科研项目
+
+[1] 吉林省社会科学基金项目，我国政府网站信息构建发展状况研究，2007.4，主持完成人。
+[2] 吉林省教育厅“十一五”社会科学研究项目，吉林省政府网站信息构
+建发展状况研究，2009.11，主持完成人。
+[3] 吉林省教育厅高校人文社会科学研究项目，吉林省中小型企业信息化
+测评分析与对策研究，2006.07，主要参加人。
+[4] 吉林省教育厅高校人文社会科学研究项目，网络信息资源利用率研
+究，2006.06，主要参加人。
+
+数字内容产业成长机理及发展策略研究 
+
+
+致　谢
+
+首先向我的导师毕强教授表示最诚挚的感谢！在跟从毕老师四年半的时
+间里，毕老师渊博精深的学识水平、创造性的学术思考、严谨朴素的学术态
+度都使我受益良多。论文从选题、研究、撰写、修改到最后的定稿，都凝聚
+着毕老师的心血，而薄薄的论文当中，岂能承载毕老师对我培养的心血。回
+首四年半的学习生活，对毕老师的感激之情又岂是一纸所能倾诉。同时，非
+常感谢贾春华师母四年来对我的关心和帮助，她的关心使我学习和工作充满
+了温馨！
+
+四年读博期间，幸运的我不仅得到了导师的悉心指点，还得到了众多老
+师、朋友的教诲和帮助。
+
+感谢管理学院靖继鹏教授、王萍教授、李贺教授、徐宝祥教授和张向
+先教授给予我学业上的指导，感谢各位教授在论文创作过程中提出的宝贵意
+见，使我从困惑与迷茫中走出。
+
+感谢东北电力大学经济管理学院的于喜民书记、张喜荣院长、李伟副
+院长、张勤副书记、郭一戈、张梅、刘玉宝、张晓等在工作上的支持和学习
+上的关心，感谢同事王欣、崔金栋、孙鸿飞、金锋赫、武慧娟、王燕涛、闫
+晶、丁涛、宋武琪等承担更多的教学任务，使我可以有更多精力投入到论文
+创作当中。
+
+感谢师兄妹黄微、邓君、韩毅、沈涌、崔春，陈凌、赵娜、宋雪雁等，
+感谢他们在我论文完成当中提供的帮助与建议。
+
+感谢我的朋友朱俊红、许琪等，我的学生杨晓龙、丛日杰、樊文燕、李
+季英、魏亚琼、邵丹等，感谢他们在论文创作中给予我的无私帮助！
+
+非常感谢我的父母、公公婆婆、于淑珍大姐和众多亲友，他们对我和女
+
+
+致　谢 
+
+儿无微不至的照顾，解除了我的后顾之忧，使我能够心无旁骛地投入到博士
+论文创作中去。是他们的期望、关心和支持使我能顺利完成学业。
+衷心感谢我的先生李伟。在我求学期间，他的幽默、宽容和鼓励一直是
+我前进的动力。
+最后，还要感谢我的宝贝女儿李佳璐，在我攻读博士学位期间，她带给
+我的幸福和快乐让我勇往直前！
+
+
