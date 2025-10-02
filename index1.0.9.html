@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="鲁虺网络新闻资讯资源频道提供海量新闻资讯索引服务，涵盖各类新闻、文化、媒体相关内容。">
+    <meta name="keywords" content="新闻,资讯,文化,媒体,传播,鲁虺,网络">
+    <!-- 外部资源引入 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/iconv-lite@0.6.3/dist/iconv-lite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/encoding-japanese@2.0.0/encoding.min.js"></script>
+    <!-- 动态标题 -->
+    <title id="page-title">鲁虺文化新闻资讯资源网 - 海量新闻资讯尽在掌握</title>
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background-color: #f8fafc;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        /* 黑白模式样式 */
+        body.dark-mode {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        body.dark-mode .bg-white { background-color: #1e1e1e; }
+        body.dark-mode .text-gray-800,
+        body.dark-mode .text-gray-900 { color: #e0e0e0; }
+        body.dark-mode .text-gray-700 { color: #d0d0d0; }
+        body.dark-mode .text-gray-600,
+        body.dark-mode .text-gray-500 { color: #b0b0b0; }
+        body.dark-mode .bg-gray-900 { background-color: #0a0a0a; }
+        body.dark-mode .bg-gray-200 { background-color: #333333; }
+        body.dark-mode .bg-gray-200:hover { background-color: #444444; }
+        body.dark-mode .bg-blue-50 { background-color: #1a2b4a; }
+        body.dark-mode .bg-green-50 { background-color: #1a4a2b; }
+        body.dark-mode .bg-purple-50 { background-color: #3a1a4a; }
+        body.dark-mode .bg-amber-50 { background-color: #4a3a1a; }
+        body.dark-mode .border-gray-300,
+        body.dark-mode .border-gray-200 { border-color: #444444; }
+        body.dark-mode .image-fallback {
+            background-color: #2d2d2d;
+            border-color: #555555;
+            color: #b0b0b0;
+        }
+        /* 内容区域样式 */
+        .content-container { min-height: calc(100vh - 120px); }
+        /* 文章卡片样式 */
+        .article-card { transition: all 0.3s ease; }
+        .article-card:hover { transform: translateY(-3px); }
+        /* Markdown内容样式 */
+        .markdown-content { line-height: 1.8; }
+        .markdown-content img {
+            max-width: 100%;
+            height: auto;
+            margin: 1.5rem auto;
+            border-radius: 6px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        body.dark-mode .markdown-content img { filter: grayscale(100%); }
+        .markdown-content a { color: #2563eb; text-decoration: underline; }
+        body.dark-mode .markdown-content a { color: #8ab4f8; }
+        .markdown-content a:hover { color: #1d4ed8; }
+        body.dark-mode .markdown-content a:hover { color: #a8c7fa; }
+        .markdown-content h1, 
+        .markdown-content h2, 
+        .markdown-content h3 {
+            font-weight: 700;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: #1e293b;
+        }
+        body.dark-mode .markdown-content h1,
+        body.dark-mode .markdown-content h2,
+        body.dark-mode .markdown-content h3 { color: #ffffff; }
+        .markdown-content p { margin-bottom: 1rem; }
+        .markdown-content ul, 
+        .markdown-content ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .markdown-content ul { list-style-type: disc; }
+        .markdown-content ol { list-style-type: decimal; }
+        .markdown-content blockquote {
+            border-left: 4px solid #94a3b8;
+            padding-left: 1rem;
+            margin: 1rem 0;
+            color: #64748b;
+        }
+        body.dark-mode .markdown-content blockquote {
+            border-left-color: #666666;
+            color: #999999;
+        }
+        .markdown-content pre {
+            background-color: #1e293b;
+            color: #f8fafc;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+        /* 加载动画 */
+        .loader {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(37, 99, 235, 0.2);
+            border-radius: 50%;
+            border-top-color: #2563eb;
+            animation: spin 1s ease-in-out infinite;
+        }
+        body.dark-mode .loader {
+            border-color: rgba(150, 150, 150, 0.2);
+            border-top-color: #aaaaaa;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        /* 导航样式 */
+        .nav-link { position: relative; }
+        .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #2563eb;
+        }
+        body.dark-mode .nav-link.active::after { background-color: #8ab4f8; }
+        /* 图片加载失败样式 */
+        .image-fallback {
+            background-color: #f1f5f9;
+            border: 1px dashed #94a3b8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 2rem;
+            color: #64748b;
+        }
+        /* 搜索历史样式 */
+        .search-history-container { position: relative; }
+        .search-history-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background-color: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 0 0 0.5rem 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        body.dark-mode .search-history-dropdown {
+            background-color: #1e1e1e;
+            border-color: #444444;
+        }
+        .search-history-dropdown.active {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .history-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 0.875rem;
+        }
+        body.dark-mode .history-header { border-bottom-color: #444444; }
+        .history-title { font-weight: 500; color: #64748b; }
+        .clear-history {
+            color: #2563eb;
+            cursor: pointer;
+            font-size: 0.75rem;
+        }
+        body.dark-mode .clear-history { color: #8ab4f8; }
+        .clear-history:hover { color: #1d4ed8; text-decoration: underline; }
+        .history-list { list-style: none; margin: 0; padding: 0; }
+        .history-item {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #f1f5f9;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        body.dark-mode .history-item { border-bottom-color: #333333; }
+        .history-item:hover { background-color: #f8fafc; }
+        body.dark-mode .history-item:hover { background-color: #2d2d2d; }
+        .history-item:last-child { border-bottom: none; }
+        .history-text { color: #334155; }
+        body.dark-mode .history-text { color: #e0e0e0; }
+        .history-time {
+            font-size: 0.75rem;
+            color: #94a3b8;
+            margin-left: 0.5rem;
+        }
+        .remove-history {
+            color: #94a3b8;
+            cursor: pointer;
+            padding: 0.25rem;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+        body.dark-mode .remove-history { color: #777777; }
+        body.dark-mode .remove-history:hover { color: #ff6b6b; }
+        .history-item:hover .remove-history { opacity: 1; }
+        .remove-history:hover { color: #ef4444; }
+        .no-history {
+            padding: 1rem;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 0.875rem;
+        }
+        /* 黑白模式切换按钮 */
+        .theme-toggle {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: background-color 0.2s ease;
+        }
+        .theme-toggle:hover { background-color: rgba(0, 0, 0, 0.1); }
+        body.dark-mode .theme-toggle:hover { background-color: rgba(255, 255, 255, 0.1); }
+        /* 内容加载失败提示 */
+        .content-error {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+            color: #856404;
+        }
+        body.dark-mode .content-error {
+            background-color: #3d3511;
+            border-left-color: #d4a72c;
+            color: #e0c568;
+        }
+        /* 备用渲染样式 */
+        .plain-text-content {
+            white-space: pre-wrap;
+            line-height: 1.8;
+            word-wrap: break-word;
+        }
+        /* 加载marked.js提示 */
+        .marked-loading-indicator {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: rgba(37, 99, 235, 0.9);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .marked-loading-indicator .mini-loader {
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 8px;
+        }
+        /* 搜索链接容器样式 */
+        #search-link-container {
+            transition: all 0.3s ease;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background-color: #f1f5f9;
+            border-radius: 0.5rem;
+            border: 1px solid #e2e8f0;
+        }
+        body.dark-mode #search-link-container {
+            background-color: #2d2d2d;
+            border-color: #444444;
+        }
+        body.dark-mode #search-link-container a {
+            color: #8ab4f8;
+        }
+        body.dark-mode #search-link-container a:hover {
+            color: #a8c7fa;
+        }
+		
+        /* 滚动控制按钮样式 */
+        #scroll-controls button {
+            transition: all 0.3s ease;
+        }
+
+        #scroll-controls button:hover {
+            transform: scale(1.1);
+        }
+
+        #scroll-controls button.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        body.dark-mode #scroll-controls button {
+            background-color: #3b82f6;
+        }
+
+        body.dark-mode #scroll-controls button:hover {
+            background-color: #2563eb;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- 滚动控制按钮 -->
+    <div id="scroll-controls" class="fixed right-6 bottom-6 flex flex-col gap-3 z-40">
+        <button id="back-to-top-btn" class="bg-blue-600 hover:bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-all opacity-0 invisible">
+            <i class="fas fa-angle-double-up text-xl"></i>
+        </button>
+        <button id="back-to-bottom-btn" class="bg-blue-600 hover:bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-all opacity-0 invisible">
+            <i class="fas fa-angle-double-down text-xl"></i>
+        </button>
+    </div>
+
+    <!-- 顶部导航栏 -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <h1 class="text-2xl md:text-3xl font-bold text-gray-900">
+                    <i class="fa fa-people-arrows text-blue-600 mr-2"></i>鲁虺新闻资讯网
+                </h1>
+                <p class="text-gray-500 text-sm">社会人文数据，点亮人类文明希望之光！</p>
+            </div>
+            <div class="flex items-center space-x-6">
+                <nav class="flex space-x-6">
+                    <a href="/" class="nav-link active text-blue-600 hover:text-blue-800 transition">
+                        <i class="fas fa-home mr-1"></i>首页
+                    </a>
+                    <a href="http://newsnow.luhui.net/" class="nav-link text-gray-600 hover:text-blue-600 transition">
+                        <i class="fa fa-meteor mr-1"></i>热闻
+                    </a>
+                    <a href="http://luhui.net/wap/artificialemotions.html" class="nav-link text-gray-600 hover:text-blue-600 transition">
+                        <i class="fa fa-pencil mr-1"></i>文体
+                    </a>
+                    <a href="iframe.html" class="nav-link text-gray-600 hover:text-blue-600 transition">
+                        <i class="fa fa-satellite mr-1"></i>工具
+                    </a>
+                    <a href="http://luhui.net/wap/about.html" class="nav-link text-gray-600 hover:text-blue-600 transition">
+                        <i class="fa fa-address-card mr-1"></i>关于
+                    </a>
+                    <!-- 补充导航链接 -->
+                    <a href="http://web.luhui.net" class="nav-link text-gray-600 hover:text-blue-600 transition">
+                        <i class="fa fa-link mr-1"></i>网站推荐
+                    </a>
+                    <a href="http://search.luhui.net" class="nav-link text-gray-600 hover:text-blue-600 transition">
+                        <i class="fa fa-search mr-1"></i>搜索
+                    </a>
+                </nav>
+                <!-- 黑白模式切换按钮 -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="切换黑白模式">
+                    <i class="fas fa-moon text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="container mx-auto px-4 py-8 content-container">
+        <!-- 搜索区域 -->
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-sm">
+            <div class="flex flex-col md:flex-row gap-4">
+                <div class="flex-grow search-history-container">
+                    <div class="flex flex-wrap gap-4 mb-3">
+                        <label class="inline-flex items-center cursor-pointer">
+                            <input type="radio" name="search-type" value="title" class="form-radio text-blue-600" checked>
+                            <span class="ml-2 text-gray-700">标题搜索</span>
+                        </label>
+                        <label class="inline-flex items-center cursor-pointer">
+                            <input type="radio" name="search-type" value="content" class="form-radio text-blue-600">
+                            <span class="ml-2 text-gray-700">内容搜索</span>
+                        </label>
+                        <label class="inline-flex items-center cursor-pointer">
+                            <input type="radio" name="search-type" value="both" class="form-radio text-blue-600">
+                            <span class="ml-2 text-gray-700">标题和内容</span>
+                        </label>
+                    </div>
+                    <div class="flex gap-2">
+                        <input type="text" id="search-input" placeholder="输入关键词搜索..." class="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                        <button id="search-btn" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition flex items-center">
+                            <i class="fas fa-search mr-2"></i>搜索
+                        </button>
+                        <button id="reset-btn" class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-lg transition">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                    <!-- 搜索历史下拉框 -->
+                    <div id="search-history" class="search-history-dropdown">
+                        <div class="history-header">
+                            <span class="history-title">搜索历史</span>
+                            <span id="clear-history" class="clear-history">清除全部</span>
+                        </div>
+                        <ul id="history-list" class="history-list"></ul>
+                        <div id="no-history" class="no-history hidden">暂无搜索历史</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 分类导航 -->
+        <section class="mb-8 overflow-x-auto">
+            <div class="flex space-x-2 md:space-x-4 min-w-max pb-2">
+                <button class="category-btn active px-4 py-2 bg-blue-600 text-white rounded-lg transition" data-category="all">全部内容</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="journalism">新闻传播</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="onlinemedia">网络媒体</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="entertainmentgossip">娱乐八卦</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="cultureknowledge">文化常识</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="mediamanagement">传媒管理</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="livestream">媒体直播</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="outdooradvertising">户外广告</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="newspaperoffice">报社报纸</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="periodical">杂志期刊</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="radiobroadcasting">广播电台</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="tvstation">电视台</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="publisher">出版社</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="mediapersonnel">传媒人</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="localgazetteers">地方志</button>
+                <button class="category-btn px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition" data-category="library">图书馆</button>
+            </div>
+        </section>
+
+        <!-- 统计信息 -->
+        <section id="stats-section" class="mb-8 bg-white p-6 rounded-lg shadow-sm">
+            <h2 class="text-xl font-semibold mb-4 text-gray-800">
+                <i class="fas fa-chart-pie text-blue-600 mr-2"></i>内容统计
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <p class="text-sm text-gray-500 mb-1">总文章数</p>
+                    <p id="total-articles" class="text-2xl font-bold text-blue-600">0</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <p class="text-sm text-gray-500 mb-1">资讯文章</p>
+                    <p id="news-articles" class="text-2xl font-bold text-green-600">0</p>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-lg">
+                    <p class="text-sm text-gray-500 mb-1">教程文章</p>
+                    <p id="tutorial-articles" class="text-2xl font-bold text-purple-600">0</p>
+                </div>
+                <div class="bg-amber-50 p-4 rounded-lg">
+                    <p class="text-sm text-gray-500 mb-1">资源文章</p>
+                    <p id="resource-articles" class="text-2xl font-bold text-amber-600">0</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 额外导航链接区域 -->
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="text-lg font-medium mb-3 text-gray-800">
+                <i class="fas fa-th-list text-blue-600 mr-2"></i>相关资源
+            </h3>
+            <div class="flex flex-wrap gap-3">
+                <a href="http://zhongyi.luhui.net" class="inline-flex items-center px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition">
+                    <i class="fa fa-medkit mr-1"></i>中医
+                </a>
+                <a href="http://piano.luhui.net" class="inline-flex items-center px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition">
+                    <i class="fa fa-music mr-1"></i>抚琴
+                </a>
+                <a href="http://qi.luhui.net" class="inline-flex items-center px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition">
+                    <i class="fa fa-keyboard mr-1"></i>棋迷
+                </a>
+                <a href="http://book.luhui.net" class="inline-flex items-center px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition">
+                    <i class="fa fa-book mr-1"></i>书库
+                </a>
+                <a href="http://images.luhui.net" class="inline-flex items-center px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition">
+                    <i class="fa fa-image mr-1"></i>画图
+                </a>
+                <a href="http://game.luhui.net" class="inline-flex items-center px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition">
+                    <i class="fa fa-gamepad mr-1"></i>游玩
+                </a>
+                <a href="http://law.luhui.net" class="inline-flex items-center px-3 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition">
+                    <i class="fa fa-balance-scale mr-1"></i>法律
+                </a>
+            </div>
+        </section>
+
+        <!-- 加载状态 -->
+        <section id="loading-section" class="mb-8 hidden">
+            <div class="flex flex-col items-center justify-center py-12 bg-white rounded-lg shadow-sm">
+                <div class="loader mb-4"></div>
+                <p class="text-gray-600">正在加载内容，请稍候...</p>
+                <p id="loading-detail" class="text-gray-500 text-sm mt-2">准备加载文章数据</p>
+            </div>
+        </section>
+
+        <!-- 错误信息 -->
+        <section id="error-section" class="mb-8 hidden">
+            <div class="bg-red-50 border border-red-200 p-6 rounded-lg">
+                <div class="flex items-start">
+                    <i class="fas fa-exclamation-circle text-red-500 text-xl mt-0.5 mr-3"></i>
+                    <div>
+                        <h3 class="font-medium text-red-800 mb-1">加载失败</h3>
+                        <p id="error-message" class="text-red-700">无法加载内容，请稍后重试</p>
+                        <button id="retry-btn" class="mt-3 text-sm text-red-600 hover:text-red-800 font-medium">
+                            <i class="fas fa-redo-alt mr-1"></i>重试
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 文章列表 -->
+        <section id="articles-section">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl font-semibold text-gray-800">
+                    <i class="fas fa-list-alt text-blue-600 mr-2"></i>文章列表
+                </h2>
+                <div class="text-sm text-gray-500">
+                    找到 <span id="articles-count">0</span> 篇文章
+                </div>
+            </div>
+            <div id="articles-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+            
+            <!-- 空状态 -->
+            <div id="empty-state" class="hidden py-16 text-center bg-white rounded-lg shadow-sm">
+                <i class="fas fa-file-search text-gray-300 text-5xl mb-4"></i>
+                <h3 class="text-lg font-medium text-gray-700 mb-2">未找到相关文章</h3>
+                <p class="text-gray-500 max-w-md mx-auto">尝试使用不同的搜索词或浏览其他分类</p>
+                <button id="empty-reset-btn" class="mt-4 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition">
+                    查看全部文章
+                </button>
+            </div>
+
+            <!-- 分页控件 -->
+            <div id="pagination" class="mt-8 flex justify-center items-center gap-2 flex-wrap">
+                <button id="prev-page" class="px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                    <i class="fas fa-chevron-left mr-1"></i>上一页
+                </button>
+                <div id="page-numbers" class="flex gap-1"></div>
+                <button id="next-page" class="px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                    下一页<i class="fas fa-chevron-right ml-1"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- 文章详情 -->
+        <section id="article-detail">
+            <button id="back-to-list" class="mb-6 inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition">
+                <i class="fas fa-arrow-left mr-2"></i>返回列表
+            </button>
+
+            <!-- 详情加载状态 -->
+            <div id="detail-loading" class="hidden bg-white rounded-lg shadow-sm overflow-hidden mb-6 p-8">
+                <div class="flex flex-col items-center justify-center py-12">
+                    <div class="loader mb-4"></div>
+                    <p class="text-gray-600">正在加载文章内容，请稍候...</p>
+                </div>
+            </div>
+
+            <!-- 详情内容容器 -->
+            <article id="detail-content-container" class="bg-white rounded-lg shadow-sm overflow-hidden mb-6 hidden">
+                <div class="p-6 md:p-8">
+                    <div class="mb-4 flex items-center text-sm text-gray-500">
+                        <span class="inline-flex items-center mr-4">
+                            <i class="fas fa-folder-open mr-1"></i>
+                            <span id="detail-category"></span>
+                        </span>
+                        <span class="inline-flex items-center">
+                            <i class="fas fa-file-code mr-1"></i>
+                            <span id="detail-id"></span>
+                        </span>
+                    </div>
+                    <h1 id="detail-title" class="text-2xl md:text-3xl font-bold text-gray-900 mb-6"></h1>
+
+                    <!-- 搜索看看链接（基于当前文章标题） -->
+                    <div id="search-link-container">
+                        搜索看看 <a id="article-search-link" href="" target="_blank" class="text-blue-600 hover:underline"></a>
+                    </div>
+
+                    <!-- 内容渲染容器 -->
+                    <div id="detail-content-container-inner" class="markdown-content"></div>
+
+                    <!-- 渲染错误提示 -->
+                    <div id="render-error-container" class="hidden mt-4">
+                        <div class="bg-amber-50 border-l-4 border-amber-400 p-4">
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-exclamation-triangle text-amber-500"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm text-amber-700">Markdown渲染失败，已自动切换为纯文本显示。</p>
+                                    <div class="mt-2 text-sm">
+                                        <button id="retry-render-btn" class="text-amber-600 hover:text-amber-800">
+                                            <i class="fas fa-redo-alt mr-1"></i>重试渲染
+                                        </button>
+                                        <button id="use-basic-renderer-btn" class="text-amber-600 hover:text-amber-800 ml-3">
+                                            <i class="fas fa-pencil-alt mr-1"></i>使用基础渲染器
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 详情错误状态 -->
+            <div id="detail-error" class="hidden bg-white rounded-lg shadow-sm overflow-hidden mb-6 p-8">
+                <div class="bg-red-50 border border-red-200 p-6 rounded-lg">
+                    <div class="flex items-start">
+                        <i class="fas fa-exclamation-circle text-red-500 text-xl mt-0.5 mr-3"></i>
+                        <div>
+                            <h3 class="font-medium text-red-800 mb-1">加载文章失败</h3>
+                            <p id="detail-error-message" class="text-red-700">无法加载文章内容，请稍后重试</p>
+                            <button id="detail-retry-btn" class="mt-3 text-sm text-red-600 hover:text-red-800 font-medium">
+                                <i class="fas fa-redo-alt mr-1"></i>重试
+                            </button>
+                            <button id="show-plaintext-btn" class="mt-3 text-sm text-red-600 hover:text-red-800 font-medium ml-3">
+                                <i class="fas fa-file-alt mr-1"></i>查看纯文本
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 上下篇导航 -->
+            <div class="flex justify-between">
+                <button id="prev-article" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                    <i class="fas fa-chevron-left mr-2"></i>上一篇
+                </button>
+                <button id="next-article" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                    下一篇<i class="fas fa-chevron-right ml-2"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-900 text-gray-300 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold text-white mb-2">鲁虺文化新闻资讯资源网</h3>
+                    <p class="text-sm">匯新闻文艺星河,点醒你我无限可能！</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="/?q=关于我们" class="text-gray-400 hover:text-white transition">
+                        <i class="fa fa-address-card mr-1"> 关于我们</i>
+                    </a>
+                    <a href="/?q=商务合作" class="text-gray-400 hover:text-white transition">
+                        <i class="fa fa-handshake mr-1"> 商务合作</i>
+                    </a>
+                    <a href="/?q=版权声明" class="text-gray-400 hover:text-white transition">
+                        <i class="fa fa-copy mr-1"> 版权声明</i>
+                    </a>
+                    <a href="/?q=隐私保护" class="text-gray-400 hover:text-white transition">
+                        <i class="fa fa-eye-low-vision mr-1"> 隐私保护</i>
+                    </a>
+                    <a href="/?q=意见反馈" class="text-gray-400 hover:text-white transition">
+                        <i class="fa fa-comment-dots mr-1"> 意见反馈</i>
+                    </a>
+                    <a href="/?q=联系方式" class="text-gray-400 hover:text-white transition">
+                        <i class="fa fa-id-card-clip mr-1"> 联系方式</i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-6 pt-6 text-center text-sm">
+                <p>鲁虺文化网-致力于数字文化遗产的保存与传播</p>
+            </div>
+            <div class="footer-inner mt-6">
+                <p align="center"> Copyright &copy; 2004-01-11&nbsp;<a href="http://luhui.net" title="鲁虺文化网" target="_top">luhui.net</a>&nbsp;all rights reserved.</p>	
+                <div id="footer-back-to-top" style="display:none;"><i class="fas fa-angle-double-up" style="font-size: 25px;"></i></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- marked.js加载指示器 -->
+    <div id="marked-loading-indicator" class="marked-loading-indicator hidden">
+        <div class="mini-loader"></div>
+        <span>正在加载内容渲染组件...</span>
+    </div>
+
+    <script>
+        // 配置与状态管理
+        const config = {
+            baseUrl: '',
+            imageBasePath: '/luhuitxtcms/',
+            itemsPerPage: 12,
+            maxDetectionAttempts: 100,
+            timeout: 15000,
+            maxSearchHistory: 10,
+            categories: {
+                'journalism': '新闻传播',
+                'onlinemedia': '网络媒体',
+                'radiobroadcasting': '广播电台',
+                'livestream': '媒体直播',
+                'outdooradvertising': '户外广告',
+                'newspaperoffice': '报社报纸',
+                'periodical': '杂志期刊',
+                'entertainmentgossip': '娱乐八卦',
+                'mediamanagement': '传媒管理',
+                'cultureknowledge': '文化常识',
+                'localgazetteers': '地方志',
+                'mediapersonnel': '传媒人',
+                'publisher': '出版社',
+                'tvstation': '电视台',
+                'library': '图书馆'
+            },
+            supportedEncodings: ['utf8','gbk','gb2312','gb18030','iso-8859-1','iso-8859-2','big5','euc-kr','shift-jis'],
+            markedCdnUrls: [
+                'https://cdn.jsdelivr.net/npm/marked/marked.min.js',
+                'https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js',
+                'https://unpkg.com/marked@4.0.2/marked.min.js'
+            ]
+        };
+
+        const state = {
+            currentCategory: 'all',
+            currentPage: 1,
+            searchTerm: '',
+            searchType: 'title',
+            totalArticles: 0,
+            totalPages: 0,
+            allArticles: [],
+            filteredArticles: [],
+            articleCache: new Map(),
+            categoryCounts: {},
+            searchHistory: [],
+            darkMode: false,
+            markedRenderer: null,
+            markedLoaded: false,
+            usingFallbackRenderer: false,
+            currentArticle: null // 当前显示的文章
+        };
+
+        // DOM元素映射
+        const elements = {
+            // 主题切换
+            themeToggle: document.getElementById('theme-toggle'),
+            // 搜索相关
+            searchInput: document.getElementById('search-input'),
+            searchBtn: document.getElementById('search-btn'),
+            resetBtn: document.getElementById('reset-btn'),
+            searchTypeRadios: document.querySelectorAll('input[name="search-type"]'),
+            // 搜索历史相关
+            searchHistoryDropdown: document.getElementById('search-history'),
+            historyList: document.getElementById('history-list'),
+            clearHistoryBtn: document.getElementById('clear-history'),
+            noHistoryMsg: document.getElementById('no-history'),
+            // 分类相关
+            categoryBtns: document.querySelectorAll('.category-btn'),
+            // 内容区域
+            articlesGrid: document.getElementById('articles-grid'),
+            articlesCount: document.getElementById('articles-count'),
+            emptyState: document.getElementById('empty-state'),
+            emptyResetBtn: document.getElementById('empty-reset-btn'),
+            // 加载状态
+            loadingSection: document.getElementById('loading-section'),
+            loadingDetail: document.getElementById('loading-detail'),
+            errorSection: document.getElementById('error-section'),
+            errorMessage: document.getElementById('error-message'),
+            retryBtn: document.getElementById('retry-btn'),
+            // 分页
+            pagination: document.getElementById('pagination'),
+            prevPageBtn: document.getElementById('prev-page'),
+            nextPageBtn: document.getElementById('next-page'),
+            pageNumbers: document.getElementById('page-numbers'),
+            // 统计信息
+            totalArticles: document.getElementById('total-articles'),
+            newsArticles: document.getElementById('news-articles'),
+            tutorialArticles: document.getElementById('tutorial-articles'),
+            resourceArticles: document.getElementById('resource-articles'),
+            // 文章详情
+            articlesSection: document.getElementById('articles-section'),
+            articleDetail: document.getElementById('article-detail'),
+            backToListBtn: document.getElementById('back-to-list'),
+            detailLoading: document.getElementById('detail-loading'),
+            detailContentContainer: document.getElementById('detail-content-container'),
+            detailError: document.getElementById('detail-error'),
+            detailErrorMessage: document.getElementById('detail-error-message'),
+            detailRetryBtn: document.getElementById('detail-retry-btn'),
+            showPlaintextBtn: document.getElementById('show-plaintext-btn'),
+            detailCategory: document.getElementById('detail-category'),
+            detailId: document.getElementById('detail-id'),
+            detailTitle: document.getElementById('detail-title'),
+            detailContentContainerInner: document.getElementById('detail-content-container-inner'),
+            // 文章导航
+            prevArticleBtn: document.getElementById('prev-article'),
+            nextArticleBtn: document.getElementById('next-article'),
+            // 渲染错误处理
+            renderErrorContainer: document.getElementById('render-error-container'),
+            retryRenderBtn: document.getElementById('retry-render-btn'),
+            useBasicRendererBtn: document.getElementById('use-basic-renderer-btn'),
+            // 搜索链接
+            searchLinkContainer: document.getElementById('search-link-container'),
+            articleSearchLink: document.getElementById('article-search-link'),
+            // marked加载指示器
+            markedLoadingIndicator: document.getElementById('marked-loading-indicator'),
+            // 滚动控制
+            scrollControls: document.getElementById('scroll-controls'),
+            backToTopBtn: document.getElementById('back-to-top-btn'),
+            backToBottomBtn: document.getElementById('back-to-bottom-btn')
+        };
+
+        // 初始化应用
+        function initApp() {
+            // 从本地存储加载状态
+            loadStateFromStorage();
+            // 应用主题模式
+            applyThemeMode();
+            // 初始化事件监听
+            initEventListeners();
+            // 加载搜索历史
+            loadSearchHistory();
+            // 初始加载文章
+            loadArticles();
+        }
+
+        // 从本地存储加载状态
+        function loadStateFromStorage() {
+            const savedDarkMode = localStorage.getItem('darkMode');
+            if (savedDarkMode !== null) {
+                state.darkMode = savedDarkMode === 'true';
+            }
+            
+            const savedSearchHistory = localStorage.getItem('searchHistory');
+            if (savedSearchHistory) {
+                try {
+                    state.searchHistory = JSON.parse(savedSearchHistory);
+                } catch (e) {
+                    console.error('Failed to parse search history:', e);
+                    state.searchHistory = [];
+                }
+            }
+        }
+
+        // 应用主题模式
+        function applyThemeMode() {
+            if (state.darkMode) {
+                document.body.classList.add('dark-mode');
+                elements.themeToggle.innerHTML = '<i class="fas fa-sun text-yellow-400"></i>';
+            } else {
+                document.body.classList.remove('dark-mode');
+                elements.themeToggle.innerHTML = '<i class="fas fa-moon text-gray-600"></i>';
+            }
+        }
+
+        // 初始化事件监听
+        function initEventListeners() {
+            // 主题切换
+            elements.themeToggle.addEventListener('click', toggleTheme);
+            
+            // 搜索相关
+            elements.searchBtn.addEventListener('click', performSearch);
+            elements.searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') performSearch();
+            });
+            elements.resetBtn.addEventListener('click', resetSearch);
+            
+            // 搜索类型变更
+            elements.searchTypeRadios.forEach(radio => {
+                radio.addEventListener('change', (e) => {
+                    state.searchType = e.target.value;
+                });
+            });
+            
+            // 搜索历史相关
+            elements.searchInput.addEventListener('focus', showSearchHistory);
+            document.addEventListener('click', (e) => {
+                if (!elements.searchHistoryDropdown.contains(e.target) && 
+                    e.target !== elements.searchInput) {
+                    hideSearchHistory();
+                }
+            });
+            elements.clearHistoryBtn.addEventListener('click', clearSearchHistory);
+            
+            // 分类按钮点击
+            elements.categoryBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const category = e.target.dataset.category;
+                    if (category) {
+                        setActiveCategory(category);
+                        state.currentPage = 1;
+                        filterArticles();
+                    }
+                });
+            });
+            
+            // 空状态重置按钮
+            elements.emptyResetBtn.addEventListener('click', resetSearch);
+            
+            // 分页控制
+            elements.prevPageBtn.addEventListener('click', goToPrevPage);
+            elements.nextPageBtn.addEventListener('click', goToNextPage);
+            
+            // 加载重试
+            elements.retryBtn.addEventListener('click', loadArticles);
+            
+            // 文章详情返回列表
+            elements.backToListBtn.addEventListener('click', showArticlesList);
+            
+            // 文章详情重试
+            elements.detailRetryBtn.addEventListener('click', () => {
+                if (state.currentArticle) {
+                    loadArticleDetail(state.currentArticle.id);
+                }
+            });
+            
+            // 显示纯文本
+            elements.showPlaintextBtn.addEventListener('click', showArticleAsPlaintext);
+            
+            // 渲染控制
+            elements.retryRenderBtn.addEventListener('click', retryRenderArticle);
+            elements.useBasicRendererBtn.addEventListener('click', useBasicRenderer);
+            
+            // 滚动控制
+            window.addEventListener('scroll', handleScroll);
+            elements.backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+            elements.backToBottomBtn.addEventListener('click', () => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            });
+        }
+
+        // 主题切换
+        function toggleTheme() {
+            state.darkMode = !state.darkMode;
+            localStorage.setItem('darkMode', state.darkMode);
+            applyThemeMode();
+        }
+
+        // 执行搜索
+        function performSearch() {
+            const searchTerm = elements.searchInput.value.trim();
+            if (searchTerm) {
+                state.searchTerm = searchTerm;
+                state.currentPage = 1;
+                
+                // 添加到搜索历史
+                addToSearchHistory(searchTerm);
+                
+                filterArticles();
+                hideSearchHistory();
+            }
+        }
+
+        // 重置搜索
+        function resetSearch() {
+            elements.searchInput.value = '';
+            state.searchTerm = '';
+            state.currentCategory = 'all';
+            state.currentPage = 1;
+            
+            // 重置分类按钮状态
+            setActiveCategory('all');
+            
+            filterArticles();
+        }
+
+        // 设置活跃分类
+        function setActiveCategory(category) {
+            elements.categoryBtns.forEach(btn => {
+                if (btn.dataset.category === category) {
+                    btn.classList.add('bg-blue-600', 'text-white');
+                    btn.classList.remove('bg-gray-200', 'hover:bg-gray-300', 'text-gray-700');
+                } else {
+                    btn.classList.remove('bg-blue-600', 'text-white');
+                    btn.classList.add('bg-gray-200', 'hover:bg-gray-300', 'text-gray-700');
+                }
+            });
+            state.currentCategory = category;
+        }
+
+        // 加载文章
+        function loadArticles() {
+            showLoading();
+            hideError();
+            hideEmptyState();
+            
+            // 模拟加载延迟
+            setTimeout(() => {
+                // 这里应该是实际的API调用
+                // 暂时使用模拟数据
+                const mockArticles = generateMockArticles(36);
+                state.allArticles = mockArticles;
+                
+                // 更新统计数据
+                updateStats();
+                
+                // 过滤文章
+                filterArticles();
+                
+                hideLoading();
+            }, 1000);
+        }
+
+        // 生成模拟文章数据
+        function generateMockArticles(count) {
+            const categories = Object.keys(config.categories);
+            const articles = [];
+            
+            for (let i = 1; i <= count; i++) {
+                const category = categories[Math.floor(Math.random() * categories.length)];
+                const type = Math.random() > 0.66 ? 'news' : Math.random() > 0.5 ? 'tutorial' : 'resource';
+                
+                articles.push({
+                    id: `article-${i}`,
+                    title: `${config.categories[category]}相关文章 ${i}`,
+                    content: `这是一篇关于${config.categories[category]}的${
+                        type === 'news' ? '新闻' : type === 'tutorial' ? '教程' : '资源'
+                    }文章，包含了丰富的${config.categories[category]}相关信息...`,
+                    category: category,
+                    type: type,
+                    date: new Date(Date.now() - Math.floor(Math.random() * 30) * 24 * 60 * 60 * 1000).toISOString(),
+                    views: Math.floor(Math.random() * 1000) + 10
+                });
+            }
+            
+            return articles;
+        }
+
+        // 更新统计数据
+        function updateStats() {
+            state.totalArticles = state.allArticles.length;
+            state.newsArticles = state.allArticles.filter(a => a.type === 'news').length;
+            state.tutorialArticles = state.allArticles.filter(a => a.type === 'tutorial').length;
+            state.resourceArticles = state.allArticles.filter(a => a.type === 'resource').length;
+            
+            elements.totalArticles.textContent = state.totalArticles;
+            elements.newsArticles.textContent = state.newsArticles;
+            elements.tutorialArticles.textContent = state.tutorialArticles;
+            elements.resourceArticles.textContent = state.resourceArticles;
+        }
+
+        // 过滤文章
+        function filterArticles() {
+            let filtered = [...state.allArticles];
+            
+            // 按分类过滤
+            if (state.currentCategory !== 'all') {
+                filtered = filtered.filter(article => article.category === state.currentCategory);
+            }
+            
+            // 按搜索词过滤
+            if (state.searchTerm) {
+                const searchLower = state.searchTerm.toLowerCase();
+                filtered = filtered.filter(article => {
+                    if (state.searchType === 'title' || state.searchType === 'both') {
+                        if (article.title.toLowerCase().includes(searchLower)) return true;
+                    }
+                    if (state.searchType === 'content' || state.searchType === 'both') {
+                        if (article.content.toLowerCase().includes(searchLower)) return true;
+                    }
+                    return false;
+                });
+            }
+            
+            state.filteredArticles = filtered;
+            state.totalArticles = filtered.length;
+            state.totalPages = Math.ceil(state.totalArticles / config.itemsPerPage);
+            
+            renderArticles();
+            updatePagination();
+            updateArticleCount();
+            
+            // 检查空状态
+            if (state.totalArticles === 0) {
+                showEmptyState();
+            } else {
+                hideEmptyState();
+            }
+        }
+
+        // 渲染文章列表
+        function renderArticles() {
+            elements.articlesGrid.innerHTML = '';
+            
+            const startIndex = (state.currentPage - 1) * config.itemsPerPage;
+            const endIndex = Math.min(startIndex + config.itemsPerPage, state.filteredArticles.length);
+            const currentArticles = state.filteredArticles.slice(startIndex, endIndex);
+            
+            currentArticles.forEach(article => {
+                const articleCard = createArticleCard(article);
+                elements.articlesGrid.appendChild(articleCard);
+            });
+        }
+
+        // 创建文章卡片
+        function createArticleCard(article) {
+            const card = document.createElement('div');
+            card.className = 'article-card bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow';
+            card.innerHTML = `
+                <div class="p-5">
+                    <div class="text-sm text-gray-500 mb-2 flex justify-between">
+                        <span>${config.categories[article.category]}</span>
+                        <span>${formatDate(article.date)}</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2 line-clamp-2">${article.title}</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">${article.content}</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs text-gray-500"><i class="fas fa-eye mr-1"></i>${article.views}</span>
+                        <button class="read-more-btn text-blue-600 hover:text-blue-800 text-sm font-medium" data-id="${article.id}">
+                            阅读更多 <i class="fas fa-angle-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            // 添加点击事件
+            card.querySelector('.read-more-btn').addEventListener('click', () => {
+                loadArticleDetail(article.id);
+            });
+            
+            return card;
+        }
+
+        // 格式化日期
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`;
+        }
+
+        // 更新文章计数
+        function updateArticleCount() {
+            elements.articlesCount.textContent = state.totalArticles;
+        }
+
+        // 更新分页
+        function updatePagination() {
+            elements.pageNumbers.innerHTML = '';
+            
+            // 更新按钮状态
+            elements.prevPageBtn.disabled = state.currentPage === 1;
+            elements.nextPageBtn.disabled = state.currentPage === state.totalPages || state.totalPages === 0;
+            
+            // 生成页码按钮
+            const maxVisiblePages = 5;
+            let startPage = Math.max(1, state.currentPage - Math.floor(maxVisiblePages / 2));
+            let endPage = startPage + maxVisiblePages - 1;
+            
+            if (endPage > state.totalPages) {
+                endPage = state.totalPages;
+                startPage = Math.max(1, endPage - maxVisiblePages + 1);
+            }
+            
+            // 添加第一页按钮（如果需要）
+            if (startPage > 1) {
+                addPageButton(1);
+                if (startPage > 2) {
+                    addEllipsis();
+                }
+            }
+            
+            // 添加可见页码
+            for (let i = startPage; i <= endPage; i++) {
+                addPageButton(i);
+            }
+            
+            // 添加最后一页按钮（如果需要）
+            if (endPage < state.totalPages) {
+                if (endPage < state.totalPages - 1) {
+                    addEllipsis();
+                }
+                addPageButton(state.totalPages);
+            }
+        }
+
+        // 添加页码按钮
+        function addPageButton(pageNum) {
+            const button = document.createElement('button');
+            button.className = `px-3 py-1 rounded-md transition ${
+                pageNum === state.currentPage 
+                    ? 'bg-blue-600 text-white' 
+                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`;
+            button.textContent = pageNum;
+            button.addEventListener('click', () => {
+                goToPage(pageNum);
+            });
+            elements.pageNumbers.appendChild(button);
+        }
+
+        // 添加省略号
+        function addEllipsis() {
+            const ellipsis = document.createElement('span');
+            ellipsis.className = 'px-2 text-gray-500';
+            ellipsis.textContent = '...';
+            elements.pageNumbers.appendChild(ellipsis);
+        }
+
+        // 前往指定页
+        function goToPage(pageNum) {
+            if (pageNum >= 1 && pageNum <= state.totalPages) {
+                state.currentPage = pageNum;
+                renderArticles();
+                updatePagination();
+                scrollToTopOfArticles();
+            }
+        }
+
+        // 前往上一页
+        function goToPrevPage() {
+            if (state.currentPage > 1) {
+                goToPage(state.currentPage - 1);
+            }
+        }
+
+        // 前往下一页
+        function goToNextPage() {
+            if (state.currentPage < state.totalPages) {
+                goToPage(state.currentPage + 1);
+            }
+        }
+
+        // 滚动到文章列表顶部
+        function scrollToTopOfArticles() {
+            elements.articlesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // 显示加载状态
+        function showLoading(detail = '加载中...') {
+            elements.loadingSection.classList.remove('hidden');
+            elements.loadingDetail.textContent = detail;
+            elements.articlesGrid.classList.add('hidden');
+            elements.emptyState.classList.add('hidden');
+            elements.errorSection.classList.add('hidden');
+        }
+
+        // 隐藏加载状态
+        function hideLoading() {
+            elements.loadingSection.classList.add('hidden');
+            elements.articlesGrid.classList.remove('hidden');
+        }
+
+        // 显示错误状态
+        function showError(message = '加载失败，请稍后重试') {
+            elements.errorSection.classList.remove('hidden');
+            elements.errorMessage.textContent = message;
+            elements.loadingSection.classList.add('hidden');
+            elements.articlesGrid.classList.add('hidden');
+            elements.emptyState.classList.add('hidden');
+        }
+
+        // 隐藏错误状态
+        function hideError() {
+            elements.errorSection.classList.add('hidden');
+        }
+
+        // 显示空状态
+        function showEmptyState() {
+            elements.emptyState.classList.remove('hidden');
+            elements.articlesGrid.classList.add('hidden');
+            elements.loadingSection.classList.add('hidden');
+            elements.errorSection.classList.add('hidden');
+        }
+
+        // 隐藏空状态
+        function hideEmptyState() {
+            elements.emptyState.classList.add('hidden');
+        }
+
+        // 加载文章详情
+        function loadArticleDetail(articleId) {
+            // 查找文章
+            const article = state.allArticles.find(a => a.id === articleId);
+            if (!article) {
+                showDetailError('未找到该文章');
+                return;
+            }
+            
+            state.currentArticle = article;
+            
+            // 显示加载状态
+            showDetailLoading();
+            
+            // 隐藏列表，显示详情
+            elements.articlesSection.classList.add('hidden');
+            elements.articleDetail.classList.remove('hidden');
+            
+            // 模拟加载延迟
+            setTimeout(() => {
+                // 填充文章详情
+                elements.detailCategory.textContent = config.categories[article.category];
+                elements.detailId.textContent = article.id;
+                elements.detailTitle.textContent = article.title;
+                
+                // 生成模拟的详细内容
+                const detailedContent = generateDetailedContent(article);
+                
+                // 设置搜索链接
+                elements.articleSearchLink.textContent = `"${article.title}" 的相关内容`;
+                elements.articleSearchLink.href = `http://search.luhui.net?q=${encodeURIComponent(article.title)}`;
+                
+                // 渲染内容
+                renderArticleContent(detailedContent);
+                
+                // 更新上下篇按钮
+                updateArticleNavigation(articleId);
+                
+                // 隐藏加载状态，显示内容
+                hideDetailLoading();
+                elements.detailContentContainer.classList.remove('hidden');
+            }, 800);
+        }
+
+        // 生成详细内容
+        function generateDetailedContent(article) {
+            return `# ${article.title}
+            
+发布日期：${formatDate(article.date)}
+分类：${config.categories[article.category]}
+
+## 概述
+
+这是一篇关于${config.categories[article.category]}的详细文章，包含了丰富的相关信息和深入分析。
+
+## 主要内容
+
+${Array(3).fill().map((_, i) => `
+### 小节 ${i + 1}
+
+这是第${i + 1}部分的内容，详细介绍了${config.categories[article.category]}的相关知识。
+
+- 要点一：关于${config.categories[article.category]}的基本信息
+- 要点二：${config.categories[article.category]}的重要性
+- 要点三：如何有效利用${config.categories[article.category]}
+
+这部分内容进一步展开，提供了更多细节和案例分析，帮助读者更好地理解${config.categories[article.category]}的核心概念和应用场景。
+`).join('')}
+
+## 总结
+
+本文详细介绍了${config.categories[article.category]}的相关知识，希望能对读者有所帮助。如有任何疑问或建议，欢迎留言讨论。
+`;
+        }
+
+        // 渲染文章内容
+        function renderArticleContent(content) {
+            // 尝试使用marked渲染Markdown
+            if (window.marked && !state.usingFallbackRenderer) {
+                try {
+                    elements.detailContentContainerInner.innerHTML = window.marked.parse(content);
+                    elements.renderErrorContainer.classList.add('hidden');
+                    return;
+                } catch (e) {
+                    console.error('Markdown渲染失败:', e);
+                    elements.renderErrorContainer.classList.remove('hidden');
+                }
+            }
+            
+            // 渲染失败或未加载marked，则使用纯文本
+            elements.detailContentContainerInner.textContent = content;
+            elements.detailContentContainerInner.classList.add('plain-text-content');
+            elements.renderErrorContainer.classList.remove('hidden');
+        }
+
+        // 重试渲染文章
+        function retryRenderArticle() {
+            if (state.currentArticle && elements.detailContentContainerInner.textContent) {
+                state.usingFallbackRenderer = false;
+                renderArticleContent(elements.detailContentContainerInner.textContent);
+            }
+        }
+
+        // 使用基础渲染器
+        function useBasicRenderer() {
+            if (state.currentArticle && elements.detailContentContainerInner.textContent) {
+                state.usingFallbackRenderer = true;
+                elements.detailContentContainerInner.textContent = elements.detailContentContainerInner.textContent;
+                elements.detailContentContainerInner.classList.add('plain-text-content');
+                elements.renderErrorContainer.classList.remove('hidden');
+            }
+        }
+
+        // 显示文章纯文本
+        function showArticleAsPlaintext() {
+            if (state.currentArticle) {
+                elements.detailError.classList.add('hidden');
+                elements.detailContentContainer.classList.remove('hidden');
+                elements.detailContentContainerInner.textContent = generateDetailedContent(state.currentArticle);
+                elements.detailContentContainerInner.classList.add('plain-text-content');
+                elements.renderErrorContainer.classList.remove('hidden');
+            }
+        }
+
+        // 更新文章导航（上下篇）
+        function updateArticleNavigation(currentId) {
+            const currentIndex = state.filteredArticles.findIndex(a => a.id === currentId);
+            
+            // 上一篇
+            if (currentIndex > 0) {
+                const prevArticle = state.filteredArticles[currentIndex - 1];
+                elements.prevArticleBtn.disabled = false;
+                elements.prevArticleBtn.onclick = () => loadArticleDetail(prevArticle.id);
+            } else {
+                elements.prevArticleBtn.disabled = true;
+                elements.prevArticleBtn.onclick = null;
+            }
+            
+            // 下一篇
+            if (currentIndex < state.filteredArticles.length - 1) {
+                const nextArticle = state.filteredArticles[currentIndex + 1];
+                elements.nextArticleBtn.disabled = false;
+                elements.nextArticleBtn.onclick = () => loadArticleDetail(nextArticle.id);
+            } else {
+                elements.nextArticleBtn.disabled = true;
+                elements.nextArticleBtn.onclick = null;
+            }
+        }
+
+        // 显示文章列表
+        function showArticlesList() {
+            elements.articleDetail.classList.add('hidden');
+            elements.detailContentContainer.classList.add('hidden');
+            elements.detailLoading.classList.add('hidden');
+            elements.detailError.classList.add('hidden');
+            elements.articlesSection.classList.remove('hidden');
+            
+            state.currentArticle = null;
+            state.usingFallbackRenderer = false;
+        }
+
+        // 显示详情加载状态
+        function showDetailLoading() {
+            elements.detailLoading.classList.remove('hidden');
+            elements.detailContentContainer.classList.add('hidden');
+            elements.detailError.classList.add('hidden');
+        }
+
+        // 隐藏详情加载状态
+        function hideDetailLoading() {
+            elements.detailLoading.classList.add('hidden');
+        }
+
+        // 显示详情错误状态
+        function showDetailError(message = '加载文章失败，请稍后重试') {
+            elements.detailError.classList.remove('hidden');
+            elements.detailErrorMessage.textContent = message;
+            elements.detailLoading.classList.add('hidden');
+            elements.detailContentContainer.classList.add('hidden');
+        }
+
+        // 处理滚动事件
+        function handleScroll() {
+            const scrollY = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight;
+            
+            // 显示/隐藏回到顶部按钮
+            if (scrollY > 300) {
+                elements.backToTopBtn.classList.add('visible');
+            } else {
+                elements.backToTopBtn.classList.remove('visible');
+            }
+            
+            // 显示/隐藏回到底部按钮
+            if (scrollY < documentHeight - windowHeight - 300) {
+                elements.backToBottomBtn.classList.add('visible');
+            } else {
+                elements.backToBottomBtn.classList.remove('visible');
+            }
+        }
+
+        // 搜索历史相关函数
+        function loadSearchHistory() {
+            renderSearchHistory();
+        }
+
+        function renderSearchHistory() {
+            elements.historyList.innerHTML = '';
+            
+            if (state.searchHistory.length === 0) {
+                elements.noHistoryMsg.classList.remove('hidden');
+                return;
+            }
+            
+            elements.noHistoryMsg.classList.add('hidden');
+            
+            // 按时间倒序显示
+            const sortedHistory = [...state.searchHistory].sort((a, b) => b.timestamp - a.timestamp);
+            
+            sortedHistory.forEach((item, index) => {
+                const li = document.createElement('li');
+                li.className = 'history-item';
+                li.innerHTML = `
+                    <span class="history-text">${item.term}</span>
+                    <span class="remove-history" data-index="${index}">
+                        <i class="fas fa-times"></i>
+                    </span>
+                `;
+                
+                // 点击历史项进行搜索
+                li.querySelector('.history-text').addEventListener('click', () => {
+                    elements.searchInput.value = item.term;
+                    performSearch();
+                });
+                
+                // 移除历史项
+                li.querySelector('.remove-history').addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    removeFromSearchHistory(index);
+                });
+                
+                elements.historyList.appendChild(li);
+            });
+        }
+
+        function addToSearchHistory(term) {
+            // 移除已存在的相同项
+            state.searchHistory = state.searchHistory.filter(item => item.term !== term);
+            
+            // 添加新项
+            state.searchHistory.push({
+                term: term,
+                timestamp: Date.now()
+            });
+            
+            // 限制历史记录数量
+            if (state.searchHistory.length > config.maxSearchHistory) {
+                state.searchHistory = state.searchHistory.slice(-config.maxSearchHistory);
+            }
+            
+            // 保存到本地存储
+            saveSearchHistory();
+            
+            // 重新渲染
+            renderSearchHistory();
+        }
+
+        function removeFromSearchHistory(index) {
+            state.searchHistory.splice(index, 1);
+            saveSearchHistory();
+            renderSearchHistory();
+        }
+
+        function clearSearchHistory() {
+            state.searchHistory = [];
+            saveSearchHistory();
+            renderSearchHistory();
+        }
+
+        function saveSearchHistory() {
+            localStorage.setItem('searchHistory', JSON.stringify(state.searchHistory));
+        }
+
+        function showSearchHistory() {
+            if (state.searchHistory.length > 0 || elements.searchInput.value) {
+                elements.searchHistoryDropdown.classList.add('active');
+            }
+        }
+
+        function hideSearchHistory() {
+            elements.searchHistoryDropdown.classList.remove('active');
+        }
+
+        // 加载marked.js
+        function loadMarked() {
+            if (window.marked) {
+                state.markedLoaded = true;
+                return Promise.resolve(window.marked);
+            }
+            
+            elements.markedLoadingIndicator.classList.remove('hidden');
+            
+            return new Promise((resolve, reject) => {
+                const loadScript = (url) => {
+                    return new Promise((scriptResolve, scriptReject) => {
+                        const script = document.createElement('script');
+                        script.src = url;
+                        script.onload = () => {
+                            if (window.marked) {
+                                scriptResolve(window.marked);
+                            } else {
+                                scriptReject(new Error('Marked not loaded'));
+                            }
+                        };
+                        script.onerror = () => scriptReject(new Error('Failed to load script'));
+                        document.head.appendChild(script);
+                    });
+                };
+                
+                // 尝试加载CDN
+                const tryLoad = (urls, index = 0) => {
+                    if (index >= urls.length) {
+                        elements.markedLoadingIndicator.classList.add('hidden');
+                        return reject(new Error('All CDNs failed'));
+                    }
+                    
+                    loadScript(urls[index])
+                        .then(marked => {
+                            state.markedLoaded = true;
+                            elements.markedLoadingIndicator.classList.add('hidden');
+                            resolve(marked);
+                        })
+                        .catch(() => tryLoad(urls, index + 1));
+                };
+                
+                tryLoad(config.markedCdnUrls);
+            });
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            // 先加载marked.js
+            loadMarked().catch(err => {
+                console.warn('无法加载marked.js，将使用纯文本渲染:', err);
+            }).finally(() => {
+                // 初始化应用
+                initApp();
+            });
+        });
+    </script>
+<!--版权说明开始
+/*
++------------------------------------------------------------------------+
+ System Name : Luhui news Information System V1.0.9
+ 系统名称 : 鲁虺新闻资讯网 html JavaScript txt V1.0.9
++------------------------------------------------------------------------+
+ 创建 Created  2025-9-6 / 修改 Modify 2025-9-12
++------------------------------------------------------------------------+
+ Version : 1.0.9
++------------------------------------------------------------------------+
+ 版本更新 : 该版本所有详细更新细节都已在系统迭代说明中详述,如需了解请查阅鲁虺软件文档
+ 鲁虺软件 : http://soft.luhui.net 点击浏览鲁虺软件开发文档“软件开发”列表查询品鉴
++------------------------------------------------------------------------+
+ Author : 鲁虺文化网  冠富研究院  冠富商务通
++------------------------------------------------------------------------+
+ Powered by luhui.net 2004-01-11
++------------------------------------------------------------------------+
+ QQ : 63625244 
+ Email : info@mail.luhui.net
+ 鲁虺文化网 : http://www.luhui.net
+ 冠富研究院 : http://www.guanfu.org
+ 冠富商务通 : http://www.guanfu.net.cn
++------------------------------------------------------------------------+
+ Note :
+
+ 1.本软件对于非商业用户完全免费,如果要使用在商业用途
+   方面,必须取得作者的授权.
+
+ 2.你可以任意传播以及修改本程序,但不能以任何形式删除
+   本程序的版权.请记住,保留作者版权是对原创作者的尊敬.
+
+ 3.如果有问题,可以通过上面提供的方式进行解答,但作者
+   时间有限,如果不能及时或者不解答,请谅解.
+
+ 4.作者对非法使用该程序导致的问题,不予负责.
+
+ 5.本程序版权归 鲁虺文化网 所有.禁止任何侵权行为!
+
++------------------------------------------------------------------------+
+*/
+--版权说明结束-->
+</body>
+</html>
