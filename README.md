@@ -3,10 +3,12 @@
 
 # news.luhui.net
 
-http://news.luhui.net
 
 鲁虺新闻资讯网！基于HTML5标准文档类型，使用txt做数据库，每个txt文件夹作为一个分类，每个txt文件名由数字命名，通过JavaScript代码显示网站的各种状态（当前分类、标题、详细内容、页码、搜索词等），用JavaScript实现读取txt第一行作为内容标题，第二行作为作者，其它行作为详细内容。前台界面除了可以显示txt纯文本内容，利用第三方库还支持解析Markdown语法、ubb语法、html语法等。内容更新采用把撰写好的txt文件按数字顺序丢到对应分类目录就可以了。
-# 演示
+
+
+# 演示地址
+http://news.luhui.net
 
 
 # 演示截图
